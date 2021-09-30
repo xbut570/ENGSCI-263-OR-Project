@@ -26,17 +26,31 @@ def load_data():
     return travelDurations, coordinates
 
 def group_locations(coordinates):
-    rows, cols = coordinates.shape
+    ''' Groups the store locations into defined groups
 
-    #south = pd.DataFrame(columns=["Type","Location","Store","Lat","Long"])
-    #east = pd.DataFrame(columns=["Type","Location","Store","Lat","Long"])
-    #west = pd.DataFrame(columns=["Type","Location","Store","Lat","Long"])
+        Parameters:
+        -----------
+        coordinates : Panda dataframe
+            Dataframe of all stores
+        Returns:
+        --------
+        south : Panda dataframe
+            Dataframe of stores with latitude less than distribution centre
+        east : Panda dataframe
+            Dataframe of stores with longitude less than distribution centre
+            and latitude greater than distribution centre
+        west : Panda dataframe
+            Dataframe of stores with longitude greater than distribution centre
+            and latitude greater than distribution centre
+    '''
 
+    # Hardcoded coordinates for distribution centre latitude and longitude
     distributionLat = -36.94904179
     distributionLong = 174.8080123
 
     south = coordinates.loc[coordinates["Lat"] < distributionLat]
     
+    # east and west dataframes derived from "north" dataframe
     north = coordinates.loc[coordinates["Lat"] > distributionLat]
     east = north.loc[north["Long"] > distributionLong]
     west = north.loc[north["Long"] < distributionLong]
