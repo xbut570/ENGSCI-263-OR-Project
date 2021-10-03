@@ -246,24 +246,32 @@ def four_stop_route_generation(durations, locations, finalStop):
 
 if __name__ == "__main__":
     
-    #VARIOUS TEST CONDITIONS NOT FINALIZED
+    # Load and separate the data into groups
     durations, coordinates = load_data()
-
     south, east, west = group_coordinates(coordinates)
 
-    southRoutes = three_stop_route_generation(durations, south, True)
-    eastRoutes = three_stop_route_generation(durations, east, True)
-    westRoutes = three_stop_route_generation(durations, west, True)
+    # Generate routes in the South sector
+    southRoutesTwo = two_stop_route_generation(durations,south, True)
+    southRoutesThree = three_stop_route_generation(durations, south, True)
+    southRoutesFour = four_stop_route_generation(durations, south, True)
+    
+    # Generate routes in the East sector
+    eastRoutesTwo = two_stop_route_generation(durations, east, True)    
+    eastRoutesThree = three_stop_route_generation(durations, east, True)
+    eastRoutesFour = four_stop_route_generation(durations, east, True)
+    
+    # Generate routes in the west sector
+    westRoutesTwo = two_stop_route_generation(durations, west, True)
+    westRoutesThree = three_stop_route_generation(durations, west, True)
+    westRoutesFour = four_stop_route_generation(durations, west, True)
 
-    '''print(southRoutes)
-    print("\n")
-    print(eastRoutes)
-    print("\n")
-    print(westRoutes)'''
 
-    south2 = two_stop_route_generation(durations, south, True)
-    south3 = four_stop_route_generation(durations, south, True)
-    test = pd.concat([south2, southRoutes, south3], ignore_index = True)
+    # Combine routes for each section into individual dataframes
+    southComplete = pd.concat([southRoutesTwo, southRoutesThree, southRoutesFour], ignore_index = True)
+    eastComplete = pd.concat([eastRoutesTwo, eastRoutesThree, eastRoutesFour], ignore_index = True)
+    westComplete = pd.concat([westRoutesTwo, westRoutesThree, westRoutesFour], ignore_index = True)
 
-    print("\n")
-    print(test)
+    # Save the routes as csv files, if any values are blank they will show as NaN
+    southComplete.to_csv("Southern_Routes.csv", index = False)
+    eastComplete.to_csv("Eastern_Routes.csv", index = False)
+    westComplete.to_csv("Western_Routes.csv", index = False)
