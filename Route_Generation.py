@@ -100,7 +100,7 @@ def two_stop_route_generation(durations, locations, finalStop):
         for i in range(0,rows):
             if(location == durations.iloc[i,0]):
                 for j in range(1, cols):
-                    if (durations.iloc[i,j] < minDistance) and (durations.iloc[i,j] > 0):
+                    if (durations.iloc[i,j] < minDistance) and (durations.iloc[i,j] > 0) and (durations.iloc[j-1,0] != "Distribution Centre Auckland"):
                         minDistance = durations.iloc[i,j] 
                         distanceTo = durations.iloc[distributionVal,i + 1]
                         distanceFrom = durations.iloc[j - 1,distributionVal + 1]
@@ -163,7 +163,7 @@ def three_stop_route_generation(durations, locations, finalStop):
         for j in range(0,rows):
             if (second_stops[i] == durations.iloc[j,0]):
                 for k in range(1,cols):
-                    if(durations.iloc[j,k] < minDistance) and (durations.iloc[j,k] > 0) and (durations.iloc[k-1,0] != first_stops[i]):
+                    if(durations.iloc[j,k] < minDistance) and (durations.iloc[j,k] > 0) and (durations.iloc[k-1,0] != first_stops[i]) and (durations.iloc[k-1,0] != "Distribution Centre Auckland"):
                         minDistance = durations.iloc[j,k]
                         distanceFrom = durations.iloc[k - 1,distributionVal + 1]
                         nextStop = durations.iloc[k - 1,0]                        
@@ -180,6 +180,70 @@ def three_stop_route_generation(durations, locations, finalStop):
 
     return routes
 
+
+def four_stop_route_generation(durations, locations, finalStop):
+    ''' Generates four stop routes between a given location and the next 3 closest locations
+        (As well as too and from the distribution center)
+        
+        Parameters:
+        -----------
+        durations : Panda dataframe
+            Dataframe of travel times between each location
+            (If not true, the return distance to the distribution centre will not be 
+            included in the duration)
+        locations : list
+            List of locations to visit
+        finalStop : Boolean
+            Boolean equalling true if this is the last stop in the route
+        Returns:
+        --------
+        routes : Panda dataframe
+            Dataframe containing the route length, and stops visited
+    '''   
+    # Calls the three_stop_route_generation function to create the first stops of the route
+    three_stop_routes = three_stop_route_generation(durations, locations, False)
+    
+    # Parses data outputted from the three_stop_route_generation dataframe into arrays
+    first_stops = three_stop_routes["First Stop"].values
+    second_stops = three_stop_routes["Second Stop"].values
+    third_stops = three_stop_routes["Third Stop"].values
+    currentDuration = three_stop_routes["Duration"].values
+    
+    # Defines shape of array    
+    rows, cols = durations.shape
+
+    # Hardcoded location of distribution center in table
+    distributionVal = 55
+    
+    # Creates empty panda dataframe
+    routes = pd.DataFrame(columns = ['Duration','First Stop', 'Second Stop', 'Third Stop', 'Fourth Stop'])
+
+    # Iterates through each third stop in the route and finds the shortest route to the 
+    # location, then the distance to the next closest location excluding stops already visited
+    for i in range(0,len(third_stops)):
+        minDistance = 1.e10
+        nextStop = ""
+        for j in range(0,rows):
+            if (third_stops[i] == durations.iloc[j,0]):
+                for k in range(1,cols):
+                    if(durations.iloc[j,k] < minDistance) and (durations.iloc[j,k] > 0) and (durations.iloc[k-1,0] != first_stops[i]) and (durations.iloc[k-1,0] != second_stops[i]) and (durations.iloc[k-1,0] != "Distribution Centre Auckland"):
+                        minDistance = durations.iloc[j,k]
+                        distanceFrom = durations.iloc[k - 1,distributionVal + 1]
+                        nextStop = durations.iloc[k - 1,0]                        
+        
+        # If this is the final stop in the route the return distance to the distribution is added        
+        if(finalStop):
+            totalDistance = minDistance + currentDuration[i] + distanceFrom
+        else:
+            totalDistance = minDistance + currentDuration[i]   
+
+        # Adds new route into the overall panda dataframe for output           
+        newRoute = pd.DataFrame({'Duration': totalDistance, 'First Stop' : first_stops[i], 'Second Stop' : second_stops[i], 'Third Stop' : third_stops[i], 'Fourth Stop' : nextStop}, index = ['1'])
+        routes = pd.concat([routes, newRoute], ignore_index = True)
+
+    return routes
+
+
 if __name__ == "__main__":
     
     #VARIOUS TEST CONDITIONS NOT FINALIZED
@@ -191,14 +255,15 @@ if __name__ == "__main__":
     eastRoutes = three_stop_route_generation(durations, east, True)
     westRoutes = three_stop_route_generation(durations, west, True)
 
-    print(southRoutes)
+    '''print(southRoutes)
     print("\n")
     print(eastRoutes)
     print("\n")
-    print(westRoutes)
+    print(westRoutes)'''
 
     south2 = two_stop_route_generation(durations, south, True)
-    test = pd.concat([south2, southRoutes], ignore_index = True)
+    south3 = four_stop_route_generation(durations, south, True)
+    test = pd.concat([south2, southRoutes, south3], ignore_index = True)
 
     print("\n")
     print(test)
