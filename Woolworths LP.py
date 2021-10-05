@@ -9,7 +9,7 @@ np.set_printoptions(threshold=sys.maxsize)
 
 
 
-
+# Stores are rows, routes are columns.  Change value to 1 if route visits store
 
 def load_data():
     # Read file and convert into panda dataframe
@@ -25,7 +25,6 @@ def column_generation(routeData, storeLocations):
     thirdStops = routeData.to_dict()['Third Stop']
     fourthStops = routeData.to_dict()['Fourth Stop']
     storeLocationDict = storeLocations.to_dict()['Store']
-
     routeVisits = np.zeros( (len(storeLocations), len(firstStops)) )
 
     #pulls the location number from a route number 
@@ -58,7 +57,7 @@ def column_generation(routeData, storeLocations):
     return routeVisits
 
 def solve_lp(routeData, storeLocations): 
-    
+
     routeVisits = column_generation(routeData, storeLocations)
     rows = np.shape(routeVisits)[0]
     columns = np.shape(routeVisits)[1]
@@ -74,18 +73,15 @@ def solve_lp(routeData, storeLocations):
     prob = LpProblem("Routes", LpMinimize)
 
     #Dictionary containing route variables
-    route_chosen = LpVariable.dicts("chosen", routes, 0, 1, cat = 'Integer')
+    route_chosen = LpVariable.dicts("chosen", routes, 0, None, cat = 'Binary')
 
     #input the obj function into prob using the profits for each tie type
     prob +=lpSum([costs[i]*route_chosen[i] for i in routes]), "Objective cost function"
+    
 
     #constraint: each route only visits node once
-    visitingRoutes = []
-    for i in range(rows):
-        for j in range(columns):
-            if routeVisits[i][j] == 1:
-                visitingRoutes.append(j)      
-        prob += lpSum([route_chosen[b] for b in visitingRoutes]) == 1
+    for i in range(rows):    
+        prob += lpSum([route_chosen[b] * routeVisits[i][b] for b in routes]) == 1
 
     #constraint: Trucks
     prob += lpSum(route_chosen[i] for i in routes) <= 60
@@ -104,14 +100,15 @@ def solve_lp(routeData, storeLocations):
     # The status of the solution is printed to the screen
     print("Status:", LpStatus[prob.status])
 
-    for v in prob.variables():
+    '''for v in prob.variables():
         print(v.name, "=", v.varValue)
-   
+    '''
+
     print("Optimised cost ", value(prob.objective))
 
     # Each of the variables is printed with its resolved optimum value
 
-    print(prob)
+    #print(prob)
 
     return 
 
@@ -136,7 +133,7 @@ if __name__ == "__main__":
     #Get information about a particular item: TieData['Silk']['SilkCotton']
     #print(easternRoutes[3]['First Stop'])
 
-    
     solve_lp(Weekday_Routes, storeLocations)
+    solve_lp(Weekend_Routes, storeLocations)
 
 
