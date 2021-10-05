@@ -8,18 +8,48 @@ from pulp import *
 
 def load_data():
     # Read file and convert into panda dataframe
-    easternRoutes = pd.read_csv("Eastern_Routes.csv")
+    Weekday_Routes = pd.read_csv("Weekday_Routes.csv")
+    Weekend_Routes = pd.read_csv("Weekend_Routes.csv")
     storeLocations = pd.read_csv("WoolworthsDemands.csv", usecols = [0])
-    return easternRoutes, storeLocations
+    return Weekday_Routes, Weekend_Routes, storeLocations
 
 
 
-def solve_lp(regionRoutes): 
+def solve_lp(routeData, storeLocations): 
     
     
-    routeData = regionRoutes
+    
     #Get index for the df
-    routes = easternRoutes.index
+    routes = routeData.index
+    #print(routeData)
+    durations = routeData['Duration']
+    costs = durations.multiply(0.0625)
+
+    print(routeData)
+
+    firstStops = routeData.to_dict()['First Stop']
+    secondStops = routeData.to_dict()['Second Stop']
+    thirdStops = routeData.to_dict()['Third Stop']
+    fourthStops = routeData.to_dict()['Fourth Stop']
+    storeLocationDict = storeLocations.to_dict()['Store']
+
+    routeVisits = np.zeros( (len(firstStops), len(storeLocations)) )
+
+
+    
+
+
+
+    for i in range(len(firstStops)):
+        for j in range(len(storeLocations)):
+            routeNumber = list(storeLocationDict.keys())[list(storeLocationDict.values()).index(firstStops[i])]
+            routeVisits[i][routeNumber] = 1   
+
+    print(routeVisits)   
+    
+
+    
+    
     #get store columns for the df
     #stores = pd.Series([str(x) for x in range(64 + 1)], index = routes)
     
@@ -41,8 +71,8 @@ def solve_lp(regionRoutes):
     #prob +=lpSum([cost[i]*route_chosen[i] for i in easternRoutes.index]), "Objective cost function"
 
     # for r in easternRoutes.index:
-    # prob += easternRoutes.index[r]>= route_chosen[r]*0.1
-    # prob += easternRoutes.index[r]<= route_chosen[r]*1e5
+    # prob += easternRoutes.index[r]>= route_chosen[f]*0.1
+    # prob += easternRoutes.index[r]<= route_chosen[f]*1e5
 
 
 
@@ -67,15 +97,30 @@ def solve_lp(regionRoutes):
 
     # Each of the variables is printed with its resolved optimum value
 
-    return routeData
+    return 
 
 
 
 
 if __name__ == "__main__":
-    easternRoutes, storeLocations = load_data()
+    Weekday_Routes, Weekend_Routes, storeLocations = load_data()
 
-     
+    # View all items: TieData
+    #print(easternRoutes)
+
+    #Get all labels (items): TieData.index
+    #print(easternRoutes.index)
+
+    #Get an entire column: TieData['Silk']
+    #print(easternRoutes['First Stop'])
+
+    #Get an entire row: TieData.loc['AllPoly']
+    #print(easternRoutes.loc[3])
+
+    #Get information about a particular item: TieData['Silk']['SilkCotton']
+    #print(easternRoutes[3]['First Stop'])
+
+    
     
 
 
@@ -83,5 +128,5 @@ if __name__ == "__main__":
 
 
 
-    print(solve_lp(easternRoutes))
+    solve_lp(Weekday_Routes, storeLocations)
 
