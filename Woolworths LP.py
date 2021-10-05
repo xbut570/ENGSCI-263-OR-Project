@@ -80,9 +80,12 @@ def solve_lp(routeData, storeLocations):
     prob +=lpSum([costs[i]*route_chosen[i] for i in routes]), "Objective cost function"
 
     #constraint: each route only visits node once
+    visitingRoutes = []
     for i in range(rows):
         for j in range(columns):
-            prob += lpSum([route_chosen[j]]) == 1
+            if routeVisits[i][j] == 1:
+                visitingRoutes.append(j)      
+        prob += lpSum([route_chosen[b] for b in visitingRoutes]) == 1
 
     #constraint: Trucks
     prob += lpSum(route_chosen[i] for i in routes) <= 60
@@ -107,6 +110,8 @@ def solve_lp(routeData, storeLocations):
     print("Optimised cost ", value(prob.objective))
 
     # Each of the variables is printed with its resolved optimum value
+
+    print(prob)
 
     return 
 

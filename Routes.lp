@@ -55,10498 +55,1282 @@ Objective_cost_function: 363.38125 chosen_0 + 306.98625 chosen_1
  + 528.356875 chosen_94 + 366.5925 chosen_95 + 370.68375 chosen_96
  + 368.885 chosen_97 + 224.664375 chosen_98 + 469.99375 chosen_99
 Subject To
-_C1: chosen_0 = 1
-_C10: chosen_9 = 1
-_C100: chosen_99 = 1
-_C1000: chosen_33 = 1
-_C10000: chosen_17 = 1
-_C10001: chosen_18 = 1
-_C10002: chosen_19 = 1
-_C10003: chosen_20 = 1
-_C10004: chosen_21 = 1
-_C10005: chosen_22 = 1
-_C10006: chosen_23 = 1
-_C10007: chosen_24 = 1
-_C10008: chosen_25 = 1
-_C10009: chosen_26 = 1
-_C1001: chosen_34 = 1
-_C10010: chosen_27 = 1
-_C10011: chosen_28 = 1
-_C10012: chosen_29 = 1
-_C10013: chosen_30 = 1
-_C10014: chosen_31 = 1
-_C10015: chosen_32 = 1
-_C10016: chosen_33 = 1
-_C10017: chosen_34 = 1
-_C10018: chosen_35 = 1
-_C10019: chosen_36 = 1
-_C1002: chosen_35 = 1
-_C10020: chosen_37 = 1
-_C10021: chosen_38 = 1
-_C10022: chosen_39 = 1
-_C10023: chosen_40 = 1
-_C10024: chosen_41 = 1
-_C10025: chosen_42 = 1
-_C10026: chosen_43 = 1
-_C10027: chosen_44 = 1
-_C10028: chosen_45 = 1
-_C10029: chosen_46 = 1
-_C1003: chosen_36 = 1
-_C10030: chosen_47 = 1
-_C10031: chosen_48 = 1
-_C10032: chosen_49 = 1
-_C10033: chosen_50 = 1
-_C10034: chosen_51 = 1
-_C10035: chosen_52 = 1
-_C10036: chosen_53 = 1
-_C10037: chosen_54 = 1
-_C10038: chosen_55 = 1
-_C10039: chosen_56 = 1
-_C1004: chosen_37 = 1
-_C10040: chosen_57 = 1
-_C10041: chosen_58 = 1
-_C10042: chosen_59 = 1
-_C10043: chosen_60 = 1
-_C10044: chosen_61 = 1
-_C10045: chosen_62 = 1
-_C10046: chosen_63 = 1
-_C10047: chosen_64 = 1
-_C10048: chosen_65 = 1
-_C10049: chosen_66 = 1
-_C1005: chosen_38 = 1
-_C10050: chosen_67 = 1
-_C10051: chosen_68 = 1
-_C10052: chosen_69 = 1
-_C10053: chosen_70 = 1
-_C10054: chosen_71 = 1
-_C10055: chosen_72 = 1
-_C10056: chosen_73 = 1
-_C10057: chosen_74 = 1
-_C10058: chosen_75 = 1
-_C10059: chosen_76 = 1
-_C1006: chosen_39 = 1
-_C10060: chosen_77 = 1
-_C10061: chosen_78 = 1
-_C10062: chosen_79 = 1
-_C10063: chosen_80 = 1
-_C10064: chosen_81 = 1
-_C10065: chosen_82 = 1
-_C10066: chosen_83 = 1
-_C10067: chosen_84 = 1
-_C10068: chosen_85 = 1
-_C10069: chosen_86 = 1
-_C1007: chosen_40 = 1
-_C10070: chosen_87 = 1
-_C10071: chosen_88 = 1
-_C10072: chosen_89 = 1
-_C10073: chosen_90 = 1
-_C10074: chosen_91 = 1
-_C10075: chosen_92 = 1
-_C10076: chosen_93 = 1
-_C10077: chosen_94 = 1
-_C10078: chosen_95 = 1
-_C10079: chosen_96 = 1
-_C1008: chosen_41 = 1
-_C10080: chosen_97 = 1
-_C10081: chosen_98 = 1
-_C10082: chosen_99 = 1
-_C10083: chosen_100 = 1
-_C10084: chosen_101 = 1
-_C10085: chosen_102 = 1
-_C10086: chosen_103 = 1
-_C10087: chosen_104 = 1
-_C10088: chosen_105 = 1
-_C10089: chosen_106 = 1
-_C1009: chosen_42 = 1
-_C10090: chosen_107 = 1
-_C10091: chosen_108 = 1
-_C10092: chosen_109 = 1
-_C10093: chosen_110 = 1
-_C10094: chosen_111 = 1
-_C10095: chosen_112 = 1
-_C10096: chosen_113 = 1
-_C10097: chosen_114 = 1
-_C10098: chosen_115 = 1
-_C10099: chosen_116 = 1
-_C101: chosen_100 = 1
-_C1010: chosen_43 = 1
-_C10100: chosen_117 = 1
-_C10101: chosen_118 = 1
-_C10102: chosen_119 = 1
-_C10103: chosen_120 = 1
-_C10104: chosen_121 = 1
-_C10105: chosen_122 = 1
-_C10106: chosen_123 = 1
-_C10107: chosen_124 = 1
-_C10108: chosen_125 = 1
-_C10109: chosen_126 = 1
-_C1011: chosen_44 = 1
-_C10110: chosen_127 = 1
-_C10111: chosen_128 = 1
-_C10112: chosen_129 = 1
-_C10113: chosen_130 = 1
-_C10114: chosen_131 = 1
-_C10115: chosen_132 = 1
-_C10116: chosen_133 = 1
-_C10117: chosen_134 = 1
-_C10118: chosen_135 = 1
-_C10119: chosen_136 = 1
-_C1012: chosen_45 = 1
-_C10120: chosen_137 = 1
-_C10121: chosen_138 = 1
-_C10122: chosen_139 = 1
-_C10123: chosen_140 = 1
-_C10124: chosen_141 = 1
-_C10125: chosen_142 = 1
-_C10126: chosen_143 = 1
-_C10127: chosen_144 = 1
-_C10128: chosen_145 = 1
-_C10129: chosen_146 = 1
-_C1013: chosen_46 = 1
-_C10130: chosen_147 = 1
-_C10131: chosen_148 = 1
-_C10132: chosen_149 = 1
-_C10133: chosen_150 = 1
-_C10134: chosen_151 = 1
-_C10135: chosen_152 = 1
-_C10136: chosen_153 = 1
-_C10137: chosen_154 = 1
-_C10138: chosen_155 = 1
-_C10139: chosen_156 = 1
-_C1014: chosen_47 = 1
-_C10140: chosen_157 = 1
-_C10141: chosen_158 = 1
-_C10142: chosen_159 = 1
-_C10143: chosen_160 = 1
-_C10144: chosen_0 = 1
-_C10145: chosen_1 = 1
-_C10146: chosen_2 = 1
-_C10147: chosen_3 = 1
-_C10148: chosen_4 = 1
-_C10149: chosen_5 = 1
-_C1015: chosen_48 = 1
-_C10150: chosen_6 = 1
-_C10151: chosen_7 = 1
-_C10152: chosen_8 = 1
-_C10153: chosen_9 = 1
-_C10154: chosen_10 = 1
-_C10155: chosen_11 = 1
-_C10156: chosen_12 = 1
-_C10157: chosen_13 = 1
-_C10158: chosen_14 = 1
-_C10159: chosen_15 = 1
-_C1016: chosen_49 = 1
-_C10160: chosen_16 = 1
-_C10161: chosen_17 = 1
-_C10162: chosen_18 = 1
-_C10163: chosen_19 = 1
-_C10164: chosen_20 = 1
-_C10165: chosen_21 = 1
-_C10166: chosen_22 = 1
-_C10167: chosen_23 = 1
-_C10168: chosen_24 = 1
-_C10169: chosen_25 = 1
-_C1017: chosen_50 = 1
-_C10170: chosen_26 = 1
-_C10171: chosen_27 = 1
-_C10172: chosen_28 = 1
-_C10173: chosen_29 = 1
-_C10174: chosen_30 = 1
-_C10175: chosen_31 = 1
-_C10176: chosen_32 = 1
-_C10177: chosen_33 = 1
-_C10178: chosen_34 = 1
-_C10179: chosen_35 = 1
-_C1018: chosen_51 = 1
-_C10180: chosen_36 = 1
-_C10181: chosen_37 = 1
-_C10182: chosen_38 = 1
-_C10183: chosen_39 = 1
-_C10184: chosen_40 = 1
-_C10185: chosen_41 = 1
-_C10186: chosen_42 = 1
-_C10187: chosen_43 = 1
-_C10188: chosen_44 = 1
-_C10189: chosen_45 = 1
-_C1019: chosen_52 = 1
-_C10190: chosen_46 = 1
-_C10191: chosen_47 = 1
-_C10192: chosen_48 = 1
-_C10193: chosen_49 = 1
-_C10194: chosen_50 = 1
-_C10195: chosen_51 = 1
-_C10196: chosen_52 = 1
-_C10197: chosen_53 = 1
-_C10198: chosen_54 = 1
-_C10199: chosen_55 = 1
-_C102: chosen_101 = 1
-_C1020: chosen_53 = 1
-_C10200: chosen_56 = 1
-_C10201: chosen_57 = 1
-_C10202: chosen_58 = 1
-_C10203: chosen_59 = 1
-_C10204: chosen_60 = 1
-_C10205: chosen_61 = 1
-_C10206: chosen_62 = 1
-_C10207: chosen_63 = 1
-_C10208: chosen_64 = 1
-_C10209: chosen_65 = 1
-_C1021: chosen_54 = 1
-_C10210: chosen_66 = 1
-_C10211: chosen_67 = 1
-_C10212: chosen_68 = 1
-_C10213: chosen_69 = 1
-_C10214: chosen_70 = 1
-_C10215: chosen_71 = 1
-_C10216: chosen_72 = 1
-_C10217: chosen_73 = 1
-_C10218: chosen_74 = 1
-_C10219: chosen_75 = 1
-_C1022: chosen_55 = 1
-_C10220: chosen_76 = 1
-_C10221: chosen_77 = 1
-_C10222: chosen_78 = 1
-_C10223: chosen_79 = 1
-_C10224: chosen_80 = 1
-_C10225: chosen_81 = 1
-_C10226: chosen_82 = 1
-_C10227: chosen_83 = 1
-_C10228: chosen_84 = 1
-_C10229: chosen_85 = 1
-_C1023: chosen_56 = 1
-_C10230: chosen_86 = 1
-_C10231: chosen_87 = 1
-_C10232: chosen_88 = 1
-_C10233: chosen_89 = 1
-_C10234: chosen_90 = 1
-_C10235: chosen_91 = 1
-_C10236: chosen_92 = 1
-_C10237: chosen_93 = 1
-_C10238: chosen_94 = 1
-_C10239: chosen_95 = 1
-_C1024: chosen_57 = 1
-_C10240: chosen_96 = 1
-_C10241: chosen_97 = 1
-_C10242: chosen_98 = 1
-_C10243: chosen_99 = 1
-_C10244: chosen_100 = 1
-_C10245: chosen_101 = 1
-_C10246: chosen_102 = 1
-_C10247: chosen_103 = 1
-_C10248: chosen_104 = 1
-_C10249: chosen_105 = 1
-_C1025: chosen_58 = 1
-_C10250: chosen_106 = 1
-_C10251: chosen_107 = 1
-_C10252: chosen_108 = 1
-_C10253: chosen_109 = 1
-_C10254: chosen_110 = 1
-_C10255: chosen_111 = 1
-_C10256: chosen_112 = 1
-_C10257: chosen_113 = 1
-_C10258: chosen_114 = 1
-_C10259: chosen_115 = 1
-_C1026: chosen_59 = 1
-_C10260: chosen_116 = 1
-_C10261: chosen_117 = 1
-_C10262: chosen_118 = 1
-_C10263: chosen_119 = 1
-_C10264: chosen_120 = 1
-_C10265: chosen_121 = 1
-_C10266: chosen_122 = 1
-_C10267: chosen_123 = 1
-_C10268: chosen_124 = 1
-_C10269: chosen_125 = 1
-_C1027: chosen_60 = 1
-_C10270: chosen_126 = 1
-_C10271: chosen_127 = 1
-_C10272: chosen_128 = 1
-_C10273: chosen_129 = 1
-_C10274: chosen_130 = 1
-_C10275: chosen_131 = 1
-_C10276: chosen_132 = 1
-_C10277: chosen_133 = 1
-_C10278: chosen_134 = 1
-_C10279: chosen_135 = 1
-_C1028: chosen_61 = 1
-_C10280: chosen_136 = 1
-_C10281: chosen_137 = 1
-_C10282: chosen_138 = 1
-_C10283: chosen_139 = 1
-_C10284: chosen_140 = 1
-_C10285: chosen_141 = 1
-_C10286: chosen_142 = 1
-_C10287: chosen_143 = 1
-_C10288: chosen_144 = 1
-_C10289: chosen_145 = 1
-_C1029: chosen_62 = 1
-_C10290: chosen_146 = 1
-_C10291: chosen_147 = 1
-_C10292: chosen_148 = 1
-_C10293: chosen_149 = 1
-_C10294: chosen_150 = 1
-_C10295: chosen_151 = 1
-_C10296: chosen_152 = 1
-_C10297: chosen_153 = 1
-_C10298: chosen_154 = 1
-_C10299: chosen_155 = 1
-_C103: chosen_102 = 1
-_C1030: chosen_63 = 1
-_C10300: chosen_156 = 1
-_C10301: chosen_157 = 1
-_C10302: chosen_158 = 1
-_C10303: chosen_159 = 1
-_C10304: chosen_160 = 1
-_C10305: chosen_0 = 1
-_C10306: chosen_1 = 1
-_C10307: chosen_2 = 1
-_C10308: chosen_3 = 1
-_C10309: chosen_4 = 1
-_C1031: chosen_64 = 1
-_C10310: chosen_5 = 1
-_C10311: chosen_6 = 1
-_C10312: chosen_7 = 1
-_C10313: chosen_8 = 1
-_C10314: chosen_9 = 1
-_C10315: chosen_10 = 1
-_C10316: chosen_11 = 1
-_C10317: chosen_12 = 1
-_C10318: chosen_13 = 1
-_C10319: chosen_14 = 1
-_C1032: chosen_65 = 1
-_C10320: chosen_15 = 1
-_C10321: chosen_16 = 1
-_C10322: chosen_17 = 1
-_C10323: chosen_18 = 1
-_C10324: chosen_19 = 1
-_C10325: chosen_20 = 1
-_C10326: chosen_21 = 1
-_C10327: chosen_22 = 1
-_C10328: chosen_23 = 1
-_C10329: chosen_24 = 1
-_C1033: chosen_66 = 1
-_C10330: chosen_25 = 1
-_C10331: chosen_26 = 1
-_C10332: chosen_27 = 1
-_C10333: chosen_28 = 1
-_C10334: chosen_29 = 1
-_C10335: chosen_30 = 1
-_C10336: chosen_31 = 1
-_C10337: chosen_32 = 1
-_C10338: chosen_33 = 1
-_C10339: chosen_34 = 1
-_C1034: chosen_67 = 1
-_C10340: chosen_35 = 1
-_C10341: chosen_36 = 1
-_C10342: chosen_37 = 1
-_C10343: chosen_38 = 1
-_C10344: chosen_39 = 1
-_C10345: chosen_40 = 1
-_C10346: chosen_41 = 1
-_C10347: chosen_42 = 1
-_C10348: chosen_43 = 1
-_C10349: chosen_44 = 1
-_C1035: chosen_68 = 1
-_C10350: chosen_45 = 1
-_C10351: chosen_46 = 1
-_C10352: chosen_47 = 1
-_C10353: chosen_48 = 1
-_C10354: chosen_49 = 1
-_C10355: chosen_50 = 1
-_C10356: chosen_51 = 1
-_C10357: chosen_52 = 1
-_C10358: chosen_53 = 1
-_C10359: chosen_54 = 1
-_C1036: chosen_69 = 1
-_C10360: chosen_55 = 1
-_C10361: chosen_56 = 1
-_C10362: chosen_57 = 1
-_C10363: chosen_58 = 1
-_C10364: chosen_59 = 1
-_C10365: chosen_60 = 1
-_C10366: chosen_61 = 1
-_C10367: chosen_62 = 1
-_C10368: chosen_63 = 1
-_C10369: chosen_64 = 1
-_C1037: chosen_70 = 1
-_C10370: chosen_65 = 1
-_C10371: chosen_66 = 1
-_C10372: chosen_67 = 1
-_C10373: chosen_68 = 1
-_C10374: chosen_69 = 1
-_C10375: chosen_70 = 1
-_C10376: chosen_71 = 1
-_C10377: chosen_72 = 1
-_C10378: chosen_73 = 1
-_C10379: chosen_74 = 1
-_C1038: chosen_71 = 1
-_C10380: chosen_75 = 1
-_C10381: chosen_76 = 1
-_C10382: chosen_77 = 1
-_C10383: chosen_78 = 1
-_C10384: chosen_79 = 1
-_C10385: chosen_80 = 1
-_C10386: chosen_81 = 1
-_C10387: chosen_82 = 1
-_C10388: chosen_83 = 1
-_C10389: chosen_84 = 1
-_C1039: chosen_72 = 1
-_C10390: chosen_85 = 1
-_C10391: chosen_86 = 1
-_C10392: chosen_87 = 1
-_C10393: chosen_88 = 1
-_C10394: chosen_89 = 1
-_C10395: chosen_90 = 1
-_C10396: chosen_91 = 1
-_C10397: chosen_92 = 1
-_C10398: chosen_93 = 1
-_C10399: chosen_94 = 1
-_C104: chosen_103 = 1
-_C1040: chosen_73 = 1
-_C10400: chosen_95 = 1
-_C10401: chosen_96 = 1
-_C10402: chosen_97 = 1
-_C10403: chosen_98 = 1
-_C10404: chosen_99 = 1
-_C10405: chosen_100 = 1
-_C10406: chosen_101 = 1
-_C10407: chosen_102 = 1
-_C10408: chosen_103 = 1
-_C10409: chosen_104 = 1
-_C1041: chosen_74 = 1
-_C10410: chosen_105 = 1
-_C10411: chosen_106 = 1
-_C10412: chosen_107 = 1
-_C10413: chosen_108 = 1
-_C10414: chosen_109 = 1
-_C10415: chosen_110 = 1
-_C10416: chosen_111 = 1
-_C10417: chosen_112 = 1
-_C10418: chosen_113 = 1
-_C10419: chosen_114 = 1
-_C1042: chosen_75 = 1
-_C10420: chosen_115 = 1
-_C10421: chosen_116 = 1
-_C10422: chosen_117 = 1
-_C10423: chosen_118 = 1
-_C10424: chosen_119 = 1
-_C10425: chosen_120 = 1
-_C10426: chosen_121 = 1
-_C10427: chosen_122 = 1
-_C10428: chosen_123 = 1
-_C10429: chosen_124 = 1
-_C1043: chosen_76 = 1
-_C10430: chosen_125 = 1
-_C10431: chosen_126 = 1
-_C10432: chosen_127 = 1
-_C10433: chosen_128 = 1
-_C10434: chosen_129 = 1
-_C10435: chosen_130 = 1
-_C10436: chosen_131 = 1
-_C10437: chosen_132 = 1
-_C10438: chosen_133 = 1
-_C10439: chosen_134 = 1
-_C1044: chosen_77 = 1
-_C10440: chosen_135 = 1
-_C10441: chosen_136 = 1
-_C10442: chosen_137 = 1
-_C10443: chosen_138 = 1
-_C10444: chosen_139 = 1
-_C10445: chosen_140 = 1
-_C10446: chosen_141 = 1
-_C10447: chosen_142 = 1
-_C10448: chosen_143 = 1
-_C10449: chosen_144 = 1
-_C1045: chosen_78 = 1
-_C10450: chosen_145 = 1
-_C10451: chosen_146 = 1
-_C10452: chosen_147 = 1
-_C10453: chosen_148 = 1
-_C10454: chosen_149 = 1
-_C10455: chosen_150 = 1
-_C10456: chosen_151 = 1
-_C10457: chosen_152 = 1
-_C10458: chosen_153 = 1
-_C10459: chosen_154 = 1
-_C1046: chosen_79 = 1
-_C10460: chosen_155 = 1
-_C10461: chosen_156 = 1
-_C10462: chosen_157 = 1
-_C10463: chosen_158 = 1
-_C10464: chosen_159 = 1
-_C10465: chosen_160 = 1
-_C10466: chosen_0 + chosen_1 + chosen_10 + chosen_100 + chosen_101
- + chosen_102 + chosen_103 + chosen_104 + chosen_105 + chosen_106 + chosen_107
- + chosen_108 + chosen_109 + chosen_11 + chosen_110 + chosen_111 + chosen_112
- + chosen_113 + chosen_114 + chosen_115 + chosen_116 + chosen_117 + chosen_118
- + chosen_119 + chosen_12 + chosen_120 + chosen_121 + chosen_122 + chosen_123
- + chosen_124 + chosen_125 + chosen_126 + chosen_127 + chosen_128 + chosen_129
- + chosen_13 + chosen_130 + chosen_131 + chosen_132 + chosen_133 + chosen_134
- + chosen_135 + chosen_136 + chosen_137 + chosen_138 + chosen_139 + chosen_14
- + chosen_140 + chosen_141 + chosen_142 + chosen_143 + chosen_144 + chosen_145
- + chosen_146 + chosen_147 + chosen_148 + chosen_149 + chosen_15 + chosen_150
- + chosen_151 + chosen_152 + chosen_153 + chosen_154 + chosen_155 + chosen_156
- + chosen_157 + chosen_158 + chosen_159 + chosen_16 + chosen_160 + chosen_17
- + chosen_18 + chosen_19 + chosen_2 + chosen_20 + chosen_21 + chosen_22
- + chosen_23 + chosen_24 + chosen_25 + chosen_26 + chosen_27 + chosen_28
- + chosen_29 + chosen_3 + chosen_30 + chosen_31 + chosen_32 + chosen_33
- + chosen_34 + chosen_35 + chosen_36 + chosen_37 + chosen_38 + chosen_39
- + chosen_4 + chosen_40 + chosen_41 + chosen_42 + chosen_43 + chosen_44
- + chosen_45 + chosen_46 + chosen_47 + chosen_48 + chosen_49 + chosen_5
- + chosen_50 + chosen_51 + chosen_52 + chosen_53 + chosen_54 + chosen_55
- + chosen_56 + chosen_57 + chosen_58 + chosen_59 + chosen_6 + chosen_60
+_C1: chosen_0 + chosen_12 + chosen_24 = 1
+_C10: chosen_0 + chosen_103 + chosen_104 + chosen_105 + chosen_106
+ + chosen_107 + chosen_108 + chosen_109 + chosen_116 + chosen_12 + chosen_123
+ + chosen_136 + chosen_144 + chosen_145 + chosen_148 + chosen_149 + chosen_152
+ + chosen_153 + chosen_154 + chosen_24 + chosen_33 + chosen_34 + chosen_45
+ + chosen_46 + chosen_47 + chosen_55 + chosen_57 + chosen_58 + chosen_60
+ + chosen_62 + chosen_63 + chosen_64 + chosen_65 + chosen_66 + chosen_67
+ + chosen_68 = 1
+_C11: chosen_0 + chosen_103 + chosen_104 + chosen_105 + chosen_106
+ + chosen_107 + chosen_108 + 2 chosen_109 + chosen_110 + chosen_116
+ + chosen_12 + chosen_123 + chosen_126 + chosen_127 + chosen_136 + chosen_144
+ + chosen_145 + chosen_148 + chosen_149 + chosen_152 + chosen_153 + chosen_154
+ + chosen_24 + chosen_33 + chosen_34 + chosen_45 + chosen_46 + chosen_47
+ + chosen_55 + chosen_57 + chosen_58 + chosen_60 + chosen_62 + chosen_63
+ + chosen_64 + chosen_65 + chosen_66 + chosen_67 + chosen_68 + chosen_69 = 1
+_C12: chosen_0 + chosen_103 + chosen_104 + chosen_105 + chosen_106
+ + chosen_107 + chosen_108 + 2 chosen_109 + chosen_110 + chosen_111
+ + chosen_116 + chosen_12 + chosen_123 + chosen_126 + chosen_127 + chosen_130
+ + chosen_136 + chosen_144 + chosen_145 + chosen_148 + chosen_149 + chosen_152
+ + chosen_153 + chosen_154 + chosen_24 + chosen_33 + chosen_34 + chosen_45
+ + chosen_46 + chosen_47 + chosen_55 + chosen_57 + chosen_58 + chosen_60
+ + chosen_62 + chosen_63 + chosen_64 + chosen_65 + chosen_66 + chosen_67
+ + chosen_68 + chosen_69 + chosen_70 = 1
+_C13: chosen_0 + chosen_103 + chosen_104 + chosen_105 + chosen_106
+ + chosen_107 + chosen_108 + 2 chosen_109 + chosen_110 + chosen_111
+ + chosen_112 + chosen_116 + chosen_12 + chosen_123 + chosen_126 + chosen_127
+ + chosen_130 + chosen_132 + chosen_136 + chosen_142 + chosen_144 + chosen_145
+ + chosen_146 + chosen_148 + chosen_149 + chosen_151 + chosen_152 + chosen_153
+ + chosen_154 + chosen_159 + chosen_24 + chosen_33 + chosen_34 + chosen_45
+ + chosen_46 + chosen_47 + chosen_55 + chosen_57 + chosen_58 + chosen_60
+ + chosen_62 + chosen_63 + chosen_64 + chosen_65 + chosen_66 + chosen_67
+ + chosen_68 + chosen_69 + chosen_70 + chosen_71 = 1
+_C14: chosen_0 + chosen_103 + chosen_104 + chosen_105 + chosen_106
+ + chosen_107 + chosen_108 + 2 chosen_109 + chosen_110 + chosen_111
+ + chosen_112 + chosen_116 + chosen_12 + chosen_123 + chosen_126 + chosen_127
+ + chosen_130 + chosen_132 + chosen_136 + chosen_142 + chosen_144 + chosen_145
+ + chosen_146 + chosen_148 + chosen_149 + chosen_151 + chosen_152 + chosen_153
+ + chosen_154 + chosen_159 + chosen_24 + chosen_33 + chosen_34 + chosen_35
+ + 2 chosen_45 + chosen_46 + 2 chosen_47 + chosen_55 + 2 chosen_57
+ + 2 chosen_58 + 2 chosen_60 + chosen_62 + chosen_63 + chosen_64 + chosen_65
+ + chosen_66 + chosen_67 + chosen_68 + chosen_69 + chosen_70 + chosen_71 = 1
+_C15: chosen_0 + chosen_103 + chosen_104 + chosen_105 + chosen_106
+ + chosen_107 + chosen_108 + 2 chosen_109 + chosen_110 + chosen_111
+ + chosen_112 + chosen_113 + chosen_116 + chosen_12 + chosen_123 + chosen_126
+ + chosen_127 + chosen_130 + chosen_132 + chosen_136 + chosen_142 + chosen_144
+ + chosen_145 + chosen_146 + chosen_148 + chosen_149 + chosen_151 + chosen_152
+ + chosen_153 + chosen_154 + chosen_159 + chosen_24 + chosen_33 + chosen_34
+ + chosen_35 + 2 chosen_45 + chosen_46 + 2 chosen_47 + chosen_55 + 2 chosen_57
+ + 2 chosen_58 + 2 chosen_60 + chosen_62 + chosen_63 + chosen_64 + chosen_65
+ + chosen_66 + chosen_67 + chosen_68 + chosen_69 + chosen_70 + chosen_71
+ + chosen_72 = 1
+_C16: chosen_0 + chosen_103 + chosen_104 + chosen_105 + chosen_106
+ + chosen_107 + chosen_108 + 2 chosen_109 + chosen_110 + chosen_111
+ + chosen_112 + chosen_113 + chosen_116 + chosen_12 + chosen_123 + chosen_126
+ + chosen_127 + chosen_130 + chosen_132 + chosen_136 + chosen_142 + chosen_144
+ + chosen_145 + chosen_146 + chosen_148 + chosen_149 + chosen_151 + chosen_152
+ + chosen_153 + chosen_154 + chosen_159 + chosen_24 + chosen_33 + chosen_34
+ + chosen_35 + chosen_36 + 2 chosen_45 + chosen_46 + 2 chosen_47 + chosen_48
+ + chosen_50 + chosen_55 + 2 chosen_57 + 2 chosen_58 + 2 chosen_60 + chosen_62
+ + chosen_63 + chosen_64 + chosen_65 + chosen_66 + chosen_67 + chosen_68
+ + chosen_69 + chosen_70 + chosen_71 + chosen_72 = 1
+_C17: chosen_0 + chosen_103 + chosen_104 + chosen_105 + chosen_106
+ + chosen_107 + chosen_108 + 2 chosen_109 + chosen_110 + chosen_111
+ + chosen_112 + chosen_113 + chosen_114 + chosen_116 + chosen_12 + chosen_123
+ + chosen_126 + chosen_127 + chosen_130 + chosen_132 + chosen_136 + chosen_138
+ + chosen_142 + chosen_144 + chosen_145 + chosen_146 + chosen_147 + chosen_148
+ + chosen_149 + chosen_151 + chosen_152 + chosen_153 + chosen_154 + chosen_155
+ + chosen_158 + chosen_159 + chosen_160 + chosen_24 + chosen_33 + chosen_34
+ + chosen_35 + chosen_36 + 2 chosen_45 + chosen_46 + 2 chosen_47 + chosen_48
+ + chosen_50 + chosen_55 + 2 chosen_57 + 2 chosen_58 + 2 chosen_60 + chosen_62
+ + chosen_63 + chosen_64 + chosen_65 + chosen_66 + chosen_67 + chosen_68
+ + chosen_69 + chosen_70 + chosen_71 + chosen_72 + chosen_73 = 1
+_C18: chosen_0 + chosen_103 + chosen_104 + chosen_105 + chosen_106
+ + chosen_107 + chosen_108 + 2 chosen_109 + chosen_110 + chosen_111
+ + chosen_112 + chosen_113 + chosen_114 + chosen_115 + chosen_116 + chosen_12
+ + chosen_123 + chosen_126 + chosen_127 + chosen_130 + chosen_132 + chosen_136
+ + chosen_138 + chosen_140 + chosen_142 + chosen_144 + chosen_145 + chosen_146
+ + chosen_147 + chosen_148 + chosen_149 + chosen_151 + chosen_152 + chosen_153
+ + chosen_154 + chosen_155 + chosen_157 + chosen_158 + chosen_159 + chosen_160
+ + chosen_24 + chosen_33 + chosen_34 + chosen_35 + chosen_36 + 2 chosen_45
+ + chosen_46 + 2 chosen_47 + chosen_48 + chosen_50 + chosen_55 + 2 chosen_57
+ + 2 chosen_58 + 2 chosen_60 + chosen_62 + chosen_63 + chosen_64 + chosen_65
+ + chosen_66 + chosen_67 + chosen_68 + chosen_69 + chosen_70 + chosen_71
+ + chosen_72 + chosen_73 + chosen_74 = 1
+_C19: chosen_0 + chosen_103 + chosen_104 + 2 chosen_105 + chosen_106
+ + chosen_107 + chosen_108 + 2 chosen_109 + chosen_110 + chosen_111
+ + chosen_112 + chosen_113 + chosen_114 + chosen_115 + 2 chosen_116
+ + chosen_12 + chosen_123 + chosen_126 + chosen_127 + chosen_130 + chosen_132
+ + chosen_136 + chosen_138 + chosen_140 + chosen_142 + chosen_144
+ + 2 chosen_145 + chosen_146 + chosen_147 + 2 chosen_148 + chosen_149
+ + chosen_151 + chosen_152 + chosen_153 + chosen_154 + chosen_155 + chosen_157
+ + chosen_158 + chosen_159 + chosen_160 + chosen_24 + chosen_33 + chosen_34
+ + chosen_35 + chosen_36 + 2 chosen_45 + chosen_46 + 2 chosen_47 + chosen_48
+ + chosen_50 + chosen_55 + 2 chosen_57 + 2 chosen_58 + 2 chosen_60 + chosen_62
+ + chosen_63 + chosen_64 + chosen_65 + chosen_66 + chosen_67 + chosen_68
+ + chosen_69 + chosen_70 + chosen_71 + chosen_72 + chosen_73 + chosen_74
+ + chosen_75 = 1
+_C2: chosen_0 + chosen_103 + chosen_12 + chosen_136 + chosen_144 + chosen_152
+ + chosen_153 + chosen_154 + chosen_24 + chosen_62 = 1
+_C20: chosen_0 + chosen_103 + chosen_104 + 2 chosen_105 + chosen_106
+ + chosen_107 + chosen_108 + 2 chosen_109 + chosen_110 + chosen_111
+ + chosen_112 + chosen_113 + chosen_114 + chosen_115 + 2 chosen_116
+ + chosen_117 + chosen_12 + chosen_123 + chosen_126 + chosen_127 + chosen_130
+ + chosen_132 + chosen_136 + chosen_138 + chosen_140 + chosen_141 + chosen_142
+ + chosen_144 + 2 chosen_145 + chosen_146 + chosen_147 + 2 chosen_148
+ + 2 chosen_149 + chosen_151 + chosen_152 + chosen_153 + chosen_154
+ + chosen_155 + chosen_157 + 2 chosen_158 + chosen_159 + chosen_160
+ + chosen_24 + chosen_33 + chosen_34 + chosen_35 + chosen_36 + 2 chosen_45
+ + chosen_46 + 2 chosen_47 + chosen_48 + chosen_50 + chosen_55 + 2 chosen_57
+ + 2 chosen_58 + 2 chosen_60 + chosen_62 + chosen_63 + chosen_64 + chosen_65
+ + chosen_66 + chosen_67 + chosen_68 + chosen_69 + chosen_70 + chosen_71
+ + chosen_72 + chosen_73 + chosen_74 + chosen_75 + chosen_76 = 1
+_C21: chosen_0 + chosen_103 + chosen_104 + 2 chosen_105 + 2 chosen_106
+ + chosen_107 + chosen_108 + 2 chosen_109 + chosen_110 + chosen_111
+ + chosen_112 + chosen_113 + chosen_114 + chosen_115 + 2 chosen_116
+ + chosen_117 + chosen_118 + chosen_12 + chosen_123 + chosen_126 + chosen_127
+ + chosen_129 + chosen_130 + chosen_132 + chosen_136 + chosen_138 + chosen_140
+ + chosen_141 + chosen_142 + chosen_144 + 2 chosen_145 + chosen_146
+ + chosen_147 + 2 chosen_148 + 2 chosen_149 + chosen_151 + chosen_152
+ + chosen_153 + chosen_154 + chosen_155 + chosen_157 + 2 chosen_158
+ + chosen_159 + chosen_160 + chosen_24 + chosen_33 + chosen_34 + chosen_35
+ + chosen_36 + 2 chosen_45 + chosen_46 + 2 chosen_47 + chosen_48 + chosen_50
+ + chosen_55 + 2 chosen_57 + 2 chosen_58 + 2 chosen_60 + chosen_62 + chosen_63
+ + chosen_64 + chosen_65 + chosen_66 + chosen_67 + chosen_68 + chosen_69
+ + chosen_70 + chosen_71 + chosen_72 + chosen_73 + chosen_74 + chosen_75
+ + chosen_76 + chosen_77 = 1
+_C22: chosen_0 + chosen_1 + chosen_103 + chosen_104 + 2 chosen_105
+ + 2 chosen_106 + chosen_107 + chosen_108 + 2 chosen_109 + chosen_110
+ + chosen_111 + chosen_112 + chosen_113 + chosen_114 + chosen_115
+ + 2 chosen_116 + chosen_117 + chosen_118 + chosen_12 + chosen_123
+ + chosen_126 + chosen_127 + chosen_129 + chosen_13 + chosen_130 + chosen_132
+ + chosen_136 + chosen_138 + chosen_14 + chosen_140 + chosen_141 + chosen_142
+ + chosen_144 + 2 chosen_145 + chosen_146 + chosen_147 + 2 chosen_148
+ + 2 chosen_149 + chosen_151 + chosen_152 + chosen_153 + chosen_154
+ + chosen_155 + chosen_156 + chosen_157 + 2 chosen_158 + chosen_159
+ + chosen_160 + 2 chosen_24 + chosen_25 + chosen_26 + chosen_33 + chosen_34
+ + chosen_35 + chosen_36 + 2 chosen_45 + chosen_46 + 2 chosen_47 + chosen_48
+ + chosen_50 + chosen_55 + chosen_56 + 2 chosen_57 + 2 chosen_58 + 2 chosen_60
  + chosen_61 + chosen_62 + chosen_63 + chosen_64 + chosen_65 + chosen_66
+ + chosen_67 + chosen_68 + chosen_69 + chosen_70 + chosen_71 + chosen_72
+ + chosen_73 + chosen_74 + chosen_75 + chosen_76 + chosen_77 = 1
+_C23: chosen_0 + chosen_1 + chosen_103 + chosen_104 + 2 chosen_105
+ + 2 chosen_106 + chosen_107 + chosen_108 + 2 chosen_109 + chosen_110
+ + chosen_111 + chosen_112 + chosen_113 + chosen_114 + chosen_115
+ + 2 chosen_116 + chosen_117 + chosen_118 + 2 chosen_12 + chosen_123
+ + chosen_126 + chosen_127 + chosen_129 + 2 chosen_13 + chosen_130
+ + chosen_132 + chosen_136 + chosen_138 + chosen_139 + 2 chosen_14
+ + chosen_140 + chosen_141 + chosen_142 + chosen_144 + 2 chosen_145
+ + chosen_146 + chosen_147 + 2 chosen_148 + 2 chosen_149 + chosen_150
+ + chosen_151 + chosen_152 + chosen_153 + chosen_154 + chosen_155
+ + 2 chosen_156 + chosen_157 + 2 chosen_158 + chosen_159 + chosen_160
+ + chosen_2 + 3 chosen_24 + 2 chosen_25 + 2 chosen_26 + chosen_33 + chosen_34
+ + chosen_35 + chosen_36 + 2 chosen_45 + chosen_46 + 2 chosen_47 + chosen_48
+ + chosen_50 + chosen_55 + chosen_56 + 2 chosen_57 + 2 chosen_58 + 2 chosen_60
+ + 2 chosen_61 + chosen_62 + chosen_63 + chosen_64 + chosen_65 + chosen_66
+ + chosen_67 + chosen_68 + chosen_69 + chosen_70 + chosen_71 + chosen_72
+ + chosen_73 + chosen_74 + chosen_75 + chosen_76 + chosen_77 = 1
+_C24: chosen_0 + chosen_1 + chosen_103 + chosen_104 + 2 chosen_105
+ + 2 chosen_106 + chosen_107 + chosen_108 + 2 chosen_109 + chosen_110
+ + chosen_111 + chosen_112 + chosen_113 + chosen_114 + chosen_115
+ + 2 chosen_116 + chosen_117 + chosen_118 + 2 chosen_12 + chosen_123
+ + chosen_126 + chosen_127 + chosen_129 + 2 chosen_13 + chosen_130
+ + chosen_132 + chosen_136 + chosen_138 + chosen_139 + 2 chosen_14
+ + chosen_140 + chosen_141 + chosen_142 + chosen_144 + 2 chosen_145
+ + chosen_146 + chosen_147 + 2 chosen_148 + 2 chosen_149 + chosen_15
+ + chosen_150 + chosen_151 + chosen_152 + chosen_153 + chosen_154 + chosen_155
+ + 2 chosen_156 + chosen_157 + 2 chosen_158 + chosen_159 + chosen_16
+ + chosen_160 + chosen_19 + chosen_2 + chosen_22 + 3 chosen_24 + 2 chosen_25
+ + 2 chosen_26 + chosen_27 + chosen_28 + chosen_3 + chosen_31 + chosen_33
+ + chosen_34 + chosen_35 + chosen_36 + 2 chosen_45 + chosen_46 + 2 chosen_47
+ + chosen_48 + chosen_50 + chosen_55 + chosen_56 + 2 chosen_57 + 2 chosen_58
+ + 2 chosen_60 + 2 chosen_61 + chosen_62 + chosen_63 + chosen_64 + chosen_65
+ + chosen_66 + chosen_67 + chosen_68 + chosen_69 + chosen_70 + chosen_71
+ + chosen_72 + chosen_73 + chosen_74 + chosen_75 + chosen_76 + chosen_77 = 1
+_C25: chosen_0 + chosen_1 + chosen_103 + chosen_104 + 2 chosen_105
+ + 2 chosen_106 + chosen_107 + chosen_108 + 2 chosen_109 + chosen_110
+ + chosen_111 + chosen_112 + chosen_113 + chosen_114 + chosen_115
+ + 2 chosen_116 + chosen_117 + chosen_118 + 2 chosen_12 + chosen_123
+ + chosen_126 + chosen_127 + chosen_129 + 2 chosen_13 + chosen_130
+ + chosen_132 + chosen_136 + chosen_138 + chosen_139 + 2 chosen_14
+ + chosen_140 + chosen_141 + chosen_142 + chosen_144 + 2 chosen_145
+ + chosen_146 + chosen_147 + 2 chosen_148 + 2 chosen_149 + 2 chosen_15
+ + chosen_150 + chosen_151 + chosen_152 + chosen_153 + chosen_154 + chosen_155
+ + 2 chosen_156 + chosen_157 + 2 chosen_158 + chosen_159 + 2 chosen_16
+ + chosen_160 + chosen_17 + chosen_19 + chosen_2 + chosen_22 + 3 chosen_24
+ + 2 chosen_25 + 2 chosen_26 + 2 chosen_27 + 2 chosen_28 + chosen_3
+ + 2 chosen_31 + chosen_33 + chosen_34 + chosen_35 + chosen_36 + chosen_4
+ + 2 chosen_45 + chosen_46 + 2 chosen_47 + chosen_48 + chosen_50 + chosen_55
+ + chosen_56 + 2 chosen_57 + 2 chosen_58 + 2 chosen_60 + 2 chosen_61
+ + chosen_62 + chosen_63 + chosen_64 + chosen_65 + chosen_66 + chosen_67
+ + chosen_68 + chosen_69 + chosen_70 + chosen_71 + chosen_72 + chosen_73
+ + chosen_74 + chosen_75 + chosen_76 + chosen_77 = 1
+_C26: chosen_0 + chosen_1 + chosen_103 + chosen_104 + 2 chosen_105
+ + 2 chosen_106 + chosen_107 + chosen_108 + 2 chosen_109 + chosen_110
+ + chosen_111 + chosen_112 + chosen_113 + chosen_114 + chosen_115
+ + 2 chosen_116 + chosen_117 + chosen_118 + 2 chosen_12 + chosen_123
+ + chosen_126 + chosen_127 + chosen_129 + 2 chosen_13 + chosen_130
+ + chosen_132 + chosen_136 + chosen_138 + chosen_139 + 2 chosen_14
+ + chosen_140 + chosen_141 + chosen_142 + chosen_144 + 2 chosen_145
+ + chosen_146 + chosen_147 + 2 chosen_148 + 2 chosen_149 + 2 chosen_15
+ + chosen_150 + chosen_151 + chosen_152 + chosen_153 + chosen_154 + chosen_155
+ + 2 chosen_156 + chosen_157 + 2 chosen_158 + chosen_159 + 2 chosen_16
+ + chosen_160 + 2 chosen_17 + chosen_19 + chosen_2 + chosen_22 + 3 chosen_24
+ + 2 chosen_25 + 2 chosen_26 + 2 chosen_27 + 2 chosen_28 + chosen_3
+ + 2 chosen_31 + chosen_33 + chosen_34 + chosen_35 + chosen_36 + chosen_4
+ + 2 chosen_45 + chosen_46 + 2 chosen_47 + chosen_48 + chosen_5 + chosen_50
+ + chosen_55 + chosen_56 + 2 chosen_57 + 2 chosen_58 + 2 chosen_60
+ + 2 chosen_61 + chosen_62 + chosen_63 + chosen_64 + chosen_65 + chosen_66
+ + chosen_67 + chosen_68 + chosen_69 + chosen_70 + chosen_71 + chosen_72
+ + chosen_73 + chosen_74 + chosen_75 + chosen_76 + chosen_77 = 1
+_C27: chosen_0 + chosen_1 + chosen_103 + chosen_104 + 2 chosen_105
+ + 2 chosen_106 + chosen_107 + chosen_108 + 2 chosen_109 + chosen_110
+ + chosen_111 + chosen_112 + chosen_113 + chosen_114 + chosen_115
+ + 2 chosen_116 + chosen_117 + chosen_118 + 2 chosen_12 + chosen_123
+ + chosen_126 + chosen_127 + chosen_129 + 2 chosen_13 + chosen_130
+ + chosen_132 + chosen_136 + chosen_138 + chosen_139 + 2 chosen_14
+ + chosen_140 + chosen_141 + chosen_142 + chosen_144 + 2 chosen_145
+ + chosen_146 + chosen_147 + 2 chosen_148 + 2 chosen_149 + 2 chosen_15
+ + chosen_150 + chosen_151 + chosen_152 + chosen_153 + chosen_154 + chosen_155
+ + 2 chosen_156 + chosen_157 + 2 chosen_158 + chosen_159 + 2 chosen_16
+ + chosen_160 + 2 chosen_17 + chosen_19 + chosen_2 + chosen_22 + 3 chosen_24
+ + 2 chosen_25 + 2 chosen_26 + 2 chosen_27 + 2 chosen_28 + chosen_3
+ + 2 chosen_31 + chosen_33 + chosen_34 + chosen_35 + chosen_36 + chosen_37
+ + chosen_4 + 2 chosen_45 + chosen_46 + 2 chosen_47 + chosen_48 + chosen_49
+ + chosen_5 + chosen_50 + chosen_53 + chosen_55 + chosen_56 + 2 chosen_57
+ + 2 chosen_58 + 2 chosen_60 + 2 chosen_61 + chosen_62 + chosen_63 + chosen_64
+ + chosen_65 + chosen_66 + chosen_67 + chosen_68 + chosen_69 + chosen_70
+ + chosen_71 + chosen_72 + chosen_73 + chosen_74 + chosen_75 + chosen_76
+ + chosen_77 = 1
+_C28: chosen_0 + chosen_1 + chosen_103 + chosen_104 + 2 chosen_105
+ + 2 chosen_106 + chosen_107 + chosen_108 + 2 chosen_109 + chosen_110
+ + chosen_111 + chosen_112 + chosen_113 + chosen_114 + chosen_115
+ + 2 chosen_116 + chosen_117 + chosen_118 + 2 chosen_12 + chosen_123
+ + chosen_126 + chosen_127 + chosen_129 + 2 chosen_13 + chosen_130
+ + chosen_132 + chosen_136 + chosen_138 + chosen_139 + 2 chosen_14
+ + chosen_140 + chosen_141 + chosen_142 + chosen_144 + 2 chosen_145
+ + chosen_146 + chosen_147 + 2 chosen_148 + 2 chosen_149 + 2 chosen_15
+ + chosen_150 + chosen_151 + chosen_152 + chosen_153 + chosen_154 + chosen_155
+ + 2 chosen_156 + chosen_157 + 2 chosen_158 + chosen_159 + 2 chosen_16
+ + chosen_160 + 2 chosen_17 + chosen_19 + chosen_2 + chosen_22 + 3 chosen_24
+ + 2 chosen_25 + 2 chosen_26 + 2 chosen_27 + 2 chosen_28 + chosen_3
+ + 2 chosen_31 + chosen_33 + chosen_34 + chosen_35 + chosen_36 + chosen_37
+ + chosen_38 + chosen_4 + 2 chosen_45 + 2 chosen_46 + 2 chosen_47
+ + 2 chosen_48 + chosen_49 + chosen_5 + 2 chosen_50 + chosen_53 + chosen_55
+ + chosen_56 + 2 chosen_57 + 2 chosen_58 + 2 chosen_60 + 2 chosen_61
+ + chosen_62 + chosen_63 + chosen_64 + chosen_65 + chosen_66 + chosen_67
+ + chosen_68 + chosen_69 + chosen_70 + chosen_71 + chosen_72 + chosen_73
+ + chosen_74 + chosen_75 + chosen_76 + chosen_77 = 1
+_C29: chosen_0 + chosen_1 + 2 chosen_103 + chosen_104 + 2 chosen_105
+ + 2 chosen_106 + chosen_107 + chosen_108 + 2 chosen_109 + chosen_110
+ + chosen_111 + chosen_112 + chosen_113 + chosen_114 + chosen_115
+ + 2 chosen_116 + chosen_117 + chosen_118 + 2 chosen_12 + chosen_123
+ + chosen_126 + chosen_127 + chosen_129 + 2 chosen_13 + chosen_130
+ + chosen_132 + chosen_134 + 2 chosen_136 + chosen_137 + chosen_138
+ + chosen_139 + 2 chosen_14 + chosen_140 + chosen_141 + chosen_142
+ + 2 chosen_144 + 2 chosen_145 + chosen_146 + chosen_147 + 2 chosen_148
+ + 2 chosen_149 + 2 chosen_15 + chosen_150 + chosen_151 + 2 chosen_152
+ + 2 chosen_153 + 2 chosen_154 + chosen_155 + 2 chosen_156 + chosen_157
+ + 2 chosen_158 + chosen_159 + 2 chosen_16 + chosen_160 + 2 chosen_17
+ + chosen_19 + chosen_2 + chosen_22 + 3 chosen_24 + 2 chosen_25 + 2 chosen_26
+ + 2 chosen_27 + 2 chosen_28 + chosen_3 + 2 chosen_31 + chosen_33 + chosen_34
+ + chosen_35 + chosen_36 + chosen_37 + chosen_38 + chosen_4 + 2 chosen_45
+ + 2 chosen_46 + 2 chosen_47 + 2 chosen_48 + chosen_49 + chosen_5
+ + 2 chosen_50 + chosen_53 + chosen_55 + chosen_56 + 2 chosen_57 + 2 chosen_58
+ + 2 chosen_60 + 2 chosen_61 + chosen_62 + chosen_63 + chosen_64 + chosen_65
+ + chosen_66 + chosen_67 + chosen_68 + chosen_69 + chosen_70 + chosen_71
+ + chosen_72 + chosen_73 + chosen_74 + chosen_75 + chosen_76 + chosen_77
+ + chosen_95 = 1
+_C3: chosen_0 + chosen_103 + chosen_12 + chosen_136 + chosen_144 + chosen_152
+ + chosen_153 + chosen_154 + chosen_24 + chosen_33 + chosen_45 + chosen_47
+ + chosen_55 + chosen_57 + chosen_58 + chosen_60 + chosen_62 = 1
+_C30: chosen_0 + chosen_1 + 2 chosen_103 + chosen_104 + 2 chosen_105
+ + 2 chosen_106 + chosen_107 + chosen_108 + 2 chosen_109 + chosen_110
+ + chosen_111 + chosen_112 + chosen_113 + chosen_114 + chosen_115
+ + 2 chosen_116 + chosen_117 + chosen_118 + 2 chosen_12 + chosen_123
+ + chosen_126 + chosen_127 + chosen_129 + 2 chosen_13 + chosen_130
+ + chosen_132 + chosen_134 + 2 chosen_136 + 2 chosen_137 + chosen_138
+ + chosen_139 + 2 chosen_14 + chosen_140 + chosen_141 + chosen_142
+ + 2 chosen_144 + 2 chosen_145 + chosen_146 + chosen_147 + 2 chosen_148
+ + 2 chosen_149 + 2 chosen_15 + chosen_150 + chosen_151 + 2 chosen_152
+ + 2 chosen_153 + 3 chosen_154 + chosen_155 + 2 chosen_156 + chosen_157
+ + 2 chosen_158 + chosen_159 + 2 chosen_16 + chosen_160 + 2 chosen_17
+ + chosen_19 + chosen_2 + chosen_22 + 3 chosen_24 + 2 chosen_25 + 2 chosen_26
+ + 2 chosen_27 + 2 chosen_28 + chosen_3 + 2 chosen_31 + chosen_33 + chosen_34
+ + chosen_35 + chosen_36 + chosen_37 + chosen_38 + chosen_4 + 2 chosen_45
+ + 2 chosen_46 + 2 chosen_47 + 2 chosen_48 + chosen_49 + chosen_5
+ + 2 chosen_50 + chosen_53 + chosen_55 + chosen_56 + 2 chosen_57 + 2 chosen_58
+ + 2 chosen_60 + 2 chosen_61 + chosen_62 + chosen_63 + chosen_64 + chosen_65
+ + chosen_66 + chosen_67 + chosen_68 + chosen_69 + chosen_70 + chosen_71
+ + chosen_72 + chosen_73 + chosen_74 + chosen_75 + chosen_76 + chosen_77
+ + chosen_95 + chosen_96 = 1
+_C31: chosen_0 + chosen_1 + 2 chosen_103 + chosen_104 + 2 chosen_105
+ + 2 chosen_106 + chosen_107 + chosen_108 + 2 chosen_109 + chosen_110
+ + chosen_111 + chosen_112 + chosen_113 + chosen_114 + chosen_115
+ + 2 chosen_116 + chosen_117 + chosen_118 + chosen_119 + 2 chosen_12
+ + chosen_123 + chosen_126 + chosen_127 + chosen_129 + 2 chosen_13
+ + chosen_130 + chosen_132 + chosen_134 + 2 chosen_136 + 2 chosen_137
+ + chosen_138 + chosen_139 + 2 chosen_14 + chosen_140 + chosen_141
+ + chosen_142 + 2 chosen_144 + 2 chosen_145 + chosen_146 + chosen_147
+ + 2 chosen_148 + 2 chosen_149 + 2 chosen_15 + chosen_150 + chosen_151
+ + 2 chosen_152 + 2 chosen_153 + 3 chosen_154 + chosen_155 + 2 chosen_156
+ + chosen_157 + 2 chosen_158 + chosen_159 + 2 chosen_16 + chosen_160
+ + 2 chosen_17 + chosen_19 + chosen_2 + chosen_22 + 3 chosen_24 + 2 chosen_25
+ + 2 chosen_26 + 2 chosen_27 + 2 chosen_28 + chosen_3 + 2 chosen_31
+ + chosen_33 + chosen_34 + chosen_35 + chosen_36 + chosen_37 + chosen_38
+ + chosen_4 + 2 chosen_45 + 2 chosen_46 + 2 chosen_47 + 2 chosen_48
+ + chosen_49 + chosen_5 + 2 chosen_50 + chosen_53 + chosen_55 + chosen_56
+ + 2 chosen_57 + 2 chosen_58 + 2 chosen_60 + 2 chosen_61 + chosen_62
+ + chosen_63 + chosen_64 + chosen_65 + chosen_66 + chosen_67 + chosen_68
+ + chosen_69 + chosen_70 + chosen_71 + chosen_72 + chosen_73 + chosen_74
+ + chosen_75 + chosen_76 + chosen_77 + chosen_78 + chosen_95 + chosen_96 = 1
+_C32: chosen_0 + chosen_1 + 2 chosen_103 + chosen_104 + 2 chosen_105
+ + 2 chosen_106 + chosen_107 + chosen_108 + 2 chosen_109 + chosen_110
+ + chosen_111 + chosen_112 + chosen_113 + chosen_114 + chosen_115
+ + 2 chosen_116 + chosen_117 + chosen_118 + chosen_119 + 2 chosen_12
+ + chosen_120 + chosen_122 + chosen_123 + chosen_126 + chosen_127 + chosen_128
+ + chosen_129 + 2 chosen_13 + chosen_130 + chosen_132 + chosen_134
+ + 2 chosen_136 + 2 chosen_137 + chosen_138 + chosen_139 + 2 chosen_14
+ + chosen_140 + chosen_141 + chosen_142 + 2 chosen_144 + 2 chosen_145
+ + chosen_146 + chosen_147 + 2 chosen_148 + 2 chosen_149 + 2 chosen_15
+ + chosen_150 + chosen_151 + 2 chosen_152 + 2 chosen_153 + 3 chosen_154
+ + chosen_155 + 2 chosen_156 + chosen_157 + 2 chosen_158 + chosen_159
+ + 2 chosen_16 + chosen_160 + 2 chosen_17 + chosen_19 + chosen_2 + chosen_22
+ + 3 chosen_24 + 2 chosen_25 + 2 chosen_26 + 2 chosen_27 + 2 chosen_28
+ + chosen_3 + 2 chosen_31 + chosen_33 + chosen_34 + chosen_35 + chosen_36
+ + chosen_37 + chosen_38 + chosen_4 + 2 chosen_45 + 2 chosen_46 + 2 chosen_47
+ + 2 chosen_48 + chosen_49 + chosen_5 + 2 chosen_50 + chosen_53 + chosen_55
+ + chosen_56 + 2 chosen_57 + 2 chosen_58 + 2 chosen_60 + 2 chosen_61
+ + chosen_62 + chosen_63 + chosen_64 + chosen_65 + chosen_66 + chosen_67
+ + chosen_68 + chosen_69 + chosen_70 + chosen_71 + chosen_72 + chosen_73
+ + chosen_74 + chosen_75 + chosen_76 + chosen_77 + chosen_78 + chosen_79
+ + chosen_95 + chosen_96 = 1
+_C33: chosen_0 + chosen_1 + 2 chosen_103 + chosen_104 + 2 chosen_105
+ + 2 chosen_106 + chosen_107 + chosen_108 + 2 chosen_109 + chosen_110
+ + chosen_111 + chosen_112 + chosen_113 + chosen_114 + chosen_115
+ + 2 chosen_116 + chosen_117 + chosen_118 + chosen_119 + 2 chosen_12
+ + chosen_120 + chosen_121 + chosen_122 + chosen_123 + chosen_126 + chosen_127
+ + chosen_128 + chosen_129 + 2 chosen_13 + chosen_130 + chosen_132
+ + chosen_133 + chosen_134 + 2 chosen_136 + 2 chosen_137 + chosen_138
+ + chosen_139 + 2 chosen_14 + chosen_140 + chosen_141 + chosen_142
+ + 2 chosen_144 + 2 chosen_145 + chosen_146 + chosen_147 + 2 chosen_148
+ + 2 chosen_149 + 2 chosen_15 + chosen_150 + chosen_151 + 2 chosen_152
+ + 2 chosen_153 + 3 chosen_154 + chosen_155 + 2 chosen_156 + chosen_157
+ + 2 chosen_158 + chosen_159 + 2 chosen_16 + chosen_160 + 2 chosen_17
+ + chosen_19 + chosen_2 + chosen_22 + 3 chosen_24 + 2 chosen_25 + 2 chosen_26
+ + 2 chosen_27 + 2 chosen_28 + chosen_3 + 2 chosen_31 + chosen_33 + chosen_34
+ + chosen_35 + chosen_36 + chosen_37 + chosen_38 + chosen_4 + 2 chosen_45
+ + 2 chosen_46 + 2 chosen_47 + 2 chosen_48 + chosen_49 + chosen_5
+ + 2 chosen_50 + chosen_53 + chosen_55 + chosen_56 + 2 chosen_57 + 2 chosen_58
+ + 2 chosen_60 + 2 chosen_61 + chosen_62 + chosen_63 + chosen_64 + chosen_65
+ + chosen_66 + chosen_67 + chosen_68 + chosen_69 + chosen_70 + chosen_71
+ + chosen_72 + chosen_73 + chosen_74 + chosen_75 + chosen_76 + chosen_77
+ + chosen_78 + chosen_79 + chosen_80 + chosen_95 + chosen_96 = 1
+_C34: chosen_0 + chosen_1 + 2 chosen_103 + chosen_104 + 2 chosen_105
+ + 2 chosen_106 + chosen_107 + chosen_108 + 2 chosen_109 + chosen_110
+ + chosen_111 + chosen_112 + chosen_113 + chosen_114 + chosen_115
+ + 2 chosen_116 + chosen_117 + chosen_118 + chosen_119 + 2 chosen_12
+ + chosen_120 + chosen_121 + chosen_122 + chosen_123 + chosen_126 + chosen_127
+ + chosen_128 + chosen_129 + 2 chosen_13 + chosen_130 + chosen_132
+ + chosen_133 + chosen_134 + 2 chosen_136 + 2 chosen_137 + chosen_138
+ + chosen_139 + 2 chosen_14 + chosen_140 + chosen_141 + chosen_142
+ + 2 chosen_144 + 2 chosen_145 + chosen_146 + chosen_147 + 2 chosen_148
+ + 2 chosen_149 + 2 chosen_15 + chosen_150 + chosen_151 + 2 chosen_152
+ + 2 chosen_153 + 3 chosen_154 + chosen_155 + 2 chosen_156 + chosen_157
+ + 2 chosen_158 + chosen_159 + 2 chosen_16 + chosen_160 + 2 chosen_17
+ + chosen_19 + chosen_2 + chosen_22 + 3 chosen_24 + 2 chosen_25 + 2 chosen_26
+ + 2 chosen_27 + 2 chosen_28 + chosen_3 + 2 chosen_31 + chosen_33 + chosen_34
+ + chosen_35 + chosen_36 + chosen_37 + chosen_38 + chosen_39 + chosen_4
+ + 2 chosen_45 + 2 chosen_46 + 2 chosen_47 + 2 chosen_48 + chosen_49
+ + chosen_5 + 2 chosen_50 + chosen_51 + chosen_52 + chosen_53 + chosen_54
+ + chosen_55 + chosen_56 + 2 chosen_57 + 2 chosen_58 + chosen_59 + 2 chosen_60
+ + 2 chosen_61 + chosen_62 + chosen_63 + chosen_64 + chosen_65 + chosen_66
+ + chosen_67 + chosen_68 + chosen_69 + chosen_70 + chosen_71 + chosen_72
+ + chosen_73 + chosen_74 + chosen_75 + chosen_76 + chosen_77 + chosen_78
+ + chosen_79 + chosen_80 + chosen_95 + chosen_96 = 1
+_C35: chosen_0 + chosen_1 + 2 chosen_103 + chosen_104 + 2 chosen_105
+ + 2 chosen_106 + chosen_107 + 2 chosen_108 + 2 chosen_109 + chosen_110
+ + chosen_111 + chosen_112 + chosen_113 + chosen_114 + chosen_115
+ + 2 chosen_116 + chosen_117 + chosen_118 + chosen_119 + 2 chosen_12
+ + chosen_120 + chosen_121 + 2 chosen_122 + chosen_123 + chosen_126
+ + chosen_127 + chosen_128 + chosen_129 + 2 chosen_13 + chosen_130
+ + chosen_132 + chosen_133 + chosen_134 + 2 chosen_136 + 2 chosen_137
+ + chosen_138 + chosen_139 + 2 chosen_14 + chosen_140 + chosen_141
+ + chosen_142 + 2 chosen_144 + 2 chosen_145 + chosen_146 + chosen_147
+ + 2 chosen_148 + 2 chosen_149 + 2 chosen_15 + chosen_150 + chosen_151
+ + 2 chosen_152 + 2 chosen_153 + 3 chosen_154 + chosen_155 + 2 chosen_156
+ + chosen_157 + 2 chosen_158 + chosen_159 + 2 chosen_16 + chosen_160
+ + 2 chosen_17 + chosen_19 + chosen_2 + chosen_22 + 3 chosen_24 + 2 chosen_25
+ + 2 chosen_26 + 2 chosen_27 + 2 chosen_28 + chosen_3 + 2 chosen_31
+ + chosen_33 + chosen_34 + chosen_35 + chosen_36 + chosen_37 + chosen_38
+ + chosen_39 + chosen_4 + 2 chosen_45 + 2 chosen_46 + 2 chosen_47
+ + 2 chosen_48 + chosen_49 + chosen_5 + 2 chosen_50 + chosen_51 + chosen_52
+ + chosen_53 + chosen_54 + chosen_55 + chosen_56 + 2 chosen_57 + 2 chosen_58
+ + chosen_59 + 2 chosen_60 + 2 chosen_61 + chosen_62 + chosen_63 + chosen_64
+ + chosen_65 + chosen_66 + chosen_67 + chosen_68 + chosen_69 + chosen_70
+ + chosen_71 + chosen_72 + chosen_73 + chosen_74 + chosen_75 + chosen_76
+ + chosen_77 + chosen_78 + chosen_79 + chosen_80 + chosen_81 + chosen_95
+ + chosen_96 = 1
+_C36: chosen_0 + chosen_1 + 2 chosen_103 + 2 chosen_104 + 2 chosen_105
+ + 2 chosen_106 + chosen_107 + 2 chosen_108 + 2 chosen_109 + chosen_110
+ + chosen_111 + chosen_112 + chosen_113 + chosen_114 + chosen_115
+ + 2 chosen_116 + chosen_117 + chosen_118 + chosen_119 + 2 chosen_12
+ + chosen_120 + chosen_121 + 2 chosen_122 + 2 chosen_123 + chosen_126
+ + chosen_127 + chosen_128 + chosen_129 + 2 chosen_13 + chosen_130
+ + chosen_132 + chosen_133 + chosen_134 + 2 chosen_136 + 2 chosen_137
+ + chosen_138 + chosen_139 + 2 chosen_14 + chosen_140 + chosen_141
+ + chosen_142 + 2 chosen_144 + 2 chosen_145 + chosen_146 + chosen_147
+ + 2 chosen_148 + 2 chosen_149 + 2 chosen_15 + chosen_150 + chosen_151
+ + 2 chosen_152 + 2 chosen_153 + 3 chosen_154 + chosen_155 + 2 chosen_156
+ + chosen_157 + 2 chosen_158 + chosen_159 + 2 chosen_16 + chosen_160
+ + 2 chosen_17 + chosen_19 + chosen_2 + chosen_22 + 3 chosen_24 + 2 chosen_25
+ + 2 chosen_26 + 2 chosen_27 + 2 chosen_28 + chosen_3 + 2 chosen_31
+ + chosen_33 + chosen_34 + chosen_35 + chosen_36 + chosen_37 + chosen_38
+ + chosen_39 + chosen_4 + 2 chosen_45 + 2 chosen_46 + 2 chosen_47
+ + 2 chosen_48 + chosen_49 + chosen_5 + 2 chosen_50 + chosen_51 + chosen_52
+ + chosen_53 + chosen_54 + chosen_55 + chosen_56 + 2 chosen_57 + 2 chosen_58
+ + chosen_59 + 2 chosen_60 + 2 chosen_61 + chosen_62 + chosen_63 + chosen_64
+ + chosen_65 + chosen_66 + chosen_67 + chosen_68 + chosen_69 + chosen_70
+ + chosen_71 + chosen_72 + chosen_73 + chosen_74 + chosen_75 + chosen_76
+ + chosen_77 + chosen_78 + chosen_79 + chosen_80 + chosen_81 + chosen_82
+ + chosen_95 + chosen_96 = 1
+_C37: chosen_0 + chosen_1 + 2 chosen_103 + 2 chosen_104 + 2 chosen_105
+ + 2 chosen_106 + chosen_107 + 2 chosen_108 + 2 chosen_109 + chosen_110
+ + chosen_111 + chosen_112 + 2 chosen_113 + chosen_114 + chosen_115
+ + 2 chosen_116 + chosen_117 + chosen_118 + chosen_119 + 2 chosen_12
+ + chosen_120 + chosen_121 + 2 chosen_122 + 2 chosen_123 + chosen_124
+ + chosen_126 + chosen_127 + chosen_128 + chosen_129 + 2 chosen_13
+ + chosen_130 + chosen_132 + chosen_133 + chosen_134 + chosen_135
+ + 2 chosen_136 + 2 chosen_137 + chosen_138 + chosen_139 + 2 chosen_14
+ + chosen_140 + chosen_141 + chosen_142 + 2 chosen_144 + 2 chosen_145
+ + chosen_146 + chosen_147 + 2 chosen_148 + 2 chosen_149 + 2 chosen_15
+ + chosen_150 + chosen_151 + 2 chosen_152 + 2 chosen_153 + 3 chosen_154
+ + chosen_155 + 2 chosen_156 + chosen_157 + 2 chosen_158 + chosen_159
+ + 2 chosen_16 + chosen_160 + 2 chosen_17 + chosen_19 + chosen_2 + chosen_22
+ + 3 chosen_24 + 2 chosen_25 + 2 chosen_26 + 2 chosen_27 + 2 chosen_28
+ + chosen_3 + 2 chosen_31 + chosen_33 + chosen_34 + chosen_35 + chosen_36
+ + chosen_37 + chosen_38 + chosen_39 + chosen_4 + 2 chosen_45 + 2 chosen_46
+ + 2 chosen_47 + 2 chosen_48 + chosen_49 + chosen_5 + 2 chosen_50 + chosen_51
+ + chosen_52 + chosen_53 + chosen_54 + chosen_55 + chosen_56 + 2 chosen_57
+ + 2 chosen_58 + chosen_59 + 2 chosen_60 + 2 chosen_61 + chosen_62 + chosen_63
+ + chosen_64 + chosen_65 + chosen_66 + chosen_67 + chosen_68 + chosen_69
+ + chosen_70 + chosen_71 + chosen_72 + chosen_73 + chosen_74 + chosen_75
+ + chosen_76 + chosen_77 + chosen_78 + chosen_79 + chosen_80 + chosen_81
+ + chosen_82 + chosen_83 + chosen_95 + chosen_96 = 1
+_C38: chosen_0 + chosen_1 + 2 chosen_103 + 2 chosen_104 + 2 chosen_105
+ + 2 chosen_106 + chosen_107 + 2 chosen_108 + 2 chosen_109 + chosen_110
+ + chosen_111 + chosen_112 + 2 chosen_113 + chosen_114 + chosen_115
+ + 2 chosen_116 + chosen_117 + chosen_118 + chosen_119 + 2 chosen_12
+ + chosen_120 + chosen_121 + 2 chosen_122 + 2 chosen_123 + chosen_124
+ + chosen_125 + chosen_126 + chosen_127 + chosen_128 + chosen_129
+ + 2 chosen_13 + chosen_130 + chosen_132 + chosen_133 + chosen_134
+ + chosen_135 + 2 chosen_136 + 2 chosen_137 + chosen_138 + chosen_139
+ + 2 chosen_14 + chosen_140 + chosen_141 + chosen_142 + 2 chosen_144
+ + 2 chosen_145 + chosen_146 + chosen_147 + 2 chosen_148 + 2 chosen_149
+ + 2 chosen_15 + 2 chosen_150 + chosen_151 + 2 chosen_152 + 2 chosen_153
+ + 3 chosen_154 + chosen_155 + 2 chosen_156 + chosen_157 + 2 chosen_158
+ + chosen_159 + 2 chosen_16 + chosen_160 + 2 chosen_17 + chosen_19 + chosen_2
+ + chosen_22 + 3 chosen_24 + 2 chosen_25 + 2 chosen_26 + 2 chosen_27
+ + 2 chosen_28 + chosen_3 + 2 chosen_31 + chosen_33 + chosen_34 + chosen_35
+ + chosen_36 + chosen_37 + chosen_38 + chosen_39 + chosen_4 + 2 chosen_45
+ + 2 chosen_46 + 2 chosen_47 + 2 chosen_48 + chosen_49 + chosen_5
+ + 2 chosen_50 + chosen_51 + chosen_52 + chosen_53 + chosen_54 + chosen_55
+ + chosen_56 + 2 chosen_57 + 2 chosen_58 + chosen_59 + 2 chosen_60
+ + 2 chosen_61 + chosen_62 + chosen_63 + chosen_64 + chosen_65 + chosen_66
+ + chosen_67 + chosen_68 + chosen_69 + chosen_70 + chosen_71 + chosen_72
+ + chosen_73 + chosen_74 + chosen_75 + chosen_76 + chosen_77 + chosen_78
+ + chosen_79 + chosen_80 + chosen_81 + chosen_82 + chosen_83 + chosen_84
+ + chosen_95 + chosen_96 = 1
+_C39: chosen_0 + chosen_1 + 2 chosen_103 + 2 chosen_104 + 2 chosen_105
+ + 2 chosen_106 + chosen_107 + 2 chosen_108 + 2 chosen_109 + chosen_110
+ + chosen_111 + chosen_112 + 2 chosen_113 + chosen_114 + chosen_115
+ + 2 chosen_116 + chosen_117 + chosen_118 + chosen_119 + 2 chosen_12
+ + chosen_120 + chosen_121 + 2 chosen_122 + 2 chosen_123 + chosen_124
+ + chosen_125 + chosen_126 + chosen_127 + chosen_128 + chosen_129
+ + 2 chosen_13 + chosen_130 + chosen_132 + chosen_133 + chosen_134
+ + chosen_135 + 2 chosen_136 + 2 chosen_137 + chosen_138 + chosen_139
+ + 2 chosen_14 + chosen_140 + chosen_141 + chosen_142 + 2 chosen_144
+ + 2 chosen_145 + chosen_146 + chosen_147 + 2 chosen_148 + 2 chosen_149
+ + 2 chosen_15 + 2 chosen_150 + chosen_151 + 2 chosen_152 + 2 chosen_153
+ + 3 chosen_154 + chosen_155 + 2 chosen_156 + chosen_157 + 2 chosen_158
+ + chosen_159 + 2 chosen_16 + chosen_160 + 2 chosen_17 + chosen_19 + chosen_2
+ + chosen_22 + 3 chosen_24 + 2 chosen_25 + 2 chosen_26 + 2 chosen_27
+ + 2 chosen_28 + chosen_3 + 2 chosen_31 + chosen_33 + chosen_34 + chosen_35
+ + chosen_36 + chosen_37 + chosen_38 + chosen_39 + chosen_4 + chosen_40
+ + 2 chosen_45 + 2 chosen_46 + 2 chosen_47 + 2 chosen_48 + chosen_49
+ + chosen_5 + 2 chosen_50 + chosen_51 + 2 chosen_52 + chosen_53 + chosen_54
+ + chosen_55 + chosen_56 + 2 chosen_57 + 2 chosen_58 + chosen_59 + 2 chosen_60
+ + 2 chosen_61 + chosen_62 + chosen_63 + chosen_64 + chosen_65 + chosen_66
+ + chosen_67 + chosen_68 + chosen_69 + chosen_70 + chosen_71 + chosen_72
+ + chosen_73 + chosen_74 + chosen_75 + chosen_76 + chosen_77 + chosen_78
+ + chosen_79 + chosen_80 + chosen_81 + chosen_82 + chosen_83 + chosen_84
+ + chosen_95 + chosen_96 = 1
+_C4: chosen_0 + chosen_103 + chosen_104 + chosen_12 + chosen_123 + chosen_136
+ + chosen_144 + chosen_152 + chosen_153 + chosen_154 + chosen_24 + chosen_33
+ + chosen_45 + chosen_47 + chosen_55 + chosen_57 + chosen_58 + chosen_60
+ + chosen_62 + chosen_63 = 1
+_C40: chosen_0 + chosen_1 + 2 chosen_103 + 2 chosen_104 + 2 chosen_105
+ + 2 chosen_106 + chosen_107 + 2 chosen_108 + 2 chosen_109 + chosen_110
+ + chosen_111 + chosen_112 + 2 chosen_113 + chosen_114 + chosen_115
+ + 2 chosen_116 + chosen_117 + chosen_118 + chosen_119 + 2 chosen_12
+ + chosen_120 + chosen_121 + 2 chosen_122 + 2 chosen_123 + chosen_124
+ + chosen_125 + chosen_126 + chosen_127 + chosen_128 + chosen_129
+ + 2 chosen_13 + chosen_130 + chosen_132 + chosen_133 + chosen_134
+ + chosen_135 + 2 chosen_136 + 2 chosen_137 + chosen_138 + chosen_139
+ + 2 chosen_14 + chosen_140 + chosen_141 + chosen_142 + 2 chosen_144
+ + 2 chosen_145 + chosen_146 + chosen_147 + 2 chosen_148 + 2 chosen_149
+ + 2 chosen_15 + 2 chosen_150 + chosen_151 + 2 chosen_152 + 2 chosen_153
+ + 3 chosen_154 + chosen_155 + 2 chosen_156 + chosen_157 + 2 chosen_158
+ + chosen_159 + 2 chosen_16 + chosen_160 + 2 chosen_17 + chosen_18 + chosen_19
+ + chosen_2 + chosen_20 + chosen_22 + chosen_23 + 3 chosen_24 + 2 chosen_25
+ + 2 chosen_26 + 2 chosen_27 + 2 chosen_28 + chosen_29 + chosen_3 + chosen_30
+ + 2 chosen_31 + chosen_32 + chosen_33 + chosen_34 + chosen_35 + chosen_36
+ + chosen_37 + chosen_38 + chosen_39 + chosen_4 + chosen_40 + 2 chosen_45
+ + 2 chosen_46 + 2 chosen_47 + 2 chosen_48 + chosen_49 + chosen_5
+ + 2 chosen_50 + chosen_51 + 2 chosen_52 + chosen_53 + chosen_54 + chosen_55
+ + chosen_56 + 2 chosen_57 + 2 chosen_58 + chosen_59 + chosen_6 + 2 chosen_60
+ + 2 chosen_61 + chosen_62 + chosen_63 + chosen_64 + chosen_65 + chosen_66
+ + chosen_67 + chosen_68 + chosen_69 + chosen_70 + chosen_71 + chosen_72
+ + chosen_73 + chosen_74 + chosen_75 + chosen_76 + chosen_77 + chosen_78
+ + chosen_79 + chosen_80 + chosen_81 + chosen_82 + chosen_83 + chosen_84
+ + chosen_95 + chosen_96 = 1
+_C41: chosen_0 + chosen_1 + 2 chosen_103 + 2 chosen_104 + 2 chosen_105
+ + 2 chosen_106 + chosen_107 + 2 chosen_108 + 2 chosen_109 + chosen_110
+ + chosen_111 + chosen_112 + 2 chosen_113 + chosen_114 + chosen_115
+ + 2 chosen_116 + chosen_117 + chosen_118 + chosen_119 + 2 chosen_12
+ + chosen_120 + chosen_121 + 2 chosen_122 + 2 chosen_123 + chosen_124
+ + chosen_125 + chosen_126 + chosen_127 + chosen_128 + chosen_129
+ + 2 chosen_13 + chosen_130 + chosen_132 + chosen_133 + chosen_134
+ + chosen_135 + 2 chosen_136 + 2 chosen_137 + chosen_138 + chosen_139
+ + 2 chosen_14 + chosen_140 + chosen_141 + chosen_142 + 2 chosen_144
+ + 2 chosen_145 + chosen_146 + chosen_147 + 2 chosen_148 + 2 chosen_149
+ + 2 chosen_15 + 2 chosen_150 + chosen_151 + 2 chosen_152 + 2 chosen_153
+ + 3 chosen_154 + chosen_155 + 2 chosen_156 + chosen_157 + 2 chosen_158
+ + chosen_159 + 2 chosen_16 + chosen_160 + 2 chosen_17 + chosen_18
+ + 2 chosen_19 + chosen_2 + chosen_20 + chosen_22 + chosen_23 + 3 chosen_24
+ + 2 chosen_25 + 2 chosen_26 + 2 chosen_27 + 2 chosen_28 + chosen_29
+ + chosen_3 + chosen_30 + 2 chosen_31 + chosen_32 + chosen_33 + chosen_34
+ + chosen_35 + chosen_36 + chosen_37 + chosen_38 + chosen_39 + chosen_4
+ + chosen_40 + 2 chosen_45 + 2 chosen_46 + 2 chosen_47 + 2 chosen_48
+ + chosen_49 + chosen_5 + 2 chosen_50 + chosen_51 + 2 chosen_52 + chosen_53
+ + chosen_54 + chosen_55 + chosen_56 + 2 chosen_57 + 2 chosen_58 + chosen_59
+ + chosen_6 + 2 chosen_60 + 2 chosen_61 + chosen_62 + chosen_63 + chosen_64
+ + chosen_65 + chosen_66 + chosen_67 + chosen_68 + chosen_69 + chosen_7
+ + chosen_70 + chosen_71 + chosen_72 + chosen_73 + chosen_74 + chosen_75
+ + chosen_76 + chosen_77 + chosen_78 + chosen_79 + chosen_80 + chosen_81
+ + chosen_82 + chosen_83 + chosen_84 + chosen_95 + chosen_96 = 1
+_C42: chosen_0 + chosen_1 + 2 chosen_103 + 2 chosen_104 + 2 chosen_105
+ + 2 chosen_106 + chosen_107 + 2 chosen_108 + 2 chosen_109 + 2 chosen_110
+ + chosen_111 + chosen_112 + 2 chosen_113 + chosen_114 + chosen_115
+ + 2 chosen_116 + chosen_117 + chosen_118 + chosen_119 + 2 chosen_12
+ + chosen_120 + chosen_121 + 2 chosen_122 + 2 chosen_123 + chosen_124
+ + chosen_125 + 2 chosen_126 + chosen_127 + chosen_128 + chosen_129
+ + 2 chosen_13 + chosen_130 + chosen_132 + chosen_133 + chosen_134
+ + chosen_135 + 2 chosen_136 + 2 chosen_137 + chosen_138 + chosen_139
+ + 2 chosen_14 + chosen_140 + chosen_141 + chosen_142 + 2 chosen_144
+ + 2 chosen_145 + chosen_146 + chosen_147 + 2 chosen_148 + 2 chosen_149
+ + 2 chosen_15 + 2 chosen_150 + chosen_151 + 2 chosen_152 + 2 chosen_153
+ + 3 chosen_154 + chosen_155 + 2 chosen_156 + chosen_157 + 2 chosen_158
+ + chosen_159 + 2 chosen_16 + chosen_160 + 2 chosen_17 + chosen_18
+ + 2 chosen_19 + chosen_2 + chosen_20 + chosen_22 + chosen_23 + 3 chosen_24
+ + 2 chosen_25 + 2 chosen_26 + 2 chosen_27 + 2 chosen_28 + chosen_29
+ + chosen_3 + chosen_30 + 2 chosen_31 + chosen_32 + chosen_33 + chosen_34
+ + chosen_35 + chosen_36 + chosen_37 + chosen_38 + chosen_39 + chosen_4
+ + chosen_40 + 2 chosen_45 + 2 chosen_46 + 2 chosen_47 + 2 chosen_48
+ + chosen_49 + chosen_5 + 2 chosen_50 + chosen_51 + 2 chosen_52 + chosen_53
+ + chosen_54 + chosen_55 + chosen_56 + 2 chosen_57 + 2 chosen_58 + chosen_59
+ + chosen_6 + 2 chosen_60 + 2 chosen_61 + chosen_62 + chosen_63 + chosen_64
+ + chosen_65 + chosen_66 + chosen_67 + chosen_68 + chosen_69 + chosen_7
+ + chosen_70 + chosen_71 + chosen_72 + chosen_73 + chosen_74 + chosen_75
+ + chosen_76 + chosen_77 + chosen_78 + chosen_79 + chosen_80 + chosen_81
+ + chosen_82 + chosen_83 + chosen_84 + chosen_85 + chosen_95 + chosen_96 = 1
+_C43: chosen_0 + chosen_1 + 2 chosen_103 + 2 chosen_104 + 2 chosen_105
+ + 2 chosen_106 + chosen_107 + 2 chosen_108 + 2 chosen_109 + 2 chosen_110
+ + chosen_111 + chosen_112 + 2 chosen_113 + chosen_114 + chosen_115
+ + 2 chosen_116 + chosen_117 + chosen_118 + chosen_119 + 2 chosen_12
+ + chosen_120 + chosen_121 + 2 chosen_122 + 2 chosen_123 + chosen_124
+ + chosen_125 + 2 chosen_126 + 2 chosen_127 + chosen_128 + chosen_129
+ + 2 chosen_13 + chosen_130 + chosen_132 + chosen_133 + chosen_134
+ + chosen_135 + 2 chosen_136 + 2 chosen_137 + chosen_138 + chosen_139
+ + 2 chosen_14 + chosen_140 + chosen_141 + chosen_142 + 2 chosen_144
+ + 2 chosen_145 + chosen_146 + chosen_147 + 2 chosen_148 + 2 chosen_149
+ + 2 chosen_15 + 2 chosen_150 + chosen_151 + 2 chosen_152 + 2 chosen_153
+ + 3 chosen_154 + chosen_155 + 2 chosen_156 + chosen_157 + 2 chosen_158
+ + chosen_159 + 2 chosen_16 + chosen_160 + 2 chosen_17 + chosen_18
+ + 2 chosen_19 + chosen_2 + chosen_20 + chosen_22 + chosen_23 + 3 chosen_24
+ + 2 chosen_25 + 2 chosen_26 + 2 chosen_27 + 2 chosen_28 + chosen_29
+ + chosen_3 + chosen_30 + 2 chosen_31 + chosen_32 + chosen_33 + chosen_34
+ + chosen_35 + chosen_36 + chosen_37 + chosen_38 + chosen_39 + chosen_4
+ + chosen_40 + 2 chosen_45 + 2 chosen_46 + 2 chosen_47 + 2 chosen_48
+ + chosen_49 + chosen_5 + 2 chosen_50 + chosen_51 + 2 chosen_52 + chosen_53
+ + chosen_54 + chosen_55 + chosen_56 + 2 chosen_57 + 2 chosen_58 + chosen_59
+ + chosen_6 + 2 chosen_60 + 2 chosen_61 + chosen_62 + chosen_63 + chosen_64
+ + chosen_65 + chosen_66 + chosen_67 + chosen_68 + chosen_69 + chosen_7
+ + chosen_70 + chosen_71 + chosen_72 + chosen_73 + chosen_74 + chosen_75
+ + chosen_76 + chosen_77 + chosen_78 + chosen_79 + chosen_80 + chosen_81
+ + chosen_82 + chosen_83 + chosen_84 + chosen_85 + chosen_86 + chosen_95
+ + chosen_96 = 1
+_C44: chosen_0 + chosen_1 + 2 chosen_103 + 2 chosen_104 + 2 chosen_105
+ + 2 chosen_106 + chosen_107 + 2 chosen_108 + 2 chosen_109 + 2 chosen_110
+ + chosen_111 + chosen_112 + 2 chosen_113 + chosen_114 + chosen_115
+ + 2 chosen_116 + chosen_117 + chosen_118 + chosen_119 + 2 chosen_12
+ + chosen_120 + chosen_121 + 2 chosen_122 + 2 chosen_123 + chosen_124
+ + chosen_125 + 2 chosen_126 + 2 chosen_127 + chosen_128 + chosen_129
+ + 2 chosen_13 + chosen_130 + chosen_132 + chosen_133 + chosen_134
+ + chosen_135 + 2 chosen_136 + 2 chosen_137 + chosen_138 + chosen_139
+ + 2 chosen_14 + chosen_140 + chosen_141 + chosen_142 + 2 chosen_144
+ + 2 chosen_145 + chosen_146 + chosen_147 + 2 chosen_148 + 2 chosen_149
+ + 2 chosen_15 + 2 chosen_150 + chosen_151 + 2 chosen_152 + 2 chosen_153
+ + 3 chosen_154 + chosen_155 + 2 chosen_156 + chosen_157 + 2 chosen_158
+ + chosen_159 + 2 chosen_16 + chosen_160 + 2 chosen_17 + 2 chosen_18
+ + 2 chosen_19 + chosen_2 + 2 chosen_20 + chosen_21 + chosen_22 + chosen_23
+ + 3 chosen_24 + 2 chosen_25 + 2 chosen_26 + 2 chosen_27 + 2 chosen_28
+ + 2 chosen_29 + chosen_3 + 2 chosen_30 + 2 chosen_31 + 2 chosen_32
+ + chosen_33 + chosen_34 + chosen_35 + chosen_36 + chosen_37 + chosen_38
+ + chosen_39 + chosen_4 + chosen_40 + 2 chosen_45 + 2 chosen_46 + 2 chosen_47
+ + 2 chosen_48 + chosen_49 + chosen_5 + 2 chosen_50 + chosen_51 + 2 chosen_52
+ + chosen_53 + chosen_54 + chosen_55 + chosen_56 + 2 chosen_57 + 2 chosen_58
+ + chosen_59 + chosen_6 + 2 chosen_60 + 2 chosen_61 + chosen_62 + chosen_63
+ + chosen_64 + chosen_65 + chosen_66 + chosen_67 + chosen_68 + chosen_69
+ + chosen_7 + chosen_70 + chosen_71 + chosen_72 + chosen_73 + chosen_74
+ + chosen_75 + chosen_76 + chosen_77 + chosen_78 + chosen_79 + chosen_8
+ + chosen_80 + chosen_81 + chosen_82 + chosen_83 + chosen_84 + chosen_85
+ + chosen_86 + chosen_95 + chosen_96 = 1
+_C45: chosen_0 + chosen_1 + 2 chosen_103 + 2 chosen_104 + 2 chosen_105
+ + 2 chosen_106 + chosen_107 + 2 chosen_108 + 2 chosen_109 + 2 chosen_110
+ + chosen_111 + chosen_112 + 2 chosen_113 + chosen_114 + chosen_115
+ + 2 chosen_116 + chosen_117 + chosen_118 + chosen_119 + 2 chosen_12
+ + chosen_120 + chosen_121 + 2 chosen_122 + 2 chosen_123 + chosen_124
+ + chosen_125 + 2 chosen_126 + 2 chosen_127 + chosen_128 + chosen_129
+ + 2 chosen_13 + chosen_130 + chosen_132 + chosen_133 + chosen_134
+ + chosen_135 + 2 chosen_136 + 2 chosen_137 + chosen_138 + chosen_139
+ + 2 chosen_14 + chosen_140 + chosen_141 + chosen_142 + 2 chosen_144
+ + 2 chosen_145 + chosen_146 + chosen_147 + 2 chosen_148 + 2 chosen_149
+ + 2 chosen_15 + 2 chosen_150 + chosen_151 + 2 chosen_152 + 2 chosen_153
+ + 3 chosen_154 + chosen_155 + 2 chosen_156 + chosen_157 + 2 chosen_158
+ + chosen_159 + 2 chosen_16 + chosen_160 + 2 chosen_17 + 2 chosen_18
+ + 2 chosen_19 + chosen_2 + 2 chosen_20 + chosen_21 + chosen_22 + chosen_23
+ + 3 chosen_24 + 2 chosen_25 + 2 chosen_26 + 2 chosen_27 + 2 chosen_28
+ + 2 chosen_29 + chosen_3 + 2 chosen_30 + 2 chosen_31 + 2 chosen_32
+ + chosen_33 + chosen_34 + chosen_35 + chosen_36 + chosen_37 + chosen_38
+ + chosen_39 + chosen_4 + chosen_40 + chosen_41 + 2 chosen_45 + 2 chosen_46
+ + 2 chosen_47 + 2 chosen_48 + 2 chosen_49 + chosen_5 + 2 chosen_50
+ + chosen_51 + 2 chosen_52 + 2 chosen_53 + chosen_54 + chosen_55 + chosen_56
+ + 2 chosen_57 + 2 chosen_58 + chosen_59 + chosen_6 + 2 chosen_60
+ + 2 chosen_61 + chosen_62 + chosen_63 + chosen_64 + chosen_65 + chosen_66
+ + chosen_67 + chosen_68 + chosen_69 + chosen_7 + chosen_70 + chosen_71
+ + chosen_72 + chosen_73 + chosen_74 + chosen_75 + chosen_76 + chosen_77
+ + chosen_78 + chosen_79 + chosen_8 + chosen_80 + chosen_81 + chosen_82
+ + chosen_83 + chosen_84 + chosen_85 + chosen_86 + chosen_95 + chosen_96 = 1
+_C46: chosen_0 + chosen_1 + 2 chosen_103 + 2 chosen_104 + 2 chosen_105
+ + 2 chosen_106 + chosen_107 + 2 chosen_108 + 2 chosen_109 + 2 chosen_110
+ + chosen_111 + chosen_112 + 2 chosen_113 + chosen_114 + chosen_115
+ + 2 chosen_116 + chosen_117 + chosen_118 + chosen_119 + 2 chosen_12
+ + 2 chosen_120 + 2 chosen_121 + 2 chosen_122 + 2 chosen_123 + chosen_124
+ + chosen_125 + 2 chosen_126 + 2 chosen_127 + 2 chosen_128 + chosen_129
+ + 2 chosen_13 + chosen_130 + chosen_132 + chosen_133 + chosen_134
+ + chosen_135 + 2 chosen_136 + 2 chosen_137 + chosen_138 + chosen_139
+ + 2 chosen_14 + chosen_140 + chosen_141 + chosen_142 + 2 chosen_144
+ + 2 chosen_145 + chosen_146 + chosen_147 + 2 chosen_148 + 2 chosen_149
+ + 2 chosen_15 + 2 chosen_150 + chosen_151 + 2 chosen_152 + 2 chosen_153
+ + 3 chosen_154 + chosen_155 + 2 chosen_156 + chosen_157 + 2 chosen_158
+ + chosen_159 + 2 chosen_16 + chosen_160 + 2 chosen_17 + 2 chosen_18
+ + 2 chosen_19 + chosen_2 + 2 chosen_20 + chosen_21 + chosen_22 + chosen_23
+ + 3 chosen_24 + 2 chosen_25 + 2 chosen_26 + 2 chosen_27 + 2 chosen_28
+ + 2 chosen_29 + chosen_3 + 2 chosen_30 + 2 chosen_31 + 2 chosen_32
+ + chosen_33 + chosen_34 + chosen_35 + chosen_36 + chosen_37 + chosen_38
+ + chosen_39 + chosen_4 + chosen_40 + chosen_41 + 2 chosen_45 + 2 chosen_46
+ + 2 chosen_47 + 2 chosen_48 + 2 chosen_49 + chosen_5 + 2 chosen_50
+ + chosen_51 + 2 chosen_52 + 2 chosen_53 + chosen_54 + chosen_55 + chosen_56
+ + 2 chosen_57 + 2 chosen_58 + chosen_59 + chosen_6 + 2 chosen_60
+ + 2 chosen_61 + chosen_62 + chosen_63 + chosen_64 + chosen_65 + chosen_66
+ + chosen_67 + chosen_68 + chosen_69 + chosen_7 + chosen_70 + chosen_71
+ + chosen_72 + chosen_73 + chosen_74 + chosen_75 + chosen_76 + chosen_77
+ + chosen_78 + chosen_79 + chosen_8 + chosen_80 + chosen_81 + chosen_82
+ + chosen_83 + chosen_84 + chosen_85 + chosen_86 + chosen_87 + chosen_95
+ + chosen_96 = 1
+_C47: chosen_0 + chosen_1 + 2 chosen_103 + 2 chosen_104 + 2 chosen_105
+ + 2 chosen_106 + 2 chosen_107 + 2 chosen_108 + 2 chosen_109 + 2 chosen_110
+ + chosen_111 + chosen_112 + 2 chosen_113 + chosen_114 + chosen_115
+ + 2 chosen_116 + chosen_117 + 2 chosen_118 + chosen_119 + 2 chosen_12
+ + 2 chosen_120 + 2 chosen_121 + 2 chosen_122 + 2 chosen_123 + chosen_124
+ + chosen_125 + 2 chosen_126 + 2 chosen_127 + 2 chosen_128 + 2 chosen_129
+ + 2 chosen_13 + chosen_130 + chosen_132 + chosen_133 + chosen_134
+ + chosen_135 + 2 chosen_136 + 2 chosen_137 + chosen_138 + chosen_139
+ + 2 chosen_14 + chosen_140 + chosen_141 + chosen_142 + 2 chosen_144
+ + 2 chosen_145 + chosen_146 + chosen_147 + 2 chosen_148 + 2 chosen_149
+ + 2 chosen_15 + 2 chosen_150 + chosen_151 + 2 chosen_152 + 2 chosen_153
+ + 3 chosen_154 + chosen_155 + 2 chosen_156 + chosen_157 + 2 chosen_158
+ + chosen_159 + 2 chosen_16 + chosen_160 + 2 chosen_17 + 2 chosen_18
+ + 2 chosen_19 + chosen_2 + 2 chosen_20 + chosen_21 + chosen_22 + chosen_23
+ + 3 chosen_24 + 2 chosen_25 + 2 chosen_26 + 2 chosen_27 + 2 chosen_28
+ + 2 chosen_29 + chosen_3 + 2 chosen_30 + 2 chosen_31 + 2 chosen_32
+ + chosen_33 + chosen_34 + chosen_35 + chosen_36 + chosen_37 + chosen_38
+ + chosen_39 + chosen_4 + chosen_40 + chosen_41 + 2 chosen_45 + 2 chosen_46
+ + 2 chosen_47 + 2 chosen_48 + 2 chosen_49 + chosen_5 + 2 chosen_50
+ + chosen_51 + 2 chosen_52 + 2 chosen_53 + chosen_54 + chosen_55 + chosen_56
+ + 2 chosen_57 + 2 chosen_58 + chosen_59 + chosen_6 + 2 chosen_60
+ + 2 chosen_61 + chosen_62 + chosen_63 + chosen_64 + chosen_65 + chosen_66
+ + chosen_67 + chosen_68 + chosen_69 + chosen_7 + chosen_70 + chosen_71
+ + chosen_72 + chosen_73 + chosen_74 + chosen_75 + chosen_76 + chosen_77
+ + chosen_78 + chosen_79 + chosen_8 + chosen_80 + chosen_81 + chosen_82
+ + chosen_83 + chosen_84 + chosen_85 + chosen_86 + chosen_87 + chosen_88
+ + chosen_95 + chosen_96 = 1
+_C48: chosen_0 + chosen_1 + 2 chosen_103 + 2 chosen_104 + 2 chosen_105
+ + 2 chosen_106 + 2 chosen_107 + 2 chosen_108 + 2 chosen_109 + 2 chosen_110
+ + chosen_111 + chosen_112 + 2 chosen_113 + chosen_114 + chosen_115
+ + 2 chosen_116 + chosen_117 + 2 chosen_118 + chosen_119 + 2 chosen_12
+ + 2 chosen_120 + 2 chosen_121 + 2 chosen_122 + 2 chosen_123 + chosen_124
+ + chosen_125 + 2 chosen_126 + 2 chosen_127 + 2 chosen_128 + 2 chosen_129
+ + 2 chosen_13 + chosen_130 + chosen_132 + chosen_133 + chosen_134
+ + chosen_135 + 2 chosen_136 + 2 chosen_137 + chosen_138 + chosen_139
+ + 2 chosen_14 + chosen_140 + chosen_141 + chosen_142 + 2 chosen_144
+ + 2 chosen_145 + chosen_146 + chosen_147 + 2 chosen_148 + 2 chosen_149
+ + 2 chosen_15 + 2 chosen_150 + chosen_151 + 2 chosen_152 + 2 chosen_153
+ + 3 chosen_154 + chosen_155 + 2 chosen_156 + chosen_157 + 2 chosen_158
+ + chosen_159 + 2 chosen_16 + chosen_160 + 2 chosen_17 + 2 chosen_18
+ + 2 chosen_19 + chosen_2 + 2 chosen_20 + chosen_21 + chosen_22 + chosen_23
+ + 3 chosen_24 + 2 chosen_25 + 2 chosen_26 + 2 chosen_27 + 2 chosen_28
+ + 2 chosen_29 + chosen_3 + 2 chosen_30 + 2 chosen_31 + 2 chosen_32
+ + chosen_33 + chosen_34 + chosen_35 + chosen_36 + chosen_37 + chosen_38
+ + chosen_39 + chosen_4 + chosen_40 + chosen_41 + chosen_42 + 2 chosen_45
+ + 2 chosen_46 + 2 chosen_47 + 2 chosen_48 + 2 chosen_49 + chosen_5
+ + 2 chosen_50 + 2 chosen_51 + 2 chosen_52 + 2 chosen_53 + 2 chosen_54
+ + chosen_55 + chosen_56 + 2 chosen_57 + 2 chosen_58 + 2 chosen_59 + chosen_6
+ + 2 chosen_60 + 2 chosen_61 + chosen_62 + chosen_63 + chosen_64 + chosen_65
+ + chosen_66 + chosen_67 + chosen_68 + chosen_69 + chosen_7 + chosen_70
+ + chosen_71 + chosen_72 + chosen_73 + chosen_74 + chosen_75 + chosen_76
+ + chosen_77 + chosen_78 + chosen_79 + chosen_8 + chosen_80 + chosen_81
+ + chosen_82 + chosen_83 + chosen_84 + chosen_85 + chosen_86 + chosen_87
+ + chosen_88 + chosen_95 + chosen_96 = 1
+_C49: chosen_0 + chosen_1 + 2 chosen_103 + 2 chosen_104 + 2 chosen_105
+ + 2 chosen_106 + 2 chosen_107 + 2 chosen_108 + 2 chosen_109 + 2 chosen_110
+ + chosen_111 + chosen_112 + 2 chosen_113 + chosen_114 + chosen_115
+ + 2 chosen_116 + chosen_117 + 2 chosen_118 + chosen_119 + 2 chosen_12
+ + 2 chosen_120 + 2 chosen_121 + 2 chosen_122 + 2 chosen_123 + chosen_124
+ + chosen_125 + 2 chosen_126 + 2 chosen_127 + 2 chosen_128 + 2 chosen_129
+ + 2 chosen_13 + chosen_130 + chosen_132 + chosen_133 + chosen_134
+ + chosen_135 + 2 chosen_136 + 2 chosen_137 + chosen_138 + chosen_139
+ + 2 chosen_14 + chosen_140 + chosen_141 + chosen_142 + 2 chosen_144
+ + 2 chosen_145 + chosen_146 + chosen_147 + 2 chosen_148 + 2 chosen_149
+ + 2 chosen_15 + 2 chosen_150 + chosen_151 + 2 chosen_152 + 2 chosen_153
+ + 3 chosen_154 + chosen_155 + 2 chosen_156 + chosen_157 + 2 chosen_158
+ + chosen_159 + 2 chosen_16 + chosen_160 + 2 chosen_17 + 2 chosen_18
+ + 2 chosen_19 + chosen_2 + 2 chosen_20 + 2 chosen_21 + chosen_22 + chosen_23
+ + 3 chosen_24 + 2 chosen_25 + 2 chosen_26 + 2 chosen_27 + 2 chosen_28
+ + 2 chosen_29 + chosen_3 + 2 chosen_30 + 2 chosen_31 + 2 chosen_32
+ + chosen_33 + chosen_34 + chosen_35 + chosen_36 + chosen_37 + chosen_38
+ + chosen_39 + chosen_4 + chosen_40 + chosen_41 + chosen_42 + 2 chosen_45
+ + 2 chosen_46 + 2 chosen_47 + 2 chosen_48 + 2 chosen_49 + chosen_5
+ + 2 chosen_50 + 2 chosen_51 + 2 chosen_52 + 2 chosen_53 + 2 chosen_54
+ + chosen_55 + chosen_56 + 2 chosen_57 + 2 chosen_58 + 2 chosen_59 + chosen_6
+ + 2 chosen_60 + 2 chosen_61 + chosen_62 + chosen_63 + chosen_64 + chosen_65
+ + chosen_66 + chosen_67 + chosen_68 + chosen_69 + chosen_7 + chosen_70
+ + chosen_71 + chosen_72 + chosen_73 + chosen_74 + chosen_75 + chosen_76
+ + chosen_77 + chosen_78 + chosen_79 + chosen_8 + chosen_80 + chosen_81
+ + chosen_82 + chosen_83 + chosen_84 + chosen_85 + chosen_86 + chosen_87
+ + chosen_88 + chosen_9 + chosen_95 + chosen_96 = 1
+_C5: chosen_0 + chosen_103 + chosen_104 + chosen_105 + chosen_116 + chosen_12
+ + chosen_123 + chosen_136 + chosen_144 + chosen_145 + chosen_148 + chosen_149
+ + chosen_152 + chosen_153 + chosen_154 + chosen_24 + chosen_33 + chosen_45
+ + chosen_47 + chosen_55 + chosen_57 + chosen_58 + chosen_60 + chosen_62
+ + chosen_63 + chosen_64 = 1
+_C50: chosen_0 + chosen_1 + 2 chosen_103 + 2 chosen_104 + 2 chosen_105
+ + 2 chosen_106 + 2 chosen_107 + 2 chosen_108 + 2 chosen_109 + 2 chosen_110
+ + 2 chosen_111 + chosen_112 + 2 chosen_113 + chosen_114 + chosen_115
+ + 2 chosen_116 + chosen_117 + 2 chosen_118 + 2 chosen_119 + 2 chosen_12
+ + 2 chosen_120 + 2 chosen_121 + 2 chosen_122 + 2 chosen_123 + chosen_124
+ + chosen_125 + 2 chosen_126 + 2 chosen_127 + 2 chosen_128 + 2 chosen_129
+ + 2 chosen_13 + 2 chosen_130 + chosen_132 + chosen_133 + chosen_134
+ + chosen_135 + 2 chosen_136 + 2 chosen_137 + chosen_138 + chosen_139
+ + 2 chosen_14 + chosen_140 + chosen_141 + chosen_142 + 2 chosen_144
+ + 2 chosen_145 + chosen_146 + chosen_147 + 2 chosen_148 + 2 chosen_149
+ + 2 chosen_15 + 2 chosen_150 + chosen_151 + 2 chosen_152 + 2 chosen_153
+ + 3 chosen_154 + chosen_155 + 2 chosen_156 + chosen_157 + 2 chosen_158
+ + chosen_159 + 2 chosen_16 + chosen_160 + 2 chosen_17 + 2 chosen_18
+ + 2 chosen_19 + chosen_2 + 2 chosen_20 + 2 chosen_21 + chosen_22 + chosen_23
+ + 3 chosen_24 + 2 chosen_25 + 2 chosen_26 + 2 chosen_27 + 2 chosen_28
+ + 2 chosen_29 + chosen_3 + 2 chosen_30 + 2 chosen_31 + 2 chosen_32
+ + chosen_33 + chosen_34 + chosen_35 + chosen_36 + chosen_37 + chosen_38
+ + chosen_39 + chosen_4 + chosen_40 + chosen_41 + chosen_42 + 2 chosen_45
+ + 2 chosen_46 + 2 chosen_47 + 2 chosen_48 + 2 chosen_49 + chosen_5
+ + 2 chosen_50 + 2 chosen_51 + 2 chosen_52 + 2 chosen_53 + 2 chosen_54
+ + chosen_55 + chosen_56 + 2 chosen_57 + 2 chosen_58 + 2 chosen_59 + chosen_6
+ + 2 chosen_60 + 2 chosen_61 + chosen_62 + chosen_63 + chosen_64 + chosen_65
+ + chosen_66 + chosen_67 + chosen_68 + chosen_69 + chosen_7 + chosen_70
+ + chosen_71 + chosen_72 + chosen_73 + chosen_74 + chosen_75 + chosen_76
+ + chosen_77 + chosen_78 + chosen_79 + chosen_8 + chosen_80 + chosen_81
+ + chosen_82 + chosen_83 + chosen_84 + chosen_85 + chosen_86 + chosen_87
+ + chosen_88 + chosen_89 + chosen_9 + chosen_95 + chosen_96 = 1
+_C51: chosen_0 + chosen_1 + 2 chosen_103 + 2 chosen_104 + 2 chosen_105
+ + 2 chosen_106 + 2 chosen_107 + 2 chosen_108 + 2 chosen_109 + 2 chosen_110
+ + 2 chosen_111 + chosen_112 + 2 chosen_113 + chosen_114 + chosen_115
+ + 2 chosen_116 + chosen_117 + 2 chosen_118 + 2 chosen_119 + 2 chosen_12
+ + 2 chosen_120 + 2 chosen_121 + 2 chosen_122 + 2 chosen_123 + chosen_124
+ + chosen_125 + 2 chosen_126 + 2 chosen_127 + 2 chosen_128 + 2 chosen_129
+ + 2 chosen_13 + 2 chosen_130 + chosen_131 + chosen_132 + chosen_133
+ + chosen_134 + chosen_135 + 2 chosen_136 + 2 chosen_137 + chosen_138
+ + chosen_139 + 2 chosen_14 + chosen_140 + chosen_141 + chosen_142
+ + 2 chosen_144 + 2 chosen_145 + chosen_146 + chosen_147 + 2 chosen_148
+ + 2 chosen_149 + 2 chosen_15 + 2 chosen_150 + chosen_151 + 2 chosen_152
+ + 2 chosen_153 + 3 chosen_154 + chosen_155 + 2 chosen_156 + chosen_157
+ + 2 chosen_158 + chosen_159 + 2 chosen_16 + chosen_160 + 2 chosen_17
+ + 2 chosen_18 + 2 chosen_19 + chosen_2 + 2 chosen_20 + 2 chosen_21
+ + chosen_22 + chosen_23 + 3 chosen_24 + 2 chosen_25 + 2 chosen_26
+ + 2 chosen_27 + 2 chosen_28 + 2 chosen_29 + chosen_3 + 2 chosen_30
+ + 2 chosen_31 + 2 chosen_32 + chosen_33 + chosen_34 + chosen_35 + chosen_36
+ + chosen_37 + chosen_38 + chosen_39 + chosen_4 + chosen_40 + chosen_41
+ + chosen_42 + 2 chosen_45 + 2 chosen_46 + 2 chosen_47 + 2 chosen_48
+ + 2 chosen_49 + chosen_5 + 2 chosen_50 + 2 chosen_51 + 2 chosen_52
+ + 2 chosen_53 + 2 chosen_54 + chosen_55 + chosen_56 + 2 chosen_57
+ + 2 chosen_58 + 2 chosen_59 + chosen_6 + 2 chosen_60 + 2 chosen_61
+ + chosen_62 + chosen_63 + chosen_64 + chosen_65 + chosen_66 + chosen_67
+ + chosen_68 + chosen_69 + chosen_7 + chosen_70 + chosen_71 + chosen_72
+ + chosen_73 + chosen_74 + chosen_75 + chosen_76 + chosen_77 + chosen_78
+ + chosen_79 + chosen_8 + chosen_80 + chosen_81 + chosen_82 + chosen_83
+ + chosen_84 + chosen_85 + chosen_86 + chosen_87 + chosen_88 + chosen_89
+ + chosen_9 + chosen_90 + chosen_95 + chosen_96 = 1
+_C52: chosen_0 + chosen_1 + 2 chosen_103 + 2 chosen_104 + 2 chosen_105
+ + 2 chosen_106 + 2 chosen_107 + 2 chosen_108 + 2 chosen_109 + 2 chosen_110
+ + 2 chosen_111 + chosen_112 + 2 chosen_113 + chosen_114 + 2 chosen_115
+ + 2 chosen_116 + chosen_117 + 2 chosen_118 + 2 chosen_119 + 2 chosen_12
+ + 2 chosen_120 + 2 chosen_121 + 2 chosen_122 + 2 chosen_123 + chosen_124
+ + chosen_125 + 2 chosen_126 + 2 chosen_127 + 2 chosen_128 + 2 chosen_129
+ + 2 chosen_13 + 2 chosen_130 + 2 chosen_131 + 2 chosen_132 + chosen_133
+ + chosen_134 + chosen_135 + 2 chosen_136 + 2 chosen_137 + chosen_138
+ + chosen_139 + 2 chosen_14 + chosen_140 + chosen_141 + chosen_142
+ + 2 chosen_144 + 2 chosen_145 + chosen_146 + chosen_147 + 2 chosen_148
+ + 2 chosen_149 + 2 chosen_15 + 2 chosen_150 + 2 chosen_151 + 2 chosen_152
+ + 2 chosen_153 + 3 chosen_154 + chosen_155 + 2 chosen_156 + 2 chosen_157
+ + 2 chosen_158 + 2 chosen_159 + 2 chosen_16 + chosen_160 + 2 chosen_17
+ + 2 chosen_18 + 2 chosen_19 + chosen_2 + 2 chosen_20 + 2 chosen_21
+ + chosen_22 + chosen_23 + 3 chosen_24 + 2 chosen_25 + 2 chosen_26
+ + 2 chosen_27 + 2 chosen_28 + 2 chosen_29 + chosen_3 + 2 chosen_30
+ + 2 chosen_31 + 2 chosen_32 + chosen_33 + chosen_34 + chosen_35 + chosen_36
+ + chosen_37 + chosen_38 + chosen_39 + chosen_4 + chosen_40 + chosen_41
+ + chosen_42 + 2 chosen_45 + 2 chosen_46 + 2 chosen_47 + 2 chosen_48
+ + 2 chosen_49 + chosen_5 + 2 chosen_50 + 2 chosen_51 + 2 chosen_52
+ + 2 chosen_53 + 2 chosen_54 + chosen_55 + chosen_56 + 2 chosen_57
+ + 2 chosen_58 + 2 chosen_59 + chosen_6 + 2 chosen_60 + 2 chosen_61
+ + chosen_62 + chosen_63 + chosen_64 + chosen_65 + chosen_66 + chosen_67
+ + chosen_68 + chosen_69 + chosen_7 + chosen_70 + chosen_71 + chosen_72
+ + chosen_73 + chosen_74 + chosen_75 + chosen_76 + chosen_77 + chosen_78
+ + chosen_79 + chosen_8 + chosen_80 + chosen_81 + chosen_82 + chosen_83
+ + chosen_84 + chosen_85 + chosen_86 + chosen_87 + chosen_88 + chosen_89
+ + chosen_9 + chosen_90 + chosen_91 + chosen_95 + chosen_96 = 1
+_C53: chosen_0 + chosen_1 + 2 chosen_103 + 2 chosen_104 + 2 chosen_105
+ + 2 chosen_106 + 2 chosen_107 + 2 chosen_108 + 2 chosen_109 + 2 chosen_110
+ + 2 chosen_111 + chosen_112 + 2 chosen_113 + chosen_114 + 2 chosen_115
+ + 2 chosen_116 + chosen_117 + 2 chosen_118 + 2 chosen_119 + 2 chosen_12
+ + 2 chosen_120 + 2 chosen_121 + 2 chosen_122 + 2 chosen_123 + chosen_124
+ + chosen_125 + 2 chosen_126 + 2 chosen_127 + 2 chosen_128 + 2 chosen_129
+ + 2 chosen_13 + 2 chosen_130 + 2 chosen_131 + 2 chosen_132 + 2 chosen_133
+ + chosen_134 + chosen_135 + 2 chosen_136 + 2 chosen_137 + chosen_138
+ + chosen_139 + 2 chosen_14 + chosen_140 + chosen_141 + chosen_142
+ + 2 chosen_144 + 2 chosen_145 + chosen_146 + chosen_147 + 2 chosen_148
+ + 2 chosen_149 + 2 chosen_15 + 2 chosen_150 + 2 chosen_151 + 2 chosen_152
+ + 2 chosen_153 + 3 chosen_154 + chosen_155 + 2 chosen_156 + 2 chosen_157
+ + 2 chosen_158 + 2 chosen_159 + 2 chosen_16 + chosen_160 + 2 chosen_17
+ + 2 chosen_18 + 2 chosen_19 + chosen_2 + 2 chosen_20 + 2 chosen_21
+ + chosen_22 + chosen_23 + 3 chosen_24 + 2 chosen_25 + 2 chosen_26
+ + 2 chosen_27 + 2 chosen_28 + 2 chosen_29 + chosen_3 + 2 chosen_30
+ + 2 chosen_31 + 2 chosen_32 + chosen_33 + chosen_34 + chosen_35 + chosen_36
+ + chosen_37 + chosen_38 + chosen_39 + chosen_4 + chosen_40 + chosen_41
+ + chosen_42 + 2 chosen_45 + 2 chosen_46 + 2 chosen_47 + 2 chosen_48
+ + 2 chosen_49 + chosen_5 + 2 chosen_50 + 2 chosen_51 + 2 chosen_52
+ + 2 chosen_53 + 2 chosen_54 + chosen_55 + chosen_56 + 2 chosen_57
+ + 2 chosen_58 + 2 chosen_59 + chosen_6 + 2 chosen_60 + 2 chosen_61
+ + chosen_62 + chosen_63 + chosen_64 + chosen_65 + chosen_66 + chosen_67
+ + chosen_68 + chosen_69 + chosen_7 + chosen_70 + chosen_71 + chosen_72
+ + chosen_73 + chosen_74 + chosen_75 + chosen_76 + chosen_77 + chosen_78
+ + chosen_79 + chosen_8 + chosen_80 + chosen_81 + chosen_82 + chosen_83
+ + chosen_84 + chosen_85 + chosen_86 + chosen_87 + chosen_88 + chosen_89
+ + chosen_9 + chosen_90 + chosen_91 + chosen_92 + chosen_95 + chosen_96 = 1
+_C54: chosen_0 + chosen_1 + 2 chosen_103 + 2 chosen_104 + 2 chosen_105
+ + 2 chosen_106 + 2 chosen_107 + 2 chosen_108 + 2 chosen_109 + 2 chosen_110
+ + 2 chosen_111 + chosen_112 + 2 chosen_113 + chosen_114 + 2 chosen_115
+ + 2 chosen_116 + chosen_117 + 2 chosen_118 + 2 chosen_119 + 2 chosen_12
+ + 2 chosen_120 + 2 chosen_121 + 2 chosen_122 + 2 chosen_123 + chosen_124
+ + chosen_125 + 2 chosen_126 + 2 chosen_127 + 2 chosen_128 + 2 chosen_129
+ + 2 chosen_13 + 2 chosen_130 + 2 chosen_131 + 2 chosen_132 + 2 chosen_133
+ + 2 chosen_134 + chosen_135 + 2 chosen_136 + 2 chosen_137 + chosen_138
+ + chosen_139 + 2 chosen_14 + chosen_140 + chosen_141 + chosen_142
+ + 3 chosen_144 + 2 chosen_145 + chosen_146 + chosen_147 + 2 chosen_148
+ + 2 chosen_149 + 2 chosen_15 + 2 chosen_150 + 2 chosen_151 + 3 chosen_152
+ + 3 chosen_153 + 3 chosen_154 + chosen_155 + 2 chosen_156 + 2 chosen_157
+ + 2 chosen_158 + 2 chosen_159 + 2 chosen_16 + chosen_160 + 2 chosen_17
+ + 2 chosen_18 + 2 chosen_19 + chosen_2 + 2 chosen_20 + 2 chosen_21
+ + chosen_22 + chosen_23 + 3 chosen_24 + 2 chosen_25 + 2 chosen_26
+ + 2 chosen_27 + 2 chosen_28 + 2 chosen_29 + chosen_3 + 2 chosen_30
+ + 2 chosen_31 + 2 chosen_32 + chosen_33 + chosen_34 + chosen_35 + chosen_36
+ + chosen_37 + chosen_38 + chosen_39 + chosen_4 + chosen_40 + chosen_41
+ + chosen_42 + 2 chosen_45 + 2 chosen_46 + 2 chosen_47 + 2 chosen_48
+ + 2 chosen_49 + chosen_5 + 2 chosen_50 + 2 chosen_51 + 2 chosen_52
+ + 2 chosen_53 + 2 chosen_54 + chosen_55 + chosen_56 + 2 chosen_57
+ + 2 chosen_58 + 2 chosen_59 + chosen_6 + 2 chosen_60 + 2 chosen_61
+ + chosen_62 + chosen_63 + chosen_64 + chosen_65 + chosen_66 + chosen_67
+ + chosen_68 + chosen_69 + chosen_7 + chosen_70 + chosen_71 + chosen_72
+ + chosen_73 + chosen_74 + chosen_75 + chosen_76 + chosen_77 + chosen_78
+ + chosen_79 + chosen_8 + chosen_80 + chosen_81 + chosen_82 + chosen_83
+ + chosen_84 + chosen_85 + chosen_86 + chosen_87 + chosen_88 + chosen_89
+ + chosen_9 + chosen_90 + chosen_91 + chosen_92 + chosen_93 + chosen_95
+ + chosen_96 = 1
+_C55: chosen_0 + chosen_1 + 2 chosen_103 + 2 chosen_104 + 2 chosen_105
+ + 2 chosen_106 + 2 chosen_107 + 2 chosen_108 + 2 chosen_109 + 2 chosen_110
+ + 2 chosen_111 + chosen_112 + 2 chosen_113 + chosen_114 + 2 chosen_115
+ + 2 chosen_116 + chosen_117 + 2 chosen_118 + 2 chosen_119 + 2 chosen_12
+ + 2 chosen_120 + 2 chosen_121 + 2 chosen_122 + 2 chosen_123 + 2 chosen_124
+ + chosen_125 + 2 chosen_126 + 2 chosen_127 + 2 chosen_128 + 2 chosen_129
+ + 2 chosen_13 + 2 chosen_130 + 2 chosen_131 + 2 chosen_132 + 2 chosen_133
+ + 2 chosen_134 + 2 chosen_135 + 2 chosen_136 + 2 chosen_137 + chosen_138
+ + chosen_139 + 2 chosen_14 + chosen_140 + chosen_141 + chosen_142
+ + 3 chosen_144 + 2 chosen_145 + chosen_146 + chosen_147 + 2 chosen_148
+ + 2 chosen_149 + 2 chosen_15 + 2 chosen_150 + 2 chosen_151 + 3 chosen_152
+ + 3 chosen_153 + 3 chosen_154 + chosen_155 + 2 chosen_156 + 2 chosen_157
+ + 2 chosen_158 + 2 chosen_159 + 2 chosen_16 + chosen_160 + 2 chosen_17
+ + 2 chosen_18 + 2 chosen_19 + chosen_2 + 2 chosen_20 + 2 chosen_21
+ + chosen_22 + chosen_23 + 3 chosen_24 + 2 chosen_25 + 2 chosen_26
+ + 2 chosen_27 + 2 chosen_28 + 2 chosen_29 + chosen_3 + 2 chosen_30
+ + 2 chosen_31 + 2 chosen_32 + chosen_33 + chosen_34 + chosen_35 + chosen_36
+ + chosen_37 + chosen_38 + chosen_39 + chosen_4 + chosen_40 + chosen_41
+ + chosen_42 + 2 chosen_45 + 2 chosen_46 + 2 chosen_47 + 2 chosen_48
+ + 2 chosen_49 + chosen_5 + 2 chosen_50 + 2 chosen_51 + 2 chosen_52
+ + 2 chosen_53 + 2 chosen_54 + chosen_55 + chosen_56 + 2 chosen_57
+ + 2 chosen_58 + 2 chosen_59 + chosen_6 + 2 chosen_60 + 2 chosen_61
+ + chosen_62 + chosen_63 + chosen_64 + chosen_65 + chosen_66 + chosen_67
+ + chosen_68 + chosen_69 + chosen_7 + chosen_70 + chosen_71 + chosen_72
+ + chosen_73 + chosen_74 + chosen_75 + chosen_76 + chosen_77 + chosen_78
+ + chosen_79 + chosen_8 + chosen_80 + chosen_81 + chosen_82 + chosen_83
+ + chosen_84 + chosen_85 + chosen_86 + chosen_87 + chosen_88 + chosen_89
+ + chosen_9 + chosen_90 + chosen_91 + chosen_92 + chosen_93 + chosen_94
+ + chosen_95 + chosen_96 = 1
+_C56: chosen_0 + chosen_1 + 2 chosen_103 + 2 chosen_104 + 2 chosen_105
+ + 2 chosen_106 + 2 chosen_107 + 2 chosen_108 + 2 chosen_109 + 2 chosen_110
+ + 2 chosen_111 + chosen_112 + 2 chosen_113 + 2 chosen_114 + 2 chosen_115
+ + 2 chosen_116 + chosen_117 + 2 chosen_118 + 2 chosen_119 + 2 chosen_12
+ + 2 chosen_120 + 2 chosen_121 + 2 chosen_122 + 2 chosen_123 + 2 chosen_124
+ + chosen_125 + 2 chosen_126 + 2 chosen_127 + 2 chosen_128 + 2 chosen_129
+ + 2 chosen_13 + 2 chosen_130 + 2 chosen_131 + 2 chosen_132 + 2 chosen_133
+ + 2 chosen_134 + 2 chosen_135 + 2 chosen_136 + 2 chosen_137 + 2 chosen_138
+ + chosen_139 + 2 chosen_14 + chosen_140 + chosen_141 + chosen_142
+ + chosen_143 + 3 chosen_144 + 2 chosen_145 + chosen_146 + 2 chosen_147
+ + 2 chosen_148 + 2 chosen_149 + 2 chosen_15 + 2 chosen_150 + 2 chosen_151
+ + 3 chosen_152 + 3 chosen_153 + 3 chosen_154 + 2 chosen_155 + 2 chosen_156
+ + 2 chosen_157 + 2 chosen_158 + 2 chosen_159 + 2 chosen_16 + 2 chosen_160
+ + 2 chosen_17 + 2 chosen_18 + 2 chosen_19 + chosen_2 + 2 chosen_20
+ + 2 chosen_21 + chosen_22 + chosen_23 + 3 chosen_24 + 2 chosen_25
+ + 2 chosen_26 + 2 chosen_27 + 2 chosen_28 + 2 chosen_29 + chosen_3
+ + 2 chosen_30 + 2 chosen_31 + 2 chosen_32 + chosen_33 + chosen_34 + chosen_35
+ + chosen_36 + chosen_37 + chosen_38 + chosen_39 + chosen_4 + chosen_40
+ + chosen_41 + chosen_42 + 2 chosen_45 + 2 chosen_46 + 2 chosen_47
+ + 2 chosen_48 + 2 chosen_49 + chosen_5 + 2 chosen_50 + 2 chosen_51
+ + 2 chosen_52 + 2 chosen_53 + 2 chosen_54 + chosen_55 + chosen_56
+ + 2 chosen_57 + 2 chosen_58 + 2 chosen_59 + chosen_6 + 2 chosen_60
+ + 2 chosen_61 + chosen_62 + chosen_63 + chosen_64 + chosen_65 + chosen_66
  + chosen_67 + chosen_68 + chosen_69 + chosen_7 + chosen_70 + chosen_71
  + chosen_72 + chosen_73 + chosen_74 + chosen_75 + chosen_76 + chosen_77
  + chosen_78 + chosen_79 + chosen_8 + chosen_80 + chosen_81 + chosen_82
  + chosen_83 + chosen_84 + chosen_85 + chosen_86 + chosen_87 + chosen_88
  + chosen_89 + chosen_9 + chosen_90 + chosen_91 + chosen_92 + chosen_93
- + chosen_94 + chosen_95 + chosen_96 + chosen_97 + chosen_98 + chosen_99 <= 60
-_C1047: chosen_80 = 1
-_C1048: chosen_81 = 1
-_C1049: chosen_82 = 1
-_C105: chosen_104 = 1
-_C1050: chosen_83 = 1
-_C1051: chosen_84 = 1
-_C1052: chosen_85 = 1
-_C1053: chosen_86 = 1
-_C1054: chosen_87 = 1
-_C1055: chosen_88 = 1
-_C1056: chosen_89 = 1
-_C1057: chosen_90 = 1
-_C1058: chosen_91 = 1
-_C1059: chosen_92 = 1
-_C106: chosen_105 = 1
-_C1060: chosen_93 = 1
-_C1061: chosen_94 = 1
-_C1062: chosen_95 = 1
-_C1063: chosen_96 = 1
-_C1064: chosen_97 = 1
-_C1065: chosen_98 = 1
-_C1066: chosen_99 = 1
-_C1067: chosen_100 = 1
-_C1068: chosen_101 = 1
-_C1069: chosen_102 = 1
-_C107: chosen_106 = 1
-_C1070: chosen_103 = 1
-_C1071: chosen_104 = 1
-_C1072: chosen_105 = 1
-_C1073: chosen_106 = 1
-_C1074: chosen_107 = 1
-_C1075: chosen_108 = 1
-_C1076: chosen_109 = 1
-_C1077: chosen_110 = 1
-_C1078: chosen_111 = 1
-_C1079: chosen_112 = 1
-_C108: chosen_107 = 1
-_C1080: chosen_113 = 1
-_C1081: chosen_114 = 1
-_C1082: chosen_115 = 1
-_C1083: chosen_116 = 1
-_C1084: chosen_117 = 1
-_C1085: chosen_118 = 1
-_C1086: chosen_119 = 1
-_C1087: chosen_120 = 1
-_C1088: chosen_121 = 1
-_C1089: chosen_122 = 1
-_C109: chosen_108 = 1
-_C1090: chosen_123 = 1
-_C1091: chosen_124 = 1
-_C1092: chosen_125 = 1
-_C1093: chosen_126 = 1
-_C1094: chosen_127 = 1
-_C1095: chosen_128 = 1
-_C1096: chosen_129 = 1
-_C1097: chosen_130 = 1
-_C1098: chosen_131 = 1
-_C1099: chosen_132 = 1
-_C11: chosen_10 = 1
-_C110: chosen_109 = 1
-_C1100: chosen_133 = 1
-_C1101: chosen_134 = 1
-_C1102: chosen_135 = 1
-_C1103: chosen_136 = 1
-_C1104: chosen_137 = 1
-_C1105: chosen_138 = 1
-_C1106: chosen_139 = 1
-_C1107: chosen_140 = 1
-_C1108: chosen_141 = 1
-_C1109: chosen_142 = 1
-_C111: chosen_110 = 1
-_C1110: chosen_143 = 1
-_C1111: chosen_144 = 1
-_C1112: chosen_145 = 1
-_C1113: chosen_146 = 1
-_C1114: chosen_147 = 1
-_C1115: chosen_148 = 1
-_C1116: chosen_149 = 1
-_C1117: chosen_150 = 1
-_C1118: chosen_151 = 1
-_C1119: chosen_152 = 1
-_C112: chosen_111 = 1
-_C1120: chosen_153 = 1
-_C1121: chosen_154 = 1
-_C1122: chosen_155 = 1
-_C1123: chosen_156 = 1
-_C1124: chosen_157 = 1
-_C1125: chosen_158 = 1
-_C1126: chosen_159 = 1
-_C1127: chosen_160 = 1
-_C1128: chosen_0 = 1
-_C1129: chosen_1 = 1
-_C113: chosen_112 = 1
-_C1130: chosen_2 = 1
-_C1131: chosen_3 = 1
-_C1132: chosen_4 = 1
-_C1133: chosen_5 = 1
-_C1134: chosen_6 = 1
-_C1135: chosen_7 = 1
-_C1136: chosen_8 = 1
-_C1137: chosen_9 = 1
-_C1138: chosen_10 = 1
-_C1139: chosen_11 = 1
-_C114: chosen_113 = 1
-_C1140: chosen_12 = 1
-_C1141: chosen_13 = 1
-_C1142: chosen_14 = 1
-_C1143: chosen_15 = 1
-_C1144: chosen_16 = 1
-_C1145: chosen_17 = 1
-_C1146: chosen_18 = 1
-_C1147: chosen_19 = 1
-_C1148: chosen_20 = 1
-_C1149: chosen_21 = 1
-_C115: chosen_114 = 1
-_C1150: chosen_22 = 1
-_C1151: chosen_23 = 1
-_C1152: chosen_24 = 1
-_C1153: chosen_25 = 1
-_C1154: chosen_26 = 1
-_C1155: chosen_27 = 1
-_C1156: chosen_28 = 1
-_C1157: chosen_29 = 1
-_C1158: chosen_30 = 1
-_C1159: chosen_31 = 1
-_C116: chosen_115 = 1
-_C1160: chosen_32 = 1
-_C1161: chosen_33 = 1
-_C1162: chosen_34 = 1
-_C1163: chosen_35 = 1
-_C1164: chosen_36 = 1
-_C1165: chosen_37 = 1
-_C1166: chosen_38 = 1
-_C1167: chosen_39 = 1
-_C1168: chosen_40 = 1
-_C1169: chosen_41 = 1
-_C117: chosen_116 = 1
-_C1170: chosen_42 = 1
-_C1171: chosen_43 = 1
-_C1172: chosen_44 = 1
-_C1173: chosen_45 = 1
-_C1174: chosen_46 = 1
-_C1175: chosen_47 = 1
-_C1176: chosen_48 = 1
-_C1177: chosen_49 = 1
-_C1178: chosen_50 = 1
-_C1179: chosen_51 = 1
-_C118: chosen_117 = 1
-_C1180: chosen_52 = 1
-_C1181: chosen_53 = 1
-_C1182: chosen_54 = 1
-_C1183: chosen_55 = 1
-_C1184: chosen_56 = 1
-_C1185: chosen_57 = 1
-_C1186: chosen_58 = 1
-_C1187: chosen_59 = 1
-_C1188: chosen_60 = 1
-_C1189: chosen_61 = 1
-_C119: chosen_118 = 1
-_C1190: chosen_62 = 1
-_C1191: chosen_63 = 1
-_C1192: chosen_64 = 1
-_C1193: chosen_65 = 1
-_C1194: chosen_66 = 1
-_C1195: chosen_67 = 1
-_C1196: chosen_68 = 1
-_C1197: chosen_69 = 1
-_C1198: chosen_70 = 1
-_C1199: chosen_71 = 1
-_C12: chosen_11 = 1
-_C120: chosen_119 = 1
-_C1200: chosen_72 = 1
-_C1201: chosen_73 = 1
-_C1202: chosen_74 = 1
-_C1203: chosen_75 = 1
-_C1204: chosen_76 = 1
-_C1205: chosen_77 = 1
-_C1206: chosen_78 = 1
-_C1207: chosen_79 = 1
-_C1208: chosen_80 = 1
-_C1209: chosen_81 = 1
-_C121: chosen_120 = 1
-_C1210: chosen_82 = 1
-_C1211: chosen_83 = 1
-_C1212: chosen_84 = 1
-_C1213: chosen_85 = 1
-_C1214: chosen_86 = 1
-_C1215: chosen_87 = 1
-_C1216: chosen_88 = 1
-_C1217: chosen_89 = 1
-_C1218: chosen_90 = 1
-_C1219: chosen_91 = 1
-_C122: chosen_121 = 1
-_C1220: chosen_92 = 1
-_C1221: chosen_93 = 1
-_C1222: chosen_94 = 1
-_C1223: chosen_95 = 1
-_C1224: chosen_96 = 1
-_C1225: chosen_97 = 1
-_C1226: chosen_98 = 1
-_C1227: chosen_99 = 1
-_C1228: chosen_100 = 1
-_C1229: chosen_101 = 1
-_C123: chosen_122 = 1
-_C1230: chosen_102 = 1
-_C1231: chosen_103 = 1
-_C1232: chosen_104 = 1
-_C1233: chosen_105 = 1
-_C1234: chosen_106 = 1
-_C1235: chosen_107 = 1
-_C1236: chosen_108 = 1
-_C1237: chosen_109 = 1
-_C1238: chosen_110 = 1
-_C1239: chosen_111 = 1
-_C124: chosen_123 = 1
-_C1240: chosen_112 = 1
-_C1241: chosen_113 = 1
-_C1242: chosen_114 = 1
-_C1243: chosen_115 = 1
-_C1244: chosen_116 = 1
-_C1245: chosen_117 = 1
-_C1246: chosen_118 = 1
-_C1247: chosen_119 = 1
-_C1248: chosen_120 = 1
-_C1249: chosen_121 = 1
-_C125: chosen_124 = 1
-_C1250: chosen_122 = 1
-_C1251: chosen_123 = 1
-_C1252: chosen_124 = 1
-_C1253: chosen_125 = 1
-_C1254: chosen_126 = 1
-_C1255: chosen_127 = 1
-_C1256: chosen_128 = 1
-_C1257: chosen_129 = 1
-_C1258: chosen_130 = 1
-_C1259: chosen_131 = 1
-_C126: chosen_125 = 1
-_C1260: chosen_132 = 1
-_C1261: chosen_133 = 1
-_C1262: chosen_134 = 1
-_C1263: chosen_135 = 1
-_C1264: chosen_136 = 1
-_C1265: chosen_137 = 1
-_C1266: chosen_138 = 1
-_C1267: chosen_139 = 1
-_C1268: chosen_140 = 1
-_C1269: chosen_141 = 1
-_C127: chosen_126 = 1
-_C1270: chosen_142 = 1
-_C1271: chosen_143 = 1
-_C1272: chosen_144 = 1
-_C1273: chosen_145 = 1
-_C1274: chosen_146 = 1
-_C1275: chosen_147 = 1
-_C1276: chosen_148 = 1
-_C1277: chosen_149 = 1
-_C1278: chosen_150 = 1
-_C1279: chosen_151 = 1
-_C128: chosen_127 = 1
-_C1280: chosen_152 = 1
-_C1281: chosen_153 = 1
-_C1282: chosen_154 = 1
-_C1283: chosen_155 = 1
-_C1284: chosen_156 = 1
-_C1285: chosen_157 = 1
-_C1286: chosen_158 = 1
-_C1287: chosen_159 = 1
-_C1288: chosen_160 = 1
-_C1289: chosen_0 = 1
-_C129: chosen_128 = 1
-_C1290: chosen_1 = 1
-_C1291: chosen_2 = 1
-_C1292: chosen_3 = 1
-_C1293: chosen_4 = 1
-_C1294: chosen_5 = 1
-_C1295: chosen_6 = 1
-_C1296: chosen_7 = 1
-_C1297: chosen_8 = 1
-_C1298: chosen_9 = 1
-_C1299: chosen_10 = 1
-_C13: chosen_12 = 1
-_C130: chosen_129 = 1
-_C1300: chosen_11 = 1
-_C1301: chosen_12 = 1
-_C1302: chosen_13 = 1
-_C1303: chosen_14 = 1
-_C1304: chosen_15 = 1
-_C1305: chosen_16 = 1
-_C1306: chosen_17 = 1
-_C1307: chosen_18 = 1
-_C1308: chosen_19 = 1
-_C1309: chosen_20 = 1
-_C131: chosen_130 = 1
-_C1310: chosen_21 = 1
-_C1311: chosen_22 = 1
-_C1312: chosen_23 = 1
-_C1313: chosen_24 = 1
-_C1314: chosen_25 = 1
-_C1315: chosen_26 = 1
-_C1316: chosen_27 = 1
-_C1317: chosen_28 = 1
-_C1318: chosen_29 = 1
-_C1319: chosen_30 = 1
-_C132: chosen_131 = 1
-_C1320: chosen_31 = 1
-_C1321: chosen_32 = 1
-_C1322: chosen_33 = 1
-_C1323: chosen_34 = 1
-_C1324: chosen_35 = 1
-_C1325: chosen_36 = 1
-_C1326: chosen_37 = 1
-_C1327: chosen_38 = 1
-_C1328: chosen_39 = 1
-_C1329: chosen_40 = 1
-_C133: chosen_132 = 1
-_C1330: chosen_41 = 1
-_C1331: chosen_42 = 1
-_C1332: chosen_43 = 1
-_C1333: chosen_44 = 1
-_C1334: chosen_45 = 1
-_C1335: chosen_46 = 1
-_C1336: chosen_47 = 1
-_C1337: chosen_48 = 1
-_C1338: chosen_49 = 1
-_C1339: chosen_50 = 1
-_C134: chosen_133 = 1
-_C1340: chosen_51 = 1
-_C1341: chosen_52 = 1
-_C1342: chosen_53 = 1
-_C1343: chosen_54 = 1
-_C1344: chosen_55 = 1
-_C1345: chosen_56 = 1
-_C1346: chosen_57 = 1
-_C1347: chosen_58 = 1
-_C1348: chosen_59 = 1
-_C1349: chosen_60 = 1
-_C135: chosen_134 = 1
-_C1350: chosen_61 = 1
-_C1351: chosen_62 = 1
-_C1352: chosen_63 = 1
-_C1353: chosen_64 = 1
-_C1354: chosen_65 = 1
-_C1355: chosen_66 = 1
-_C1356: chosen_67 = 1
-_C1357: chosen_68 = 1
-_C1358: chosen_69 = 1
-_C1359: chosen_70 = 1
-_C136: chosen_135 = 1
-_C1360: chosen_71 = 1
-_C1361: chosen_72 = 1
-_C1362: chosen_73 = 1
-_C1363: chosen_74 = 1
-_C1364: chosen_75 = 1
-_C1365: chosen_76 = 1
-_C1366: chosen_77 = 1
-_C1367: chosen_78 = 1
-_C1368: chosen_79 = 1
-_C1369: chosen_80 = 1
-_C137: chosen_136 = 1
-_C1370: chosen_81 = 1
-_C1371: chosen_82 = 1
-_C1372: chosen_83 = 1
-_C1373: chosen_84 = 1
-_C1374: chosen_85 = 1
-_C1375: chosen_86 = 1
-_C1376: chosen_87 = 1
-_C1377: chosen_88 = 1
-_C1378: chosen_89 = 1
-_C1379: chosen_90 = 1
-_C138: chosen_137 = 1
-_C1380: chosen_91 = 1
-_C1381: chosen_92 = 1
-_C1382: chosen_93 = 1
-_C1383: chosen_94 = 1
-_C1384: chosen_95 = 1
-_C1385: chosen_96 = 1
-_C1386: chosen_97 = 1
-_C1387: chosen_98 = 1
-_C1388: chosen_99 = 1
-_C1389: chosen_100 = 1
-_C139: chosen_138 = 1
-_C1390: chosen_101 = 1
-_C1391: chosen_102 = 1
-_C1392: chosen_103 = 1
-_C1393: chosen_104 = 1
-_C1394: chosen_105 = 1
-_C1395: chosen_106 = 1
-_C1396: chosen_107 = 1
-_C1397: chosen_108 = 1
-_C1398: chosen_109 = 1
-_C1399: chosen_110 = 1
-_C14: chosen_13 = 1
-_C140: chosen_139 = 1
-_C1400: chosen_111 = 1
-_C1401: chosen_112 = 1
-_C1402: chosen_113 = 1
-_C1403: chosen_114 = 1
-_C1404: chosen_115 = 1
-_C1405: chosen_116 = 1
-_C1406: chosen_117 = 1
-_C1407: chosen_118 = 1
-_C1408: chosen_119 = 1
-_C1409: chosen_120 = 1
-_C141: chosen_140 = 1
-_C1410: chosen_121 = 1
-_C1411: chosen_122 = 1
-_C1412: chosen_123 = 1
-_C1413: chosen_124 = 1
-_C1414: chosen_125 = 1
-_C1415: chosen_126 = 1
-_C1416: chosen_127 = 1
-_C1417: chosen_128 = 1
-_C1418: chosen_129 = 1
-_C1419: chosen_130 = 1
-_C142: chosen_141 = 1
-_C1420: chosen_131 = 1
-_C1421: chosen_132 = 1
-_C1422: chosen_133 = 1
-_C1423: chosen_134 = 1
-_C1424: chosen_135 = 1
-_C1425: chosen_136 = 1
-_C1426: chosen_137 = 1
-_C1427: chosen_138 = 1
-_C1428: chosen_139 = 1
-_C1429: chosen_140 = 1
-_C143: chosen_142 = 1
-_C1430: chosen_141 = 1
-_C1431: chosen_142 = 1
-_C1432: chosen_143 = 1
-_C1433: chosen_144 = 1
-_C1434: chosen_145 = 1
-_C1435: chosen_146 = 1
-_C1436: chosen_147 = 1
-_C1437: chosen_148 = 1
-_C1438: chosen_149 = 1
-_C1439: chosen_150 = 1
-_C144: chosen_143 = 1
-_C1440: chosen_151 = 1
-_C1441: chosen_152 = 1
-_C1442: chosen_153 = 1
-_C1443: chosen_154 = 1
-_C1444: chosen_155 = 1
-_C1445: chosen_156 = 1
-_C1446: chosen_157 = 1
-_C1447: chosen_158 = 1
-_C1448: chosen_159 = 1
-_C1449: chosen_160 = 1
-_C145: chosen_144 = 1
-_C1450: chosen_0 = 1
-_C1451: chosen_1 = 1
-_C1452: chosen_2 = 1
-_C1453: chosen_3 = 1
-_C1454: chosen_4 = 1
-_C1455: chosen_5 = 1
-_C1456: chosen_6 = 1
-_C1457: chosen_7 = 1
-_C1458: chosen_8 = 1
-_C1459: chosen_9 = 1
-_C146: chosen_145 = 1
-_C1460: chosen_10 = 1
-_C1461: chosen_11 = 1
-_C1462: chosen_12 = 1
-_C1463: chosen_13 = 1
-_C1464: chosen_14 = 1
-_C1465: chosen_15 = 1
-_C1466: chosen_16 = 1
-_C1467: chosen_17 = 1
-_C1468: chosen_18 = 1
-_C1469: chosen_19 = 1
-_C147: chosen_146 = 1
-_C1470: chosen_20 = 1
-_C1471: chosen_21 = 1
-_C1472: chosen_22 = 1
-_C1473: chosen_23 = 1
-_C1474: chosen_24 = 1
-_C1475: chosen_25 = 1
-_C1476: chosen_26 = 1
-_C1477: chosen_27 = 1
-_C1478: chosen_28 = 1
-_C1479: chosen_29 = 1
-_C148: chosen_147 = 1
-_C1480: chosen_30 = 1
-_C1481: chosen_31 = 1
-_C1482: chosen_32 = 1
-_C1483: chosen_33 = 1
-_C1484: chosen_34 = 1
-_C1485: chosen_35 = 1
-_C1486: chosen_36 = 1
-_C1487: chosen_37 = 1
-_C1488: chosen_38 = 1
-_C1489: chosen_39 = 1
-_C149: chosen_148 = 1
-_C1490: chosen_40 = 1
-_C1491: chosen_41 = 1
-_C1492: chosen_42 = 1
-_C1493: chosen_43 = 1
-_C1494: chosen_44 = 1
-_C1495: chosen_45 = 1
-_C1496: chosen_46 = 1
-_C1497: chosen_47 = 1
-_C1498: chosen_48 = 1
-_C1499: chosen_49 = 1
-_C15: chosen_14 = 1
-_C150: chosen_149 = 1
-_C1500: chosen_50 = 1
-_C1501: chosen_51 = 1
-_C1502: chosen_52 = 1
-_C1503: chosen_53 = 1
-_C1504: chosen_54 = 1
-_C1505: chosen_55 = 1
-_C1506: chosen_56 = 1
-_C1507: chosen_57 = 1
-_C1508: chosen_58 = 1
-_C1509: chosen_59 = 1
-_C151: chosen_150 = 1
-_C1510: chosen_60 = 1
-_C1511: chosen_61 = 1
-_C1512: chosen_62 = 1
-_C1513: chosen_63 = 1
-_C1514: chosen_64 = 1
-_C1515: chosen_65 = 1
-_C1516: chosen_66 = 1
-_C1517: chosen_67 = 1
-_C1518: chosen_68 = 1
-_C1519: chosen_69 = 1
-_C152: chosen_151 = 1
-_C1520: chosen_70 = 1
-_C1521: chosen_71 = 1
-_C1522: chosen_72 = 1
-_C1523: chosen_73 = 1
-_C1524: chosen_74 = 1
-_C1525: chosen_75 = 1
-_C1526: chosen_76 = 1
-_C1527: chosen_77 = 1
-_C1528: chosen_78 = 1
-_C1529: chosen_79 = 1
-_C153: chosen_152 = 1
-_C1530: chosen_80 = 1
-_C1531: chosen_81 = 1
-_C1532: chosen_82 = 1
-_C1533: chosen_83 = 1
-_C1534: chosen_84 = 1
-_C1535: chosen_85 = 1
-_C1536: chosen_86 = 1
-_C1537: chosen_87 = 1
-_C1538: chosen_88 = 1
-_C1539: chosen_89 = 1
-_C154: chosen_153 = 1
-_C1540: chosen_90 = 1
-_C1541: chosen_91 = 1
-_C1542: chosen_92 = 1
-_C1543: chosen_93 = 1
-_C1544: chosen_94 = 1
-_C1545: chosen_95 = 1
-_C1546: chosen_96 = 1
-_C1547: chosen_97 = 1
-_C1548: chosen_98 = 1
-_C1549: chosen_99 = 1
-_C155: chosen_154 = 1
-_C1550: chosen_100 = 1
-_C1551: chosen_101 = 1
-_C1552: chosen_102 = 1
-_C1553: chosen_103 = 1
-_C1554: chosen_104 = 1
-_C1555: chosen_105 = 1
-_C1556: chosen_106 = 1
-_C1557: chosen_107 = 1
-_C1558: chosen_108 = 1
-_C1559: chosen_109 = 1
-_C156: chosen_155 = 1
-_C1560: chosen_110 = 1
-_C1561: chosen_111 = 1
-_C1562: chosen_112 = 1
-_C1563: chosen_113 = 1
-_C1564: chosen_114 = 1
-_C1565: chosen_115 = 1
-_C1566: chosen_116 = 1
-_C1567: chosen_117 = 1
-_C1568: chosen_118 = 1
-_C1569: chosen_119 = 1
-_C157: chosen_156 = 1
-_C1570: chosen_120 = 1
-_C1571: chosen_121 = 1
-_C1572: chosen_122 = 1
-_C1573: chosen_123 = 1
-_C1574: chosen_124 = 1
-_C1575: chosen_125 = 1
-_C1576: chosen_126 = 1
-_C1577: chosen_127 = 1
-_C1578: chosen_128 = 1
-_C1579: chosen_129 = 1
-_C158: chosen_157 = 1
-_C1580: chosen_130 = 1
-_C1581: chosen_131 = 1
-_C1582: chosen_132 = 1
-_C1583: chosen_133 = 1
-_C1584: chosen_134 = 1
-_C1585: chosen_135 = 1
-_C1586: chosen_136 = 1
-_C1587: chosen_137 = 1
-_C1588: chosen_138 = 1
-_C1589: chosen_139 = 1
-_C159: chosen_158 = 1
-_C1590: chosen_140 = 1
-_C1591: chosen_141 = 1
-_C1592: chosen_142 = 1
-_C1593: chosen_143 = 1
-_C1594: chosen_144 = 1
-_C1595: chosen_145 = 1
-_C1596: chosen_146 = 1
-_C1597: chosen_147 = 1
-_C1598: chosen_148 = 1
-_C1599: chosen_149 = 1
-_C16: chosen_15 = 1
-_C160: chosen_159 = 1
-_C1600: chosen_150 = 1
-_C1601: chosen_151 = 1
-_C1602: chosen_152 = 1
-_C1603: chosen_153 = 1
-_C1604: chosen_154 = 1
-_C1605: chosen_155 = 1
-_C1606: chosen_156 = 1
-_C1607: chosen_157 = 1
-_C1608: chosen_158 = 1
-_C1609: chosen_159 = 1
-_C161: chosen_160 = 1
-_C1610: chosen_160 = 1
-_C1611: chosen_0 = 1
-_C1612: chosen_1 = 1
-_C1613: chosen_2 = 1
-_C1614: chosen_3 = 1
-_C1615: chosen_4 = 1
-_C1616: chosen_5 = 1
-_C1617: chosen_6 = 1
-_C1618: chosen_7 = 1
-_C1619: chosen_8 = 1
-_C162: chosen_0 = 1
-_C1620: chosen_9 = 1
-_C1621: chosen_10 = 1
-_C1622: chosen_11 = 1
-_C1623: chosen_12 = 1
-_C1624: chosen_13 = 1
-_C1625: chosen_14 = 1
-_C1626: chosen_15 = 1
-_C1627: chosen_16 = 1
-_C1628: chosen_17 = 1
-_C1629: chosen_18 = 1
-_C163: chosen_1 = 1
-_C1630: chosen_19 = 1
-_C1631: chosen_20 = 1
-_C1632: chosen_21 = 1
-_C1633: chosen_22 = 1
-_C1634: chosen_23 = 1
-_C1635: chosen_24 = 1
-_C1636: chosen_25 = 1
-_C1637: chosen_26 = 1
-_C1638: chosen_27 = 1
-_C1639: chosen_28 = 1
-_C164: chosen_2 = 1
-_C1640: chosen_29 = 1
-_C1641: chosen_30 = 1
-_C1642: chosen_31 = 1
-_C1643: chosen_32 = 1
-_C1644: chosen_33 = 1
-_C1645: chosen_34 = 1
-_C1646: chosen_35 = 1
-_C1647: chosen_36 = 1
-_C1648: chosen_37 = 1
-_C1649: chosen_38 = 1
-_C165: chosen_3 = 1
-_C1650: chosen_39 = 1
-_C1651: chosen_40 = 1
-_C1652: chosen_41 = 1
-_C1653: chosen_42 = 1
-_C1654: chosen_43 = 1
-_C1655: chosen_44 = 1
-_C1656: chosen_45 = 1
-_C1657: chosen_46 = 1
-_C1658: chosen_47 = 1
-_C1659: chosen_48 = 1
-_C166: chosen_4 = 1
-_C1660: chosen_49 = 1
-_C1661: chosen_50 = 1
-_C1662: chosen_51 = 1
-_C1663: chosen_52 = 1
-_C1664: chosen_53 = 1
-_C1665: chosen_54 = 1
-_C1666: chosen_55 = 1
-_C1667: chosen_56 = 1
-_C1668: chosen_57 = 1
-_C1669: chosen_58 = 1
-_C167: chosen_5 = 1
-_C1670: chosen_59 = 1
-_C1671: chosen_60 = 1
-_C1672: chosen_61 = 1
-_C1673: chosen_62 = 1
-_C1674: chosen_63 = 1
-_C1675: chosen_64 = 1
-_C1676: chosen_65 = 1
-_C1677: chosen_66 = 1
-_C1678: chosen_67 = 1
-_C1679: chosen_68 = 1
-_C168: chosen_6 = 1
-_C1680: chosen_69 = 1
-_C1681: chosen_70 = 1
-_C1682: chosen_71 = 1
-_C1683: chosen_72 = 1
-_C1684: chosen_73 = 1
-_C1685: chosen_74 = 1
-_C1686: chosen_75 = 1
-_C1687: chosen_76 = 1
-_C1688: chosen_77 = 1
-_C1689: chosen_78 = 1
-_C169: chosen_7 = 1
-_C1690: chosen_79 = 1
-_C1691: chosen_80 = 1
-_C1692: chosen_81 = 1
-_C1693: chosen_82 = 1
-_C1694: chosen_83 = 1
-_C1695: chosen_84 = 1
-_C1696: chosen_85 = 1
-_C1697: chosen_86 = 1
-_C1698: chosen_87 = 1
-_C1699: chosen_88 = 1
-_C17: chosen_16 = 1
-_C170: chosen_8 = 1
-_C1700: chosen_89 = 1
-_C1701: chosen_90 = 1
-_C1702: chosen_91 = 1
-_C1703: chosen_92 = 1
-_C1704: chosen_93 = 1
-_C1705: chosen_94 = 1
-_C1706: chosen_95 = 1
-_C1707: chosen_96 = 1
-_C1708: chosen_97 = 1
-_C1709: chosen_98 = 1
-_C171: chosen_9 = 1
-_C1710: chosen_99 = 1
-_C1711: chosen_100 = 1
-_C1712: chosen_101 = 1
-_C1713: chosen_102 = 1
-_C1714: chosen_103 = 1
-_C1715: chosen_104 = 1
-_C1716: chosen_105 = 1
-_C1717: chosen_106 = 1
-_C1718: chosen_107 = 1
-_C1719: chosen_108 = 1
-_C172: chosen_10 = 1
-_C1720: chosen_109 = 1
-_C1721: chosen_110 = 1
-_C1722: chosen_111 = 1
-_C1723: chosen_112 = 1
-_C1724: chosen_113 = 1
-_C1725: chosen_114 = 1
-_C1726: chosen_115 = 1
-_C1727: chosen_116 = 1
-_C1728: chosen_117 = 1
-_C1729: chosen_118 = 1
-_C173: chosen_11 = 1
-_C1730: chosen_119 = 1
-_C1731: chosen_120 = 1
-_C1732: chosen_121 = 1
-_C1733: chosen_122 = 1
-_C1734: chosen_123 = 1
-_C1735: chosen_124 = 1
-_C1736: chosen_125 = 1
-_C1737: chosen_126 = 1
-_C1738: chosen_127 = 1
-_C1739: chosen_128 = 1
-_C174: chosen_12 = 1
-_C1740: chosen_129 = 1
-_C1741: chosen_130 = 1
-_C1742: chosen_131 = 1
-_C1743: chosen_132 = 1
-_C1744: chosen_133 = 1
-_C1745: chosen_134 = 1
-_C1746: chosen_135 = 1
-_C1747: chosen_136 = 1
-_C1748: chosen_137 = 1
-_C1749: chosen_138 = 1
-_C175: chosen_13 = 1
-_C1750: chosen_139 = 1
-_C1751: chosen_140 = 1
-_C1752: chosen_141 = 1
-_C1753: chosen_142 = 1
-_C1754: chosen_143 = 1
-_C1755: chosen_144 = 1
-_C1756: chosen_145 = 1
-_C1757: chosen_146 = 1
-_C1758: chosen_147 = 1
-_C1759: chosen_148 = 1
-_C176: chosen_14 = 1
-_C1760: chosen_149 = 1
-_C1761: chosen_150 = 1
-_C1762: chosen_151 = 1
-_C1763: chosen_152 = 1
-_C1764: chosen_153 = 1
-_C1765: chosen_154 = 1
-_C1766: chosen_155 = 1
-_C1767: chosen_156 = 1
-_C1768: chosen_157 = 1
-_C1769: chosen_158 = 1
-_C177: chosen_15 = 1
-_C1770: chosen_159 = 1
-_C1771: chosen_160 = 1
-_C1772: chosen_0 = 1
-_C1773: chosen_1 = 1
-_C1774: chosen_2 = 1
-_C1775: chosen_3 = 1
-_C1776: chosen_4 = 1
-_C1777: chosen_5 = 1
-_C1778: chosen_6 = 1
-_C1779: chosen_7 = 1
-_C178: chosen_16 = 1
-_C1780: chosen_8 = 1
-_C1781: chosen_9 = 1
-_C1782: chosen_10 = 1
-_C1783: chosen_11 = 1
-_C1784: chosen_12 = 1
-_C1785: chosen_13 = 1
-_C1786: chosen_14 = 1
-_C1787: chosen_15 = 1
-_C1788: chosen_16 = 1
-_C1789: chosen_17 = 1
-_C179: chosen_17 = 1
-_C1790: chosen_18 = 1
-_C1791: chosen_19 = 1
-_C1792: chosen_20 = 1
-_C1793: chosen_21 = 1
-_C1794: chosen_22 = 1
-_C1795: chosen_23 = 1
-_C1796: chosen_24 = 1
-_C1797: chosen_25 = 1
-_C1798: chosen_26 = 1
-_C1799: chosen_27 = 1
-_C18: chosen_17 = 1
-_C180: chosen_18 = 1
-_C1800: chosen_28 = 1
-_C1801: chosen_29 = 1
-_C1802: chosen_30 = 1
-_C1803: chosen_31 = 1
-_C1804: chosen_32 = 1
-_C1805: chosen_33 = 1
-_C1806: chosen_34 = 1
-_C1807: chosen_35 = 1
-_C1808: chosen_36 = 1
-_C1809: chosen_37 = 1
-_C181: chosen_19 = 1
-_C1810: chosen_38 = 1
-_C1811: chosen_39 = 1
-_C1812: chosen_40 = 1
-_C1813: chosen_41 = 1
-_C1814: chosen_42 = 1
-_C1815: chosen_43 = 1
-_C1816: chosen_44 = 1
-_C1817: chosen_45 = 1
-_C1818: chosen_46 = 1
-_C1819: chosen_47 = 1
-_C182: chosen_20 = 1
-_C1820: chosen_48 = 1
-_C1821: chosen_49 = 1
-_C1822: chosen_50 = 1
-_C1823: chosen_51 = 1
-_C1824: chosen_52 = 1
-_C1825: chosen_53 = 1
-_C1826: chosen_54 = 1
-_C1827: chosen_55 = 1
-_C1828: chosen_56 = 1
-_C1829: chosen_57 = 1
-_C183: chosen_21 = 1
-_C1830: chosen_58 = 1
-_C1831: chosen_59 = 1
-_C1832: chosen_60 = 1
-_C1833: chosen_61 = 1
-_C1834: chosen_62 = 1
-_C1835: chosen_63 = 1
-_C1836: chosen_64 = 1
-_C1837: chosen_65 = 1
-_C1838: chosen_66 = 1
-_C1839: chosen_67 = 1
-_C184: chosen_22 = 1
-_C1840: chosen_68 = 1
-_C1841: chosen_69 = 1
-_C1842: chosen_70 = 1
-_C1843: chosen_71 = 1
-_C1844: chosen_72 = 1
-_C1845: chosen_73 = 1
-_C1846: chosen_74 = 1
-_C1847: chosen_75 = 1
-_C1848: chosen_76 = 1
-_C1849: chosen_77 = 1
-_C185: chosen_23 = 1
-_C1850: chosen_78 = 1
-_C1851: chosen_79 = 1
-_C1852: chosen_80 = 1
-_C1853: chosen_81 = 1
-_C1854: chosen_82 = 1
-_C1855: chosen_83 = 1
-_C1856: chosen_84 = 1
-_C1857: chosen_85 = 1
-_C1858: chosen_86 = 1
-_C1859: chosen_87 = 1
-_C186: chosen_24 = 1
-_C1860: chosen_88 = 1
-_C1861: chosen_89 = 1
-_C1862: chosen_90 = 1
-_C1863: chosen_91 = 1
-_C1864: chosen_92 = 1
-_C1865: chosen_93 = 1
-_C1866: chosen_94 = 1
-_C1867: chosen_95 = 1
-_C1868: chosen_96 = 1
-_C1869: chosen_97 = 1
-_C187: chosen_25 = 1
-_C1870: chosen_98 = 1
-_C1871: chosen_99 = 1
-_C1872: chosen_100 = 1
-_C1873: chosen_101 = 1
-_C1874: chosen_102 = 1
-_C1875: chosen_103 = 1
-_C1876: chosen_104 = 1
-_C1877: chosen_105 = 1
-_C1878: chosen_106 = 1
-_C1879: chosen_107 = 1
-_C188: chosen_26 = 1
-_C1880: chosen_108 = 1
-_C1881: chosen_109 = 1
-_C1882: chosen_110 = 1
-_C1883: chosen_111 = 1
-_C1884: chosen_112 = 1
-_C1885: chosen_113 = 1
-_C1886: chosen_114 = 1
-_C1887: chosen_115 = 1
-_C1888: chosen_116 = 1
-_C1889: chosen_117 = 1
-_C189: chosen_27 = 1
-_C1890: chosen_118 = 1
-_C1891: chosen_119 = 1
-_C1892: chosen_120 = 1
-_C1893: chosen_121 = 1
-_C1894: chosen_122 = 1
-_C1895: chosen_123 = 1
-_C1896: chosen_124 = 1
-_C1897: chosen_125 = 1
-_C1898: chosen_126 = 1
-_C1899: chosen_127 = 1
-_C19: chosen_18 = 1
-_C190: chosen_28 = 1
-_C1900: chosen_128 = 1
-_C1901: chosen_129 = 1
-_C1902: chosen_130 = 1
-_C1903: chosen_131 = 1
-_C1904: chosen_132 = 1
-_C1905: chosen_133 = 1
-_C1906: chosen_134 = 1
-_C1907: chosen_135 = 1
-_C1908: chosen_136 = 1
-_C1909: chosen_137 = 1
-_C191: chosen_29 = 1
-_C1910: chosen_138 = 1
-_C1911: chosen_139 = 1
-_C1912: chosen_140 = 1
-_C1913: chosen_141 = 1
-_C1914: chosen_142 = 1
-_C1915: chosen_143 = 1
-_C1916: chosen_144 = 1
-_C1917: chosen_145 = 1
-_C1918: chosen_146 = 1
-_C1919: chosen_147 = 1
-_C192: chosen_30 = 1
-_C1920: chosen_148 = 1
-_C1921: chosen_149 = 1
-_C1922: chosen_150 = 1
-_C1923: chosen_151 = 1
-_C1924: chosen_152 = 1
-_C1925: chosen_153 = 1
-_C1926: chosen_154 = 1
-_C1927: chosen_155 = 1
-_C1928: chosen_156 = 1
-_C1929: chosen_157 = 1
-_C193: chosen_31 = 1
-_C1930: chosen_158 = 1
-_C1931: chosen_159 = 1
-_C1932: chosen_160 = 1
-_C1933: chosen_0 = 1
-_C1934: chosen_1 = 1
-_C1935: chosen_2 = 1
-_C1936: chosen_3 = 1
-_C1937: chosen_4 = 1
-_C1938: chosen_5 = 1
-_C1939: chosen_6 = 1
-_C194: chosen_32 = 1
-_C1940: chosen_7 = 1
-_C1941: chosen_8 = 1
-_C1942: chosen_9 = 1
-_C1943: chosen_10 = 1
-_C1944: chosen_11 = 1
-_C1945: chosen_12 = 1
-_C1946: chosen_13 = 1
-_C1947: chosen_14 = 1
-_C1948: chosen_15 = 1
-_C1949: chosen_16 = 1
-_C195: chosen_33 = 1
-_C1950: chosen_17 = 1
-_C1951: chosen_18 = 1
-_C1952: chosen_19 = 1
-_C1953: chosen_20 = 1
-_C1954: chosen_21 = 1
-_C1955: chosen_22 = 1
-_C1956: chosen_23 = 1
-_C1957: chosen_24 = 1
-_C1958: chosen_25 = 1
-_C1959: chosen_26 = 1
-_C196: chosen_34 = 1
-_C1960: chosen_27 = 1
-_C1961: chosen_28 = 1
-_C1962: chosen_29 = 1
-_C1963: chosen_30 = 1
-_C1964: chosen_31 = 1
-_C1965: chosen_32 = 1
-_C1966: chosen_33 = 1
-_C1967: chosen_34 = 1
-_C1968: chosen_35 = 1
-_C1969: chosen_36 = 1
-_C197: chosen_35 = 1
-_C1970: chosen_37 = 1
-_C1971: chosen_38 = 1
-_C1972: chosen_39 = 1
-_C1973: chosen_40 = 1
-_C1974: chosen_41 = 1
-_C1975: chosen_42 = 1
-_C1976: chosen_43 = 1
-_C1977: chosen_44 = 1
-_C1978: chosen_45 = 1
-_C1979: chosen_46 = 1
-_C198: chosen_36 = 1
-_C1980: chosen_47 = 1
-_C1981: chosen_48 = 1
-_C1982: chosen_49 = 1
-_C1983: chosen_50 = 1
-_C1984: chosen_51 = 1
-_C1985: chosen_52 = 1
-_C1986: chosen_53 = 1
-_C1987: chosen_54 = 1
-_C1988: chosen_55 = 1
-_C1989: chosen_56 = 1
-_C199: chosen_37 = 1
-_C1990: chosen_57 = 1
-_C1991: chosen_58 = 1
-_C1992: chosen_59 = 1
-_C1993: chosen_60 = 1
-_C1994: chosen_61 = 1
-_C1995: chosen_62 = 1
-_C1996: chosen_63 = 1
-_C1997: chosen_64 = 1
-_C1998: chosen_65 = 1
-_C1999: chosen_66 = 1
-_C2: chosen_1 = 1
-_C20: chosen_19 = 1
-_C200: chosen_38 = 1
-_C2000: chosen_67 = 1
-_C2001: chosen_68 = 1
-_C2002: chosen_69 = 1
-_C2003: chosen_70 = 1
-_C2004: chosen_71 = 1
-_C2005: chosen_72 = 1
-_C2006: chosen_73 = 1
-_C2007: chosen_74 = 1
-_C2008: chosen_75 = 1
-_C2009: chosen_76 = 1
-_C201: chosen_39 = 1
-_C2010: chosen_77 = 1
-_C2011: chosen_78 = 1
-_C2012: chosen_79 = 1
-_C2013: chosen_80 = 1
-_C2014: chosen_81 = 1
-_C2015: chosen_82 = 1
-_C2016: chosen_83 = 1
-_C2017: chosen_84 = 1
-_C2018: chosen_85 = 1
-_C2019: chosen_86 = 1
-_C202: chosen_40 = 1
-_C2020: chosen_87 = 1
-_C2021: chosen_88 = 1
-_C2022: chosen_89 = 1
-_C2023: chosen_90 = 1
-_C2024: chosen_91 = 1
-_C2025: chosen_92 = 1
-_C2026: chosen_93 = 1
-_C2027: chosen_94 = 1
-_C2028: chosen_95 = 1
-_C2029: chosen_96 = 1
-_C203: chosen_41 = 1
-_C2030: chosen_97 = 1
-_C2031: chosen_98 = 1
-_C2032: chosen_99 = 1
-_C2033: chosen_100 = 1
-_C2034: chosen_101 = 1
-_C2035: chosen_102 = 1
-_C2036: chosen_103 = 1
-_C2037: chosen_104 = 1
-_C2038: chosen_105 = 1
-_C2039: chosen_106 = 1
-_C204: chosen_42 = 1
-_C2040: chosen_107 = 1
-_C2041: chosen_108 = 1
-_C2042: chosen_109 = 1
-_C2043: chosen_110 = 1
-_C2044: chosen_111 = 1
-_C2045: chosen_112 = 1
-_C2046: chosen_113 = 1
-_C2047: chosen_114 = 1
-_C2048: chosen_115 = 1
-_C2049: chosen_116 = 1
-_C205: chosen_43 = 1
-_C2050: chosen_117 = 1
-_C2051: chosen_118 = 1
-_C2052: chosen_119 = 1
-_C2053: chosen_120 = 1
-_C2054: chosen_121 = 1
-_C2055: chosen_122 = 1
-_C2056: chosen_123 = 1
-_C2057: chosen_124 = 1
-_C2058: chosen_125 = 1
-_C2059: chosen_126 = 1
-_C206: chosen_44 = 1
-_C2060: chosen_127 = 1
-_C2061: chosen_128 = 1
-_C2062: chosen_129 = 1
-_C2063: chosen_130 = 1
-_C2064: chosen_131 = 1
-_C2065: chosen_132 = 1
-_C2066: chosen_133 = 1
-_C2067: chosen_134 = 1
-_C2068: chosen_135 = 1
-_C2069: chosen_136 = 1
-_C207: chosen_45 = 1
-_C2070: chosen_137 = 1
-_C2071: chosen_138 = 1
-_C2072: chosen_139 = 1
-_C2073: chosen_140 = 1
-_C2074: chosen_141 = 1
-_C2075: chosen_142 = 1
-_C2076: chosen_143 = 1
-_C2077: chosen_144 = 1
-_C2078: chosen_145 = 1
-_C2079: chosen_146 = 1
-_C208: chosen_46 = 1
-_C2080: chosen_147 = 1
-_C2081: chosen_148 = 1
-_C2082: chosen_149 = 1
-_C2083: chosen_150 = 1
-_C2084: chosen_151 = 1
-_C2085: chosen_152 = 1
-_C2086: chosen_153 = 1
-_C2087: chosen_154 = 1
-_C2088: chosen_155 = 1
-_C2089: chosen_156 = 1
-_C209: chosen_47 = 1
-_C2090: chosen_157 = 1
-_C2091: chosen_158 = 1
-_C2092: chosen_159 = 1
-_C2093: chosen_160 = 1
-_C2094: chosen_0 = 1
-_C2095: chosen_1 = 1
-_C2096: chosen_2 = 1
-_C2097: chosen_3 = 1
-_C2098: chosen_4 = 1
-_C2099: chosen_5 = 1
-_C21: chosen_20 = 1
-_C210: chosen_48 = 1
-_C2100: chosen_6 = 1
-_C2101: chosen_7 = 1
-_C2102: chosen_8 = 1
-_C2103: chosen_9 = 1
-_C2104: chosen_10 = 1
-_C2105: chosen_11 = 1
-_C2106: chosen_12 = 1
-_C2107: chosen_13 = 1
-_C2108: chosen_14 = 1
-_C2109: chosen_15 = 1
-_C211: chosen_49 = 1
-_C2110: chosen_16 = 1
-_C2111: chosen_17 = 1
-_C2112: chosen_18 = 1
-_C2113: chosen_19 = 1
-_C2114: chosen_20 = 1
-_C2115: chosen_21 = 1
-_C2116: chosen_22 = 1
-_C2117: chosen_23 = 1
-_C2118: chosen_24 = 1
-_C2119: chosen_25 = 1
-_C212: chosen_50 = 1
-_C2120: chosen_26 = 1
-_C2121: chosen_27 = 1
-_C2122: chosen_28 = 1
-_C2123: chosen_29 = 1
-_C2124: chosen_30 = 1
-_C2125: chosen_31 = 1
-_C2126: chosen_32 = 1
-_C2127: chosen_33 = 1
-_C2128: chosen_34 = 1
-_C2129: chosen_35 = 1
-_C213: chosen_51 = 1
-_C2130: chosen_36 = 1
-_C2131: chosen_37 = 1
-_C2132: chosen_38 = 1
-_C2133: chosen_39 = 1
-_C2134: chosen_40 = 1
-_C2135: chosen_41 = 1
-_C2136: chosen_42 = 1
-_C2137: chosen_43 = 1
-_C2138: chosen_44 = 1
-_C2139: chosen_45 = 1
-_C214: chosen_52 = 1
-_C2140: chosen_46 = 1
-_C2141: chosen_47 = 1
-_C2142: chosen_48 = 1
-_C2143: chosen_49 = 1
-_C2144: chosen_50 = 1
-_C2145: chosen_51 = 1
-_C2146: chosen_52 = 1
-_C2147: chosen_53 = 1
-_C2148: chosen_54 = 1
-_C2149: chosen_55 = 1
-_C215: chosen_53 = 1
-_C2150: chosen_56 = 1
-_C2151: chosen_57 = 1
-_C2152: chosen_58 = 1
-_C2153: chosen_59 = 1
-_C2154: chosen_60 = 1
-_C2155: chosen_61 = 1
-_C2156: chosen_62 = 1
-_C2157: chosen_63 = 1
-_C2158: chosen_64 = 1
-_C2159: chosen_65 = 1
-_C216: chosen_54 = 1
-_C2160: chosen_66 = 1
-_C2161: chosen_67 = 1
-_C2162: chosen_68 = 1
-_C2163: chosen_69 = 1
-_C2164: chosen_70 = 1
-_C2165: chosen_71 = 1
-_C2166: chosen_72 = 1
-_C2167: chosen_73 = 1
-_C2168: chosen_74 = 1
-_C2169: chosen_75 = 1
-_C217: chosen_55 = 1
-_C2170: chosen_76 = 1
-_C2171: chosen_77 = 1
-_C2172: chosen_78 = 1
-_C2173: chosen_79 = 1
-_C2174: chosen_80 = 1
-_C2175: chosen_81 = 1
-_C2176: chosen_82 = 1
-_C2177: chosen_83 = 1
-_C2178: chosen_84 = 1
-_C2179: chosen_85 = 1
-_C218: chosen_56 = 1
-_C2180: chosen_86 = 1
-_C2181: chosen_87 = 1
-_C2182: chosen_88 = 1
-_C2183: chosen_89 = 1
-_C2184: chosen_90 = 1
-_C2185: chosen_91 = 1
-_C2186: chosen_92 = 1
-_C2187: chosen_93 = 1
-_C2188: chosen_94 = 1
-_C2189: chosen_95 = 1
-_C219: chosen_57 = 1
-_C2190: chosen_96 = 1
-_C2191: chosen_97 = 1
-_C2192: chosen_98 = 1
-_C2193: chosen_99 = 1
-_C2194: chosen_100 = 1
-_C2195: chosen_101 = 1
-_C2196: chosen_102 = 1
-_C2197: chosen_103 = 1
-_C2198: chosen_104 = 1
-_C2199: chosen_105 = 1
-_C22: chosen_21 = 1
-_C220: chosen_58 = 1
-_C2200: chosen_106 = 1
-_C2201: chosen_107 = 1
-_C2202: chosen_108 = 1
-_C2203: chosen_109 = 1
-_C2204: chosen_110 = 1
-_C2205: chosen_111 = 1
-_C2206: chosen_112 = 1
-_C2207: chosen_113 = 1
-_C2208: chosen_114 = 1
-_C2209: chosen_115 = 1
-_C221: chosen_59 = 1
-_C2210: chosen_116 = 1
-_C2211: chosen_117 = 1
-_C2212: chosen_118 = 1
-_C2213: chosen_119 = 1
-_C2214: chosen_120 = 1
-_C2215: chosen_121 = 1
-_C2216: chosen_122 = 1
-_C2217: chosen_123 = 1
-_C2218: chosen_124 = 1
-_C2219: chosen_125 = 1
-_C222: chosen_60 = 1
-_C2220: chosen_126 = 1
-_C2221: chosen_127 = 1
-_C2222: chosen_128 = 1
-_C2223: chosen_129 = 1
-_C2224: chosen_130 = 1
-_C2225: chosen_131 = 1
-_C2226: chosen_132 = 1
-_C2227: chosen_133 = 1
-_C2228: chosen_134 = 1
-_C2229: chosen_135 = 1
-_C223: chosen_61 = 1
-_C2230: chosen_136 = 1
-_C2231: chosen_137 = 1
-_C2232: chosen_138 = 1
-_C2233: chosen_139 = 1
-_C2234: chosen_140 = 1
-_C2235: chosen_141 = 1
-_C2236: chosen_142 = 1
-_C2237: chosen_143 = 1
-_C2238: chosen_144 = 1
-_C2239: chosen_145 = 1
-_C224: chosen_62 = 1
-_C2240: chosen_146 = 1
-_C2241: chosen_147 = 1
-_C2242: chosen_148 = 1
-_C2243: chosen_149 = 1
-_C2244: chosen_150 = 1
-_C2245: chosen_151 = 1
-_C2246: chosen_152 = 1
-_C2247: chosen_153 = 1
-_C2248: chosen_154 = 1
-_C2249: chosen_155 = 1
-_C225: chosen_63 = 1
-_C2250: chosen_156 = 1
-_C2251: chosen_157 = 1
-_C2252: chosen_158 = 1
-_C2253: chosen_159 = 1
-_C2254: chosen_160 = 1
-_C2255: chosen_0 = 1
-_C2256: chosen_1 = 1
-_C2257: chosen_2 = 1
-_C2258: chosen_3 = 1
-_C2259: chosen_4 = 1
-_C226: chosen_64 = 1
-_C2260: chosen_5 = 1
-_C2261: chosen_6 = 1
-_C2262: chosen_7 = 1
-_C2263: chosen_8 = 1
-_C2264: chosen_9 = 1
-_C2265: chosen_10 = 1
-_C2266: chosen_11 = 1
-_C2267: chosen_12 = 1
-_C2268: chosen_13 = 1
-_C2269: chosen_14 = 1
-_C227: chosen_65 = 1
-_C2270: chosen_15 = 1
-_C2271: chosen_16 = 1
-_C2272: chosen_17 = 1
-_C2273: chosen_18 = 1
-_C2274: chosen_19 = 1
-_C2275: chosen_20 = 1
-_C2276: chosen_21 = 1
-_C2277: chosen_22 = 1
-_C2278: chosen_23 = 1
-_C2279: chosen_24 = 1
-_C228: chosen_66 = 1
-_C2280: chosen_25 = 1
-_C2281: chosen_26 = 1
-_C2282: chosen_27 = 1
-_C2283: chosen_28 = 1
-_C2284: chosen_29 = 1
-_C2285: chosen_30 = 1
-_C2286: chosen_31 = 1
-_C2287: chosen_32 = 1
-_C2288: chosen_33 = 1
-_C2289: chosen_34 = 1
-_C229: chosen_67 = 1
-_C2290: chosen_35 = 1
-_C2291: chosen_36 = 1
-_C2292: chosen_37 = 1
-_C2293: chosen_38 = 1
-_C2294: chosen_39 = 1
-_C2295: chosen_40 = 1
-_C2296: chosen_41 = 1
-_C2297: chosen_42 = 1
-_C2298: chosen_43 = 1
-_C2299: chosen_44 = 1
-_C23: chosen_22 = 1
-_C230: chosen_68 = 1
-_C2300: chosen_45 = 1
-_C2301: chosen_46 = 1
-_C2302: chosen_47 = 1
-_C2303: chosen_48 = 1
-_C2304: chosen_49 = 1
-_C2305: chosen_50 = 1
-_C2306: chosen_51 = 1
-_C2307: chosen_52 = 1
-_C2308: chosen_53 = 1
-_C2309: chosen_54 = 1
-_C231: chosen_69 = 1
-_C2310: chosen_55 = 1
-_C2311: chosen_56 = 1
-_C2312: chosen_57 = 1
-_C2313: chosen_58 = 1
-_C2314: chosen_59 = 1
-_C2315: chosen_60 = 1
-_C2316: chosen_61 = 1
-_C2317: chosen_62 = 1
-_C2318: chosen_63 = 1
-_C2319: chosen_64 = 1
-_C232: chosen_70 = 1
-_C2320: chosen_65 = 1
-_C2321: chosen_66 = 1
-_C2322: chosen_67 = 1
-_C2323: chosen_68 = 1
-_C2324: chosen_69 = 1
-_C2325: chosen_70 = 1
-_C2326: chosen_71 = 1
-_C2327: chosen_72 = 1
-_C2328: chosen_73 = 1
-_C2329: chosen_74 = 1
-_C233: chosen_71 = 1
-_C2330: chosen_75 = 1
-_C2331: chosen_76 = 1
-_C2332: chosen_77 = 1
-_C2333: chosen_78 = 1
-_C2334: chosen_79 = 1
-_C2335: chosen_80 = 1
-_C2336: chosen_81 = 1
-_C2337: chosen_82 = 1
-_C2338: chosen_83 = 1
-_C2339: chosen_84 = 1
-_C234: chosen_72 = 1
-_C2340: chosen_85 = 1
-_C2341: chosen_86 = 1
-_C2342: chosen_87 = 1
-_C2343: chosen_88 = 1
-_C2344: chosen_89 = 1
-_C2345: chosen_90 = 1
-_C2346: chosen_91 = 1
-_C2347: chosen_92 = 1
-_C2348: chosen_93 = 1
-_C2349: chosen_94 = 1
-_C235: chosen_73 = 1
-_C2350: chosen_95 = 1
-_C2351: chosen_96 = 1
-_C2352: chosen_97 = 1
-_C2353: chosen_98 = 1
-_C2354: chosen_99 = 1
-_C2355: chosen_100 = 1
-_C2356: chosen_101 = 1
-_C2357: chosen_102 = 1
-_C2358: chosen_103 = 1
-_C2359: chosen_104 = 1
-_C236: chosen_74 = 1
-_C2360: chosen_105 = 1
-_C2361: chosen_106 = 1
-_C2362: chosen_107 = 1
-_C2363: chosen_108 = 1
-_C2364: chosen_109 = 1
-_C2365: chosen_110 = 1
-_C2366: chosen_111 = 1
-_C2367: chosen_112 = 1
-_C2368: chosen_113 = 1
-_C2369: chosen_114 = 1
-_C237: chosen_75 = 1
-_C2370: chosen_115 = 1
-_C2371: chosen_116 = 1
-_C2372: chosen_117 = 1
-_C2373: chosen_118 = 1
-_C2374: chosen_119 = 1
-_C2375: chosen_120 = 1
-_C2376: chosen_121 = 1
-_C2377: chosen_122 = 1
-_C2378: chosen_123 = 1
-_C2379: chosen_124 = 1
-_C238: chosen_76 = 1
-_C2380: chosen_125 = 1
-_C2381: chosen_126 = 1
-_C2382: chosen_127 = 1
-_C2383: chosen_128 = 1
-_C2384: chosen_129 = 1
-_C2385: chosen_130 = 1
-_C2386: chosen_131 = 1
-_C2387: chosen_132 = 1
-_C2388: chosen_133 = 1
-_C2389: chosen_134 = 1
-_C239: chosen_77 = 1
-_C2390: chosen_135 = 1
-_C2391: chosen_136 = 1
-_C2392: chosen_137 = 1
-_C2393: chosen_138 = 1
-_C2394: chosen_139 = 1
-_C2395: chosen_140 = 1
-_C2396: chosen_141 = 1
-_C2397: chosen_142 = 1
-_C2398: chosen_143 = 1
-_C2399: chosen_144 = 1
-_C24: chosen_23 = 1
-_C240: chosen_78 = 1
-_C2400: chosen_145 = 1
-_C2401: chosen_146 = 1
-_C2402: chosen_147 = 1
-_C2403: chosen_148 = 1
-_C2404: chosen_149 = 1
-_C2405: chosen_150 = 1
-_C2406: chosen_151 = 1
-_C2407: chosen_152 = 1
-_C2408: chosen_153 = 1
-_C2409: chosen_154 = 1
-_C241: chosen_79 = 1
-_C2410: chosen_155 = 1
-_C2411: chosen_156 = 1
-_C2412: chosen_157 = 1
-_C2413: chosen_158 = 1
-_C2414: chosen_159 = 1
-_C2415: chosen_160 = 1
-_C2416: chosen_0 = 1
-_C2417: chosen_1 = 1
-_C2418: chosen_2 = 1
-_C2419: chosen_3 = 1
-_C242: chosen_80 = 1
-_C2420: chosen_4 = 1
-_C2421: chosen_5 = 1
-_C2422: chosen_6 = 1
-_C2423: chosen_7 = 1
-_C2424: chosen_8 = 1
-_C2425: chosen_9 = 1
-_C2426: chosen_10 = 1
-_C2427: chosen_11 = 1
-_C2428: chosen_12 = 1
-_C2429: chosen_13 = 1
-_C243: chosen_81 = 1
-_C2430: chosen_14 = 1
-_C2431: chosen_15 = 1
-_C2432: chosen_16 = 1
-_C2433: chosen_17 = 1
-_C2434: chosen_18 = 1
-_C2435: chosen_19 = 1
-_C2436: chosen_20 = 1
-_C2437: chosen_21 = 1
-_C2438: chosen_22 = 1
-_C2439: chosen_23 = 1
-_C244: chosen_82 = 1
-_C2440: chosen_24 = 1
-_C2441: chosen_25 = 1
-_C2442: chosen_26 = 1
-_C2443: chosen_27 = 1
-_C2444: chosen_28 = 1
-_C2445: chosen_29 = 1
-_C2446: chosen_30 = 1
-_C2447: chosen_31 = 1
-_C2448: chosen_32 = 1
-_C2449: chosen_33 = 1
-_C245: chosen_83 = 1
-_C2450: chosen_34 = 1
-_C2451: chosen_35 = 1
-_C2452: chosen_36 = 1
-_C2453: chosen_37 = 1
-_C2454: chosen_38 = 1
-_C2455: chosen_39 = 1
-_C2456: chosen_40 = 1
-_C2457: chosen_41 = 1
-_C2458: chosen_42 = 1
-_C2459: chosen_43 = 1
-_C246: chosen_84 = 1
-_C2460: chosen_44 = 1
-_C2461: chosen_45 = 1
-_C2462: chosen_46 = 1
-_C2463: chosen_47 = 1
-_C2464: chosen_48 = 1
-_C2465: chosen_49 = 1
-_C2466: chosen_50 = 1
-_C2467: chosen_51 = 1
-_C2468: chosen_52 = 1
-_C2469: chosen_53 = 1
-_C247: chosen_85 = 1
-_C2470: chosen_54 = 1
-_C2471: chosen_55 = 1
-_C2472: chosen_56 = 1
-_C2473: chosen_57 = 1
-_C2474: chosen_58 = 1
-_C2475: chosen_59 = 1
-_C2476: chosen_60 = 1
-_C2477: chosen_61 = 1
-_C2478: chosen_62 = 1
-_C2479: chosen_63 = 1
-_C248: chosen_86 = 1
-_C2480: chosen_64 = 1
-_C2481: chosen_65 = 1
-_C2482: chosen_66 = 1
-_C2483: chosen_67 = 1
-_C2484: chosen_68 = 1
-_C2485: chosen_69 = 1
-_C2486: chosen_70 = 1
-_C2487: chosen_71 = 1
-_C2488: chosen_72 = 1
-_C2489: chosen_73 = 1
-_C249: chosen_87 = 1
-_C2490: chosen_74 = 1
-_C2491: chosen_75 = 1
-_C2492: chosen_76 = 1
-_C2493: chosen_77 = 1
-_C2494: chosen_78 = 1
-_C2495: chosen_79 = 1
-_C2496: chosen_80 = 1
-_C2497: chosen_81 = 1
-_C2498: chosen_82 = 1
-_C2499: chosen_83 = 1
-_C25: chosen_24 = 1
-_C250: chosen_88 = 1
-_C2500: chosen_84 = 1
-_C2501: chosen_85 = 1
-_C2502: chosen_86 = 1
-_C2503: chosen_87 = 1
-_C2504: chosen_88 = 1
-_C2505: chosen_89 = 1
-_C2506: chosen_90 = 1
-_C2507: chosen_91 = 1
-_C2508: chosen_92 = 1
-_C2509: chosen_93 = 1
-_C251: chosen_89 = 1
-_C2510: chosen_94 = 1
-_C2511: chosen_95 = 1
-_C2512: chosen_96 = 1
-_C2513: chosen_97 = 1
-_C2514: chosen_98 = 1
-_C2515: chosen_99 = 1
-_C2516: chosen_100 = 1
-_C2517: chosen_101 = 1
-_C2518: chosen_102 = 1
-_C2519: chosen_103 = 1
-_C252: chosen_90 = 1
-_C2520: chosen_104 = 1
-_C2521: chosen_105 = 1
-_C2522: chosen_106 = 1
-_C2523: chosen_107 = 1
-_C2524: chosen_108 = 1
-_C2525: chosen_109 = 1
-_C2526: chosen_110 = 1
-_C2527: chosen_111 = 1
-_C2528: chosen_112 = 1
-_C2529: chosen_113 = 1
-_C253: chosen_91 = 1
-_C2530: chosen_114 = 1
-_C2531: chosen_115 = 1
-_C2532: chosen_116 = 1
-_C2533: chosen_117 = 1
-_C2534: chosen_118 = 1
-_C2535: chosen_119 = 1
-_C2536: chosen_120 = 1
-_C2537: chosen_121 = 1
-_C2538: chosen_122 = 1
-_C2539: chosen_123 = 1
-_C254: chosen_92 = 1
-_C2540: chosen_124 = 1
-_C2541: chosen_125 = 1
-_C2542: chosen_126 = 1
-_C2543: chosen_127 = 1
-_C2544: chosen_128 = 1
-_C2545: chosen_129 = 1
-_C2546: chosen_130 = 1
-_C2547: chosen_131 = 1
-_C2548: chosen_132 = 1
-_C2549: chosen_133 = 1
-_C255: chosen_93 = 1
-_C2550: chosen_134 = 1
-_C2551: chosen_135 = 1
-_C2552: chosen_136 = 1
-_C2553: chosen_137 = 1
-_C2554: chosen_138 = 1
-_C2555: chosen_139 = 1
-_C2556: chosen_140 = 1
-_C2557: chosen_141 = 1
-_C2558: chosen_142 = 1
-_C2559: chosen_143 = 1
-_C256: chosen_94 = 1
-_C2560: chosen_144 = 1
-_C2561: chosen_145 = 1
-_C2562: chosen_146 = 1
-_C2563: chosen_147 = 1
-_C2564: chosen_148 = 1
-_C2565: chosen_149 = 1
-_C2566: chosen_150 = 1
-_C2567: chosen_151 = 1
-_C2568: chosen_152 = 1
-_C2569: chosen_153 = 1
-_C257: chosen_95 = 1
-_C2570: chosen_154 = 1
-_C2571: chosen_155 = 1
-_C2572: chosen_156 = 1
-_C2573: chosen_157 = 1
-_C2574: chosen_158 = 1
-_C2575: chosen_159 = 1
-_C2576: chosen_160 = 1
-_C2577: chosen_0 = 1
-_C2578: chosen_1 = 1
-_C2579: chosen_2 = 1
-_C258: chosen_96 = 1
-_C2580: chosen_3 = 1
-_C2581: chosen_4 = 1
-_C2582: chosen_5 = 1
-_C2583: chosen_6 = 1
-_C2584: chosen_7 = 1
-_C2585: chosen_8 = 1
-_C2586: chosen_9 = 1
-_C2587: chosen_10 = 1
-_C2588: chosen_11 = 1
-_C2589: chosen_12 = 1
-_C259: chosen_97 = 1
-_C2590: chosen_13 = 1
-_C2591: chosen_14 = 1
-_C2592: chosen_15 = 1
-_C2593: chosen_16 = 1
-_C2594: chosen_17 = 1
-_C2595: chosen_18 = 1
-_C2596: chosen_19 = 1
-_C2597: chosen_20 = 1
-_C2598: chosen_21 = 1
-_C2599: chosen_22 = 1
-_C26: chosen_25 = 1
-_C260: chosen_98 = 1
-_C2600: chosen_23 = 1
-_C2601: chosen_24 = 1
-_C2602: chosen_25 = 1
-_C2603: chosen_26 = 1
-_C2604: chosen_27 = 1
-_C2605: chosen_28 = 1
-_C2606: chosen_29 = 1
-_C2607: chosen_30 = 1
-_C2608: chosen_31 = 1
-_C2609: chosen_32 = 1
-_C261: chosen_99 = 1
-_C2610: chosen_33 = 1
-_C2611: chosen_34 = 1
-_C2612: chosen_35 = 1
-_C2613: chosen_36 = 1
-_C2614: chosen_37 = 1
-_C2615: chosen_38 = 1
-_C2616: chosen_39 = 1
-_C2617: chosen_40 = 1
-_C2618: chosen_41 = 1
-_C2619: chosen_42 = 1
-_C262: chosen_100 = 1
-_C2620: chosen_43 = 1
-_C2621: chosen_44 = 1
-_C2622: chosen_45 = 1
-_C2623: chosen_46 = 1
-_C2624: chosen_47 = 1
-_C2625: chosen_48 = 1
-_C2626: chosen_49 = 1
-_C2627: chosen_50 = 1
-_C2628: chosen_51 = 1
-_C2629: chosen_52 = 1
-_C263: chosen_101 = 1
-_C2630: chosen_53 = 1
-_C2631: chosen_54 = 1
-_C2632: chosen_55 = 1
-_C2633: chosen_56 = 1
-_C2634: chosen_57 = 1
-_C2635: chosen_58 = 1
-_C2636: chosen_59 = 1
-_C2637: chosen_60 = 1
-_C2638: chosen_61 = 1
-_C2639: chosen_62 = 1
-_C264: chosen_102 = 1
-_C2640: chosen_63 = 1
-_C2641: chosen_64 = 1
-_C2642: chosen_65 = 1
-_C2643: chosen_66 = 1
-_C2644: chosen_67 = 1
-_C2645: chosen_68 = 1
-_C2646: chosen_69 = 1
-_C2647: chosen_70 = 1
-_C2648: chosen_71 = 1
-_C2649: chosen_72 = 1
-_C265: chosen_103 = 1
-_C2650: chosen_73 = 1
-_C2651: chosen_74 = 1
-_C2652: chosen_75 = 1
-_C2653: chosen_76 = 1
-_C2654: chosen_77 = 1
-_C2655: chosen_78 = 1
-_C2656: chosen_79 = 1
-_C2657: chosen_80 = 1
-_C2658: chosen_81 = 1
-_C2659: chosen_82 = 1
-_C266: chosen_104 = 1
-_C2660: chosen_83 = 1
-_C2661: chosen_84 = 1
-_C2662: chosen_85 = 1
-_C2663: chosen_86 = 1
-_C2664: chosen_87 = 1
-_C2665: chosen_88 = 1
-_C2666: chosen_89 = 1
-_C2667: chosen_90 = 1
-_C2668: chosen_91 = 1
-_C2669: chosen_92 = 1
-_C267: chosen_105 = 1
-_C2670: chosen_93 = 1
-_C2671: chosen_94 = 1
-_C2672: chosen_95 = 1
-_C2673: chosen_96 = 1
-_C2674: chosen_97 = 1
-_C2675: chosen_98 = 1
-_C2676: chosen_99 = 1
-_C2677: chosen_100 = 1
-_C2678: chosen_101 = 1
-_C2679: chosen_102 = 1
-_C268: chosen_106 = 1
-_C2680: chosen_103 = 1
-_C2681: chosen_104 = 1
-_C2682: chosen_105 = 1
-_C2683: chosen_106 = 1
-_C2684: chosen_107 = 1
-_C2685: chosen_108 = 1
-_C2686: chosen_109 = 1
-_C2687: chosen_110 = 1
-_C2688: chosen_111 = 1
-_C2689: chosen_112 = 1
-_C269: chosen_107 = 1
-_C2690: chosen_113 = 1
-_C2691: chosen_114 = 1
-_C2692: chosen_115 = 1
-_C2693: chosen_116 = 1
-_C2694: chosen_117 = 1
-_C2695: chosen_118 = 1
-_C2696: chosen_119 = 1
-_C2697: chosen_120 = 1
-_C2698: chosen_121 = 1
-_C2699: chosen_122 = 1
-_C27: chosen_26 = 1
-_C270: chosen_108 = 1
-_C2700: chosen_123 = 1
-_C2701: chosen_124 = 1
-_C2702: chosen_125 = 1
-_C2703: chosen_126 = 1
-_C2704: chosen_127 = 1
-_C2705: chosen_128 = 1
-_C2706: chosen_129 = 1
-_C2707: chosen_130 = 1
-_C2708: chosen_131 = 1
-_C2709: chosen_132 = 1
-_C271: chosen_109 = 1
-_C2710: chosen_133 = 1
-_C2711: chosen_134 = 1
-_C2712: chosen_135 = 1
-_C2713: chosen_136 = 1
-_C2714: chosen_137 = 1
-_C2715: chosen_138 = 1
-_C2716: chosen_139 = 1
-_C2717: chosen_140 = 1
-_C2718: chosen_141 = 1
-_C2719: chosen_142 = 1
-_C272: chosen_110 = 1
-_C2720: chosen_143 = 1
-_C2721: chosen_144 = 1
-_C2722: chosen_145 = 1
-_C2723: chosen_146 = 1
-_C2724: chosen_147 = 1
-_C2725: chosen_148 = 1
-_C2726: chosen_149 = 1
-_C2727: chosen_150 = 1
-_C2728: chosen_151 = 1
-_C2729: chosen_152 = 1
-_C273: chosen_111 = 1
-_C2730: chosen_153 = 1
-_C2731: chosen_154 = 1
-_C2732: chosen_155 = 1
-_C2733: chosen_156 = 1
-_C2734: chosen_157 = 1
-_C2735: chosen_158 = 1
-_C2736: chosen_159 = 1
-_C2737: chosen_160 = 1
-_C2738: chosen_0 = 1
-_C2739: chosen_1 = 1
-_C274: chosen_112 = 1
-_C2740: chosen_2 = 1
-_C2741: chosen_3 = 1
-_C2742: chosen_4 = 1
-_C2743: chosen_5 = 1
-_C2744: chosen_6 = 1
-_C2745: chosen_7 = 1
-_C2746: chosen_8 = 1
-_C2747: chosen_9 = 1
-_C2748: chosen_10 = 1
-_C2749: chosen_11 = 1
-_C275: chosen_113 = 1
-_C2750: chosen_12 = 1
-_C2751: chosen_13 = 1
-_C2752: chosen_14 = 1
-_C2753: chosen_15 = 1
-_C2754: chosen_16 = 1
-_C2755: chosen_17 = 1
-_C2756: chosen_18 = 1
-_C2757: chosen_19 = 1
-_C2758: chosen_20 = 1
-_C2759: chosen_21 = 1
-_C276: chosen_114 = 1
-_C2760: chosen_22 = 1
-_C2761: chosen_23 = 1
-_C2762: chosen_24 = 1
-_C2763: chosen_25 = 1
-_C2764: chosen_26 = 1
-_C2765: chosen_27 = 1
-_C2766: chosen_28 = 1
-_C2767: chosen_29 = 1
-_C2768: chosen_30 = 1
-_C2769: chosen_31 = 1
-_C277: chosen_115 = 1
-_C2770: chosen_32 = 1
-_C2771: chosen_33 = 1
-_C2772: chosen_34 = 1
-_C2773: chosen_35 = 1
-_C2774: chosen_36 = 1
-_C2775: chosen_37 = 1
-_C2776: chosen_38 = 1
-_C2777: chosen_39 = 1
-_C2778: chosen_40 = 1
-_C2779: chosen_41 = 1
-_C278: chosen_116 = 1
-_C2780: chosen_42 = 1
-_C2781: chosen_43 = 1
-_C2782: chosen_44 = 1
-_C2783: chosen_45 = 1
-_C2784: chosen_46 = 1
-_C2785: chosen_47 = 1
-_C2786: chosen_48 = 1
-_C2787: chosen_49 = 1
-_C2788: chosen_50 = 1
-_C2789: chosen_51 = 1
-_C279: chosen_117 = 1
-_C2790: chosen_52 = 1
-_C2791: chosen_53 = 1
-_C2792: chosen_54 = 1
-_C2793: chosen_55 = 1
-_C2794: chosen_56 = 1
-_C2795: chosen_57 = 1
-_C2796: chosen_58 = 1
-_C2797: chosen_59 = 1
-_C2798: chosen_60 = 1
-_C2799: chosen_61 = 1
-_C28: chosen_27 = 1
-_C280: chosen_118 = 1
-_C2800: chosen_62 = 1
-_C2801: chosen_63 = 1
-_C2802: chosen_64 = 1
-_C2803: chosen_65 = 1
-_C2804: chosen_66 = 1
-_C2805: chosen_67 = 1
-_C2806: chosen_68 = 1
-_C2807: chosen_69 = 1
-_C2808: chosen_70 = 1
-_C2809: chosen_71 = 1
-_C281: chosen_119 = 1
-_C2810: chosen_72 = 1
-_C2811: chosen_73 = 1
-_C2812: chosen_74 = 1
-_C2813: chosen_75 = 1
-_C2814: chosen_76 = 1
-_C2815: chosen_77 = 1
-_C2816: chosen_78 = 1
-_C2817: chosen_79 = 1
-_C2818: chosen_80 = 1
-_C2819: chosen_81 = 1
-_C282: chosen_120 = 1
-_C2820: chosen_82 = 1
-_C2821: chosen_83 = 1
-_C2822: chosen_84 = 1
-_C2823: chosen_85 = 1
-_C2824: chosen_86 = 1
-_C2825: chosen_87 = 1
-_C2826: chosen_88 = 1
-_C2827: chosen_89 = 1
-_C2828: chosen_90 = 1
-_C2829: chosen_91 = 1
-_C283: chosen_121 = 1
-_C2830: chosen_92 = 1
-_C2831: chosen_93 = 1
-_C2832: chosen_94 = 1
-_C2833: chosen_95 = 1
-_C2834: chosen_96 = 1
-_C2835: chosen_97 = 1
-_C2836: chosen_98 = 1
-_C2837: chosen_99 = 1
-_C2838: chosen_100 = 1
-_C2839: chosen_101 = 1
-_C284: chosen_122 = 1
-_C2840: chosen_102 = 1
-_C2841: chosen_103 = 1
-_C2842: chosen_104 = 1
-_C2843: chosen_105 = 1
-_C2844: chosen_106 = 1
-_C2845: chosen_107 = 1
-_C2846: chosen_108 = 1
-_C2847: chosen_109 = 1
-_C2848: chosen_110 = 1
-_C2849: chosen_111 = 1
-_C285: chosen_123 = 1
-_C2850: chosen_112 = 1
-_C2851: chosen_113 = 1
-_C2852: chosen_114 = 1
-_C2853: chosen_115 = 1
-_C2854: chosen_116 = 1
-_C2855: chosen_117 = 1
-_C2856: chosen_118 = 1
-_C2857: chosen_119 = 1
-_C2858: chosen_120 = 1
-_C2859: chosen_121 = 1
-_C286: chosen_124 = 1
-_C2860: chosen_122 = 1
-_C2861: chosen_123 = 1
-_C2862: chosen_124 = 1
-_C2863: chosen_125 = 1
-_C2864: chosen_126 = 1
-_C2865: chosen_127 = 1
-_C2866: chosen_128 = 1
-_C2867: chosen_129 = 1
-_C2868: chosen_130 = 1
-_C2869: chosen_131 = 1
-_C287: chosen_125 = 1
-_C2870: chosen_132 = 1
-_C2871: chosen_133 = 1
-_C2872: chosen_134 = 1
-_C2873: chosen_135 = 1
-_C2874: chosen_136 = 1
-_C2875: chosen_137 = 1
-_C2876: chosen_138 = 1
-_C2877: chosen_139 = 1
-_C2878: chosen_140 = 1
-_C2879: chosen_141 = 1
-_C288: chosen_126 = 1
-_C2880: chosen_142 = 1
-_C2881: chosen_143 = 1
-_C2882: chosen_144 = 1
-_C2883: chosen_145 = 1
-_C2884: chosen_146 = 1
-_C2885: chosen_147 = 1
-_C2886: chosen_148 = 1
-_C2887: chosen_149 = 1
-_C2888: chosen_150 = 1
-_C2889: chosen_151 = 1
-_C289: chosen_127 = 1
-_C2890: chosen_152 = 1
-_C2891: chosen_153 = 1
-_C2892: chosen_154 = 1
-_C2893: chosen_155 = 1
-_C2894: chosen_156 = 1
-_C2895: chosen_157 = 1
-_C2896: chosen_158 = 1
-_C2897: chosen_159 = 1
-_C2898: chosen_160 = 1
-_C2899: chosen_0 = 1
-_C29: chosen_28 = 1
-_C290: chosen_128 = 1
-_C2900: chosen_1 = 1
-_C2901: chosen_2 = 1
-_C2902: chosen_3 = 1
-_C2903: chosen_4 = 1
-_C2904: chosen_5 = 1
-_C2905: chosen_6 = 1
-_C2906: chosen_7 = 1
-_C2907: chosen_8 = 1
-_C2908: chosen_9 = 1
-_C2909: chosen_10 = 1
-_C291: chosen_129 = 1
-_C2910: chosen_11 = 1
-_C2911: chosen_12 = 1
-_C2912: chosen_13 = 1
-_C2913: chosen_14 = 1
-_C2914: chosen_15 = 1
-_C2915: chosen_16 = 1
-_C2916: chosen_17 = 1
-_C2917: chosen_18 = 1
-_C2918: chosen_19 = 1
-_C2919: chosen_20 = 1
-_C292: chosen_130 = 1
-_C2920: chosen_21 = 1
-_C2921: chosen_22 = 1
-_C2922: chosen_23 = 1
-_C2923: chosen_24 = 1
-_C2924: chosen_25 = 1
-_C2925: chosen_26 = 1
-_C2926: chosen_27 = 1
-_C2927: chosen_28 = 1
-_C2928: chosen_29 = 1
-_C2929: chosen_30 = 1
-_C293: chosen_131 = 1
-_C2930: chosen_31 = 1
-_C2931: chosen_32 = 1
-_C2932: chosen_33 = 1
-_C2933: chosen_34 = 1
-_C2934: chosen_35 = 1
-_C2935: chosen_36 = 1
-_C2936: chosen_37 = 1
-_C2937: chosen_38 = 1
-_C2938: chosen_39 = 1
-_C2939: chosen_40 = 1
-_C294: chosen_132 = 1
-_C2940: chosen_41 = 1
-_C2941: chosen_42 = 1
-_C2942: chosen_43 = 1
-_C2943: chosen_44 = 1
-_C2944: chosen_45 = 1
-_C2945: chosen_46 = 1
-_C2946: chosen_47 = 1
-_C2947: chosen_48 = 1
-_C2948: chosen_49 = 1
-_C2949: chosen_50 = 1
-_C295: chosen_133 = 1
-_C2950: chosen_51 = 1
-_C2951: chosen_52 = 1
-_C2952: chosen_53 = 1
-_C2953: chosen_54 = 1
-_C2954: chosen_55 = 1
-_C2955: chosen_56 = 1
-_C2956: chosen_57 = 1
-_C2957: chosen_58 = 1
-_C2958: chosen_59 = 1
-_C2959: chosen_60 = 1
-_C296: chosen_134 = 1
-_C2960: chosen_61 = 1
-_C2961: chosen_62 = 1
-_C2962: chosen_63 = 1
-_C2963: chosen_64 = 1
-_C2964: chosen_65 = 1
-_C2965: chosen_66 = 1
-_C2966: chosen_67 = 1
-_C2967: chosen_68 = 1
-_C2968: chosen_69 = 1
-_C2969: chosen_70 = 1
-_C297: chosen_135 = 1
-_C2970: chosen_71 = 1
-_C2971: chosen_72 = 1
-_C2972: chosen_73 = 1
-_C2973: chosen_74 = 1
-_C2974: chosen_75 = 1
-_C2975: chosen_76 = 1
-_C2976: chosen_77 = 1
-_C2977: chosen_78 = 1
-_C2978: chosen_79 = 1
-_C2979: chosen_80 = 1
-_C298: chosen_136 = 1
-_C2980: chosen_81 = 1
-_C2981: chosen_82 = 1
-_C2982: chosen_83 = 1
-_C2983: chosen_84 = 1
-_C2984: chosen_85 = 1
-_C2985: chosen_86 = 1
-_C2986: chosen_87 = 1
-_C2987: chosen_88 = 1
-_C2988: chosen_89 = 1
-_C2989: chosen_90 = 1
-_C299: chosen_137 = 1
-_C2990: chosen_91 = 1
-_C2991: chosen_92 = 1
-_C2992: chosen_93 = 1
-_C2993: chosen_94 = 1
-_C2994: chosen_95 = 1
-_C2995: chosen_96 = 1
-_C2996: chosen_97 = 1
-_C2997: chosen_98 = 1
-_C2998: chosen_99 = 1
-_C2999: chosen_100 = 1
-_C3: chosen_2 = 1
-_C30: chosen_29 = 1
-_C300: chosen_138 = 1
-_C3000: chosen_101 = 1
-_C3001: chosen_102 = 1
-_C3002: chosen_103 = 1
-_C3003: chosen_104 = 1
-_C3004: chosen_105 = 1
-_C3005: chosen_106 = 1
-_C3006: chosen_107 = 1
-_C3007: chosen_108 = 1
-_C3008: chosen_109 = 1
-_C3009: chosen_110 = 1
-_C301: chosen_139 = 1
-_C3010: chosen_111 = 1
-_C3011: chosen_112 = 1
-_C3012: chosen_113 = 1
-_C3013: chosen_114 = 1
-_C3014: chosen_115 = 1
-_C3015: chosen_116 = 1
-_C3016: chosen_117 = 1
-_C3017: chosen_118 = 1
-_C3018: chosen_119 = 1
-_C3019: chosen_120 = 1
-_C302: chosen_140 = 1
-_C3020: chosen_121 = 1
-_C3021: chosen_122 = 1
-_C3022: chosen_123 = 1
-_C3023: chosen_124 = 1
-_C3024: chosen_125 = 1
-_C3025: chosen_126 = 1
-_C3026: chosen_127 = 1
-_C3027: chosen_128 = 1
-_C3028: chosen_129 = 1
-_C3029: chosen_130 = 1
-_C303: chosen_141 = 1
-_C3030: chosen_131 = 1
-_C3031: chosen_132 = 1
-_C3032: chosen_133 = 1
-_C3033: chosen_134 = 1
-_C3034: chosen_135 = 1
-_C3035: chosen_136 = 1
-_C3036: chosen_137 = 1
-_C3037: chosen_138 = 1
-_C3038: chosen_139 = 1
-_C3039: chosen_140 = 1
-_C304: chosen_142 = 1
-_C3040: chosen_141 = 1
-_C3041: chosen_142 = 1
-_C3042: chosen_143 = 1
-_C3043: chosen_144 = 1
-_C3044: chosen_145 = 1
-_C3045: chosen_146 = 1
-_C3046: chosen_147 = 1
-_C3047: chosen_148 = 1
-_C3048: chosen_149 = 1
-_C3049: chosen_150 = 1
-_C305: chosen_143 = 1
-_C3050: chosen_151 = 1
-_C3051: chosen_152 = 1
-_C3052: chosen_153 = 1
-_C3053: chosen_154 = 1
-_C3054: chosen_155 = 1
-_C3055: chosen_156 = 1
-_C3056: chosen_157 = 1
-_C3057: chosen_158 = 1
-_C3058: chosen_159 = 1
-_C3059: chosen_160 = 1
-_C306: chosen_144 = 1
-_C3060: chosen_0 = 1
-_C3061: chosen_1 = 1
-_C3062: chosen_2 = 1
-_C3063: chosen_3 = 1
-_C3064: chosen_4 = 1
-_C3065: chosen_5 = 1
-_C3066: chosen_6 = 1
-_C3067: chosen_7 = 1
-_C3068: chosen_8 = 1
-_C3069: chosen_9 = 1
-_C307: chosen_145 = 1
-_C3070: chosen_10 = 1
-_C3071: chosen_11 = 1
-_C3072: chosen_12 = 1
-_C3073: chosen_13 = 1
-_C3074: chosen_14 = 1
-_C3075: chosen_15 = 1
-_C3076: chosen_16 = 1
-_C3077: chosen_17 = 1
-_C3078: chosen_18 = 1
-_C3079: chosen_19 = 1
-_C308: chosen_146 = 1
-_C3080: chosen_20 = 1
-_C3081: chosen_21 = 1
-_C3082: chosen_22 = 1
-_C3083: chosen_23 = 1
-_C3084: chosen_24 = 1
-_C3085: chosen_25 = 1
-_C3086: chosen_26 = 1
-_C3087: chosen_27 = 1
-_C3088: chosen_28 = 1
-_C3089: chosen_29 = 1
-_C309: chosen_147 = 1
-_C3090: chosen_30 = 1
-_C3091: chosen_31 = 1
-_C3092: chosen_32 = 1
-_C3093: chosen_33 = 1
-_C3094: chosen_34 = 1
-_C3095: chosen_35 = 1
-_C3096: chosen_36 = 1
-_C3097: chosen_37 = 1
-_C3098: chosen_38 = 1
-_C3099: chosen_39 = 1
-_C31: chosen_30 = 1
-_C310: chosen_148 = 1
-_C3100: chosen_40 = 1
-_C3101: chosen_41 = 1
-_C3102: chosen_42 = 1
-_C3103: chosen_43 = 1
-_C3104: chosen_44 = 1
-_C3105: chosen_45 = 1
-_C3106: chosen_46 = 1
-_C3107: chosen_47 = 1
-_C3108: chosen_48 = 1
-_C3109: chosen_49 = 1
-_C311: chosen_149 = 1
-_C3110: chosen_50 = 1
-_C3111: chosen_51 = 1
-_C3112: chosen_52 = 1
-_C3113: chosen_53 = 1
-_C3114: chosen_54 = 1
-_C3115: chosen_55 = 1
-_C3116: chosen_56 = 1
-_C3117: chosen_57 = 1
-_C3118: chosen_58 = 1
-_C3119: chosen_59 = 1
-_C312: chosen_150 = 1
-_C3120: chosen_60 = 1
-_C3121: chosen_61 = 1
-_C3122: chosen_62 = 1
-_C3123: chosen_63 = 1
-_C3124: chosen_64 = 1
-_C3125: chosen_65 = 1
-_C3126: chosen_66 = 1
-_C3127: chosen_67 = 1
-_C3128: chosen_68 = 1
-_C3129: chosen_69 = 1
-_C313: chosen_151 = 1
-_C3130: chosen_70 = 1
-_C3131: chosen_71 = 1
-_C3132: chosen_72 = 1
-_C3133: chosen_73 = 1
-_C3134: chosen_74 = 1
-_C3135: chosen_75 = 1
-_C3136: chosen_76 = 1
-_C3137: chosen_77 = 1
-_C3138: chosen_78 = 1
-_C3139: chosen_79 = 1
-_C314: chosen_152 = 1
-_C3140: chosen_80 = 1
-_C3141: chosen_81 = 1
-_C3142: chosen_82 = 1
-_C3143: chosen_83 = 1
-_C3144: chosen_84 = 1
-_C3145: chosen_85 = 1
-_C3146: chosen_86 = 1
-_C3147: chosen_87 = 1
-_C3148: chosen_88 = 1
-_C3149: chosen_89 = 1
-_C315: chosen_153 = 1
-_C3150: chosen_90 = 1
-_C3151: chosen_91 = 1
-_C3152: chosen_92 = 1
-_C3153: chosen_93 = 1
-_C3154: chosen_94 = 1
-_C3155: chosen_95 = 1
-_C3156: chosen_96 = 1
-_C3157: chosen_97 = 1
-_C3158: chosen_98 = 1
-_C3159: chosen_99 = 1
-_C316: chosen_154 = 1
-_C3160: chosen_100 = 1
-_C3161: chosen_101 = 1
-_C3162: chosen_102 = 1
-_C3163: chosen_103 = 1
-_C3164: chosen_104 = 1
-_C3165: chosen_105 = 1
-_C3166: chosen_106 = 1
-_C3167: chosen_107 = 1
-_C3168: chosen_108 = 1
-_C3169: chosen_109 = 1
-_C317: chosen_155 = 1
-_C3170: chosen_110 = 1
-_C3171: chosen_111 = 1
-_C3172: chosen_112 = 1
-_C3173: chosen_113 = 1
-_C3174: chosen_114 = 1
-_C3175: chosen_115 = 1
-_C3176: chosen_116 = 1
-_C3177: chosen_117 = 1
-_C3178: chosen_118 = 1
-_C3179: chosen_119 = 1
-_C318: chosen_156 = 1
-_C3180: chosen_120 = 1
-_C3181: chosen_121 = 1
-_C3182: chosen_122 = 1
-_C3183: chosen_123 = 1
-_C3184: chosen_124 = 1
-_C3185: chosen_125 = 1
-_C3186: chosen_126 = 1
-_C3187: chosen_127 = 1
-_C3188: chosen_128 = 1
-_C3189: chosen_129 = 1
-_C319: chosen_157 = 1
-_C3190: chosen_130 = 1
-_C3191: chosen_131 = 1
-_C3192: chosen_132 = 1
-_C3193: chosen_133 = 1
-_C3194: chosen_134 = 1
-_C3195: chosen_135 = 1
-_C3196: chosen_136 = 1
-_C3197: chosen_137 = 1
-_C3198: chosen_138 = 1
-_C3199: chosen_139 = 1
-_C32: chosen_31 = 1
-_C320: chosen_158 = 1
-_C3200: chosen_140 = 1
-_C3201: chosen_141 = 1
-_C3202: chosen_142 = 1
-_C3203: chosen_143 = 1
-_C3204: chosen_144 = 1
-_C3205: chosen_145 = 1
-_C3206: chosen_146 = 1
-_C3207: chosen_147 = 1
-_C3208: chosen_148 = 1
-_C3209: chosen_149 = 1
-_C321: chosen_159 = 1
-_C3210: chosen_150 = 1
-_C3211: chosen_151 = 1
-_C3212: chosen_152 = 1
-_C3213: chosen_153 = 1
-_C3214: chosen_154 = 1
-_C3215: chosen_155 = 1
-_C3216: chosen_156 = 1
-_C3217: chosen_157 = 1
-_C3218: chosen_158 = 1
-_C3219: chosen_159 = 1
-_C322: chosen_160 = 1
-_C3220: chosen_160 = 1
-_C3221: chosen_0 = 1
-_C3222: chosen_1 = 1
-_C3223: chosen_2 = 1
-_C3224: chosen_3 = 1
-_C3225: chosen_4 = 1
-_C3226: chosen_5 = 1
-_C3227: chosen_6 = 1
-_C3228: chosen_7 = 1
-_C3229: chosen_8 = 1
-_C323: chosen_0 = 1
-_C3230: chosen_9 = 1
-_C3231: chosen_10 = 1
-_C3232: chosen_11 = 1
-_C3233: chosen_12 = 1
-_C3234: chosen_13 = 1
-_C3235: chosen_14 = 1
-_C3236: chosen_15 = 1
-_C3237: chosen_16 = 1
-_C3238: chosen_17 = 1
-_C3239: chosen_18 = 1
-_C324: chosen_1 = 1
-_C3240: chosen_19 = 1
-_C3241: chosen_20 = 1
-_C3242: chosen_21 = 1
-_C3243: chosen_22 = 1
-_C3244: chosen_23 = 1
-_C3245: chosen_24 = 1
-_C3246: chosen_25 = 1
-_C3247: chosen_26 = 1
-_C3248: chosen_27 = 1
-_C3249: chosen_28 = 1
-_C325: chosen_2 = 1
-_C3250: chosen_29 = 1
-_C3251: chosen_30 = 1
-_C3252: chosen_31 = 1
-_C3253: chosen_32 = 1
-_C3254: chosen_33 = 1
-_C3255: chosen_34 = 1
-_C3256: chosen_35 = 1
-_C3257: chosen_36 = 1
-_C3258: chosen_37 = 1
-_C3259: chosen_38 = 1
-_C326: chosen_3 = 1
-_C3260: chosen_39 = 1
-_C3261: chosen_40 = 1
-_C3262: chosen_41 = 1
-_C3263: chosen_42 = 1
-_C3264: chosen_43 = 1
-_C3265: chosen_44 = 1
-_C3266: chosen_45 = 1
-_C3267: chosen_46 = 1
-_C3268: chosen_47 = 1
-_C3269: chosen_48 = 1
-_C327: chosen_4 = 1
-_C3270: chosen_49 = 1
-_C3271: chosen_50 = 1
-_C3272: chosen_51 = 1
-_C3273: chosen_52 = 1
-_C3274: chosen_53 = 1
-_C3275: chosen_54 = 1
-_C3276: chosen_55 = 1
-_C3277: chosen_56 = 1
-_C3278: chosen_57 = 1
-_C3279: chosen_58 = 1
-_C328: chosen_5 = 1
-_C3280: chosen_59 = 1
-_C3281: chosen_60 = 1
-_C3282: chosen_61 = 1
-_C3283: chosen_62 = 1
-_C3284: chosen_63 = 1
-_C3285: chosen_64 = 1
-_C3286: chosen_65 = 1
-_C3287: chosen_66 = 1
-_C3288: chosen_67 = 1
-_C3289: chosen_68 = 1
-_C329: chosen_6 = 1
-_C3290: chosen_69 = 1
-_C3291: chosen_70 = 1
-_C3292: chosen_71 = 1
-_C3293: chosen_72 = 1
-_C3294: chosen_73 = 1
-_C3295: chosen_74 = 1
-_C3296: chosen_75 = 1
-_C3297: chosen_76 = 1
-_C3298: chosen_77 = 1
-_C3299: chosen_78 = 1
-_C33: chosen_32 = 1
-_C330: chosen_7 = 1
-_C3300: chosen_79 = 1
-_C3301: chosen_80 = 1
-_C3302: chosen_81 = 1
-_C3303: chosen_82 = 1
-_C3304: chosen_83 = 1
-_C3305: chosen_84 = 1
-_C3306: chosen_85 = 1
-_C3307: chosen_86 = 1
-_C3308: chosen_87 = 1
-_C3309: chosen_88 = 1
-_C331: chosen_8 = 1
-_C3310: chosen_89 = 1
-_C3311: chosen_90 = 1
-_C3312: chosen_91 = 1
-_C3313: chosen_92 = 1
-_C3314: chosen_93 = 1
-_C3315: chosen_94 = 1
-_C3316: chosen_95 = 1
-_C3317: chosen_96 = 1
-_C3318: chosen_97 = 1
-_C3319: chosen_98 = 1
-_C332: chosen_9 = 1
-_C3320: chosen_99 = 1
-_C3321: chosen_100 = 1
-_C3322: chosen_101 = 1
-_C3323: chosen_102 = 1
-_C3324: chosen_103 = 1
-_C3325: chosen_104 = 1
-_C3326: chosen_105 = 1
-_C3327: chosen_106 = 1
-_C3328: chosen_107 = 1
-_C3329: chosen_108 = 1
-_C333: chosen_10 = 1
-_C3330: chosen_109 = 1
-_C3331: chosen_110 = 1
-_C3332: chosen_111 = 1
-_C3333: chosen_112 = 1
-_C3334: chosen_113 = 1
-_C3335: chosen_114 = 1
-_C3336: chosen_115 = 1
-_C3337: chosen_116 = 1
-_C3338: chosen_117 = 1
-_C3339: chosen_118 = 1
-_C334: chosen_11 = 1
-_C3340: chosen_119 = 1
-_C3341: chosen_120 = 1
-_C3342: chosen_121 = 1
-_C3343: chosen_122 = 1
-_C3344: chosen_123 = 1
-_C3345: chosen_124 = 1
-_C3346: chosen_125 = 1
-_C3347: chosen_126 = 1
-_C3348: chosen_127 = 1
-_C3349: chosen_128 = 1
-_C335: chosen_12 = 1
-_C3350: chosen_129 = 1
-_C3351: chosen_130 = 1
-_C3352: chosen_131 = 1
-_C3353: chosen_132 = 1
-_C3354: chosen_133 = 1
-_C3355: chosen_134 = 1
-_C3356: chosen_135 = 1
-_C3357: chosen_136 = 1
-_C3358: chosen_137 = 1
-_C3359: chosen_138 = 1
-_C336: chosen_13 = 1
-_C3360: chosen_139 = 1
-_C3361: chosen_140 = 1
-_C3362: chosen_141 = 1
-_C3363: chosen_142 = 1
-_C3364: chosen_143 = 1
-_C3365: chosen_144 = 1
-_C3366: chosen_145 = 1
-_C3367: chosen_146 = 1
-_C3368: chosen_147 = 1
-_C3369: chosen_148 = 1
-_C337: chosen_14 = 1
-_C3370: chosen_149 = 1
-_C3371: chosen_150 = 1
-_C3372: chosen_151 = 1
-_C3373: chosen_152 = 1
-_C3374: chosen_153 = 1
-_C3375: chosen_154 = 1
-_C3376: chosen_155 = 1
-_C3377: chosen_156 = 1
-_C3378: chosen_157 = 1
-_C3379: chosen_158 = 1
-_C338: chosen_15 = 1
-_C3380: chosen_159 = 1
-_C3381: chosen_160 = 1
-_C3382: chosen_0 = 1
-_C3383: chosen_1 = 1
-_C3384: chosen_2 = 1
-_C3385: chosen_3 = 1
-_C3386: chosen_4 = 1
-_C3387: chosen_5 = 1
-_C3388: chosen_6 = 1
-_C3389: chosen_7 = 1
-_C339: chosen_16 = 1
-_C3390: chosen_8 = 1
-_C3391: chosen_9 = 1
-_C3392: chosen_10 = 1
-_C3393: chosen_11 = 1
-_C3394: chosen_12 = 1
-_C3395: chosen_13 = 1
-_C3396: chosen_14 = 1
-_C3397: chosen_15 = 1
-_C3398: chosen_16 = 1
-_C3399: chosen_17 = 1
-_C34: chosen_33 = 1
-_C340: chosen_17 = 1
-_C3400: chosen_18 = 1
-_C3401: chosen_19 = 1
-_C3402: chosen_20 = 1
-_C3403: chosen_21 = 1
-_C3404: chosen_22 = 1
-_C3405: chosen_23 = 1
-_C3406: chosen_24 = 1
-_C3407: chosen_25 = 1
-_C3408: chosen_26 = 1
-_C3409: chosen_27 = 1
-_C341: chosen_18 = 1
-_C3410: chosen_28 = 1
-_C3411: chosen_29 = 1
-_C3412: chosen_30 = 1
-_C3413: chosen_31 = 1
-_C3414: chosen_32 = 1
-_C3415: chosen_33 = 1
-_C3416: chosen_34 = 1
-_C3417: chosen_35 = 1
-_C3418: chosen_36 = 1
-_C3419: chosen_37 = 1
-_C342: chosen_19 = 1
-_C3420: chosen_38 = 1
-_C3421: chosen_39 = 1
-_C3422: chosen_40 = 1
-_C3423: chosen_41 = 1
-_C3424: chosen_42 = 1
-_C3425: chosen_43 = 1
-_C3426: chosen_44 = 1
-_C3427: chosen_45 = 1
-_C3428: chosen_46 = 1
-_C3429: chosen_47 = 1
-_C343: chosen_20 = 1
-_C3430: chosen_48 = 1
-_C3431: chosen_49 = 1
-_C3432: chosen_50 = 1
-_C3433: chosen_51 = 1
-_C3434: chosen_52 = 1
-_C3435: chosen_53 = 1
-_C3436: chosen_54 = 1
-_C3437: chosen_55 = 1
-_C3438: chosen_56 = 1
-_C3439: chosen_57 = 1
-_C344: chosen_21 = 1
-_C3440: chosen_58 = 1
-_C3441: chosen_59 = 1
-_C3442: chosen_60 = 1
-_C3443: chosen_61 = 1
-_C3444: chosen_62 = 1
-_C3445: chosen_63 = 1
-_C3446: chosen_64 = 1
-_C3447: chosen_65 = 1
-_C3448: chosen_66 = 1
-_C3449: chosen_67 = 1
-_C345: chosen_22 = 1
-_C3450: chosen_68 = 1
-_C3451: chosen_69 = 1
-_C3452: chosen_70 = 1
-_C3453: chosen_71 = 1
-_C3454: chosen_72 = 1
-_C3455: chosen_73 = 1
-_C3456: chosen_74 = 1
-_C3457: chosen_75 = 1
-_C3458: chosen_76 = 1
-_C3459: chosen_77 = 1
-_C346: chosen_23 = 1
-_C3460: chosen_78 = 1
-_C3461: chosen_79 = 1
-_C3462: chosen_80 = 1
-_C3463: chosen_81 = 1
-_C3464: chosen_82 = 1
-_C3465: chosen_83 = 1
-_C3466: chosen_84 = 1
-_C3467: chosen_85 = 1
-_C3468: chosen_86 = 1
-_C3469: chosen_87 = 1
-_C347: chosen_24 = 1
-_C3470: chosen_88 = 1
-_C3471: chosen_89 = 1
-_C3472: chosen_90 = 1
-_C3473: chosen_91 = 1
-_C3474: chosen_92 = 1
-_C3475: chosen_93 = 1
-_C3476: chosen_94 = 1
-_C3477: chosen_95 = 1
-_C3478: chosen_96 = 1
-_C3479: chosen_97 = 1
-_C348: chosen_25 = 1
-_C3480: chosen_98 = 1
-_C3481: chosen_99 = 1
-_C3482: chosen_100 = 1
-_C3483: chosen_101 = 1
-_C3484: chosen_102 = 1
-_C3485: chosen_103 = 1
-_C3486: chosen_104 = 1
-_C3487: chosen_105 = 1
-_C3488: chosen_106 = 1
-_C3489: chosen_107 = 1
-_C349: chosen_26 = 1
-_C3490: chosen_108 = 1
-_C3491: chosen_109 = 1
-_C3492: chosen_110 = 1
-_C3493: chosen_111 = 1
-_C3494: chosen_112 = 1
-_C3495: chosen_113 = 1
-_C3496: chosen_114 = 1
-_C3497: chosen_115 = 1
-_C3498: chosen_116 = 1
-_C3499: chosen_117 = 1
-_C35: chosen_34 = 1
-_C350: chosen_27 = 1
-_C3500: chosen_118 = 1
-_C3501: chosen_119 = 1
-_C3502: chosen_120 = 1
-_C3503: chosen_121 = 1
-_C3504: chosen_122 = 1
-_C3505: chosen_123 = 1
-_C3506: chosen_124 = 1
-_C3507: chosen_125 = 1
-_C3508: chosen_126 = 1
-_C3509: chosen_127 = 1
-_C351: chosen_28 = 1
-_C3510: chosen_128 = 1
-_C3511: chosen_129 = 1
-_C3512: chosen_130 = 1
-_C3513: chosen_131 = 1
-_C3514: chosen_132 = 1
-_C3515: chosen_133 = 1
-_C3516: chosen_134 = 1
-_C3517: chosen_135 = 1
-_C3518: chosen_136 = 1
-_C3519: chosen_137 = 1
-_C352: chosen_29 = 1
-_C3520: chosen_138 = 1
-_C3521: chosen_139 = 1
-_C3522: chosen_140 = 1
-_C3523: chosen_141 = 1
-_C3524: chosen_142 = 1
-_C3525: chosen_143 = 1
-_C3526: chosen_144 = 1
-_C3527: chosen_145 = 1
-_C3528: chosen_146 = 1
-_C3529: chosen_147 = 1
-_C353: chosen_30 = 1
-_C3530: chosen_148 = 1
-_C3531: chosen_149 = 1
-_C3532: chosen_150 = 1
-_C3533: chosen_151 = 1
-_C3534: chosen_152 = 1
-_C3535: chosen_153 = 1
-_C3536: chosen_154 = 1
-_C3537: chosen_155 = 1
-_C3538: chosen_156 = 1
-_C3539: chosen_157 = 1
-_C354: chosen_31 = 1
-_C3540: chosen_158 = 1
-_C3541: chosen_159 = 1
-_C3542: chosen_160 = 1
-_C3543: chosen_0 = 1
-_C3544: chosen_1 = 1
-_C3545: chosen_2 = 1
-_C3546: chosen_3 = 1
-_C3547: chosen_4 = 1
-_C3548: chosen_5 = 1
-_C3549: chosen_6 = 1
-_C355: chosen_32 = 1
-_C3550: chosen_7 = 1
-_C3551: chosen_8 = 1
-_C3552: chosen_9 = 1
-_C3553: chosen_10 = 1
-_C3554: chosen_11 = 1
-_C3555: chosen_12 = 1
-_C3556: chosen_13 = 1
-_C3557: chosen_14 = 1
-_C3558: chosen_15 = 1
-_C3559: chosen_16 = 1
-_C356: chosen_33 = 1
-_C3560: chosen_17 = 1
-_C3561: chosen_18 = 1
-_C3562: chosen_19 = 1
-_C3563: chosen_20 = 1
-_C3564: chosen_21 = 1
-_C3565: chosen_22 = 1
-_C3566: chosen_23 = 1
-_C3567: chosen_24 = 1
-_C3568: chosen_25 = 1
-_C3569: chosen_26 = 1
-_C357: chosen_34 = 1
-_C3570: chosen_27 = 1
-_C3571: chosen_28 = 1
-_C3572: chosen_29 = 1
-_C3573: chosen_30 = 1
-_C3574: chosen_31 = 1
-_C3575: chosen_32 = 1
-_C3576: chosen_33 = 1
-_C3577: chosen_34 = 1
-_C3578: chosen_35 = 1
-_C3579: chosen_36 = 1
-_C358: chosen_35 = 1
-_C3580: chosen_37 = 1
-_C3581: chosen_38 = 1
-_C3582: chosen_39 = 1
-_C3583: chosen_40 = 1
-_C3584: chosen_41 = 1
-_C3585: chosen_42 = 1
-_C3586: chosen_43 = 1
-_C3587: chosen_44 = 1
-_C3588: chosen_45 = 1
-_C3589: chosen_46 = 1
-_C359: chosen_36 = 1
-_C3590: chosen_47 = 1
-_C3591: chosen_48 = 1
-_C3592: chosen_49 = 1
-_C3593: chosen_50 = 1
-_C3594: chosen_51 = 1
-_C3595: chosen_52 = 1
-_C3596: chosen_53 = 1
-_C3597: chosen_54 = 1
-_C3598: chosen_55 = 1
-_C3599: chosen_56 = 1
-_C36: chosen_35 = 1
-_C360: chosen_37 = 1
-_C3600: chosen_57 = 1
-_C3601: chosen_58 = 1
-_C3602: chosen_59 = 1
-_C3603: chosen_60 = 1
-_C3604: chosen_61 = 1
-_C3605: chosen_62 = 1
-_C3606: chosen_63 = 1
-_C3607: chosen_64 = 1
-_C3608: chosen_65 = 1
-_C3609: chosen_66 = 1
-_C361: chosen_38 = 1
-_C3610: chosen_67 = 1
-_C3611: chosen_68 = 1
-_C3612: chosen_69 = 1
-_C3613: chosen_70 = 1
-_C3614: chosen_71 = 1
-_C3615: chosen_72 = 1
-_C3616: chosen_73 = 1
-_C3617: chosen_74 = 1
-_C3618: chosen_75 = 1
-_C3619: chosen_76 = 1
-_C362: chosen_39 = 1
-_C3620: chosen_77 = 1
-_C3621: chosen_78 = 1
-_C3622: chosen_79 = 1
-_C3623: chosen_80 = 1
-_C3624: chosen_81 = 1
-_C3625: chosen_82 = 1
-_C3626: chosen_83 = 1
-_C3627: chosen_84 = 1
-_C3628: chosen_85 = 1
-_C3629: chosen_86 = 1
-_C363: chosen_40 = 1
-_C3630: chosen_87 = 1
-_C3631: chosen_88 = 1
-_C3632: chosen_89 = 1
-_C3633: chosen_90 = 1
-_C3634: chosen_91 = 1
-_C3635: chosen_92 = 1
-_C3636: chosen_93 = 1
-_C3637: chosen_94 = 1
-_C3638: chosen_95 = 1
-_C3639: chosen_96 = 1
-_C364: chosen_41 = 1
-_C3640: chosen_97 = 1
-_C3641: chosen_98 = 1
-_C3642: chosen_99 = 1
-_C3643: chosen_100 = 1
-_C3644: chosen_101 = 1
-_C3645: chosen_102 = 1
-_C3646: chosen_103 = 1
-_C3647: chosen_104 = 1
-_C3648: chosen_105 = 1
-_C3649: chosen_106 = 1
-_C365: chosen_42 = 1
-_C3650: chosen_107 = 1
-_C3651: chosen_108 = 1
-_C3652: chosen_109 = 1
-_C3653: chosen_110 = 1
-_C3654: chosen_111 = 1
-_C3655: chosen_112 = 1
-_C3656: chosen_113 = 1
-_C3657: chosen_114 = 1
-_C3658: chosen_115 = 1
-_C3659: chosen_116 = 1
-_C366: chosen_43 = 1
-_C3660: chosen_117 = 1
-_C3661: chosen_118 = 1
-_C3662: chosen_119 = 1
-_C3663: chosen_120 = 1
-_C3664: chosen_121 = 1
-_C3665: chosen_122 = 1
-_C3666: chosen_123 = 1
-_C3667: chosen_124 = 1
-_C3668: chosen_125 = 1
-_C3669: chosen_126 = 1
-_C367: chosen_44 = 1
-_C3670: chosen_127 = 1
-_C3671: chosen_128 = 1
-_C3672: chosen_129 = 1
-_C3673: chosen_130 = 1
-_C3674: chosen_131 = 1
-_C3675: chosen_132 = 1
-_C3676: chosen_133 = 1
-_C3677: chosen_134 = 1
-_C3678: chosen_135 = 1
-_C3679: chosen_136 = 1
-_C368: chosen_45 = 1
-_C3680: chosen_137 = 1
-_C3681: chosen_138 = 1
-_C3682: chosen_139 = 1
-_C3683: chosen_140 = 1
-_C3684: chosen_141 = 1
-_C3685: chosen_142 = 1
-_C3686: chosen_143 = 1
-_C3687: chosen_144 = 1
-_C3688: chosen_145 = 1
-_C3689: chosen_146 = 1
-_C369: chosen_46 = 1
-_C3690: chosen_147 = 1
-_C3691: chosen_148 = 1
-_C3692: chosen_149 = 1
-_C3693: chosen_150 = 1
-_C3694: chosen_151 = 1
-_C3695: chosen_152 = 1
-_C3696: chosen_153 = 1
-_C3697: chosen_154 = 1
-_C3698: chosen_155 = 1
-_C3699: chosen_156 = 1
-_C37: chosen_36 = 1
-_C370: chosen_47 = 1
-_C3700: chosen_157 = 1
-_C3701: chosen_158 = 1
-_C3702: chosen_159 = 1
-_C3703: chosen_160 = 1
-_C3704: chosen_0 = 1
-_C3705: chosen_1 = 1
-_C3706: chosen_2 = 1
-_C3707: chosen_3 = 1
-_C3708: chosen_4 = 1
-_C3709: chosen_5 = 1
-_C371: chosen_48 = 1
-_C3710: chosen_6 = 1
-_C3711: chosen_7 = 1
-_C3712: chosen_8 = 1
-_C3713: chosen_9 = 1
-_C3714: chosen_10 = 1
-_C3715: chosen_11 = 1
-_C3716: chosen_12 = 1
-_C3717: chosen_13 = 1
-_C3718: chosen_14 = 1
-_C3719: chosen_15 = 1
-_C372: chosen_49 = 1
-_C3720: chosen_16 = 1
-_C3721: chosen_17 = 1
-_C3722: chosen_18 = 1
-_C3723: chosen_19 = 1
-_C3724: chosen_20 = 1
-_C3725: chosen_21 = 1
-_C3726: chosen_22 = 1
-_C3727: chosen_23 = 1
-_C3728: chosen_24 = 1
-_C3729: chosen_25 = 1
-_C373: chosen_50 = 1
-_C3730: chosen_26 = 1
-_C3731: chosen_27 = 1
-_C3732: chosen_28 = 1
-_C3733: chosen_29 = 1
-_C3734: chosen_30 = 1
-_C3735: chosen_31 = 1
-_C3736: chosen_32 = 1
-_C3737: chosen_33 = 1
-_C3738: chosen_34 = 1
-_C3739: chosen_35 = 1
-_C374: chosen_51 = 1
-_C3740: chosen_36 = 1
-_C3741: chosen_37 = 1
-_C3742: chosen_38 = 1
-_C3743: chosen_39 = 1
-_C3744: chosen_40 = 1
-_C3745: chosen_41 = 1
-_C3746: chosen_42 = 1
-_C3747: chosen_43 = 1
-_C3748: chosen_44 = 1
-_C3749: chosen_45 = 1
-_C375: chosen_52 = 1
-_C3750: chosen_46 = 1
-_C3751: chosen_47 = 1
-_C3752: chosen_48 = 1
-_C3753: chosen_49 = 1
-_C3754: chosen_50 = 1
-_C3755: chosen_51 = 1
-_C3756: chosen_52 = 1
-_C3757: chosen_53 = 1
-_C3758: chosen_54 = 1
-_C3759: chosen_55 = 1
-_C376: chosen_53 = 1
-_C3760: chosen_56 = 1
-_C3761: chosen_57 = 1
-_C3762: chosen_58 = 1
-_C3763: chosen_59 = 1
-_C3764: chosen_60 = 1
-_C3765: chosen_61 = 1
-_C3766: chosen_62 = 1
-_C3767: chosen_63 = 1
-_C3768: chosen_64 = 1
-_C3769: chosen_65 = 1
-_C377: chosen_54 = 1
-_C3770: chosen_66 = 1
-_C3771: chosen_67 = 1
-_C3772: chosen_68 = 1
-_C3773: chosen_69 = 1
-_C3774: chosen_70 = 1
-_C3775: chosen_71 = 1
-_C3776: chosen_72 = 1
-_C3777: chosen_73 = 1
-_C3778: chosen_74 = 1
-_C3779: chosen_75 = 1
-_C378: chosen_55 = 1
-_C3780: chosen_76 = 1
-_C3781: chosen_77 = 1
-_C3782: chosen_78 = 1
-_C3783: chosen_79 = 1
-_C3784: chosen_80 = 1
-_C3785: chosen_81 = 1
-_C3786: chosen_82 = 1
-_C3787: chosen_83 = 1
-_C3788: chosen_84 = 1
-_C3789: chosen_85 = 1
-_C379: chosen_56 = 1
-_C3790: chosen_86 = 1
-_C3791: chosen_87 = 1
-_C3792: chosen_88 = 1
-_C3793: chosen_89 = 1
-_C3794: chosen_90 = 1
-_C3795: chosen_91 = 1
-_C3796: chosen_92 = 1
-_C3797: chosen_93 = 1
-_C3798: chosen_94 = 1
-_C3799: chosen_95 = 1
-_C38: chosen_37 = 1
-_C380: chosen_57 = 1
-_C3800: chosen_96 = 1
-_C3801: chosen_97 = 1
-_C3802: chosen_98 = 1
-_C3803: chosen_99 = 1
-_C3804: chosen_100 = 1
-_C3805: chosen_101 = 1
-_C3806: chosen_102 = 1
-_C3807: chosen_103 = 1
-_C3808: chosen_104 = 1
-_C3809: chosen_105 = 1
-_C381: chosen_58 = 1
-_C3810: chosen_106 = 1
-_C3811: chosen_107 = 1
-_C3812: chosen_108 = 1
-_C3813: chosen_109 = 1
-_C3814: chosen_110 = 1
-_C3815: chosen_111 = 1
-_C3816: chosen_112 = 1
-_C3817: chosen_113 = 1
-_C3818: chosen_114 = 1
-_C3819: chosen_115 = 1
-_C382: chosen_59 = 1
-_C3820: chosen_116 = 1
-_C3821: chosen_117 = 1
-_C3822: chosen_118 = 1
-_C3823: chosen_119 = 1
-_C3824: chosen_120 = 1
-_C3825: chosen_121 = 1
-_C3826: chosen_122 = 1
-_C3827: chosen_123 = 1
-_C3828: chosen_124 = 1
-_C3829: chosen_125 = 1
-_C383: chosen_60 = 1
-_C3830: chosen_126 = 1
-_C3831: chosen_127 = 1
-_C3832: chosen_128 = 1
-_C3833: chosen_129 = 1
-_C3834: chosen_130 = 1
-_C3835: chosen_131 = 1
-_C3836: chosen_132 = 1
-_C3837: chosen_133 = 1
-_C3838: chosen_134 = 1
-_C3839: chosen_135 = 1
-_C384: chosen_61 = 1
-_C3840: chosen_136 = 1
-_C3841: chosen_137 = 1
-_C3842: chosen_138 = 1
-_C3843: chosen_139 = 1
-_C3844: chosen_140 = 1
-_C3845: chosen_141 = 1
-_C3846: chosen_142 = 1
-_C3847: chosen_143 = 1
-_C3848: chosen_144 = 1
-_C3849: chosen_145 = 1
-_C385: chosen_62 = 1
-_C3850: chosen_146 = 1
-_C3851: chosen_147 = 1
-_C3852: chosen_148 = 1
-_C3853: chosen_149 = 1
-_C3854: chosen_150 = 1
-_C3855: chosen_151 = 1
-_C3856: chosen_152 = 1
-_C3857: chosen_153 = 1
-_C3858: chosen_154 = 1
-_C3859: chosen_155 = 1
-_C386: chosen_63 = 1
-_C3860: chosen_156 = 1
-_C3861: chosen_157 = 1
-_C3862: chosen_158 = 1
-_C3863: chosen_159 = 1
-_C3864: chosen_160 = 1
-_C3865: chosen_0 = 1
-_C3866: chosen_1 = 1
-_C3867: chosen_2 = 1
-_C3868: chosen_3 = 1
-_C3869: chosen_4 = 1
-_C387: chosen_64 = 1
-_C3870: chosen_5 = 1
-_C3871: chosen_6 = 1
-_C3872: chosen_7 = 1
-_C3873: chosen_8 = 1
-_C3874: chosen_9 = 1
-_C3875: chosen_10 = 1
-_C3876: chosen_11 = 1
-_C3877: chosen_12 = 1
-_C3878: chosen_13 = 1
-_C3879: chosen_14 = 1
-_C388: chosen_65 = 1
-_C3880: chosen_15 = 1
-_C3881: chosen_16 = 1
-_C3882: chosen_17 = 1
-_C3883: chosen_18 = 1
-_C3884: chosen_19 = 1
-_C3885: chosen_20 = 1
-_C3886: chosen_21 = 1
-_C3887: chosen_22 = 1
-_C3888: chosen_23 = 1
-_C3889: chosen_24 = 1
-_C389: chosen_66 = 1
-_C3890: chosen_25 = 1
-_C3891: chosen_26 = 1
-_C3892: chosen_27 = 1
-_C3893: chosen_28 = 1
-_C3894: chosen_29 = 1
-_C3895: chosen_30 = 1
-_C3896: chosen_31 = 1
-_C3897: chosen_32 = 1
-_C3898: chosen_33 = 1
-_C3899: chosen_34 = 1
-_C39: chosen_38 = 1
-_C390: chosen_67 = 1
-_C3900: chosen_35 = 1
-_C3901: chosen_36 = 1
-_C3902: chosen_37 = 1
-_C3903: chosen_38 = 1
-_C3904: chosen_39 = 1
-_C3905: chosen_40 = 1
-_C3906: chosen_41 = 1
-_C3907: chosen_42 = 1
-_C3908: chosen_43 = 1
-_C3909: chosen_44 = 1
-_C391: chosen_68 = 1
-_C3910: chosen_45 = 1
-_C3911: chosen_46 = 1
-_C3912: chosen_47 = 1
-_C3913: chosen_48 = 1
-_C3914: chosen_49 = 1
-_C3915: chosen_50 = 1
-_C3916: chosen_51 = 1
-_C3917: chosen_52 = 1
-_C3918: chosen_53 = 1
-_C3919: chosen_54 = 1
-_C392: chosen_69 = 1
-_C3920: chosen_55 = 1
-_C3921: chosen_56 = 1
-_C3922: chosen_57 = 1
-_C3923: chosen_58 = 1
-_C3924: chosen_59 = 1
-_C3925: chosen_60 = 1
-_C3926: chosen_61 = 1
-_C3927: chosen_62 = 1
-_C3928: chosen_63 = 1
-_C3929: chosen_64 = 1
-_C393: chosen_70 = 1
-_C3930: chosen_65 = 1
-_C3931: chosen_66 = 1
-_C3932: chosen_67 = 1
-_C3933: chosen_68 = 1
-_C3934: chosen_69 = 1
-_C3935: chosen_70 = 1
-_C3936: chosen_71 = 1
-_C3937: chosen_72 = 1
-_C3938: chosen_73 = 1
-_C3939: chosen_74 = 1
-_C394: chosen_71 = 1
-_C3940: chosen_75 = 1
-_C3941: chosen_76 = 1
-_C3942: chosen_77 = 1
-_C3943: chosen_78 = 1
-_C3944: chosen_79 = 1
-_C3945: chosen_80 = 1
-_C3946: chosen_81 = 1
-_C3947: chosen_82 = 1
-_C3948: chosen_83 = 1
-_C3949: chosen_84 = 1
-_C395: chosen_72 = 1
-_C3950: chosen_85 = 1
-_C3951: chosen_86 = 1
-_C3952: chosen_87 = 1
-_C3953: chosen_88 = 1
-_C3954: chosen_89 = 1
-_C3955: chosen_90 = 1
-_C3956: chosen_91 = 1
-_C3957: chosen_92 = 1
-_C3958: chosen_93 = 1
-_C3959: chosen_94 = 1
-_C396: chosen_73 = 1
-_C3960: chosen_95 = 1
-_C3961: chosen_96 = 1
-_C3962: chosen_97 = 1
-_C3963: chosen_98 = 1
-_C3964: chosen_99 = 1
-_C3965: chosen_100 = 1
-_C3966: chosen_101 = 1
-_C3967: chosen_102 = 1
-_C3968: chosen_103 = 1
-_C3969: chosen_104 = 1
-_C397: chosen_74 = 1
-_C3970: chosen_105 = 1
-_C3971: chosen_106 = 1
-_C3972: chosen_107 = 1
-_C3973: chosen_108 = 1
-_C3974: chosen_109 = 1
-_C3975: chosen_110 = 1
-_C3976: chosen_111 = 1
-_C3977: chosen_112 = 1
-_C3978: chosen_113 = 1
-_C3979: chosen_114 = 1
-_C398: chosen_75 = 1
-_C3980: chosen_115 = 1
-_C3981: chosen_116 = 1
-_C3982: chosen_117 = 1
-_C3983: chosen_118 = 1
-_C3984: chosen_119 = 1
-_C3985: chosen_120 = 1
-_C3986: chosen_121 = 1
-_C3987: chosen_122 = 1
-_C3988: chosen_123 = 1
-_C3989: chosen_124 = 1
-_C399: chosen_76 = 1
-_C3990: chosen_125 = 1
-_C3991: chosen_126 = 1
-_C3992: chosen_127 = 1
-_C3993: chosen_128 = 1
-_C3994: chosen_129 = 1
-_C3995: chosen_130 = 1
-_C3996: chosen_131 = 1
-_C3997: chosen_132 = 1
-_C3998: chosen_133 = 1
-_C3999: chosen_134 = 1
-_C4: chosen_3 = 1
-_C40: chosen_39 = 1
-_C400: chosen_77 = 1
-_C4000: chosen_135 = 1
-_C4001: chosen_136 = 1
-_C4002: chosen_137 = 1
-_C4003: chosen_138 = 1
-_C4004: chosen_139 = 1
-_C4005: chosen_140 = 1
-_C4006: chosen_141 = 1
-_C4007: chosen_142 = 1
-_C4008: chosen_143 = 1
-_C4009: chosen_144 = 1
-_C401: chosen_78 = 1
-_C4010: chosen_145 = 1
-_C4011: chosen_146 = 1
-_C4012: chosen_147 = 1
-_C4013: chosen_148 = 1
-_C4014: chosen_149 = 1
-_C4015: chosen_150 = 1
-_C4016: chosen_151 = 1
-_C4017: chosen_152 = 1
-_C4018: chosen_153 = 1
-_C4019: chosen_154 = 1
-_C402: chosen_79 = 1
-_C4020: chosen_155 = 1
-_C4021: chosen_156 = 1
-_C4022: chosen_157 = 1
-_C4023: chosen_158 = 1
-_C4024: chosen_159 = 1
-_C4025: chosen_160 = 1
-_C4026: chosen_0 = 1
-_C4027: chosen_1 = 1
-_C4028: chosen_2 = 1
-_C4029: chosen_3 = 1
-_C403: chosen_80 = 1
-_C4030: chosen_4 = 1
-_C4031: chosen_5 = 1
-_C4032: chosen_6 = 1
-_C4033: chosen_7 = 1
-_C4034: chosen_8 = 1
-_C4035: chosen_9 = 1
-_C4036: chosen_10 = 1
-_C4037: chosen_11 = 1
-_C4038: chosen_12 = 1
-_C4039: chosen_13 = 1
-_C404: chosen_81 = 1
-_C4040: chosen_14 = 1
-_C4041: chosen_15 = 1
-_C4042: chosen_16 = 1
-_C4043: chosen_17 = 1
-_C4044: chosen_18 = 1
-_C4045: chosen_19 = 1
-_C4046: chosen_20 = 1
-_C4047: chosen_21 = 1
-_C4048: chosen_22 = 1
-_C4049: chosen_23 = 1
-_C405: chosen_82 = 1
-_C4050: chosen_24 = 1
-_C4051: chosen_25 = 1
-_C4052: chosen_26 = 1
-_C4053: chosen_27 = 1
-_C4054: chosen_28 = 1
-_C4055: chosen_29 = 1
-_C4056: chosen_30 = 1
-_C4057: chosen_31 = 1
-_C4058: chosen_32 = 1
-_C4059: chosen_33 = 1
-_C406: chosen_83 = 1
-_C4060: chosen_34 = 1
-_C4061: chosen_35 = 1
-_C4062: chosen_36 = 1
-_C4063: chosen_37 = 1
-_C4064: chosen_38 = 1
-_C4065: chosen_39 = 1
-_C4066: chosen_40 = 1
-_C4067: chosen_41 = 1
-_C4068: chosen_42 = 1
-_C4069: chosen_43 = 1
-_C407: chosen_84 = 1
-_C4070: chosen_44 = 1
-_C4071: chosen_45 = 1
-_C4072: chosen_46 = 1
-_C4073: chosen_47 = 1
-_C4074: chosen_48 = 1
-_C4075: chosen_49 = 1
-_C4076: chosen_50 = 1
-_C4077: chosen_51 = 1
-_C4078: chosen_52 = 1
-_C4079: chosen_53 = 1
-_C408: chosen_85 = 1
-_C4080: chosen_54 = 1
-_C4081: chosen_55 = 1
-_C4082: chosen_56 = 1
-_C4083: chosen_57 = 1
-_C4084: chosen_58 = 1
-_C4085: chosen_59 = 1
-_C4086: chosen_60 = 1
-_C4087: chosen_61 = 1
-_C4088: chosen_62 = 1
-_C4089: chosen_63 = 1
-_C409: chosen_86 = 1
-_C4090: chosen_64 = 1
-_C4091: chosen_65 = 1
-_C4092: chosen_66 = 1
-_C4093: chosen_67 = 1
-_C4094: chosen_68 = 1
-_C4095: chosen_69 = 1
-_C4096: chosen_70 = 1
-_C4097: chosen_71 = 1
-_C4098: chosen_72 = 1
-_C4099: chosen_73 = 1
-_C41: chosen_40 = 1
-_C410: chosen_87 = 1
-_C4100: chosen_74 = 1
-_C4101: chosen_75 = 1
-_C4102: chosen_76 = 1
-_C4103: chosen_77 = 1
-_C4104: chosen_78 = 1
-_C4105: chosen_79 = 1
-_C4106: chosen_80 = 1
-_C4107: chosen_81 = 1
-_C4108: chosen_82 = 1
-_C4109: chosen_83 = 1
-_C411: chosen_88 = 1
-_C4110: chosen_84 = 1
-_C4111: chosen_85 = 1
-_C4112: chosen_86 = 1
-_C4113: chosen_87 = 1
-_C4114: chosen_88 = 1
-_C4115: chosen_89 = 1
-_C4116: chosen_90 = 1
-_C4117: chosen_91 = 1
-_C4118: chosen_92 = 1
-_C4119: chosen_93 = 1
-_C412: chosen_89 = 1
-_C4120: chosen_94 = 1
-_C4121: chosen_95 = 1
-_C4122: chosen_96 = 1
-_C4123: chosen_97 = 1
-_C4124: chosen_98 = 1
-_C4125: chosen_99 = 1
-_C4126: chosen_100 = 1
-_C4127: chosen_101 = 1
-_C4128: chosen_102 = 1
-_C4129: chosen_103 = 1
-_C413: chosen_90 = 1
-_C4130: chosen_104 = 1
-_C4131: chosen_105 = 1
-_C4132: chosen_106 = 1
-_C4133: chosen_107 = 1
-_C4134: chosen_108 = 1
-_C4135: chosen_109 = 1
-_C4136: chosen_110 = 1
-_C4137: chosen_111 = 1
-_C4138: chosen_112 = 1
-_C4139: chosen_113 = 1
-_C414: chosen_91 = 1
-_C4140: chosen_114 = 1
-_C4141: chosen_115 = 1
-_C4142: chosen_116 = 1
-_C4143: chosen_117 = 1
-_C4144: chosen_118 = 1
-_C4145: chosen_119 = 1
-_C4146: chosen_120 = 1
-_C4147: chosen_121 = 1
-_C4148: chosen_122 = 1
-_C4149: chosen_123 = 1
-_C415: chosen_92 = 1
-_C4150: chosen_124 = 1
-_C4151: chosen_125 = 1
-_C4152: chosen_126 = 1
-_C4153: chosen_127 = 1
-_C4154: chosen_128 = 1
-_C4155: chosen_129 = 1
-_C4156: chosen_130 = 1
-_C4157: chosen_131 = 1
-_C4158: chosen_132 = 1
-_C4159: chosen_133 = 1
-_C416: chosen_93 = 1
-_C4160: chosen_134 = 1
-_C4161: chosen_135 = 1
-_C4162: chosen_136 = 1
-_C4163: chosen_137 = 1
-_C4164: chosen_138 = 1
-_C4165: chosen_139 = 1
-_C4166: chosen_140 = 1
-_C4167: chosen_141 = 1
-_C4168: chosen_142 = 1
-_C4169: chosen_143 = 1
-_C417: chosen_94 = 1
-_C4170: chosen_144 = 1
-_C4171: chosen_145 = 1
-_C4172: chosen_146 = 1
-_C4173: chosen_147 = 1
-_C4174: chosen_148 = 1
-_C4175: chosen_149 = 1
-_C4176: chosen_150 = 1
-_C4177: chosen_151 = 1
-_C4178: chosen_152 = 1
-_C4179: chosen_153 = 1
-_C418: chosen_95 = 1
-_C4180: chosen_154 = 1
-_C4181: chosen_155 = 1
-_C4182: chosen_156 = 1
-_C4183: chosen_157 = 1
-_C4184: chosen_158 = 1
-_C4185: chosen_159 = 1
-_C4186: chosen_160 = 1
-_C4187: chosen_0 = 1
-_C4188: chosen_1 = 1
-_C4189: chosen_2 = 1
-_C419: chosen_96 = 1
-_C4190: chosen_3 = 1
-_C4191: chosen_4 = 1
-_C4192: chosen_5 = 1
-_C4193: chosen_6 = 1
-_C4194: chosen_7 = 1
-_C4195: chosen_8 = 1
-_C4196: chosen_9 = 1
-_C4197: chosen_10 = 1
-_C4198: chosen_11 = 1
-_C4199: chosen_12 = 1
-_C42: chosen_41 = 1
-_C420: chosen_97 = 1
-_C4200: chosen_13 = 1
-_C4201: chosen_14 = 1
-_C4202: chosen_15 = 1
-_C4203: chosen_16 = 1
-_C4204: chosen_17 = 1
-_C4205: chosen_18 = 1
-_C4206: chosen_19 = 1
-_C4207: chosen_20 = 1
-_C4208: chosen_21 = 1
-_C4209: chosen_22 = 1
-_C421: chosen_98 = 1
-_C4210: chosen_23 = 1
-_C4211: chosen_24 = 1
-_C4212: chosen_25 = 1
-_C4213: chosen_26 = 1
-_C4214: chosen_27 = 1
-_C4215: chosen_28 = 1
-_C4216: chosen_29 = 1
-_C4217: chosen_30 = 1
-_C4218: chosen_31 = 1
-_C4219: chosen_32 = 1
-_C422: chosen_99 = 1
-_C4220: chosen_33 = 1
-_C4221: chosen_34 = 1
-_C4222: chosen_35 = 1
-_C4223: chosen_36 = 1
-_C4224: chosen_37 = 1
-_C4225: chosen_38 = 1
-_C4226: chosen_39 = 1
-_C4227: chosen_40 = 1
-_C4228: chosen_41 = 1
-_C4229: chosen_42 = 1
-_C423: chosen_100 = 1
-_C4230: chosen_43 = 1
-_C4231: chosen_44 = 1
-_C4232: chosen_45 = 1
-_C4233: chosen_46 = 1
-_C4234: chosen_47 = 1
-_C4235: chosen_48 = 1
-_C4236: chosen_49 = 1
-_C4237: chosen_50 = 1
-_C4238: chosen_51 = 1
-_C4239: chosen_52 = 1
-_C424: chosen_101 = 1
-_C4240: chosen_53 = 1
-_C4241: chosen_54 = 1
-_C4242: chosen_55 = 1
-_C4243: chosen_56 = 1
-_C4244: chosen_57 = 1
-_C4245: chosen_58 = 1
-_C4246: chosen_59 = 1
-_C4247: chosen_60 = 1
-_C4248: chosen_61 = 1
-_C4249: chosen_62 = 1
-_C425: chosen_102 = 1
-_C4250: chosen_63 = 1
-_C4251: chosen_64 = 1
-_C4252: chosen_65 = 1
-_C4253: chosen_66 = 1
-_C4254: chosen_67 = 1
-_C4255: chosen_68 = 1
-_C4256: chosen_69 = 1
-_C4257: chosen_70 = 1
-_C4258: chosen_71 = 1
-_C4259: chosen_72 = 1
-_C426: chosen_103 = 1
-_C4260: chosen_73 = 1
-_C4261: chosen_74 = 1
-_C4262: chosen_75 = 1
-_C4263: chosen_76 = 1
-_C4264: chosen_77 = 1
-_C4265: chosen_78 = 1
-_C4266: chosen_79 = 1
-_C4267: chosen_80 = 1
-_C4268: chosen_81 = 1
-_C4269: chosen_82 = 1
-_C427: chosen_104 = 1
-_C4270: chosen_83 = 1
-_C4271: chosen_84 = 1
-_C4272: chosen_85 = 1
-_C4273: chosen_86 = 1
-_C4274: chosen_87 = 1
-_C4275: chosen_88 = 1
-_C4276: chosen_89 = 1
-_C4277: chosen_90 = 1
-_C4278: chosen_91 = 1
-_C4279: chosen_92 = 1
-_C428: chosen_105 = 1
-_C4280: chosen_93 = 1
-_C4281: chosen_94 = 1
-_C4282: chosen_95 = 1
-_C4283: chosen_96 = 1
-_C4284: chosen_97 = 1
-_C4285: chosen_98 = 1
-_C4286: chosen_99 = 1
-_C4287: chosen_100 = 1
-_C4288: chosen_101 = 1
-_C4289: chosen_102 = 1
-_C429: chosen_106 = 1
-_C4290: chosen_103 = 1
-_C4291: chosen_104 = 1
-_C4292: chosen_105 = 1
-_C4293: chosen_106 = 1
-_C4294: chosen_107 = 1
-_C4295: chosen_108 = 1
-_C4296: chosen_109 = 1
-_C4297: chosen_110 = 1
-_C4298: chosen_111 = 1
-_C4299: chosen_112 = 1
-_C43: chosen_42 = 1
-_C430: chosen_107 = 1
-_C4300: chosen_113 = 1
-_C4301: chosen_114 = 1
-_C4302: chosen_115 = 1
-_C4303: chosen_116 = 1
-_C4304: chosen_117 = 1
-_C4305: chosen_118 = 1
-_C4306: chosen_119 = 1
-_C4307: chosen_120 = 1
-_C4308: chosen_121 = 1
-_C4309: chosen_122 = 1
-_C431: chosen_108 = 1
-_C4310: chosen_123 = 1
-_C4311: chosen_124 = 1
-_C4312: chosen_125 = 1
-_C4313: chosen_126 = 1
-_C4314: chosen_127 = 1
-_C4315: chosen_128 = 1
-_C4316: chosen_129 = 1
-_C4317: chosen_130 = 1
-_C4318: chosen_131 = 1
-_C4319: chosen_132 = 1
-_C432: chosen_109 = 1
-_C4320: chosen_133 = 1
-_C4321: chosen_134 = 1
-_C4322: chosen_135 = 1
-_C4323: chosen_136 = 1
-_C4324: chosen_137 = 1
-_C4325: chosen_138 = 1
-_C4326: chosen_139 = 1
-_C4327: chosen_140 = 1
-_C4328: chosen_141 = 1
-_C4329: chosen_142 = 1
-_C433: chosen_110 = 1
-_C4330: chosen_143 = 1
-_C4331: chosen_144 = 1
-_C4332: chosen_145 = 1
-_C4333: chosen_146 = 1
-_C4334: chosen_147 = 1
-_C4335: chosen_148 = 1
-_C4336: chosen_149 = 1
-_C4337: chosen_150 = 1
-_C4338: chosen_151 = 1
-_C4339: chosen_152 = 1
-_C434: chosen_111 = 1
-_C4340: chosen_153 = 1
-_C4341: chosen_154 = 1
-_C4342: chosen_155 = 1
-_C4343: chosen_156 = 1
-_C4344: chosen_157 = 1
-_C4345: chosen_158 = 1
-_C4346: chosen_159 = 1
-_C4347: chosen_160 = 1
-_C4348: chosen_0 = 1
-_C4349: chosen_1 = 1
-_C435: chosen_112 = 1
-_C4350: chosen_2 = 1
-_C4351: chosen_3 = 1
-_C4352: chosen_4 = 1
-_C4353: chosen_5 = 1
-_C4354: chosen_6 = 1
-_C4355: chosen_7 = 1
-_C4356: chosen_8 = 1
-_C4357: chosen_9 = 1
-_C4358: chosen_10 = 1
-_C4359: chosen_11 = 1
-_C436: chosen_113 = 1
-_C4360: chosen_12 = 1
-_C4361: chosen_13 = 1
-_C4362: chosen_14 = 1
-_C4363: chosen_15 = 1
-_C4364: chosen_16 = 1
-_C4365: chosen_17 = 1
-_C4366: chosen_18 = 1
-_C4367: chosen_19 = 1
-_C4368: chosen_20 = 1
-_C4369: chosen_21 = 1
-_C437: chosen_114 = 1
-_C4370: chosen_22 = 1
-_C4371: chosen_23 = 1
-_C4372: chosen_24 = 1
-_C4373: chosen_25 = 1
-_C4374: chosen_26 = 1
-_C4375: chosen_27 = 1
-_C4376: chosen_28 = 1
-_C4377: chosen_29 = 1
-_C4378: chosen_30 = 1
-_C4379: chosen_31 = 1
-_C438: chosen_115 = 1
-_C4380: chosen_32 = 1
-_C4381: chosen_33 = 1
-_C4382: chosen_34 = 1
-_C4383: chosen_35 = 1
-_C4384: chosen_36 = 1
-_C4385: chosen_37 = 1
-_C4386: chosen_38 = 1
-_C4387: chosen_39 = 1
-_C4388: chosen_40 = 1
-_C4389: chosen_41 = 1
-_C439: chosen_116 = 1
-_C4390: chosen_42 = 1
-_C4391: chosen_43 = 1
-_C4392: chosen_44 = 1
-_C4393: chosen_45 = 1
-_C4394: chosen_46 = 1
-_C4395: chosen_47 = 1
-_C4396: chosen_48 = 1
-_C4397: chosen_49 = 1
-_C4398: chosen_50 = 1
-_C4399: chosen_51 = 1
-_C44: chosen_43 = 1
-_C440: chosen_117 = 1
-_C4400: chosen_52 = 1
-_C4401: chosen_53 = 1
-_C4402: chosen_54 = 1
-_C4403: chosen_55 = 1
-_C4404: chosen_56 = 1
-_C4405: chosen_57 = 1
-_C4406: chosen_58 = 1
-_C4407: chosen_59 = 1
-_C4408: chosen_60 = 1
-_C4409: chosen_61 = 1
-_C441: chosen_118 = 1
-_C4410: chosen_62 = 1
-_C4411: chosen_63 = 1
-_C4412: chosen_64 = 1
-_C4413: chosen_65 = 1
-_C4414: chosen_66 = 1
-_C4415: chosen_67 = 1
-_C4416: chosen_68 = 1
-_C4417: chosen_69 = 1
-_C4418: chosen_70 = 1
-_C4419: chosen_71 = 1
-_C442: chosen_119 = 1
-_C4420: chosen_72 = 1
-_C4421: chosen_73 = 1
-_C4422: chosen_74 = 1
-_C4423: chosen_75 = 1
-_C4424: chosen_76 = 1
-_C4425: chosen_77 = 1
-_C4426: chosen_78 = 1
-_C4427: chosen_79 = 1
-_C4428: chosen_80 = 1
-_C4429: chosen_81 = 1
-_C443: chosen_120 = 1
-_C4430: chosen_82 = 1
-_C4431: chosen_83 = 1
-_C4432: chosen_84 = 1
-_C4433: chosen_85 = 1
-_C4434: chosen_86 = 1
-_C4435: chosen_87 = 1
-_C4436: chosen_88 = 1
-_C4437: chosen_89 = 1
-_C4438: chosen_90 = 1
-_C4439: chosen_91 = 1
-_C444: chosen_121 = 1
-_C4440: chosen_92 = 1
-_C4441: chosen_93 = 1
-_C4442: chosen_94 = 1
-_C4443: chosen_95 = 1
-_C4444: chosen_96 = 1
-_C4445: chosen_97 = 1
-_C4446: chosen_98 = 1
-_C4447: chosen_99 = 1
-_C4448: chosen_100 = 1
-_C4449: chosen_101 = 1
-_C445: chosen_122 = 1
-_C4450: chosen_102 = 1
-_C4451: chosen_103 = 1
-_C4452: chosen_104 = 1
-_C4453: chosen_105 = 1
-_C4454: chosen_106 = 1
-_C4455: chosen_107 = 1
-_C4456: chosen_108 = 1
-_C4457: chosen_109 = 1
-_C4458: chosen_110 = 1
-_C4459: chosen_111 = 1
-_C446: chosen_123 = 1
-_C4460: chosen_112 = 1
-_C4461: chosen_113 = 1
-_C4462: chosen_114 = 1
-_C4463: chosen_115 = 1
-_C4464: chosen_116 = 1
-_C4465: chosen_117 = 1
-_C4466: chosen_118 = 1
-_C4467: chosen_119 = 1
-_C4468: chosen_120 = 1
-_C4469: chosen_121 = 1
-_C447: chosen_124 = 1
-_C4470: chosen_122 = 1
-_C4471: chosen_123 = 1
-_C4472: chosen_124 = 1
-_C4473: chosen_125 = 1
-_C4474: chosen_126 = 1
-_C4475: chosen_127 = 1
-_C4476: chosen_128 = 1
-_C4477: chosen_129 = 1
-_C4478: chosen_130 = 1
-_C4479: chosen_131 = 1
-_C448: chosen_125 = 1
-_C4480: chosen_132 = 1
-_C4481: chosen_133 = 1
-_C4482: chosen_134 = 1
-_C4483: chosen_135 = 1
-_C4484: chosen_136 = 1
-_C4485: chosen_137 = 1
-_C4486: chosen_138 = 1
-_C4487: chosen_139 = 1
-_C4488: chosen_140 = 1
-_C4489: chosen_141 = 1
-_C449: chosen_126 = 1
-_C4490: chosen_142 = 1
-_C4491: chosen_143 = 1
-_C4492: chosen_144 = 1
-_C4493: chosen_145 = 1
-_C4494: chosen_146 = 1
-_C4495: chosen_147 = 1
-_C4496: chosen_148 = 1
-_C4497: chosen_149 = 1
-_C4498: chosen_150 = 1
-_C4499: chosen_151 = 1
-_C45: chosen_44 = 1
-_C450: chosen_127 = 1
-_C4500: chosen_152 = 1
-_C4501: chosen_153 = 1
-_C4502: chosen_154 = 1
-_C4503: chosen_155 = 1
-_C4504: chosen_156 = 1
-_C4505: chosen_157 = 1
-_C4506: chosen_158 = 1
-_C4507: chosen_159 = 1
-_C4508: chosen_160 = 1
-_C4509: chosen_0 = 1
-_C451: chosen_128 = 1
-_C4510: chosen_1 = 1
-_C4511: chosen_2 = 1
-_C4512: chosen_3 = 1
-_C4513: chosen_4 = 1
-_C4514: chosen_5 = 1
-_C4515: chosen_6 = 1
-_C4516: chosen_7 = 1
-_C4517: chosen_8 = 1
-_C4518: chosen_9 = 1
-_C4519: chosen_10 = 1
-_C452: chosen_129 = 1
-_C4520: chosen_11 = 1
-_C4521: chosen_12 = 1
-_C4522: chosen_13 = 1
-_C4523: chosen_14 = 1
-_C4524: chosen_15 = 1
-_C4525: chosen_16 = 1
-_C4526: chosen_17 = 1
-_C4527: chosen_18 = 1
-_C4528: chosen_19 = 1
-_C4529: chosen_20 = 1
-_C453: chosen_130 = 1
-_C4530: chosen_21 = 1
-_C4531: chosen_22 = 1
-_C4532: chosen_23 = 1
-_C4533: chosen_24 = 1
-_C4534: chosen_25 = 1
-_C4535: chosen_26 = 1
-_C4536: chosen_27 = 1
-_C4537: chosen_28 = 1
-_C4538: chosen_29 = 1
-_C4539: chosen_30 = 1
-_C454: chosen_131 = 1
-_C4540: chosen_31 = 1
-_C4541: chosen_32 = 1
-_C4542: chosen_33 = 1
-_C4543: chosen_34 = 1
-_C4544: chosen_35 = 1
-_C4545: chosen_36 = 1
-_C4546: chosen_37 = 1
-_C4547: chosen_38 = 1
-_C4548: chosen_39 = 1
-_C4549: chosen_40 = 1
-_C455: chosen_132 = 1
-_C4550: chosen_41 = 1
-_C4551: chosen_42 = 1
-_C4552: chosen_43 = 1
-_C4553: chosen_44 = 1
-_C4554: chosen_45 = 1
-_C4555: chosen_46 = 1
-_C4556: chosen_47 = 1
-_C4557: chosen_48 = 1
-_C4558: chosen_49 = 1
-_C4559: chosen_50 = 1
-_C456: chosen_133 = 1
-_C4560: chosen_51 = 1
-_C4561: chosen_52 = 1
-_C4562: chosen_53 = 1
-_C4563: chosen_54 = 1
-_C4564: chosen_55 = 1
-_C4565: chosen_56 = 1
-_C4566: chosen_57 = 1
-_C4567: chosen_58 = 1
-_C4568: chosen_59 = 1
-_C4569: chosen_60 = 1
-_C457: chosen_134 = 1
-_C4570: chosen_61 = 1
-_C4571: chosen_62 = 1
-_C4572: chosen_63 = 1
-_C4573: chosen_64 = 1
-_C4574: chosen_65 = 1
-_C4575: chosen_66 = 1
-_C4576: chosen_67 = 1
-_C4577: chosen_68 = 1
-_C4578: chosen_69 = 1
-_C4579: chosen_70 = 1
-_C458: chosen_135 = 1
-_C4580: chosen_71 = 1
-_C4581: chosen_72 = 1
-_C4582: chosen_73 = 1
-_C4583: chosen_74 = 1
-_C4584: chosen_75 = 1
-_C4585: chosen_76 = 1
-_C4586: chosen_77 = 1
-_C4587: chosen_78 = 1
-_C4588: chosen_79 = 1
-_C4589: chosen_80 = 1
-_C459: chosen_136 = 1
-_C4590: chosen_81 = 1
-_C4591: chosen_82 = 1
-_C4592: chosen_83 = 1
-_C4593: chosen_84 = 1
-_C4594: chosen_85 = 1
-_C4595: chosen_86 = 1
-_C4596: chosen_87 = 1
-_C4597: chosen_88 = 1
-_C4598: chosen_89 = 1
-_C4599: chosen_90 = 1
-_C46: chosen_45 = 1
-_C460: chosen_137 = 1
-_C4600: chosen_91 = 1
-_C4601: chosen_92 = 1
-_C4602: chosen_93 = 1
-_C4603: chosen_94 = 1
-_C4604: chosen_95 = 1
-_C4605: chosen_96 = 1
-_C4606: chosen_97 = 1
-_C4607: chosen_98 = 1
-_C4608: chosen_99 = 1
-_C4609: chosen_100 = 1
-_C461: chosen_138 = 1
-_C4610: chosen_101 = 1
-_C4611: chosen_102 = 1
-_C4612: chosen_103 = 1
-_C4613: chosen_104 = 1
-_C4614: chosen_105 = 1
-_C4615: chosen_106 = 1
-_C4616: chosen_107 = 1
-_C4617: chosen_108 = 1
-_C4618: chosen_109 = 1
-_C4619: chosen_110 = 1
-_C462: chosen_139 = 1
-_C4620: chosen_111 = 1
-_C4621: chosen_112 = 1
-_C4622: chosen_113 = 1
-_C4623: chosen_114 = 1
-_C4624: chosen_115 = 1
-_C4625: chosen_116 = 1
-_C4626: chosen_117 = 1
-_C4627: chosen_118 = 1
-_C4628: chosen_119 = 1
-_C4629: chosen_120 = 1
-_C463: chosen_140 = 1
-_C4630: chosen_121 = 1
-_C4631: chosen_122 = 1
-_C4632: chosen_123 = 1
-_C4633: chosen_124 = 1
-_C4634: chosen_125 = 1
-_C4635: chosen_126 = 1
-_C4636: chosen_127 = 1
-_C4637: chosen_128 = 1
-_C4638: chosen_129 = 1
-_C4639: chosen_130 = 1
-_C464: chosen_141 = 1
-_C4640: chosen_131 = 1
-_C4641: chosen_132 = 1
-_C4642: chosen_133 = 1
-_C4643: chosen_134 = 1
-_C4644: chosen_135 = 1
-_C4645: chosen_136 = 1
-_C4646: chosen_137 = 1
-_C4647: chosen_138 = 1
-_C4648: chosen_139 = 1
-_C4649: chosen_140 = 1
-_C465: chosen_142 = 1
-_C4650: chosen_141 = 1
-_C4651: chosen_142 = 1
-_C4652: chosen_143 = 1
-_C4653: chosen_144 = 1
-_C4654: chosen_145 = 1
-_C4655: chosen_146 = 1
-_C4656: chosen_147 = 1
-_C4657: chosen_148 = 1
-_C4658: chosen_149 = 1
-_C4659: chosen_150 = 1
-_C466: chosen_143 = 1
-_C4660: chosen_151 = 1
-_C4661: chosen_152 = 1
-_C4662: chosen_153 = 1
-_C4663: chosen_154 = 1
-_C4664: chosen_155 = 1
-_C4665: chosen_156 = 1
-_C4666: chosen_157 = 1
-_C4667: chosen_158 = 1
-_C4668: chosen_159 = 1
-_C4669: chosen_160 = 1
-_C467: chosen_144 = 1
-_C4670: chosen_0 = 1
-_C4671: chosen_1 = 1
-_C4672: chosen_2 = 1
-_C4673: chosen_3 = 1
-_C4674: chosen_4 = 1
-_C4675: chosen_5 = 1
-_C4676: chosen_6 = 1
-_C4677: chosen_7 = 1
-_C4678: chosen_8 = 1
-_C4679: chosen_9 = 1
-_C468: chosen_145 = 1
-_C4680: chosen_10 = 1
-_C4681: chosen_11 = 1
-_C4682: chosen_12 = 1
-_C4683: chosen_13 = 1
-_C4684: chosen_14 = 1
-_C4685: chosen_15 = 1
-_C4686: chosen_16 = 1
-_C4687: chosen_17 = 1
-_C4688: chosen_18 = 1
-_C4689: chosen_19 = 1
-_C469: chosen_146 = 1
-_C4690: chosen_20 = 1
-_C4691: chosen_21 = 1
-_C4692: chosen_22 = 1
-_C4693: chosen_23 = 1
-_C4694: chosen_24 = 1
-_C4695: chosen_25 = 1
-_C4696: chosen_26 = 1
-_C4697: chosen_27 = 1
-_C4698: chosen_28 = 1
-_C4699: chosen_29 = 1
-_C47: chosen_46 = 1
-_C470: chosen_147 = 1
-_C4700: chosen_30 = 1
-_C4701: chosen_31 = 1
-_C4702: chosen_32 = 1
-_C4703: chosen_33 = 1
-_C4704: chosen_34 = 1
-_C4705: chosen_35 = 1
-_C4706: chosen_36 = 1
-_C4707: chosen_37 = 1
-_C4708: chosen_38 = 1
-_C4709: chosen_39 = 1
-_C471: chosen_148 = 1
-_C4710: chosen_40 = 1
-_C4711: chosen_41 = 1
-_C4712: chosen_42 = 1
-_C4713: chosen_43 = 1
-_C4714: chosen_44 = 1
-_C4715: chosen_45 = 1
-_C4716: chosen_46 = 1
-_C4717: chosen_47 = 1
-_C4718: chosen_48 = 1
-_C4719: chosen_49 = 1
-_C472: chosen_149 = 1
-_C4720: chosen_50 = 1
-_C4721: chosen_51 = 1
-_C4722: chosen_52 = 1
-_C4723: chosen_53 = 1
-_C4724: chosen_54 = 1
-_C4725: chosen_55 = 1
-_C4726: chosen_56 = 1
-_C4727: chosen_57 = 1
-_C4728: chosen_58 = 1
-_C4729: chosen_59 = 1
-_C473: chosen_150 = 1
-_C4730: chosen_60 = 1
-_C4731: chosen_61 = 1
-_C4732: chosen_62 = 1
-_C4733: chosen_63 = 1
-_C4734: chosen_64 = 1
-_C4735: chosen_65 = 1
-_C4736: chosen_66 = 1
-_C4737: chosen_67 = 1
-_C4738: chosen_68 = 1
-_C4739: chosen_69 = 1
-_C474: chosen_151 = 1
-_C4740: chosen_70 = 1
-_C4741: chosen_71 = 1
-_C4742: chosen_72 = 1
-_C4743: chosen_73 = 1
-_C4744: chosen_74 = 1
-_C4745: chosen_75 = 1
-_C4746: chosen_76 = 1
-_C4747: chosen_77 = 1
-_C4748: chosen_78 = 1
-_C4749: chosen_79 = 1
-_C475: chosen_152 = 1
-_C4750: chosen_80 = 1
-_C4751: chosen_81 = 1
-_C4752: chosen_82 = 1
-_C4753: chosen_83 = 1
-_C4754: chosen_84 = 1
-_C4755: chosen_85 = 1
-_C4756: chosen_86 = 1
-_C4757: chosen_87 = 1
-_C4758: chosen_88 = 1
-_C4759: chosen_89 = 1
-_C476: chosen_153 = 1
-_C4760: chosen_90 = 1
-_C4761: chosen_91 = 1
-_C4762: chosen_92 = 1
-_C4763: chosen_93 = 1
-_C4764: chosen_94 = 1
-_C4765: chosen_95 = 1
-_C4766: chosen_96 = 1
-_C4767: chosen_97 = 1
-_C4768: chosen_98 = 1
-_C4769: chosen_99 = 1
-_C477: chosen_154 = 1
-_C4770: chosen_100 = 1
-_C4771: chosen_101 = 1
-_C4772: chosen_102 = 1
-_C4773: chosen_103 = 1
-_C4774: chosen_104 = 1
-_C4775: chosen_105 = 1
-_C4776: chosen_106 = 1
-_C4777: chosen_107 = 1
-_C4778: chosen_108 = 1
-_C4779: chosen_109 = 1
-_C478: chosen_155 = 1
-_C4780: chosen_110 = 1
-_C4781: chosen_111 = 1
-_C4782: chosen_112 = 1
-_C4783: chosen_113 = 1
-_C4784: chosen_114 = 1
-_C4785: chosen_115 = 1
-_C4786: chosen_116 = 1
-_C4787: chosen_117 = 1
-_C4788: chosen_118 = 1
-_C4789: chosen_119 = 1
-_C479: chosen_156 = 1
-_C4790: chosen_120 = 1
-_C4791: chosen_121 = 1
-_C4792: chosen_122 = 1
-_C4793: chosen_123 = 1
-_C4794: chosen_124 = 1
-_C4795: chosen_125 = 1
-_C4796: chosen_126 = 1
-_C4797: chosen_127 = 1
-_C4798: chosen_128 = 1
-_C4799: chosen_129 = 1
-_C48: chosen_47 = 1
-_C480: chosen_157 = 1
-_C4800: chosen_130 = 1
-_C4801: chosen_131 = 1
-_C4802: chosen_132 = 1
-_C4803: chosen_133 = 1
-_C4804: chosen_134 = 1
-_C4805: chosen_135 = 1
-_C4806: chosen_136 = 1
-_C4807: chosen_137 = 1
-_C4808: chosen_138 = 1
-_C4809: chosen_139 = 1
-_C481: chosen_158 = 1
-_C4810: chosen_140 = 1
-_C4811: chosen_141 = 1
-_C4812: chosen_142 = 1
-_C4813: chosen_143 = 1
-_C4814: chosen_144 = 1
-_C4815: chosen_145 = 1
-_C4816: chosen_146 = 1
-_C4817: chosen_147 = 1
-_C4818: chosen_148 = 1
-_C4819: chosen_149 = 1
-_C482: chosen_159 = 1
-_C4820: chosen_150 = 1
-_C4821: chosen_151 = 1
-_C4822: chosen_152 = 1
-_C4823: chosen_153 = 1
-_C4824: chosen_154 = 1
-_C4825: chosen_155 = 1
-_C4826: chosen_156 = 1
-_C4827: chosen_157 = 1
-_C4828: chosen_158 = 1
-_C4829: chosen_159 = 1
-_C483: chosen_160 = 1
-_C4830: chosen_160 = 1
-_C4831: chosen_0 = 1
-_C4832: chosen_1 = 1
-_C4833: chosen_2 = 1
-_C4834: chosen_3 = 1
-_C4835: chosen_4 = 1
-_C4836: chosen_5 = 1
-_C4837: chosen_6 = 1
-_C4838: chosen_7 = 1
-_C4839: chosen_8 = 1
-_C484: chosen_0 = 1
-_C4840: chosen_9 = 1
-_C4841: chosen_10 = 1
-_C4842: chosen_11 = 1
-_C4843: chosen_12 = 1
-_C4844: chosen_13 = 1
-_C4845: chosen_14 = 1
-_C4846: chosen_15 = 1
-_C4847: chosen_16 = 1
-_C4848: chosen_17 = 1
-_C4849: chosen_18 = 1
-_C485: chosen_1 = 1
-_C4850: chosen_19 = 1
-_C4851: chosen_20 = 1
-_C4852: chosen_21 = 1
-_C4853: chosen_22 = 1
-_C4854: chosen_23 = 1
-_C4855: chosen_24 = 1
-_C4856: chosen_25 = 1
-_C4857: chosen_26 = 1
-_C4858: chosen_27 = 1
-_C4859: chosen_28 = 1
-_C486: chosen_2 = 1
-_C4860: chosen_29 = 1
-_C4861: chosen_30 = 1
-_C4862: chosen_31 = 1
-_C4863: chosen_32 = 1
-_C4864: chosen_33 = 1
-_C4865: chosen_34 = 1
-_C4866: chosen_35 = 1
-_C4867: chosen_36 = 1
-_C4868: chosen_37 = 1
-_C4869: chosen_38 = 1
-_C487: chosen_3 = 1
-_C4870: chosen_39 = 1
-_C4871: chosen_40 = 1
-_C4872: chosen_41 = 1
-_C4873: chosen_42 = 1
-_C4874: chosen_43 = 1
-_C4875: chosen_44 = 1
-_C4876: chosen_45 = 1
-_C4877: chosen_46 = 1
-_C4878: chosen_47 = 1
-_C4879: chosen_48 = 1
-_C488: chosen_4 = 1
-_C4880: chosen_49 = 1
-_C4881: chosen_50 = 1
-_C4882: chosen_51 = 1
-_C4883: chosen_52 = 1
-_C4884: chosen_53 = 1
-_C4885: chosen_54 = 1
-_C4886: chosen_55 = 1
-_C4887: chosen_56 = 1
-_C4888: chosen_57 = 1
-_C4889: chosen_58 = 1
-_C489: chosen_5 = 1
-_C4890: chosen_59 = 1
-_C4891: chosen_60 = 1
-_C4892: chosen_61 = 1
-_C4893: chosen_62 = 1
-_C4894: chosen_63 = 1
-_C4895: chosen_64 = 1
-_C4896: chosen_65 = 1
-_C4897: chosen_66 = 1
-_C4898: chosen_67 = 1
-_C4899: chosen_68 = 1
-_C49: chosen_48 = 1
-_C490: chosen_6 = 1
-_C4900: chosen_69 = 1
-_C4901: chosen_70 = 1
-_C4902: chosen_71 = 1
-_C4903: chosen_72 = 1
-_C4904: chosen_73 = 1
-_C4905: chosen_74 = 1
-_C4906: chosen_75 = 1
-_C4907: chosen_76 = 1
-_C4908: chosen_77 = 1
-_C4909: chosen_78 = 1
-_C491: chosen_7 = 1
-_C4910: chosen_79 = 1
-_C4911: chosen_80 = 1
-_C4912: chosen_81 = 1
-_C4913: chosen_82 = 1
-_C4914: chosen_83 = 1
-_C4915: chosen_84 = 1
-_C4916: chosen_85 = 1
-_C4917: chosen_86 = 1
-_C4918: chosen_87 = 1
-_C4919: chosen_88 = 1
-_C492: chosen_8 = 1
-_C4920: chosen_89 = 1
-_C4921: chosen_90 = 1
-_C4922: chosen_91 = 1
-_C4923: chosen_92 = 1
-_C4924: chosen_93 = 1
-_C4925: chosen_94 = 1
-_C4926: chosen_95 = 1
-_C4927: chosen_96 = 1
-_C4928: chosen_97 = 1
-_C4929: chosen_98 = 1
-_C493: chosen_9 = 1
-_C4930: chosen_99 = 1
-_C4931: chosen_100 = 1
-_C4932: chosen_101 = 1
-_C4933: chosen_102 = 1
-_C4934: chosen_103 = 1
-_C4935: chosen_104 = 1
-_C4936: chosen_105 = 1
-_C4937: chosen_106 = 1
-_C4938: chosen_107 = 1
-_C4939: chosen_108 = 1
-_C494: chosen_10 = 1
-_C4940: chosen_109 = 1
-_C4941: chosen_110 = 1
-_C4942: chosen_111 = 1
-_C4943: chosen_112 = 1
-_C4944: chosen_113 = 1
-_C4945: chosen_114 = 1
-_C4946: chosen_115 = 1
-_C4947: chosen_116 = 1
-_C4948: chosen_117 = 1
-_C4949: chosen_118 = 1
-_C495: chosen_11 = 1
-_C4950: chosen_119 = 1
-_C4951: chosen_120 = 1
-_C4952: chosen_121 = 1
-_C4953: chosen_122 = 1
-_C4954: chosen_123 = 1
-_C4955: chosen_124 = 1
-_C4956: chosen_125 = 1
-_C4957: chosen_126 = 1
-_C4958: chosen_127 = 1
-_C4959: chosen_128 = 1
-_C496: chosen_12 = 1
-_C4960: chosen_129 = 1
-_C4961: chosen_130 = 1
-_C4962: chosen_131 = 1
-_C4963: chosen_132 = 1
-_C4964: chosen_133 = 1
-_C4965: chosen_134 = 1
-_C4966: chosen_135 = 1
-_C4967: chosen_136 = 1
-_C4968: chosen_137 = 1
-_C4969: chosen_138 = 1
-_C497: chosen_13 = 1
-_C4970: chosen_139 = 1
-_C4971: chosen_140 = 1
-_C4972: chosen_141 = 1
-_C4973: chosen_142 = 1
-_C4974: chosen_143 = 1
-_C4975: chosen_144 = 1
-_C4976: chosen_145 = 1
-_C4977: chosen_146 = 1
-_C4978: chosen_147 = 1
-_C4979: chosen_148 = 1
-_C498: chosen_14 = 1
-_C4980: chosen_149 = 1
-_C4981: chosen_150 = 1
-_C4982: chosen_151 = 1
-_C4983: chosen_152 = 1
-_C4984: chosen_153 = 1
-_C4985: chosen_154 = 1
-_C4986: chosen_155 = 1
-_C4987: chosen_156 = 1
-_C4988: chosen_157 = 1
-_C4989: chosen_158 = 1
-_C499: chosen_15 = 1
-_C4990: chosen_159 = 1
-_C4991: chosen_160 = 1
-_C4992: chosen_0 = 1
-_C4993: chosen_1 = 1
-_C4994: chosen_2 = 1
-_C4995: chosen_3 = 1
-_C4996: chosen_4 = 1
-_C4997: chosen_5 = 1
-_C4998: chosen_6 = 1
-_C4999: chosen_7 = 1
-_C5: chosen_4 = 1
-_C50: chosen_49 = 1
-_C500: chosen_16 = 1
-_C5000: chosen_8 = 1
-_C5001: chosen_9 = 1
-_C5002: chosen_10 = 1
-_C5003: chosen_11 = 1
-_C5004: chosen_12 = 1
-_C5005: chosen_13 = 1
-_C5006: chosen_14 = 1
-_C5007: chosen_15 = 1
-_C5008: chosen_16 = 1
-_C5009: chosen_17 = 1
-_C501: chosen_17 = 1
-_C5010: chosen_18 = 1
-_C5011: chosen_19 = 1
-_C5012: chosen_20 = 1
-_C5013: chosen_21 = 1
-_C5014: chosen_22 = 1
-_C5015: chosen_23 = 1
-_C5016: chosen_24 = 1
-_C5017: chosen_25 = 1
-_C5018: chosen_26 = 1
-_C5019: chosen_27 = 1
-_C502: chosen_18 = 1
-_C5020: chosen_28 = 1
-_C5021: chosen_29 = 1
-_C5022: chosen_30 = 1
-_C5023: chosen_31 = 1
-_C5024: chosen_32 = 1
-_C5025: chosen_33 = 1
-_C5026: chosen_34 = 1
-_C5027: chosen_35 = 1
-_C5028: chosen_36 = 1
-_C5029: chosen_37 = 1
-_C503: chosen_19 = 1
-_C5030: chosen_38 = 1
-_C5031: chosen_39 = 1
-_C5032: chosen_40 = 1
-_C5033: chosen_41 = 1
-_C5034: chosen_42 = 1
-_C5035: chosen_43 = 1
-_C5036: chosen_44 = 1
-_C5037: chosen_45 = 1
-_C5038: chosen_46 = 1
-_C5039: chosen_47 = 1
-_C504: chosen_20 = 1
-_C5040: chosen_48 = 1
-_C5041: chosen_49 = 1
-_C5042: chosen_50 = 1
-_C5043: chosen_51 = 1
-_C5044: chosen_52 = 1
-_C5045: chosen_53 = 1
-_C5046: chosen_54 = 1
-_C5047: chosen_55 = 1
-_C5048: chosen_56 = 1
-_C5049: chosen_57 = 1
-_C505: chosen_21 = 1
-_C5050: chosen_58 = 1
-_C5051: chosen_59 = 1
-_C5052: chosen_60 = 1
-_C5053: chosen_61 = 1
-_C5054: chosen_62 = 1
-_C5055: chosen_63 = 1
-_C5056: chosen_64 = 1
-_C5057: chosen_65 = 1
-_C5058: chosen_66 = 1
-_C5059: chosen_67 = 1
-_C506: chosen_22 = 1
-_C5060: chosen_68 = 1
-_C5061: chosen_69 = 1
-_C5062: chosen_70 = 1
-_C5063: chosen_71 = 1
-_C5064: chosen_72 = 1
-_C5065: chosen_73 = 1
-_C5066: chosen_74 = 1
-_C5067: chosen_75 = 1
-_C5068: chosen_76 = 1
-_C5069: chosen_77 = 1
-_C507: chosen_23 = 1
-_C5070: chosen_78 = 1
-_C5071: chosen_79 = 1
-_C5072: chosen_80 = 1
-_C5073: chosen_81 = 1
-_C5074: chosen_82 = 1
-_C5075: chosen_83 = 1
-_C5076: chosen_84 = 1
-_C5077: chosen_85 = 1
-_C5078: chosen_86 = 1
-_C5079: chosen_87 = 1
-_C508: chosen_24 = 1
-_C5080: chosen_88 = 1
-_C5081: chosen_89 = 1
-_C5082: chosen_90 = 1
-_C5083: chosen_91 = 1
-_C5084: chosen_92 = 1
-_C5085: chosen_93 = 1
-_C5086: chosen_94 = 1
-_C5087: chosen_95 = 1
-_C5088: chosen_96 = 1
-_C5089: chosen_97 = 1
-_C509: chosen_25 = 1
-_C5090: chosen_98 = 1
-_C5091: chosen_99 = 1
-_C5092: chosen_100 = 1
-_C5093: chosen_101 = 1
-_C5094: chosen_102 = 1
-_C5095: chosen_103 = 1
-_C5096: chosen_104 = 1
-_C5097: chosen_105 = 1
-_C5098: chosen_106 = 1
-_C5099: chosen_107 = 1
-_C51: chosen_50 = 1
-_C510: chosen_26 = 1
-_C5100: chosen_108 = 1
-_C5101: chosen_109 = 1
-_C5102: chosen_110 = 1
-_C5103: chosen_111 = 1
-_C5104: chosen_112 = 1
-_C5105: chosen_113 = 1
-_C5106: chosen_114 = 1
-_C5107: chosen_115 = 1
-_C5108: chosen_116 = 1
-_C5109: chosen_117 = 1
-_C511: chosen_27 = 1
-_C5110: chosen_118 = 1
-_C5111: chosen_119 = 1
-_C5112: chosen_120 = 1
-_C5113: chosen_121 = 1
-_C5114: chosen_122 = 1
-_C5115: chosen_123 = 1
-_C5116: chosen_124 = 1
-_C5117: chosen_125 = 1
-_C5118: chosen_126 = 1
-_C5119: chosen_127 = 1
-_C512: chosen_28 = 1
-_C5120: chosen_128 = 1
-_C5121: chosen_129 = 1
-_C5122: chosen_130 = 1
-_C5123: chosen_131 = 1
-_C5124: chosen_132 = 1
-_C5125: chosen_133 = 1
-_C5126: chosen_134 = 1
-_C5127: chosen_135 = 1
-_C5128: chosen_136 = 1
-_C5129: chosen_137 = 1
-_C513: chosen_29 = 1
-_C5130: chosen_138 = 1
-_C5131: chosen_139 = 1
-_C5132: chosen_140 = 1
-_C5133: chosen_141 = 1
-_C5134: chosen_142 = 1
-_C5135: chosen_143 = 1
-_C5136: chosen_144 = 1
-_C5137: chosen_145 = 1
-_C5138: chosen_146 = 1
-_C5139: chosen_147 = 1
-_C514: chosen_30 = 1
-_C5140: chosen_148 = 1
-_C5141: chosen_149 = 1
-_C5142: chosen_150 = 1
-_C5143: chosen_151 = 1
-_C5144: chosen_152 = 1
-_C5145: chosen_153 = 1
-_C5146: chosen_154 = 1
-_C5147: chosen_155 = 1
-_C5148: chosen_156 = 1
-_C5149: chosen_157 = 1
-_C515: chosen_31 = 1
-_C5150: chosen_158 = 1
-_C5151: chosen_159 = 1
-_C5152: chosen_160 = 1
-_C5153: chosen_0 = 1
-_C5154: chosen_1 = 1
-_C5155: chosen_2 = 1
-_C5156: chosen_3 = 1
-_C5157: chosen_4 = 1
-_C5158: chosen_5 = 1
-_C5159: chosen_6 = 1
-_C516: chosen_32 = 1
-_C5160: chosen_7 = 1
-_C5161: chosen_8 = 1
-_C5162: chosen_9 = 1
-_C5163: chosen_10 = 1
-_C5164: chosen_11 = 1
-_C5165: chosen_12 = 1
-_C5166: chosen_13 = 1
-_C5167: chosen_14 = 1
-_C5168: chosen_15 = 1
-_C5169: chosen_16 = 1
-_C517: chosen_33 = 1
-_C5170: chosen_17 = 1
-_C5171: chosen_18 = 1
-_C5172: chosen_19 = 1
-_C5173: chosen_20 = 1
-_C5174: chosen_21 = 1
-_C5175: chosen_22 = 1
-_C5176: chosen_23 = 1
-_C5177: chosen_24 = 1
-_C5178: chosen_25 = 1
-_C5179: chosen_26 = 1
-_C518: chosen_34 = 1
-_C5180: chosen_27 = 1
-_C5181: chosen_28 = 1
-_C5182: chosen_29 = 1
-_C5183: chosen_30 = 1
-_C5184: chosen_31 = 1
-_C5185: chosen_32 = 1
-_C5186: chosen_33 = 1
-_C5187: chosen_34 = 1
-_C5188: chosen_35 = 1
-_C5189: chosen_36 = 1
-_C519: chosen_35 = 1
-_C5190: chosen_37 = 1
-_C5191: chosen_38 = 1
-_C5192: chosen_39 = 1
-_C5193: chosen_40 = 1
-_C5194: chosen_41 = 1
-_C5195: chosen_42 = 1
-_C5196: chosen_43 = 1
-_C5197: chosen_44 = 1
-_C5198: chosen_45 = 1
-_C5199: chosen_46 = 1
-_C52: chosen_51 = 1
-_C520: chosen_36 = 1
-_C5200: chosen_47 = 1
-_C5201: chosen_48 = 1
-_C5202: chosen_49 = 1
-_C5203: chosen_50 = 1
-_C5204: chosen_51 = 1
-_C5205: chosen_52 = 1
-_C5206: chosen_53 = 1
-_C5207: chosen_54 = 1
-_C5208: chosen_55 = 1
-_C5209: chosen_56 = 1
-_C521: chosen_37 = 1
-_C5210: chosen_57 = 1
-_C5211: chosen_58 = 1
-_C5212: chosen_59 = 1
-_C5213: chosen_60 = 1
-_C5214: chosen_61 = 1
-_C5215: chosen_62 = 1
-_C5216: chosen_63 = 1
-_C5217: chosen_64 = 1
-_C5218: chosen_65 = 1
-_C5219: chosen_66 = 1
-_C522: chosen_38 = 1
-_C5220: chosen_67 = 1
-_C5221: chosen_68 = 1
-_C5222: chosen_69 = 1
-_C5223: chosen_70 = 1
-_C5224: chosen_71 = 1
-_C5225: chosen_72 = 1
-_C5226: chosen_73 = 1
-_C5227: chosen_74 = 1
-_C5228: chosen_75 = 1
-_C5229: chosen_76 = 1
-_C523: chosen_39 = 1
-_C5230: chosen_77 = 1
-_C5231: chosen_78 = 1
-_C5232: chosen_79 = 1
-_C5233: chosen_80 = 1
-_C5234: chosen_81 = 1
-_C5235: chosen_82 = 1
-_C5236: chosen_83 = 1
-_C5237: chosen_84 = 1
-_C5238: chosen_85 = 1
-_C5239: chosen_86 = 1
-_C524: chosen_40 = 1
-_C5240: chosen_87 = 1
-_C5241: chosen_88 = 1
-_C5242: chosen_89 = 1
-_C5243: chosen_90 = 1
-_C5244: chosen_91 = 1
-_C5245: chosen_92 = 1
-_C5246: chosen_93 = 1
-_C5247: chosen_94 = 1
-_C5248: chosen_95 = 1
-_C5249: chosen_96 = 1
-_C525: chosen_41 = 1
-_C5250: chosen_97 = 1
-_C5251: chosen_98 = 1
-_C5252: chosen_99 = 1
-_C5253: chosen_100 = 1
-_C5254: chosen_101 = 1
-_C5255: chosen_102 = 1
-_C5256: chosen_103 = 1
-_C5257: chosen_104 = 1
-_C5258: chosen_105 = 1
-_C5259: chosen_106 = 1
-_C526: chosen_42 = 1
-_C5260: chosen_107 = 1
-_C5261: chosen_108 = 1
-_C5262: chosen_109 = 1
-_C5263: chosen_110 = 1
-_C5264: chosen_111 = 1
-_C5265: chosen_112 = 1
-_C5266: chosen_113 = 1
-_C5267: chosen_114 = 1
-_C5268: chosen_115 = 1
-_C5269: chosen_116 = 1
-_C527: chosen_43 = 1
-_C5270: chosen_117 = 1
-_C5271: chosen_118 = 1
-_C5272: chosen_119 = 1
-_C5273: chosen_120 = 1
-_C5274: chosen_121 = 1
-_C5275: chosen_122 = 1
-_C5276: chosen_123 = 1
-_C5277: chosen_124 = 1
-_C5278: chosen_125 = 1
-_C5279: chosen_126 = 1
-_C528: chosen_44 = 1
-_C5280: chosen_127 = 1
-_C5281: chosen_128 = 1
-_C5282: chosen_129 = 1
-_C5283: chosen_130 = 1
-_C5284: chosen_131 = 1
-_C5285: chosen_132 = 1
-_C5286: chosen_133 = 1
-_C5287: chosen_134 = 1
-_C5288: chosen_135 = 1
-_C5289: chosen_136 = 1
-_C529: chosen_45 = 1
-_C5290: chosen_137 = 1
-_C5291: chosen_138 = 1
-_C5292: chosen_139 = 1
-_C5293: chosen_140 = 1
-_C5294: chosen_141 = 1
-_C5295: chosen_142 = 1
-_C5296: chosen_143 = 1
-_C5297: chosen_144 = 1
-_C5298: chosen_145 = 1
-_C5299: chosen_146 = 1
-_C53: chosen_52 = 1
-_C530: chosen_46 = 1
-_C5300: chosen_147 = 1
-_C5301: chosen_148 = 1
-_C5302: chosen_149 = 1
-_C5303: chosen_150 = 1
-_C5304: chosen_151 = 1
-_C5305: chosen_152 = 1
-_C5306: chosen_153 = 1
-_C5307: chosen_154 = 1
-_C5308: chosen_155 = 1
-_C5309: chosen_156 = 1
-_C531: chosen_47 = 1
-_C5310: chosen_157 = 1
-_C5311: chosen_158 = 1
-_C5312: chosen_159 = 1
-_C5313: chosen_160 = 1
-_C5314: chosen_0 = 1
-_C5315: chosen_1 = 1
-_C5316: chosen_2 = 1
-_C5317: chosen_3 = 1
-_C5318: chosen_4 = 1
-_C5319: chosen_5 = 1
-_C532: chosen_48 = 1
-_C5320: chosen_6 = 1
-_C5321: chosen_7 = 1
-_C5322: chosen_8 = 1
-_C5323: chosen_9 = 1
-_C5324: chosen_10 = 1
-_C5325: chosen_11 = 1
-_C5326: chosen_12 = 1
-_C5327: chosen_13 = 1
-_C5328: chosen_14 = 1
-_C5329: chosen_15 = 1
-_C533: chosen_49 = 1
-_C5330: chosen_16 = 1
-_C5331: chosen_17 = 1
-_C5332: chosen_18 = 1
-_C5333: chosen_19 = 1
-_C5334: chosen_20 = 1
-_C5335: chosen_21 = 1
-_C5336: chosen_22 = 1
-_C5337: chosen_23 = 1
-_C5338: chosen_24 = 1
-_C5339: chosen_25 = 1
-_C534: chosen_50 = 1
-_C5340: chosen_26 = 1
-_C5341: chosen_27 = 1
-_C5342: chosen_28 = 1
-_C5343: chosen_29 = 1
-_C5344: chosen_30 = 1
-_C5345: chosen_31 = 1
-_C5346: chosen_32 = 1
-_C5347: chosen_33 = 1
-_C5348: chosen_34 = 1
-_C5349: chosen_35 = 1
-_C535: chosen_51 = 1
-_C5350: chosen_36 = 1
-_C5351: chosen_37 = 1
-_C5352: chosen_38 = 1
-_C5353: chosen_39 = 1
-_C5354: chosen_40 = 1
-_C5355: chosen_41 = 1
-_C5356: chosen_42 = 1
-_C5357: chosen_43 = 1
-_C5358: chosen_44 = 1
-_C5359: chosen_45 = 1
-_C536: chosen_52 = 1
-_C5360: chosen_46 = 1
-_C5361: chosen_47 = 1
-_C5362: chosen_48 = 1
-_C5363: chosen_49 = 1
-_C5364: chosen_50 = 1
-_C5365: chosen_51 = 1
-_C5366: chosen_52 = 1
-_C5367: chosen_53 = 1
-_C5368: chosen_54 = 1
-_C5369: chosen_55 = 1
-_C537: chosen_53 = 1
-_C5370: chosen_56 = 1
-_C5371: chosen_57 = 1
-_C5372: chosen_58 = 1
-_C5373: chosen_59 = 1
-_C5374: chosen_60 = 1
-_C5375: chosen_61 = 1
-_C5376: chosen_62 = 1
-_C5377: chosen_63 = 1
-_C5378: chosen_64 = 1
-_C5379: chosen_65 = 1
-_C538: chosen_54 = 1
-_C5380: chosen_66 = 1
-_C5381: chosen_67 = 1
-_C5382: chosen_68 = 1
-_C5383: chosen_69 = 1
-_C5384: chosen_70 = 1
-_C5385: chosen_71 = 1
-_C5386: chosen_72 = 1
-_C5387: chosen_73 = 1
-_C5388: chosen_74 = 1
-_C5389: chosen_75 = 1
-_C539: chosen_55 = 1
-_C5390: chosen_76 = 1
-_C5391: chosen_77 = 1
-_C5392: chosen_78 = 1
-_C5393: chosen_79 = 1
-_C5394: chosen_80 = 1
-_C5395: chosen_81 = 1
-_C5396: chosen_82 = 1
-_C5397: chosen_83 = 1
-_C5398: chosen_84 = 1
-_C5399: chosen_85 = 1
-_C54: chosen_53 = 1
-_C540: chosen_56 = 1
-_C5400: chosen_86 = 1
-_C5401: chosen_87 = 1
-_C5402: chosen_88 = 1
-_C5403: chosen_89 = 1
-_C5404: chosen_90 = 1
-_C5405: chosen_91 = 1
-_C5406: chosen_92 = 1
-_C5407: chosen_93 = 1
-_C5408: chosen_94 = 1
-_C5409: chosen_95 = 1
-_C541: chosen_57 = 1
-_C5410: chosen_96 = 1
-_C5411: chosen_97 = 1
-_C5412: chosen_98 = 1
-_C5413: chosen_99 = 1
-_C5414: chosen_100 = 1
-_C5415: chosen_101 = 1
-_C5416: chosen_102 = 1
-_C5417: chosen_103 = 1
-_C5418: chosen_104 = 1
-_C5419: chosen_105 = 1
-_C542: chosen_58 = 1
-_C5420: chosen_106 = 1
-_C5421: chosen_107 = 1
-_C5422: chosen_108 = 1
-_C5423: chosen_109 = 1
-_C5424: chosen_110 = 1
-_C5425: chosen_111 = 1
-_C5426: chosen_112 = 1
-_C5427: chosen_113 = 1
-_C5428: chosen_114 = 1
-_C5429: chosen_115 = 1
-_C543: chosen_59 = 1
-_C5430: chosen_116 = 1
-_C5431: chosen_117 = 1
-_C5432: chosen_118 = 1
-_C5433: chosen_119 = 1
-_C5434: chosen_120 = 1
-_C5435: chosen_121 = 1
-_C5436: chosen_122 = 1
-_C5437: chosen_123 = 1
-_C5438: chosen_124 = 1
-_C5439: chosen_125 = 1
-_C544: chosen_60 = 1
-_C5440: chosen_126 = 1
-_C5441: chosen_127 = 1
-_C5442: chosen_128 = 1
-_C5443: chosen_129 = 1
-_C5444: chosen_130 = 1
-_C5445: chosen_131 = 1
-_C5446: chosen_132 = 1
-_C5447: chosen_133 = 1
-_C5448: chosen_134 = 1
-_C5449: chosen_135 = 1
-_C545: chosen_61 = 1
-_C5450: chosen_136 = 1
-_C5451: chosen_137 = 1
-_C5452: chosen_138 = 1
-_C5453: chosen_139 = 1
-_C5454: chosen_140 = 1
-_C5455: chosen_141 = 1
-_C5456: chosen_142 = 1
-_C5457: chosen_143 = 1
-_C5458: chosen_144 = 1
-_C5459: chosen_145 = 1
-_C546: chosen_62 = 1
-_C5460: chosen_146 = 1
-_C5461: chosen_147 = 1
-_C5462: chosen_148 = 1
-_C5463: chosen_149 = 1
-_C5464: chosen_150 = 1
-_C5465: chosen_151 = 1
-_C5466: chosen_152 = 1
-_C5467: chosen_153 = 1
-_C5468: chosen_154 = 1
-_C5469: chosen_155 = 1
-_C547: chosen_63 = 1
-_C5470: chosen_156 = 1
-_C5471: chosen_157 = 1
-_C5472: chosen_158 = 1
-_C5473: chosen_159 = 1
-_C5474: chosen_160 = 1
-_C5475: chosen_0 = 1
-_C5476: chosen_1 = 1
-_C5477: chosen_2 = 1
-_C5478: chosen_3 = 1
-_C5479: chosen_4 = 1
-_C548: chosen_64 = 1
-_C5480: chosen_5 = 1
-_C5481: chosen_6 = 1
-_C5482: chosen_7 = 1
-_C5483: chosen_8 = 1
-_C5484: chosen_9 = 1
-_C5485: chosen_10 = 1
-_C5486: chosen_11 = 1
-_C5487: chosen_12 = 1
-_C5488: chosen_13 = 1
-_C5489: chosen_14 = 1
-_C549: chosen_65 = 1
-_C5490: chosen_15 = 1
-_C5491: chosen_16 = 1
-_C5492: chosen_17 = 1
-_C5493: chosen_18 = 1
-_C5494: chosen_19 = 1
-_C5495: chosen_20 = 1
-_C5496: chosen_21 = 1
-_C5497: chosen_22 = 1
-_C5498: chosen_23 = 1
-_C5499: chosen_24 = 1
-_C55: chosen_54 = 1
-_C550: chosen_66 = 1
-_C5500: chosen_25 = 1
-_C5501: chosen_26 = 1
-_C5502: chosen_27 = 1
-_C5503: chosen_28 = 1
-_C5504: chosen_29 = 1
-_C5505: chosen_30 = 1
-_C5506: chosen_31 = 1
-_C5507: chosen_32 = 1
-_C5508: chosen_33 = 1
-_C5509: chosen_34 = 1
-_C551: chosen_67 = 1
-_C5510: chosen_35 = 1
-_C5511: chosen_36 = 1
-_C5512: chosen_37 = 1
-_C5513: chosen_38 = 1
-_C5514: chosen_39 = 1
-_C5515: chosen_40 = 1
-_C5516: chosen_41 = 1
-_C5517: chosen_42 = 1
-_C5518: chosen_43 = 1
-_C5519: chosen_44 = 1
-_C552: chosen_68 = 1
-_C5520: chosen_45 = 1
-_C5521: chosen_46 = 1
-_C5522: chosen_47 = 1
-_C5523: chosen_48 = 1
-_C5524: chosen_49 = 1
-_C5525: chosen_50 = 1
-_C5526: chosen_51 = 1
-_C5527: chosen_52 = 1
-_C5528: chosen_53 = 1
-_C5529: chosen_54 = 1
-_C553: chosen_69 = 1
-_C5530: chosen_55 = 1
-_C5531: chosen_56 = 1
-_C5532: chosen_57 = 1
-_C5533: chosen_58 = 1
-_C5534: chosen_59 = 1
-_C5535: chosen_60 = 1
-_C5536: chosen_61 = 1
-_C5537: chosen_62 = 1
-_C5538: chosen_63 = 1
-_C5539: chosen_64 = 1
-_C554: chosen_70 = 1
-_C5540: chosen_65 = 1
-_C5541: chosen_66 = 1
-_C5542: chosen_67 = 1
-_C5543: chosen_68 = 1
-_C5544: chosen_69 = 1
-_C5545: chosen_70 = 1
-_C5546: chosen_71 = 1
-_C5547: chosen_72 = 1
-_C5548: chosen_73 = 1
-_C5549: chosen_74 = 1
-_C555: chosen_71 = 1
-_C5550: chosen_75 = 1
-_C5551: chosen_76 = 1
-_C5552: chosen_77 = 1
-_C5553: chosen_78 = 1
-_C5554: chosen_79 = 1
-_C5555: chosen_80 = 1
-_C5556: chosen_81 = 1
-_C5557: chosen_82 = 1
-_C5558: chosen_83 = 1
-_C5559: chosen_84 = 1
-_C556: chosen_72 = 1
-_C5560: chosen_85 = 1
-_C5561: chosen_86 = 1
-_C5562: chosen_87 = 1
-_C5563: chosen_88 = 1
-_C5564: chosen_89 = 1
-_C5565: chosen_90 = 1
-_C5566: chosen_91 = 1
-_C5567: chosen_92 = 1
-_C5568: chosen_93 = 1
-_C5569: chosen_94 = 1
-_C557: chosen_73 = 1
-_C5570: chosen_95 = 1
-_C5571: chosen_96 = 1
-_C5572: chosen_97 = 1
-_C5573: chosen_98 = 1
-_C5574: chosen_99 = 1
-_C5575: chosen_100 = 1
-_C5576: chosen_101 = 1
-_C5577: chosen_102 = 1
-_C5578: chosen_103 = 1
-_C5579: chosen_104 = 1
-_C558: chosen_74 = 1
-_C5580: chosen_105 = 1
-_C5581: chosen_106 = 1
-_C5582: chosen_107 = 1
-_C5583: chosen_108 = 1
-_C5584: chosen_109 = 1
-_C5585: chosen_110 = 1
-_C5586: chosen_111 = 1
-_C5587: chosen_112 = 1
-_C5588: chosen_113 = 1
-_C5589: chosen_114 = 1
-_C559: chosen_75 = 1
-_C5590: chosen_115 = 1
-_C5591: chosen_116 = 1
-_C5592: chosen_117 = 1
-_C5593: chosen_118 = 1
-_C5594: chosen_119 = 1
-_C5595: chosen_120 = 1
-_C5596: chosen_121 = 1
-_C5597: chosen_122 = 1
-_C5598: chosen_123 = 1
-_C5599: chosen_124 = 1
-_C56: chosen_55 = 1
-_C560: chosen_76 = 1
-_C5600: chosen_125 = 1
-_C5601: chosen_126 = 1
-_C5602: chosen_127 = 1
-_C5603: chosen_128 = 1
-_C5604: chosen_129 = 1
-_C5605: chosen_130 = 1
-_C5606: chosen_131 = 1
-_C5607: chosen_132 = 1
-_C5608: chosen_133 = 1
-_C5609: chosen_134 = 1
-_C561: chosen_77 = 1
-_C5610: chosen_135 = 1
-_C5611: chosen_136 = 1
-_C5612: chosen_137 = 1
-_C5613: chosen_138 = 1
-_C5614: chosen_139 = 1
-_C5615: chosen_140 = 1
-_C5616: chosen_141 = 1
-_C5617: chosen_142 = 1
-_C5618: chosen_143 = 1
-_C5619: chosen_144 = 1
-_C562: chosen_78 = 1
-_C5620: chosen_145 = 1
-_C5621: chosen_146 = 1
-_C5622: chosen_147 = 1
-_C5623: chosen_148 = 1
-_C5624: chosen_149 = 1
-_C5625: chosen_150 = 1
-_C5626: chosen_151 = 1
-_C5627: chosen_152 = 1
-_C5628: chosen_153 = 1
-_C5629: chosen_154 = 1
-_C563: chosen_79 = 1
-_C5630: chosen_155 = 1
-_C5631: chosen_156 = 1
-_C5632: chosen_157 = 1
-_C5633: chosen_158 = 1
-_C5634: chosen_159 = 1
-_C5635: chosen_160 = 1
-_C5636: chosen_0 = 1
-_C5637: chosen_1 = 1
-_C5638: chosen_2 = 1
-_C5639: chosen_3 = 1
-_C564: chosen_80 = 1
-_C5640: chosen_4 = 1
-_C5641: chosen_5 = 1
-_C5642: chosen_6 = 1
-_C5643: chosen_7 = 1
-_C5644: chosen_8 = 1
-_C5645: chosen_9 = 1
-_C5646: chosen_10 = 1
-_C5647: chosen_11 = 1
-_C5648: chosen_12 = 1
-_C5649: chosen_13 = 1
-_C565: chosen_81 = 1
-_C5650: chosen_14 = 1
-_C5651: chosen_15 = 1
-_C5652: chosen_16 = 1
-_C5653: chosen_17 = 1
-_C5654: chosen_18 = 1
-_C5655: chosen_19 = 1
-_C5656: chosen_20 = 1
-_C5657: chosen_21 = 1
-_C5658: chosen_22 = 1
-_C5659: chosen_23 = 1
-_C566: chosen_82 = 1
-_C5660: chosen_24 = 1
-_C5661: chosen_25 = 1
-_C5662: chosen_26 = 1
-_C5663: chosen_27 = 1
-_C5664: chosen_28 = 1
-_C5665: chosen_29 = 1
-_C5666: chosen_30 = 1
-_C5667: chosen_31 = 1
-_C5668: chosen_32 = 1
-_C5669: chosen_33 = 1
-_C567: chosen_83 = 1
-_C5670: chosen_34 = 1
-_C5671: chosen_35 = 1
-_C5672: chosen_36 = 1
-_C5673: chosen_37 = 1
-_C5674: chosen_38 = 1
-_C5675: chosen_39 = 1
-_C5676: chosen_40 = 1
-_C5677: chosen_41 = 1
-_C5678: chosen_42 = 1
-_C5679: chosen_43 = 1
-_C568: chosen_84 = 1
-_C5680: chosen_44 = 1
-_C5681: chosen_45 = 1
-_C5682: chosen_46 = 1
-_C5683: chosen_47 = 1
-_C5684: chosen_48 = 1
-_C5685: chosen_49 = 1
-_C5686: chosen_50 = 1
-_C5687: chosen_51 = 1
-_C5688: chosen_52 = 1
-_C5689: chosen_53 = 1
-_C569: chosen_85 = 1
-_C5690: chosen_54 = 1
-_C5691: chosen_55 = 1
-_C5692: chosen_56 = 1
-_C5693: chosen_57 = 1
-_C5694: chosen_58 = 1
-_C5695: chosen_59 = 1
-_C5696: chosen_60 = 1
-_C5697: chosen_61 = 1
-_C5698: chosen_62 = 1
-_C5699: chosen_63 = 1
-_C57: chosen_56 = 1
-_C570: chosen_86 = 1
-_C5700: chosen_64 = 1
-_C5701: chosen_65 = 1
-_C5702: chosen_66 = 1
-_C5703: chosen_67 = 1
-_C5704: chosen_68 = 1
-_C5705: chosen_69 = 1
-_C5706: chosen_70 = 1
-_C5707: chosen_71 = 1
-_C5708: chosen_72 = 1
-_C5709: chosen_73 = 1
-_C571: chosen_87 = 1
-_C5710: chosen_74 = 1
-_C5711: chosen_75 = 1
-_C5712: chosen_76 = 1
-_C5713: chosen_77 = 1
-_C5714: chosen_78 = 1
-_C5715: chosen_79 = 1
-_C5716: chosen_80 = 1
-_C5717: chosen_81 = 1
-_C5718: chosen_82 = 1
-_C5719: chosen_83 = 1
-_C572: chosen_88 = 1
-_C5720: chosen_84 = 1
-_C5721: chosen_85 = 1
-_C5722: chosen_86 = 1
-_C5723: chosen_87 = 1
-_C5724: chosen_88 = 1
-_C5725: chosen_89 = 1
-_C5726: chosen_90 = 1
-_C5727: chosen_91 = 1
-_C5728: chosen_92 = 1
-_C5729: chosen_93 = 1
-_C573: chosen_89 = 1
-_C5730: chosen_94 = 1
-_C5731: chosen_95 = 1
-_C5732: chosen_96 = 1
-_C5733: chosen_97 = 1
-_C5734: chosen_98 = 1
-_C5735: chosen_99 = 1
-_C5736: chosen_100 = 1
-_C5737: chosen_101 = 1
-_C5738: chosen_102 = 1
-_C5739: chosen_103 = 1
-_C574: chosen_90 = 1
-_C5740: chosen_104 = 1
-_C5741: chosen_105 = 1
-_C5742: chosen_106 = 1
-_C5743: chosen_107 = 1
-_C5744: chosen_108 = 1
-_C5745: chosen_109 = 1
-_C5746: chosen_110 = 1
-_C5747: chosen_111 = 1
-_C5748: chosen_112 = 1
-_C5749: chosen_113 = 1
-_C575: chosen_91 = 1
-_C5750: chosen_114 = 1
-_C5751: chosen_115 = 1
-_C5752: chosen_116 = 1
-_C5753: chosen_117 = 1
-_C5754: chosen_118 = 1
-_C5755: chosen_119 = 1
-_C5756: chosen_120 = 1
-_C5757: chosen_121 = 1
-_C5758: chosen_122 = 1
-_C5759: chosen_123 = 1
-_C576: chosen_92 = 1
-_C5760: chosen_124 = 1
-_C5761: chosen_125 = 1
-_C5762: chosen_126 = 1
-_C5763: chosen_127 = 1
-_C5764: chosen_128 = 1
-_C5765: chosen_129 = 1
-_C5766: chosen_130 = 1
-_C5767: chosen_131 = 1
-_C5768: chosen_132 = 1
-_C5769: chosen_133 = 1
-_C577: chosen_93 = 1
-_C5770: chosen_134 = 1
-_C5771: chosen_135 = 1
-_C5772: chosen_136 = 1
-_C5773: chosen_137 = 1
-_C5774: chosen_138 = 1
-_C5775: chosen_139 = 1
-_C5776: chosen_140 = 1
-_C5777: chosen_141 = 1
-_C5778: chosen_142 = 1
-_C5779: chosen_143 = 1
-_C578: chosen_94 = 1
-_C5780: chosen_144 = 1
-_C5781: chosen_145 = 1
-_C5782: chosen_146 = 1
-_C5783: chosen_147 = 1
-_C5784: chosen_148 = 1
-_C5785: chosen_149 = 1
-_C5786: chosen_150 = 1
-_C5787: chosen_151 = 1
-_C5788: chosen_152 = 1
-_C5789: chosen_153 = 1
-_C579: chosen_95 = 1
-_C5790: chosen_154 = 1
-_C5791: chosen_155 = 1
-_C5792: chosen_156 = 1
-_C5793: chosen_157 = 1
-_C5794: chosen_158 = 1
-_C5795: chosen_159 = 1
-_C5796: chosen_160 = 1
-_C5797: chosen_0 = 1
-_C5798: chosen_1 = 1
-_C5799: chosen_2 = 1
-_C58: chosen_57 = 1
-_C580: chosen_96 = 1
-_C5800: chosen_3 = 1
-_C5801: chosen_4 = 1
-_C5802: chosen_5 = 1
-_C5803: chosen_6 = 1
-_C5804: chosen_7 = 1
-_C5805: chosen_8 = 1
-_C5806: chosen_9 = 1
-_C5807: chosen_10 = 1
-_C5808: chosen_11 = 1
-_C5809: chosen_12 = 1
-_C581: chosen_97 = 1
-_C5810: chosen_13 = 1
-_C5811: chosen_14 = 1
-_C5812: chosen_15 = 1
-_C5813: chosen_16 = 1
-_C5814: chosen_17 = 1
-_C5815: chosen_18 = 1
-_C5816: chosen_19 = 1
-_C5817: chosen_20 = 1
-_C5818: chosen_21 = 1
-_C5819: chosen_22 = 1
-_C582: chosen_98 = 1
-_C5820: chosen_23 = 1
-_C5821: chosen_24 = 1
-_C5822: chosen_25 = 1
-_C5823: chosen_26 = 1
-_C5824: chosen_27 = 1
-_C5825: chosen_28 = 1
-_C5826: chosen_29 = 1
-_C5827: chosen_30 = 1
-_C5828: chosen_31 = 1
-_C5829: chosen_32 = 1
-_C583: chosen_99 = 1
-_C5830: chosen_33 = 1
-_C5831: chosen_34 = 1
-_C5832: chosen_35 = 1
-_C5833: chosen_36 = 1
-_C5834: chosen_37 = 1
-_C5835: chosen_38 = 1
-_C5836: chosen_39 = 1
-_C5837: chosen_40 = 1
-_C5838: chosen_41 = 1
-_C5839: chosen_42 = 1
-_C584: chosen_100 = 1
-_C5840: chosen_43 = 1
-_C5841: chosen_44 = 1
-_C5842: chosen_45 = 1
-_C5843: chosen_46 = 1
-_C5844: chosen_47 = 1
-_C5845: chosen_48 = 1
-_C5846: chosen_49 = 1
-_C5847: chosen_50 = 1
-_C5848: chosen_51 = 1
-_C5849: chosen_52 = 1
-_C585: chosen_101 = 1
-_C5850: chosen_53 = 1
-_C5851: chosen_54 = 1
-_C5852: chosen_55 = 1
-_C5853: chosen_56 = 1
-_C5854: chosen_57 = 1
-_C5855: chosen_58 = 1
-_C5856: chosen_59 = 1
-_C5857: chosen_60 = 1
-_C5858: chosen_61 = 1
-_C5859: chosen_62 = 1
-_C586: chosen_102 = 1
-_C5860: chosen_63 = 1
-_C5861: chosen_64 = 1
-_C5862: chosen_65 = 1
-_C5863: chosen_66 = 1
-_C5864: chosen_67 = 1
-_C5865: chosen_68 = 1
-_C5866: chosen_69 = 1
-_C5867: chosen_70 = 1
-_C5868: chosen_71 = 1
-_C5869: chosen_72 = 1
-_C587: chosen_103 = 1
-_C5870: chosen_73 = 1
-_C5871: chosen_74 = 1
-_C5872: chosen_75 = 1
-_C5873: chosen_76 = 1
-_C5874: chosen_77 = 1
-_C5875: chosen_78 = 1
-_C5876: chosen_79 = 1
-_C5877: chosen_80 = 1
-_C5878: chosen_81 = 1
-_C5879: chosen_82 = 1
-_C588: chosen_104 = 1
-_C5880: chosen_83 = 1
-_C5881: chosen_84 = 1
-_C5882: chosen_85 = 1
-_C5883: chosen_86 = 1
-_C5884: chosen_87 = 1
-_C5885: chosen_88 = 1
-_C5886: chosen_89 = 1
-_C5887: chosen_90 = 1
-_C5888: chosen_91 = 1
-_C5889: chosen_92 = 1
-_C589: chosen_105 = 1
-_C5890: chosen_93 = 1
-_C5891: chosen_94 = 1
-_C5892: chosen_95 = 1
-_C5893: chosen_96 = 1
-_C5894: chosen_97 = 1
-_C5895: chosen_98 = 1
-_C5896: chosen_99 = 1
-_C5897: chosen_100 = 1
-_C5898: chosen_101 = 1
-_C5899: chosen_102 = 1
-_C59: chosen_58 = 1
-_C590: chosen_106 = 1
-_C5900: chosen_103 = 1
-_C5901: chosen_104 = 1
-_C5902: chosen_105 = 1
-_C5903: chosen_106 = 1
-_C5904: chosen_107 = 1
-_C5905: chosen_108 = 1
-_C5906: chosen_109 = 1
-_C5907: chosen_110 = 1
-_C5908: chosen_111 = 1
-_C5909: chosen_112 = 1
-_C591: chosen_107 = 1
-_C5910: chosen_113 = 1
-_C5911: chosen_114 = 1
-_C5912: chosen_115 = 1
-_C5913: chosen_116 = 1
-_C5914: chosen_117 = 1
-_C5915: chosen_118 = 1
-_C5916: chosen_119 = 1
-_C5917: chosen_120 = 1
-_C5918: chosen_121 = 1
-_C5919: chosen_122 = 1
-_C592: chosen_108 = 1
-_C5920: chosen_123 = 1
-_C5921: chosen_124 = 1
-_C5922: chosen_125 = 1
-_C5923: chosen_126 = 1
-_C5924: chosen_127 = 1
-_C5925: chosen_128 = 1
-_C5926: chosen_129 = 1
-_C5927: chosen_130 = 1
-_C5928: chosen_131 = 1
-_C5929: chosen_132 = 1
-_C593: chosen_109 = 1
-_C5930: chosen_133 = 1
-_C5931: chosen_134 = 1
-_C5932: chosen_135 = 1
-_C5933: chosen_136 = 1
-_C5934: chosen_137 = 1
-_C5935: chosen_138 = 1
-_C5936: chosen_139 = 1
-_C5937: chosen_140 = 1
-_C5938: chosen_141 = 1
-_C5939: chosen_142 = 1
-_C594: chosen_110 = 1
-_C5940: chosen_143 = 1
-_C5941: chosen_144 = 1
-_C5942: chosen_145 = 1
-_C5943: chosen_146 = 1
-_C5944: chosen_147 = 1
-_C5945: chosen_148 = 1
-_C5946: chosen_149 = 1
-_C5947: chosen_150 = 1
-_C5948: chosen_151 = 1
-_C5949: chosen_152 = 1
-_C595: chosen_111 = 1
-_C5950: chosen_153 = 1
-_C5951: chosen_154 = 1
-_C5952: chosen_155 = 1
-_C5953: chosen_156 = 1
-_C5954: chosen_157 = 1
-_C5955: chosen_158 = 1
-_C5956: chosen_159 = 1
-_C5957: chosen_160 = 1
-_C5958: chosen_0 = 1
-_C5959: chosen_1 = 1
-_C596: chosen_112 = 1
-_C5960: chosen_2 = 1
-_C5961: chosen_3 = 1
-_C5962: chosen_4 = 1
-_C5963: chosen_5 = 1
-_C5964: chosen_6 = 1
-_C5965: chosen_7 = 1
-_C5966: chosen_8 = 1
-_C5967: chosen_9 = 1
-_C5968: chosen_10 = 1
-_C5969: chosen_11 = 1
-_C597: chosen_113 = 1
-_C5970: chosen_12 = 1
-_C5971: chosen_13 = 1
-_C5972: chosen_14 = 1
-_C5973: chosen_15 = 1
-_C5974: chosen_16 = 1
-_C5975: chosen_17 = 1
-_C5976: chosen_18 = 1
-_C5977: chosen_19 = 1
-_C5978: chosen_20 = 1
-_C5979: chosen_21 = 1
-_C598: chosen_114 = 1
-_C5980: chosen_22 = 1
-_C5981: chosen_23 = 1
-_C5982: chosen_24 = 1
-_C5983: chosen_25 = 1
-_C5984: chosen_26 = 1
-_C5985: chosen_27 = 1
-_C5986: chosen_28 = 1
-_C5987: chosen_29 = 1
-_C5988: chosen_30 = 1
-_C5989: chosen_31 = 1
-_C599: chosen_115 = 1
-_C5990: chosen_32 = 1
-_C5991: chosen_33 = 1
-_C5992: chosen_34 = 1
-_C5993: chosen_35 = 1
-_C5994: chosen_36 = 1
-_C5995: chosen_37 = 1
-_C5996: chosen_38 = 1
-_C5997: chosen_39 = 1
-_C5998: chosen_40 = 1
-_C5999: chosen_41 = 1
-_C6: chosen_5 = 1
-_C60: chosen_59 = 1
-_C600: chosen_116 = 1
-_C6000: chosen_42 = 1
-_C6001: chosen_43 = 1
-_C6002: chosen_44 = 1
-_C6003: chosen_45 = 1
-_C6004: chosen_46 = 1
-_C6005: chosen_47 = 1
-_C6006: chosen_48 = 1
-_C6007: chosen_49 = 1
-_C6008: chosen_50 = 1
-_C6009: chosen_51 = 1
-_C601: chosen_117 = 1
-_C6010: chosen_52 = 1
-_C6011: chosen_53 = 1
-_C6012: chosen_54 = 1
-_C6013: chosen_55 = 1
-_C6014: chosen_56 = 1
-_C6015: chosen_57 = 1
-_C6016: chosen_58 = 1
-_C6017: chosen_59 = 1
-_C6018: chosen_60 = 1
-_C6019: chosen_61 = 1
-_C602: chosen_118 = 1
-_C6020: chosen_62 = 1
-_C6021: chosen_63 = 1
-_C6022: chosen_64 = 1
-_C6023: chosen_65 = 1
-_C6024: chosen_66 = 1
-_C6025: chosen_67 = 1
-_C6026: chosen_68 = 1
-_C6027: chosen_69 = 1
-_C6028: chosen_70 = 1
-_C6029: chosen_71 = 1
-_C603: chosen_119 = 1
-_C6030: chosen_72 = 1
-_C6031: chosen_73 = 1
-_C6032: chosen_74 = 1
-_C6033: chosen_75 = 1
-_C6034: chosen_76 = 1
-_C6035: chosen_77 = 1
-_C6036: chosen_78 = 1
-_C6037: chosen_79 = 1
-_C6038: chosen_80 = 1
-_C6039: chosen_81 = 1
-_C604: chosen_120 = 1
-_C6040: chosen_82 = 1
-_C6041: chosen_83 = 1
-_C6042: chosen_84 = 1
-_C6043: chosen_85 = 1
-_C6044: chosen_86 = 1
-_C6045: chosen_87 = 1
-_C6046: chosen_88 = 1
-_C6047: chosen_89 = 1
-_C6048: chosen_90 = 1
-_C6049: chosen_91 = 1
-_C605: chosen_121 = 1
-_C6050: chosen_92 = 1
-_C6051: chosen_93 = 1
-_C6052: chosen_94 = 1
-_C6053: chosen_95 = 1
-_C6054: chosen_96 = 1
-_C6055: chosen_97 = 1
-_C6056: chosen_98 = 1
-_C6057: chosen_99 = 1
-_C6058: chosen_100 = 1
-_C6059: chosen_101 = 1
-_C606: chosen_122 = 1
-_C6060: chosen_102 = 1
-_C6061: chosen_103 = 1
-_C6062: chosen_104 = 1
-_C6063: chosen_105 = 1
-_C6064: chosen_106 = 1
-_C6065: chosen_107 = 1
-_C6066: chosen_108 = 1
-_C6067: chosen_109 = 1
-_C6068: chosen_110 = 1
-_C6069: chosen_111 = 1
-_C607: chosen_123 = 1
-_C6070: chosen_112 = 1
-_C6071: chosen_113 = 1
-_C6072: chosen_114 = 1
-_C6073: chosen_115 = 1
-_C6074: chosen_116 = 1
-_C6075: chosen_117 = 1
-_C6076: chosen_118 = 1
-_C6077: chosen_119 = 1
-_C6078: chosen_120 = 1
-_C6079: chosen_121 = 1
-_C608: chosen_124 = 1
-_C6080: chosen_122 = 1
-_C6081: chosen_123 = 1
-_C6082: chosen_124 = 1
-_C6083: chosen_125 = 1
-_C6084: chosen_126 = 1
-_C6085: chosen_127 = 1
-_C6086: chosen_128 = 1
-_C6087: chosen_129 = 1
-_C6088: chosen_130 = 1
-_C6089: chosen_131 = 1
-_C609: chosen_125 = 1
-_C6090: chosen_132 = 1
-_C6091: chosen_133 = 1
-_C6092: chosen_134 = 1
-_C6093: chosen_135 = 1
-_C6094: chosen_136 = 1
-_C6095: chosen_137 = 1
-_C6096: chosen_138 = 1
-_C6097: chosen_139 = 1
-_C6098: chosen_140 = 1
-_C6099: chosen_141 = 1
-_C61: chosen_60 = 1
-_C610: chosen_126 = 1
-_C6100: chosen_142 = 1
-_C6101: chosen_143 = 1
-_C6102: chosen_144 = 1
-_C6103: chosen_145 = 1
-_C6104: chosen_146 = 1
-_C6105: chosen_147 = 1
-_C6106: chosen_148 = 1
-_C6107: chosen_149 = 1
-_C6108: chosen_150 = 1
-_C6109: chosen_151 = 1
-_C611: chosen_127 = 1
-_C6110: chosen_152 = 1
-_C6111: chosen_153 = 1
-_C6112: chosen_154 = 1
-_C6113: chosen_155 = 1
-_C6114: chosen_156 = 1
-_C6115: chosen_157 = 1
-_C6116: chosen_158 = 1
-_C6117: chosen_159 = 1
-_C6118: chosen_160 = 1
-_C6119: chosen_0 = 1
-_C612: chosen_128 = 1
-_C6120: chosen_1 = 1
-_C6121: chosen_2 = 1
-_C6122: chosen_3 = 1
-_C6123: chosen_4 = 1
-_C6124: chosen_5 = 1
-_C6125: chosen_6 = 1
-_C6126: chosen_7 = 1
-_C6127: chosen_8 = 1
-_C6128: chosen_9 = 1
-_C6129: chosen_10 = 1
-_C613: chosen_129 = 1
-_C6130: chosen_11 = 1
-_C6131: chosen_12 = 1
-_C6132: chosen_13 = 1
-_C6133: chosen_14 = 1
-_C6134: chosen_15 = 1
-_C6135: chosen_16 = 1
-_C6136: chosen_17 = 1
-_C6137: chosen_18 = 1
-_C6138: chosen_19 = 1
-_C6139: chosen_20 = 1
-_C614: chosen_130 = 1
-_C6140: chosen_21 = 1
-_C6141: chosen_22 = 1
-_C6142: chosen_23 = 1
-_C6143: chosen_24 = 1
-_C6144: chosen_25 = 1
-_C6145: chosen_26 = 1
-_C6146: chosen_27 = 1
-_C6147: chosen_28 = 1
-_C6148: chosen_29 = 1
-_C6149: chosen_30 = 1
-_C615: chosen_131 = 1
-_C6150: chosen_31 = 1
-_C6151: chosen_32 = 1
-_C6152: chosen_33 = 1
-_C6153: chosen_34 = 1
-_C6154: chosen_35 = 1
-_C6155: chosen_36 = 1
-_C6156: chosen_37 = 1
-_C6157: chosen_38 = 1
-_C6158: chosen_39 = 1
-_C6159: chosen_40 = 1
-_C616: chosen_132 = 1
-_C6160: chosen_41 = 1
-_C6161: chosen_42 = 1
-_C6162: chosen_43 = 1
-_C6163: chosen_44 = 1
-_C6164: chosen_45 = 1
-_C6165: chosen_46 = 1
-_C6166: chosen_47 = 1
-_C6167: chosen_48 = 1
-_C6168: chosen_49 = 1
-_C6169: chosen_50 = 1
-_C617: chosen_133 = 1
-_C6170: chosen_51 = 1
-_C6171: chosen_52 = 1
-_C6172: chosen_53 = 1
-_C6173: chosen_54 = 1
-_C6174: chosen_55 = 1
-_C6175: chosen_56 = 1
-_C6176: chosen_57 = 1
-_C6177: chosen_58 = 1
-_C6178: chosen_59 = 1
-_C6179: chosen_60 = 1
-_C618: chosen_134 = 1
-_C6180: chosen_61 = 1
-_C6181: chosen_62 = 1
-_C6182: chosen_63 = 1
-_C6183: chosen_64 = 1
-_C6184: chosen_65 = 1
-_C6185: chosen_66 = 1
-_C6186: chosen_67 = 1
-_C6187: chosen_68 = 1
-_C6188: chosen_69 = 1
-_C6189: chosen_70 = 1
-_C619: chosen_135 = 1
-_C6190: chosen_71 = 1
-_C6191: chosen_72 = 1
-_C6192: chosen_73 = 1
-_C6193: chosen_74 = 1
-_C6194: chosen_75 = 1
-_C6195: chosen_76 = 1
-_C6196: chosen_77 = 1
-_C6197: chosen_78 = 1
-_C6198: chosen_79 = 1
-_C6199: chosen_80 = 1
-_C62: chosen_61 = 1
-_C620: chosen_136 = 1
-_C6200: chosen_81 = 1
-_C6201: chosen_82 = 1
-_C6202: chosen_83 = 1
-_C6203: chosen_84 = 1
-_C6204: chosen_85 = 1
-_C6205: chosen_86 = 1
-_C6206: chosen_87 = 1
-_C6207: chosen_88 = 1
-_C6208: chosen_89 = 1
-_C6209: chosen_90 = 1
-_C621: chosen_137 = 1
-_C6210: chosen_91 = 1
-_C6211: chosen_92 = 1
-_C6212: chosen_93 = 1
-_C6213: chosen_94 = 1
-_C6214: chosen_95 = 1
-_C6215: chosen_96 = 1
-_C6216: chosen_97 = 1
-_C6217: chosen_98 = 1
-_C6218: chosen_99 = 1
-_C6219: chosen_100 = 1
-_C622: chosen_138 = 1
-_C6220: chosen_101 = 1
-_C6221: chosen_102 = 1
-_C6222: chosen_103 = 1
-_C6223: chosen_104 = 1
-_C6224: chosen_105 = 1
-_C6225: chosen_106 = 1
-_C6226: chosen_107 = 1
-_C6227: chosen_108 = 1
-_C6228: chosen_109 = 1
-_C6229: chosen_110 = 1
-_C623: chosen_139 = 1
-_C6230: chosen_111 = 1
-_C6231: chosen_112 = 1
-_C6232: chosen_113 = 1
-_C6233: chosen_114 = 1
-_C6234: chosen_115 = 1
-_C6235: chosen_116 = 1
-_C6236: chosen_117 = 1
-_C6237: chosen_118 = 1
-_C6238: chosen_119 = 1
-_C6239: chosen_120 = 1
-_C624: chosen_140 = 1
-_C6240: chosen_121 = 1
-_C6241: chosen_122 = 1
-_C6242: chosen_123 = 1
-_C6243: chosen_124 = 1
-_C6244: chosen_125 = 1
-_C6245: chosen_126 = 1
-_C6246: chosen_127 = 1
-_C6247: chosen_128 = 1
-_C6248: chosen_129 = 1
-_C6249: chosen_130 = 1
-_C625: chosen_141 = 1
-_C6250: chosen_131 = 1
-_C6251: chosen_132 = 1
-_C6252: chosen_133 = 1
-_C6253: chosen_134 = 1
-_C6254: chosen_135 = 1
-_C6255: chosen_136 = 1
-_C6256: chosen_137 = 1
-_C6257: chosen_138 = 1
-_C6258: chosen_139 = 1
-_C6259: chosen_140 = 1
-_C626: chosen_142 = 1
-_C6260: chosen_141 = 1
-_C6261: chosen_142 = 1
-_C6262: chosen_143 = 1
-_C6263: chosen_144 = 1
-_C6264: chosen_145 = 1
-_C6265: chosen_146 = 1
-_C6266: chosen_147 = 1
-_C6267: chosen_148 = 1
-_C6268: chosen_149 = 1
-_C6269: chosen_150 = 1
-_C627: chosen_143 = 1
-_C6270: chosen_151 = 1
-_C6271: chosen_152 = 1
-_C6272: chosen_153 = 1
-_C6273: chosen_154 = 1
-_C6274: chosen_155 = 1
-_C6275: chosen_156 = 1
-_C6276: chosen_157 = 1
-_C6277: chosen_158 = 1
-_C6278: chosen_159 = 1
-_C6279: chosen_160 = 1
-_C628: chosen_144 = 1
-_C6280: chosen_0 = 1
-_C6281: chosen_1 = 1
-_C6282: chosen_2 = 1
-_C6283: chosen_3 = 1
-_C6284: chosen_4 = 1
-_C6285: chosen_5 = 1
-_C6286: chosen_6 = 1
-_C6287: chosen_7 = 1
-_C6288: chosen_8 = 1
-_C6289: chosen_9 = 1
-_C629: chosen_145 = 1
-_C6290: chosen_10 = 1
-_C6291: chosen_11 = 1
-_C6292: chosen_12 = 1
-_C6293: chosen_13 = 1
-_C6294: chosen_14 = 1
-_C6295: chosen_15 = 1
-_C6296: chosen_16 = 1
-_C6297: chosen_17 = 1
-_C6298: chosen_18 = 1
-_C6299: chosen_19 = 1
-_C63: chosen_62 = 1
-_C630: chosen_146 = 1
-_C6300: chosen_20 = 1
-_C6301: chosen_21 = 1
-_C6302: chosen_22 = 1
-_C6303: chosen_23 = 1
-_C6304: chosen_24 = 1
-_C6305: chosen_25 = 1
-_C6306: chosen_26 = 1
-_C6307: chosen_27 = 1
-_C6308: chosen_28 = 1
-_C6309: chosen_29 = 1
-_C631: chosen_147 = 1
-_C6310: chosen_30 = 1
-_C6311: chosen_31 = 1
-_C6312: chosen_32 = 1
-_C6313: chosen_33 = 1
-_C6314: chosen_34 = 1
-_C6315: chosen_35 = 1
-_C6316: chosen_36 = 1
-_C6317: chosen_37 = 1
-_C6318: chosen_38 = 1
-_C6319: chosen_39 = 1
-_C632: chosen_148 = 1
-_C6320: chosen_40 = 1
-_C6321: chosen_41 = 1
-_C6322: chosen_42 = 1
-_C6323: chosen_43 = 1
-_C6324: chosen_44 = 1
-_C6325: chosen_45 = 1
-_C6326: chosen_46 = 1
-_C6327: chosen_47 = 1
-_C6328: chosen_48 = 1
-_C6329: chosen_49 = 1
-_C633: chosen_149 = 1
-_C6330: chosen_50 = 1
-_C6331: chosen_51 = 1
-_C6332: chosen_52 = 1
-_C6333: chosen_53 = 1
-_C6334: chosen_54 = 1
-_C6335: chosen_55 = 1
-_C6336: chosen_56 = 1
-_C6337: chosen_57 = 1
-_C6338: chosen_58 = 1
-_C6339: chosen_59 = 1
-_C634: chosen_150 = 1
-_C6340: chosen_60 = 1
-_C6341: chosen_61 = 1
-_C6342: chosen_62 = 1
-_C6343: chosen_63 = 1
-_C6344: chosen_64 = 1
-_C6345: chosen_65 = 1
-_C6346: chosen_66 = 1
-_C6347: chosen_67 = 1
-_C6348: chosen_68 = 1
-_C6349: chosen_69 = 1
-_C635: chosen_151 = 1
-_C6350: chosen_70 = 1
-_C6351: chosen_71 = 1
-_C6352: chosen_72 = 1
-_C6353: chosen_73 = 1
-_C6354: chosen_74 = 1
-_C6355: chosen_75 = 1
-_C6356: chosen_76 = 1
-_C6357: chosen_77 = 1
-_C6358: chosen_78 = 1
-_C6359: chosen_79 = 1
-_C636: chosen_152 = 1
-_C6360: chosen_80 = 1
-_C6361: chosen_81 = 1
-_C6362: chosen_82 = 1
-_C6363: chosen_83 = 1
-_C6364: chosen_84 = 1
-_C6365: chosen_85 = 1
-_C6366: chosen_86 = 1
-_C6367: chosen_87 = 1
-_C6368: chosen_88 = 1
-_C6369: chosen_89 = 1
-_C637: chosen_153 = 1
-_C6370: chosen_90 = 1
-_C6371: chosen_91 = 1
-_C6372: chosen_92 = 1
-_C6373: chosen_93 = 1
-_C6374: chosen_94 = 1
-_C6375: chosen_95 = 1
-_C6376: chosen_96 = 1
-_C6377: chosen_97 = 1
-_C6378: chosen_98 = 1
-_C6379: chosen_99 = 1
-_C638: chosen_154 = 1
-_C6380: chosen_100 = 1
-_C6381: chosen_101 = 1
-_C6382: chosen_102 = 1
-_C6383: chosen_103 = 1
-_C6384: chosen_104 = 1
-_C6385: chosen_105 = 1
-_C6386: chosen_106 = 1
-_C6387: chosen_107 = 1
-_C6388: chosen_108 = 1
-_C6389: chosen_109 = 1
-_C639: chosen_155 = 1
-_C6390: chosen_110 = 1
-_C6391: chosen_111 = 1
-_C6392: chosen_112 = 1
-_C6393: chosen_113 = 1
-_C6394: chosen_114 = 1
-_C6395: chosen_115 = 1
-_C6396: chosen_116 = 1
-_C6397: chosen_117 = 1
-_C6398: chosen_118 = 1
-_C6399: chosen_119 = 1
-_C64: chosen_63 = 1
-_C640: chosen_156 = 1
-_C6400: chosen_120 = 1
-_C6401: chosen_121 = 1
-_C6402: chosen_122 = 1
-_C6403: chosen_123 = 1
-_C6404: chosen_124 = 1
-_C6405: chosen_125 = 1
-_C6406: chosen_126 = 1
-_C6407: chosen_127 = 1
-_C6408: chosen_128 = 1
-_C6409: chosen_129 = 1
-_C641: chosen_157 = 1
-_C6410: chosen_130 = 1
-_C6411: chosen_131 = 1
-_C6412: chosen_132 = 1
-_C6413: chosen_133 = 1
-_C6414: chosen_134 = 1
-_C6415: chosen_135 = 1
-_C6416: chosen_136 = 1
-_C6417: chosen_137 = 1
-_C6418: chosen_138 = 1
-_C6419: chosen_139 = 1
-_C642: chosen_158 = 1
-_C6420: chosen_140 = 1
-_C6421: chosen_141 = 1
-_C6422: chosen_142 = 1
-_C6423: chosen_143 = 1
-_C6424: chosen_144 = 1
-_C6425: chosen_145 = 1
-_C6426: chosen_146 = 1
-_C6427: chosen_147 = 1
-_C6428: chosen_148 = 1
-_C6429: chosen_149 = 1
-_C643: chosen_159 = 1
-_C6430: chosen_150 = 1
-_C6431: chosen_151 = 1
-_C6432: chosen_152 = 1
-_C6433: chosen_153 = 1
-_C6434: chosen_154 = 1
-_C6435: chosen_155 = 1
-_C6436: chosen_156 = 1
-_C6437: chosen_157 = 1
-_C6438: chosen_158 = 1
-_C6439: chosen_159 = 1
-_C644: chosen_160 = 1
-_C6440: chosen_160 = 1
-_C6441: chosen_0 = 1
-_C6442: chosen_1 = 1
-_C6443: chosen_2 = 1
-_C6444: chosen_3 = 1
-_C6445: chosen_4 = 1
-_C6446: chosen_5 = 1
-_C6447: chosen_6 = 1
-_C6448: chosen_7 = 1
-_C6449: chosen_8 = 1
-_C645: chosen_0 = 1
-_C6450: chosen_9 = 1
-_C6451: chosen_10 = 1
-_C6452: chosen_11 = 1
-_C6453: chosen_12 = 1
-_C6454: chosen_13 = 1
-_C6455: chosen_14 = 1
-_C6456: chosen_15 = 1
-_C6457: chosen_16 = 1
-_C6458: chosen_17 = 1
-_C6459: chosen_18 = 1
-_C646: chosen_1 = 1
-_C6460: chosen_19 = 1
-_C6461: chosen_20 = 1
-_C6462: chosen_21 = 1
-_C6463: chosen_22 = 1
-_C6464: chosen_23 = 1
-_C6465: chosen_24 = 1
-_C6466: chosen_25 = 1
-_C6467: chosen_26 = 1
-_C6468: chosen_27 = 1
-_C6469: chosen_28 = 1
-_C647: chosen_2 = 1
-_C6470: chosen_29 = 1
-_C6471: chosen_30 = 1
-_C6472: chosen_31 = 1
-_C6473: chosen_32 = 1
-_C6474: chosen_33 = 1
-_C6475: chosen_34 = 1
-_C6476: chosen_35 = 1
-_C6477: chosen_36 = 1
-_C6478: chosen_37 = 1
-_C6479: chosen_38 = 1
-_C648: chosen_3 = 1
-_C6480: chosen_39 = 1
-_C6481: chosen_40 = 1
-_C6482: chosen_41 = 1
-_C6483: chosen_42 = 1
-_C6484: chosen_43 = 1
-_C6485: chosen_44 = 1
-_C6486: chosen_45 = 1
-_C6487: chosen_46 = 1
-_C6488: chosen_47 = 1
-_C6489: chosen_48 = 1
-_C649: chosen_4 = 1
-_C6490: chosen_49 = 1
-_C6491: chosen_50 = 1
-_C6492: chosen_51 = 1
-_C6493: chosen_52 = 1
-_C6494: chosen_53 = 1
-_C6495: chosen_54 = 1
-_C6496: chosen_55 = 1
-_C6497: chosen_56 = 1
-_C6498: chosen_57 = 1
-_C6499: chosen_58 = 1
-_C65: chosen_64 = 1
-_C650: chosen_5 = 1
-_C6500: chosen_59 = 1
-_C6501: chosen_60 = 1
-_C6502: chosen_61 = 1
-_C6503: chosen_62 = 1
-_C6504: chosen_63 = 1
-_C6505: chosen_64 = 1
-_C6506: chosen_65 = 1
-_C6507: chosen_66 = 1
-_C6508: chosen_67 = 1
-_C6509: chosen_68 = 1
-_C651: chosen_6 = 1
-_C6510: chosen_69 = 1
-_C6511: chosen_70 = 1
-_C6512: chosen_71 = 1
-_C6513: chosen_72 = 1
-_C6514: chosen_73 = 1
-_C6515: chosen_74 = 1
-_C6516: chosen_75 = 1
-_C6517: chosen_76 = 1
-_C6518: chosen_77 = 1
-_C6519: chosen_78 = 1
-_C652: chosen_7 = 1
-_C6520: chosen_79 = 1
-_C6521: chosen_80 = 1
-_C6522: chosen_81 = 1
-_C6523: chosen_82 = 1
-_C6524: chosen_83 = 1
-_C6525: chosen_84 = 1
-_C6526: chosen_85 = 1
-_C6527: chosen_86 = 1
-_C6528: chosen_87 = 1
-_C6529: chosen_88 = 1
-_C653: chosen_8 = 1
-_C6530: chosen_89 = 1
-_C6531: chosen_90 = 1
-_C6532: chosen_91 = 1
-_C6533: chosen_92 = 1
-_C6534: chosen_93 = 1
-_C6535: chosen_94 = 1
-_C6536: chosen_95 = 1
-_C6537: chosen_96 = 1
-_C6538: chosen_97 = 1
-_C6539: chosen_98 = 1
-_C654: chosen_9 = 1
-_C6540: chosen_99 = 1
-_C6541: chosen_100 = 1
-_C6542: chosen_101 = 1
-_C6543: chosen_102 = 1
-_C6544: chosen_103 = 1
-_C6545: chosen_104 = 1
-_C6546: chosen_105 = 1
-_C6547: chosen_106 = 1
-_C6548: chosen_107 = 1
-_C6549: chosen_108 = 1
-_C655: chosen_10 = 1
-_C6550: chosen_109 = 1
-_C6551: chosen_110 = 1
-_C6552: chosen_111 = 1
-_C6553: chosen_112 = 1
-_C6554: chosen_113 = 1
-_C6555: chosen_114 = 1
-_C6556: chosen_115 = 1
-_C6557: chosen_116 = 1
-_C6558: chosen_117 = 1
-_C6559: chosen_118 = 1
-_C656: chosen_11 = 1
-_C6560: chosen_119 = 1
-_C6561: chosen_120 = 1
-_C6562: chosen_121 = 1
-_C6563: chosen_122 = 1
-_C6564: chosen_123 = 1
-_C6565: chosen_124 = 1
-_C6566: chosen_125 = 1
-_C6567: chosen_126 = 1
-_C6568: chosen_127 = 1
-_C6569: chosen_128 = 1
-_C657: chosen_12 = 1
-_C6570: chosen_129 = 1
-_C6571: chosen_130 = 1
-_C6572: chosen_131 = 1
-_C6573: chosen_132 = 1
-_C6574: chosen_133 = 1
-_C6575: chosen_134 = 1
-_C6576: chosen_135 = 1
-_C6577: chosen_136 = 1
-_C6578: chosen_137 = 1
-_C6579: chosen_138 = 1
-_C658: chosen_13 = 1
-_C6580: chosen_139 = 1
-_C6581: chosen_140 = 1
-_C6582: chosen_141 = 1
-_C6583: chosen_142 = 1
-_C6584: chosen_143 = 1
-_C6585: chosen_144 = 1
-_C6586: chosen_145 = 1
-_C6587: chosen_146 = 1
-_C6588: chosen_147 = 1
-_C6589: chosen_148 = 1
-_C659: chosen_14 = 1
-_C6590: chosen_149 = 1
-_C6591: chosen_150 = 1
-_C6592: chosen_151 = 1
-_C6593: chosen_152 = 1
-_C6594: chosen_153 = 1
-_C6595: chosen_154 = 1
-_C6596: chosen_155 = 1
-_C6597: chosen_156 = 1
-_C6598: chosen_157 = 1
-_C6599: chosen_158 = 1
-_C66: chosen_65 = 1
-_C660: chosen_15 = 1
-_C6600: chosen_159 = 1
-_C6601: chosen_160 = 1
-_C6602: chosen_0 = 1
-_C6603: chosen_1 = 1
-_C6604: chosen_2 = 1
-_C6605: chosen_3 = 1
-_C6606: chosen_4 = 1
-_C6607: chosen_5 = 1
-_C6608: chosen_6 = 1
-_C6609: chosen_7 = 1
-_C661: chosen_16 = 1
-_C6610: chosen_8 = 1
-_C6611: chosen_9 = 1
-_C6612: chosen_10 = 1
-_C6613: chosen_11 = 1
-_C6614: chosen_12 = 1
-_C6615: chosen_13 = 1
-_C6616: chosen_14 = 1
-_C6617: chosen_15 = 1
-_C6618: chosen_16 = 1
-_C6619: chosen_17 = 1
-_C662: chosen_17 = 1
-_C6620: chosen_18 = 1
-_C6621: chosen_19 = 1
-_C6622: chosen_20 = 1
-_C6623: chosen_21 = 1
-_C6624: chosen_22 = 1
-_C6625: chosen_23 = 1
-_C6626: chosen_24 = 1
-_C6627: chosen_25 = 1
-_C6628: chosen_26 = 1
-_C6629: chosen_27 = 1
-_C663: chosen_18 = 1
-_C6630: chosen_28 = 1
-_C6631: chosen_29 = 1
-_C6632: chosen_30 = 1
-_C6633: chosen_31 = 1
-_C6634: chosen_32 = 1
-_C6635: chosen_33 = 1
-_C6636: chosen_34 = 1
-_C6637: chosen_35 = 1
-_C6638: chosen_36 = 1
-_C6639: chosen_37 = 1
-_C664: chosen_19 = 1
-_C6640: chosen_38 = 1
-_C6641: chosen_39 = 1
-_C6642: chosen_40 = 1
-_C6643: chosen_41 = 1
-_C6644: chosen_42 = 1
-_C6645: chosen_43 = 1
-_C6646: chosen_44 = 1
-_C6647: chosen_45 = 1
-_C6648: chosen_46 = 1
-_C6649: chosen_47 = 1
-_C665: chosen_20 = 1
-_C6650: chosen_48 = 1
-_C6651: chosen_49 = 1
-_C6652: chosen_50 = 1
-_C6653: chosen_51 = 1
-_C6654: chosen_52 = 1
-_C6655: chosen_53 = 1
-_C6656: chosen_54 = 1
-_C6657: chosen_55 = 1
-_C6658: chosen_56 = 1
-_C6659: chosen_57 = 1
-_C666: chosen_21 = 1
-_C6660: chosen_58 = 1
-_C6661: chosen_59 = 1
-_C6662: chosen_60 = 1
-_C6663: chosen_61 = 1
-_C6664: chosen_62 = 1
-_C6665: chosen_63 = 1
-_C6666: chosen_64 = 1
-_C6667: chosen_65 = 1
-_C6668: chosen_66 = 1
-_C6669: chosen_67 = 1
-_C667: chosen_22 = 1
-_C6670: chosen_68 = 1
-_C6671: chosen_69 = 1
-_C6672: chosen_70 = 1
-_C6673: chosen_71 = 1
-_C6674: chosen_72 = 1
-_C6675: chosen_73 = 1
-_C6676: chosen_74 = 1
-_C6677: chosen_75 = 1
-_C6678: chosen_76 = 1
-_C6679: chosen_77 = 1
-_C668: chosen_23 = 1
-_C6680: chosen_78 = 1
-_C6681: chosen_79 = 1
-_C6682: chosen_80 = 1
-_C6683: chosen_81 = 1
-_C6684: chosen_82 = 1
-_C6685: chosen_83 = 1
-_C6686: chosen_84 = 1
-_C6687: chosen_85 = 1
-_C6688: chosen_86 = 1
-_C6689: chosen_87 = 1
-_C669: chosen_24 = 1
-_C6690: chosen_88 = 1
-_C6691: chosen_89 = 1
-_C6692: chosen_90 = 1
-_C6693: chosen_91 = 1
-_C6694: chosen_92 = 1
-_C6695: chosen_93 = 1
-_C6696: chosen_94 = 1
-_C6697: chosen_95 = 1
-_C6698: chosen_96 = 1
-_C6699: chosen_97 = 1
-_C67: chosen_66 = 1
-_C670: chosen_25 = 1
-_C6700: chosen_98 = 1
-_C6701: chosen_99 = 1
-_C6702: chosen_100 = 1
-_C6703: chosen_101 = 1
-_C6704: chosen_102 = 1
-_C6705: chosen_103 = 1
-_C6706: chosen_104 = 1
-_C6707: chosen_105 = 1
-_C6708: chosen_106 = 1
-_C6709: chosen_107 = 1
-_C671: chosen_26 = 1
-_C6710: chosen_108 = 1
-_C6711: chosen_109 = 1
-_C6712: chosen_110 = 1
-_C6713: chosen_111 = 1
-_C6714: chosen_112 = 1
-_C6715: chosen_113 = 1
-_C6716: chosen_114 = 1
-_C6717: chosen_115 = 1
-_C6718: chosen_116 = 1
-_C6719: chosen_117 = 1
-_C672: chosen_27 = 1
-_C6720: chosen_118 = 1
-_C6721: chosen_119 = 1
-_C6722: chosen_120 = 1
-_C6723: chosen_121 = 1
-_C6724: chosen_122 = 1
-_C6725: chosen_123 = 1
-_C6726: chosen_124 = 1
-_C6727: chosen_125 = 1
-_C6728: chosen_126 = 1
-_C6729: chosen_127 = 1
-_C673: chosen_28 = 1
-_C6730: chosen_128 = 1
-_C6731: chosen_129 = 1
-_C6732: chosen_130 = 1
-_C6733: chosen_131 = 1
-_C6734: chosen_132 = 1
-_C6735: chosen_133 = 1
-_C6736: chosen_134 = 1
-_C6737: chosen_135 = 1
-_C6738: chosen_136 = 1
-_C6739: chosen_137 = 1
-_C674: chosen_29 = 1
-_C6740: chosen_138 = 1
-_C6741: chosen_139 = 1
-_C6742: chosen_140 = 1
-_C6743: chosen_141 = 1
-_C6744: chosen_142 = 1
-_C6745: chosen_143 = 1
-_C6746: chosen_144 = 1
-_C6747: chosen_145 = 1
-_C6748: chosen_146 = 1
-_C6749: chosen_147 = 1
-_C675: chosen_30 = 1
-_C6750: chosen_148 = 1
-_C6751: chosen_149 = 1
-_C6752: chosen_150 = 1
-_C6753: chosen_151 = 1
-_C6754: chosen_152 = 1
-_C6755: chosen_153 = 1
-_C6756: chosen_154 = 1
-_C6757: chosen_155 = 1
-_C6758: chosen_156 = 1
-_C6759: chosen_157 = 1
-_C676: chosen_31 = 1
-_C6760: chosen_158 = 1
-_C6761: chosen_159 = 1
-_C6762: chosen_160 = 1
-_C6763: chosen_0 = 1
-_C6764: chosen_1 = 1
-_C6765: chosen_2 = 1
-_C6766: chosen_3 = 1
-_C6767: chosen_4 = 1
-_C6768: chosen_5 = 1
-_C6769: chosen_6 = 1
-_C677: chosen_32 = 1
-_C6770: chosen_7 = 1
-_C6771: chosen_8 = 1
-_C6772: chosen_9 = 1
-_C6773: chosen_10 = 1
-_C6774: chosen_11 = 1
-_C6775: chosen_12 = 1
-_C6776: chosen_13 = 1
-_C6777: chosen_14 = 1
-_C6778: chosen_15 = 1
-_C6779: chosen_16 = 1
-_C678: chosen_33 = 1
-_C6780: chosen_17 = 1
-_C6781: chosen_18 = 1
-_C6782: chosen_19 = 1
-_C6783: chosen_20 = 1
-_C6784: chosen_21 = 1
-_C6785: chosen_22 = 1
-_C6786: chosen_23 = 1
-_C6787: chosen_24 = 1
-_C6788: chosen_25 = 1
-_C6789: chosen_26 = 1
-_C679: chosen_34 = 1
-_C6790: chosen_27 = 1
-_C6791: chosen_28 = 1
-_C6792: chosen_29 = 1
-_C6793: chosen_30 = 1
-_C6794: chosen_31 = 1
-_C6795: chosen_32 = 1
-_C6796: chosen_33 = 1
-_C6797: chosen_34 = 1
-_C6798: chosen_35 = 1
-_C6799: chosen_36 = 1
-_C68: chosen_67 = 1
-_C680: chosen_35 = 1
-_C6800: chosen_37 = 1
-_C6801: chosen_38 = 1
-_C6802: chosen_39 = 1
-_C6803: chosen_40 = 1
-_C6804: chosen_41 = 1
-_C6805: chosen_42 = 1
-_C6806: chosen_43 = 1
-_C6807: chosen_44 = 1
-_C6808: chosen_45 = 1
-_C6809: chosen_46 = 1
-_C681: chosen_36 = 1
-_C6810: chosen_47 = 1
-_C6811: chosen_48 = 1
-_C6812: chosen_49 = 1
-_C6813: chosen_50 = 1
-_C6814: chosen_51 = 1
-_C6815: chosen_52 = 1
-_C6816: chosen_53 = 1
-_C6817: chosen_54 = 1
-_C6818: chosen_55 = 1
-_C6819: chosen_56 = 1
-_C682: chosen_37 = 1
-_C6820: chosen_57 = 1
-_C6821: chosen_58 = 1
-_C6822: chosen_59 = 1
-_C6823: chosen_60 = 1
-_C6824: chosen_61 = 1
-_C6825: chosen_62 = 1
-_C6826: chosen_63 = 1
-_C6827: chosen_64 = 1
-_C6828: chosen_65 = 1
-_C6829: chosen_66 = 1
-_C683: chosen_38 = 1
-_C6830: chosen_67 = 1
-_C6831: chosen_68 = 1
-_C6832: chosen_69 = 1
-_C6833: chosen_70 = 1
-_C6834: chosen_71 = 1
-_C6835: chosen_72 = 1
-_C6836: chosen_73 = 1
-_C6837: chosen_74 = 1
-_C6838: chosen_75 = 1
-_C6839: chosen_76 = 1
-_C684: chosen_39 = 1
-_C6840: chosen_77 = 1
-_C6841: chosen_78 = 1
-_C6842: chosen_79 = 1
-_C6843: chosen_80 = 1
-_C6844: chosen_81 = 1
-_C6845: chosen_82 = 1
-_C6846: chosen_83 = 1
-_C6847: chosen_84 = 1
-_C6848: chosen_85 = 1
-_C6849: chosen_86 = 1
-_C685: chosen_40 = 1
-_C6850: chosen_87 = 1
-_C6851: chosen_88 = 1
-_C6852: chosen_89 = 1
-_C6853: chosen_90 = 1
-_C6854: chosen_91 = 1
-_C6855: chosen_92 = 1
-_C6856: chosen_93 = 1
-_C6857: chosen_94 = 1
-_C6858: chosen_95 = 1
-_C6859: chosen_96 = 1
-_C686: chosen_41 = 1
-_C6860: chosen_97 = 1
-_C6861: chosen_98 = 1
-_C6862: chosen_99 = 1
-_C6863: chosen_100 = 1
-_C6864: chosen_101 = 1
-_C6865: chosen_102 = 1
-_C6866: chosen_103 = 1
-_C6867: chosen_104 = 1
-_C6868: chosen_105 = 1
-_C6869: chosen_106 = 1
-_C687: chosen_42 = 1
-_C6870: chosen_107 = 1
-_C6871: chosen_108 = 1
-_C6872: chosen_109 = 1
-_C6873: chosen_110 = 1
-_C6874: chosen_111 = 1
-_C6875: chosen_112 = 1
-_C6876: chosen_113 = 1
-_C6877: chosen_114 = 1
-_C6878: chosen_115 = 1
-_C6879: chosen_116 = 1
-_C688: chosen_43 = 1
-_C6880: chosen_117 = 1
-_C6881: chosen_118 = 1
-_C6882: chosen_119 = 1
-_C6883: chosen_120 = 1
-_C6884: chosen_121 = 1
-_C6885: chosen_122 = 1
-_C6886: chosen_123 = 1
-_C6887: chosen_124 = 1
-_C6888: chosen_125 = 1
-_C6889: chosen_126 = 1
-_C689: chosen_44 = 1
-_C6890: chosen_127 = 1
-_C6891: chosen_128 = 1
-_C6892: chosen_129 = 1
-_C6893: chosen_130 = 1
-_C6894: chosen_131 = 1
-_C6895: chosen_132 = 1
-_C6896: chosen_133 = 1
-_C6897: chosen_134 = 1
-_C6898: chosen_135 = 1
-_C6899: chosen_136 = 1
-_C69: chosen_68 = 1
-_C690: chosen_45 = 1
-_C6900: chosen_137 = 1
-_C6901: chosen_138 = 1
-_C6902: chosen_139 = 1
-_C6903: chosen_140 = 1
-_C6904: chosen_141 = 1
-_C6905: chosen_142 = 1
-_C6906: chosen_143 = 1
-_C6907: chosen_144 = 1
-_C6908: chosen_145 = 1
-_C6909: chosen_146 = 1
-_C691: chosen_46 = 1
-_C6910: chosen_147 = 1
-_C6911: chosen_148 = 1
-_C6912: chosen_149 = 1
-_C6913: chosen_150 = 1
-_C6914: chosen_151 = 1
-_C6915: chosen_152 = 1
-_C6916: chosen_153 = 1
-_C6917: chosen_154 = 1
-_C6918: chosen_155 = 1
-_C6919: chosen_156 = 1
-_C692: chosen_47 = 1
-_C6920: chosen_157 = 1
-_C6921: chosen_158 = 1
-_C6922: chosen_159 = 1
-_C6923: chosen_160 = 1
-_C6924: chosen_0 = 1
-_C6925: chosen_1 = 1
-_C6926: chosen_2 = 1
-_C6927: chosen_3 = 1
-_C6928: chosen_4 = 1
-_C6929: chosen_5 = 1
-_C693: chosen_48 = 1
-_C6930: chosen_6 = 1
-_C6931: chosen_7 = 1
-_C6932: chosen_8 = 1
-_C6933: chosen_9 = 1
-_C6934: chosen_10 = 1
-_C6935: chosen_11 = 1
-_C6936: chosen_12 = 1
-_C6937: chosen_13 = 1
-_C6938: chosen_14 = 1
-_C6939: chosen_15 = 1
-_C694: chosen_49 = 1
-_C6940: chosen_16 = 1
-_C6941: chosen_17 = 1
-_C6942: chosen_18 = 1
-_C6943: chosen_19 = 1
-_C6944: chosen_20 = 1
-_C6945: chosen_21 = 1
-_C6946: chosen_22 = 1
-_C6947: chosen_23 = 1
-_C6948: chosen_24 = 1
-_C6949: chosen_25 = 1
-_C695: chosen_50 = 1
-_C6950: chosen_26 = 1
-_C6951: chosen_27 = 1
-_C6952: chosen_28 = 1
-_C6953: chosen_29 = 1
-_C6954: chosen_30 = 1
-_C6955: chosen_31 = 1
-_C6956: chosen_32 = 1
-_C6957: chosen_33 = 1
-_C6958: chosen_34 = 1
-_C6959: chosen_35 = 1
-_C696: chosen_51 = 1
-_C6960: chosen_36 = 1
-_C6961: chosen_37 = 1
-_C6962: chosen_38 = 1
-_C6963: chosen_39 = 1
-_C6964: chosen_40 = 1
-_C6965: chosen_41 = 1
-_C6966: chosen_42 = 1
-_C6967: chosen_43 = 1
-_C6968: chosen_44 = 1
-_C6969: chosen_45 = 1
-_C697: chosen_52 = 1
-_C6970: chosen_46 = 1
-_C6971: chosen_47 = 1
-_C6972: chosen_48 = 1
-_C6973: chosen_49 = 1
-_C6974: chosen_50 = 1
-_C6975: chosen_51 = 1
-_C6976: chosen_52 = 1
-_C6977: chosen_53 = 1
-_C6978: chosen_54 = 1
-_C6979: chosen_55 = 1
-_C698: chosen_53 = 1
-_C6980: chosen_56 = 1
-_C6981: chosen_57 = 1
-_C6982: chosen_58 = 1
-_C6983: chosen_59 = 1
-_C6984: chosen_60 = 1
-_C6985: chosen_61 = 1
-_C6986: chosen_62 = 1
-_C6987: chosen_63 = 1
-_C6988: chosen_64 = 1
-_C6989: chosen_65 = 1
-_C699: chosen_54 = 1
-_C6990: chosen_66 = 1
-_C6991: chosen_67 = 1
-_C6992: chosen_68 = 1
-_C6993: chosen_69 = 1
-_C6994: chosen_70 = 1
-_C6995: chosen_71 = 1
-_C6996: chosen_72 = 1
-_C6997: chosen_73 = 1
-_C6998: chosen_74 = 1
-_C6999: chosen_75 = 1
-_C7: chosen_6 = 1
-_C70: chosen_69 = 1
-_C700: chosen_55 = 1
-_C7000: chosen_76 = 1
-_C7001: chosen_77 = 1
-_C7002: chosen_78 = 1
-_C7003: chosen_79 = 1
-_C7004: chosen_80 = 1
-_C7005: chosen_81 = 1
-_C7006: chosen_82 = 1
-_C7007: chosen_83 = 1
-_C7008: chosen_84 = 1
-_C7009: chosen_85 = 1
-_C701: chosen_56 = 1
-_C7010: chosen_86 = 1
-_C7011: chosen_87 = 1
-_C7012: chosen_88 = 1
-_C7013: chosen_89 = 1
-_C7014: chosen_90 = 1
-_C7015: chosen_91 = 1
-_C7016: chosen_92 = 1
-_C7017: chosen_93 = 1
-_C7018: chosen_94 = 1
-_C7019: chosen_95 = 1
-_C702: chosen_57 = 1
-_C7020: chosen_96 = 1
-_C7021: chosen_97 = 1
-_C7022: chosen_98 = 1
-_C7023: chosen_99 = 1
-_C7024: chosen_100 = 1
-_C7025: chosen_101 = 1
-_C7026: chosen_102 = 1
-_C7027: chosen_103 = 1
-_C7028: chosen_104 = 1
-_C7029: chosen_105 = 1
-_C703: chosen_58 = 1
-_C7030: chosen_106 = 1
-_C7031: chosen_107 = 1
-_C7032: chosen_108 = 1
-_C7033: chosen_109 = 1
-_C7034: chosen_110 = 1
-_C7035: chosen_111 = 1
-_C7036: chosen_112 = 1
-_C7037: chosen_113 = 1
-_C7038: chosen_114 = 1
-_C7039: chosen_115 = 1
-_C704: chosen_59 = 1
-_C7040: chosen_116 = 1
-_C7041: chosen_117 = 1
-_C7042: chosen_118 = 1
-_C7043: chosen_119 = 1
-_C7044: chosen_120 = 1
-_C7045: chosen_121 = 1
-_C7046: chosen_122 = 1
-_C7047: chosen_123 = 1
-_C7048: chosen_124 = 1
-_C7049: chosen_125 = 1
-_C705: chosen_60 = 1
-_C7050: chosen_126 = 1
-_C7051: chosen_127 = 1
-_C7052: chosen_128 = 1
-_C7053: chosen_129 = 1
-_C7054: chosen_130 = 1
-_C7055: chosen_131 = 1
-_C7056: chosen_132 = 1
-_C7057: chosen_133 = 1
-_C7058: chosen_134 = 1
-_C7059: chosen_135 = 1
-_C706: chosen_61 = 1
-_C7060: chosen_136 = 1
-_C7061: chosen_137 = 1
-_C7062: chosen_138 = 1
-_C7063: chosen_139 = 1
-_C7064: chosen_140 = 1
-_C7065: chosen_141 = 1
-_C7066: chosen_142 = 1
-_C7067: chosen_143 = 1
-_C7068: chosen_144 = 1
-_C7069: chosen_145 = 1
-_C707: chosen_62 = 1
-_C7070: chosen_146 = 1
-_C7071: chosen_147 = 1
-_C7072: chosen_148 = 1
-_C7073: chosen_149 = 1
-_C7074: chosen_150 = 1
-_C7075: chosen_151 = 1
-_C7076: chosen_152 = 1
-_C7077: chosen_153 = 1
-_C7078: chosen_154 = 1
-_C7079: chosen_155 = 1
-_C708: chosen_63 = 1
-_C7080: chosen_156 = 1
-_C7081: chosen_157 = 1
-_C7082: chosen_158 = 1
-_C7083: chosen_159 = 1
-_C7084: chosen_160 = 1
-_C7085: chosen_0 = 1
-_C7086: chosen_1 = 1
-_C7087: chosen_2 = 1
-_C7088: chosen_3 = 1
-_C7089: chosen_4 = 1
-_C709: chosen_64 = 1
-_C7090: chosen_5 = 1
-_C7091: chosen_6 = 1
-_C7092: chosen_7 = 1
-_C7093: chosen_8 = 1
-_C7094: chosen_9 = 1
-_C7095: chosen_10 = 1
-_C7096: chosen_11 = 1
-_C7097: chosen_12 = 1
-_C7098: chosen_13 = 1
-_C7099: chosen_14 = 1
-_C71: chosen_70 = 1
-_C710: chosen_65 = 1
-_C7100: chosen_15 = 1
-_C7101: chosen_16 = 1
-_C7102: chosen_17 = 1
-_C7103: chosen_18 = 1
-_C7104: chosen_19 = 1
-_C7105: chosen_20 = 1
-_C7106: chosen_21 = 1
-_C7107: chosen_22 = 1
-_C7108: chosen_23 = 1
-_C7109: chosen_24 = 1
-_C711: chosen_66 = 1
-_C7110: chosen_25 = 1
-_C7111: chosen_26 = 1
-_C7112: chosen_27 = 1
-_C7113: chosen_28 = 1
-_C7114: chosen_29 = 1
-_C7115: chosen_30 = 1
-_C7116: chosen_31 = 1
-_C7117: chosen_32 = 1
-_C7118: chosen_33 = 1
-_C7119: chosen_34 = 1
-_C712: chosen_67 = 1
-_C7120: chosen_35 = 1
-_C7121: chosen_36 = 1
-_C7122: chosen_37 = 1
-_C7123: chosen_38 = 1
-_C7124: chosen_39 = 1
-_C7125: chosen_40 = 1
-_C7126: chosen_41 = 1
-_C7127: chosen_42 = 1
-_C7128: chosen_43 = 1
-_C7129: chosen_44 = 1
-_C713: chosen_68 = 1
-_C7130: chosen_45 = 1
-_C7131: chosen_46 = 1
-_C7132: chosen_47 = 1
-_C7133: chosen_48 = 1
-_C7134: chosen_49 = 1
-_C7135: chosen_50 = 1
-_C7136: chosen_51 = 1
-_C7137: chosen_52 = 1
-_C7138: chosen_53 = 1
-_C7139: chosen_54 = 1
-_C714: chosen_69 = 1
-_C7140: chosen_55 = 1
-_C7141: chosen_56 = 1
-_C7142: chosen_57 = 1
-_C7143: chosen_58 = 1
-_C7144: chosen_59 = 1
-_C7145: chosen_60 = 1
-_C7146: chosen_61 = 1
-_C7147: chosen_62 = 1
-_C7148: chosen_63 = 1
-_C7149: chosen_64 = 1
-_C715: chosen_70 = 1
-_C7150: chosen_65 = 1
-_C7151: chosen_66 = 1
-_C7152: chosen_67 = 1
-_C7153: chosen_68 = 1
-_C7154: chosen_69 = 1
-_C7155: chosen_70 = 1
-_C7156: chosen_71 = 1
-_C7157: chosen_72 = 1
-_C7158: chosen_73 = 1
-_C7159: chosen_74 = 1
-_C716: chosen_71 = 1
-_C7160: chosen_75 = 1
-_C7161: chosen_76 = 1
-_C7162: chosen_77 = 1
-_C7163: chosen_78 = 1
-_C7164: chosen_79 = 1
-_C7165: chosen_80 = 1
-_C7166: chosen_81 = 1
-_C7167: chosen_82 = 1
-_C7168: chosen_83 = 1
-_C7169: chosen_84 = 1
-_C717: chosen_72 = 1
-_C7170: chosen_85 = 1
-_C7171: chosen_86 = 1
-_C7172: chosen_87 = 1
-_C7173: chosen_88 = 1
-_C7174: chosen_89 = 1
-_C7175: chosen_90 = 1
-_C7176: chosen_91 = 1
-_C7177: chosen_92 = 1
-_C7178: chosen_93 = 1
-_C7179: chosen_94 = 1
-_C718: chosen_73 = 1
-_C7180: chosen_95 = 1
-_C7181: chosen_96 = 1
-_C7182: chosen_97 = 1
-_C7183: chosen_98 = 1
-_C7184: chosen_99 = 1
-_C7185: chosen_100 = 1
-_C7186: chosen_101 = 1
-_C7187: chosen_102 = 1
-_C7188: chosen_103 = 1
-_C7189: chosen_104 = 1
-_C719: chosen_74 = 1
-_C7190: chosen_105 = 1
-_C7191: chosen_106 = 1
-_C7192: chosen_107 = 1
-_C7193: chosen_108 = 1
-_C7194: chosen_109 = 1
-_C7195: chosen_110 = 1
-_C7196: chosen_111 = 1
-_C7197: chosen_112 = 1
-_C7198: chosen_113 = 1
-_C7199: chosen_114 = 1
-_C72: chosen_71 = 1
-_C720: chosen_75 = 1
-_C7200: chosen_115 = 1
-_C7201: chosen_116 = 1
-_C7202: chosen_117 = 1
-_C7203: chosen_118 = 1
-_C7204: chosen_119 = 1
-_C7205: chosen_120 = 1
-_C7206: chosen_121 = 1
-_C7207: chosen_122 = 1
-_C7208: chosen_123 = 1
-_C7209: chosen_124 = 1
-_C721: chosen_76 = 1
-_C7210: chosen_125 = 1
-_C7211: chosen_126 = 1
-_C7212: chosen_127 = 1
-_C7213: chosen_128 = 1
-_C7214: chosen_129 = 1
-_C7215: chosen_130 = 1
-_C7216: chosen_131 = 1
-_C7217: chosen_132 = 1
-_C7218: chosen_133 = 1
-_C7219: chosen_134 = 1
-_C722: chosen_77 = 1
-_C7220: chosen_135 = 1
-_C7221: chosen_136 = 1
-_C7222: chosen_137 = 1
-_C7223: chosen_138 = 1
-_C7224: chosen_139 = 1
-_C7225: chosen_140 = 1
-_C7226: chosen_141 = 1
-_C7227: chosen_142 = 1
-_C7228: chosen_143 = 1
-_C7229: chosen_144 = 1
-_C723: chosen_78 = 1
-_C7230: chosen_145 = 1
-_C7231: chosen_146 = 1
-_C7232: chosen_147 = 1
-_C7233: chosen_148 = 1
-_C7234: chosen_149 = 1
-_C7235: chosen_150 = 1
-_C7236: chosen_151 = 1
-_C7237: chosen_152 = 1
-_C7238: chosen_153 = 1
-_C7239: chosen_154 = 1
-_C724: chosen_79 = 1
-_C7240: chosen_155 = 1
-_C7241: chosen_156 = 1
-_C7242: chosen_157 = 1
-_C7243: chosen_158 = 1
-_C7244: chosen_159 = 1
-_C7245: chosen_160 = 1
-_C7246: chosen_0 = 1
-_C7247: chosen_1 = 1
-_C7248: chosen_2 = 1
-_C7249: chosen_3 = 1
-_C725: chosen_80 = 1
-_C7250: chosen_4 = 1
-_C7251: chosen_5 = 1
-_C7252: chosen_6 = 1
-_C7253: chosen_7 = 1
-_C7254: chosen_8 = 1
-_C7255: chosen_9 = 1
-_C7256: chosen_10 = 1
-_C7257: chosen_11 = 1
-_C7258: chosen_12 = 1
-_C7259: chosen_13 = 1
-_C726: chosen_81 = 1
-_C7260: chosen_14 = 1
-_C7261: chosen_15 = 1
-_C7262: chosen_16 = 1
-_C7263: chosen_17 = 1
-_C7264: chosen_18 = 1
-_C7265: chosen_19 = 1
-_C7266: chosen_20 = 1
-_C7267: chosen_21 = 1
-_C7268: chosen_22 = 1
-_C7269: chosen_23 = 1
-_C727: chosen_82 = 1
-_C7270: chosen_24 = 1
-_C7271: chosen_25 = 1
-_C7272: chosen_26 = 1
-_C7273: chosen_27 = 1
-_C7274: chosen_28 = 1
-_C7275: chosen_29 = 1
-_C7276: chosen_30 = 1
-_C7277: chosen_31 = 1
-_C7278: chosen_32 = 1
-_C7279: chosen_33 = 1
-_C728: chosen_83 = 1
-_C7280: chosen_34 = 1
-_C7281: chosen_35 = 1
-_C7282: chosen_36 = 1
-_C7283: chosen_37 = 1
-_C7284: chosen_38 = 1
-_C7285: chosen_39 = 1
-_C7286: chosen_40 = 1
-_C7287: chosen_41 = 1
-_C7288: chosen_42 = 1
-_C7289: chosen_43 = 1
-_C729: chosen_84 = 1
-_C7290: chosen_44 = 1
-_C7291: chosen_45 = 1
-_C7292: chosen_46 = 1
-_C7293: chosen_47 = 1
-_C7294: chosen_48 = 1
-_C7295: chosen_49 = 1
-_C7296: chosen_50 = 1
-_C7297: chosen_51 = 1
-_C7298: chosen_52 = 1
-_C7299: chosen_53 = 1
-_C73: chosen_72 = 1
-_C730: chosen_85 = 1
-_C7300: chosen_54 = 1
-_C7301: chosen_55 = 1
-_C7302: chosen_56 = 1
-_C7303: chosen_57 = 1
-_C7304: chosen_58 = 1
-_C7305: chosen_59 = 1
-_C7306: chosen_60 = 1
-_C7307: chosen_61 = 1
-_C7308: chosen_62 = 1
-_C7309: chosen_63 = 1
-_C731: chosen_86 = 1
-_C7310: chosen_64 = 1
-_C7311: chosen_65 = 1
-_C7312: chosen_66 = 1
-_C7313: chosen_67 = 1
-_C7314: chosen_68 = 1
-_C7315: chosen_69 = 1
-_C7316: chosen_70 = 1
-_C7317: chosen_71 = 1
-_C7318: chosen_72 = 1
-_C7319: chosen_73 = 1
-_C732: chosen_87 = 1
-_C7320: chosen_74 = 1
-_C7321: chosen_75 = 1
-_C7322: chosen_76 = 1
-_C7323: chosen_77 = 1
-_C7324: chosen_78 = 1
-_C7325: chosen_79 = 1
-_C7326: chosen_80 = 1
-_C7327: chosen_81 = 1
-_C7328: chosen_82 = 1
-_C7329: chosen_83 = 1
-_C733: chosen_88 = 1
-_C7330: chosen_84 = 1
-_C7331: chosen_85 = 1
-_C7332: chosen_86 = 1
-_C7333: chosen_87 = 1
-_C7334: chosen_88 = 1
-_C7335: chosen_89 = 1
-_C7336: chosen_90 = 1
-_C7337: chosen_91 = 1
-_C7338: chosen_92 = 1
-_C7339: chosen_93 = 1
-_C734: chosen_89 = 1
-_C7340: chosen_94 = 1
-_C7341: chosen_95 = 1
-_C7342: chosen_96 = 1
-_C7343: chosen_97 = 1
-_C7344: chosen_98 = 1
-_C7345: chosen_99 = 1
-_C7346: chosen_100 = 1
-_C7347: chosen_101 = 1
-_C7348: chosen_102 = 1
-_C7349: chosen_103 = 1
-_C735: chosen_90 = 1
-_C7350: chosen_104 = 1
-_C7351: chosen_105 = 1
-_C7352: chosen_106 = 1
-_C7353: chosen_107 = 1
-_C7354: chosen_108 = 1
-_C7355: chosen_109 = 1
-_C7356: chosen_110 = 1
-_C7357: chosen_111 = 1
-_C7358: chosen_112 = 1
-_C7359: chosen_113 = 1
-_C736: chosen_91 = 1
-_C7360: chosen_114 = 1
-_C7361: chosen_115 = 1
-_C7362: chosen_116 = 1
-_C7363: chosen_117 = 1
-_C7364: chosen_118 = 1
-_C7365: chosen_119 = 1
-_C7366: chosen_120 = 1
-_C7367: chosen_121 = 1
-_C7368: chosen_122 = 1
-_C7369: chosen_123 = 1
-_C737: chosen_92 = 1
-_C7370: chosen_124 = 1
-_C7371: chosen_125 = 1
-_C7372: chosen_126 = 1
-_C7373: chosen_127 = 1
-_C7374: chosen_128 = 1
-_C7375: chosen_129 = 1
-_C7376: chosen_130 = 1
-_C7377: chosen_131 = 1
-_C7378: chosen_132 = 1
-_C7379: chosen_133 = 1
-_C738: chosen_93 = 1
-_C7380: chosen_134 = 1
-_C7381: chosen_135 = 1
-_C7382: chosen_136 = 1
-_C7383: chosen_137 = 1
-_C7384: chosen_138 = 1
-_C7385: chosen_139 = 1
-_C7386: chosen_140 = 1
-_C7387: chosen_141 = 1
-_C7388: chosen_142 = 1
-_C7389: chosen_143 = 1
-_C739: chosen_94 = 1
-_C7390: chosen_144 = 1
-_C7391: chosen_145 = 1
-_C7392: chosen_146 = 1
-_C7393: chosen_147 = 1
-_C7394: chosen_148 = 1
-_C7395: chosen_149 = 1
-_C7396: chosen_150 = 1
-_C7397: chosen_151 = 1
-_C7398: chosen_152 = 1
-_C7399: chosen_153 = 1
-_C74: chosen_73 = 1
-_C740: chosen_95 = 1
-_C7400: chosen_154 = 1
-_C7401: chosen_155 = 1
-_C7402: chosen_156 = 1
-_C7403: chosen_157 = 1
-_C7404: chosen_158 = 1
-_C7405: chosen_159 = 1
-_C7406: chosen_160 = 1
-_C7407: chosen_0 = 1
-_C7408: chosen_1 = 1
-_C7409: chosen_2 = 1
-_C741: chosen_96 = 1
-_C7410: chosen_3 = 1
-_C7411: chosen_4 = 1
-_C7412: chosen_5 = 1
-_C7413: chosen_6 = 1
-_C7414: chosen_7 = 1
-_C7415: chosen_8 = 1
-_C7416: chosen_9 = 1
-_C7417: chosen_10 = 1
-_C7418: chosen_11 = 1
-_C7419: chosen_12 = 1
-_C742: chosen_97 = 1
-_C7420: chosen_13 = 1
-_C7421: chosen_14 = 1
-_C7422: chosen_15 = 1
-_C7423: chosen_16 = 1
-_C7424: chosen_17 = 1
-_C7425: chosen_18 = 1
-_C7426: chosen_19 = 1
-_C7427: chosen_20 = 1
-_C7428: chosen_21 = 1
-_C7429: chosen_22 = 1
-_C743: chosen_98 = 1
-_C7430: chosen_23 = 1
-_C7431: chosen_24 = 1
-_C7432: chosen_25 = 1
-_C7433: chosen_26 = 1
-_C7434: chosen_27 = 1
-_C7435: chosen_28 = 1
-_C7436: chosen_29 = 1
-_C7437: chosen_30 = 1
-_C7438: chosen_31 = 1
-_C7439: chosen_32 = 1
-_C744: chosen_99 = 1
-_C7440: chosen_33 = 1
-_C7441: chosen_34 = 1
-_C7442: chosen_35 = 1
-_C7443: chosen_36 = 1
-_C7444: chosen_37 = 1
-_C7445: chosen_38 = 1
-_C7446: chosen_39 = 1
-_C7447: chosen_40 = 1
-_C7448: chosen_41 = 1
-_C7449: chosen_42 = 1
-_C745: chosen_100 = 1
-_C7450: chosen_43 = 1
-_C7451: chosen_44 = 1
-_C7452: chosen_45 = 1
-_C7453: chosen_46 = 1
-_C7454: chosen_47 = 1
-_C7455: chosen_48 = 1
-_C7456: chosen_49 = 1
-_C7457: chosen_50 = 1
-_C7458: chosen_51 = 1
-_C7459: chosen_52 = 1
-_C746: chosen_101 = 1
-_C7460: chosen_53 = 1
-_C7461: chosen_54 = 1
-_C7462: chosen_55 = 1
-_C7463: chosen_56 = 1
-_C7464: chosen_57 = 1
-_C7465: chosen_58 = 1
-_C7466: chosen_59 = 1
-_C7467: chosen_60 = 1
-_C7468: chosen_61 = 1
-_C7469: chosen_62 = 1
-_C747: chosen_102 = 1
-_C7470: chosen_63 = 1
-_C7471: chosen_64 = 1
-_C7472: chosen_65 = 1
-_C7473: chosen_66 = 1
-_C7474: chosen_67 = 1
-_C7475: chosen_68 = 1
-_C7476: chosen_69 = 1
-_C7477: chosen_70 = 1
-_C7478: chosen_71 = 1
-_C7479: chosen_72 = 1
-_C748: chosen_103 = 1
-_C7480: chosen_73 = 1
-_C7481: chosen_74 = 1
-_C7482: chosen_75 = 1
-_C7483: chosen_76 = 1
-_C7484: chosen_77 = 1
-_C7485: chosen_78 = 1
-_C7486: chosen_79 = 1
-_C7487: chosen_80 = 1
-_C7488: chosen_81 = 1
-_C7489: chosen_82 = 1
-_C749: chosen_104 = 1
-_C7490: chosen_83 = 1
-_C7491: chosen_84 = 1
-_C7492: chosen_85 = 1
-_C7493: chosen_86 = 1
-_C7494: chosen_87 = 1
-_C7495: chosen_88 = 1
-_C7496: chosen_89 = 1
-_C7497: chosen_90 = 1
-_C7498: chosen_91 = 1
-_C7499: chosen_92 = 1
-_C75: chosen_74 = 1
-_C750: chosen_105 = 1
-_C7500: chosen_93 = 1
-_C7501: chosen_94 = 1
-_C7502: chosen_95 = 1
-_C7503: chosen_96 = 1
-_C7504: chosen_97 = 1
-_C7505: chosen_98 = 1
-_C7506: chosen_99 = 1
-_C7507: chosen_100 = 1
-_C7508: chosen_101 = 1
-_C7509: chosen_102 = 1
-_C751: chosen_106 = 1
-_C7510: chosen_103 = 1
-_C7511: chosen_104 = 1
-_C7512: chosen_105 = 1
-_C7513: chosen_106 = 1
-_C7514: chosen_107 = 1
-_C7515: chosen_108 = 1
-_C7516: chosen_109 = 1
-_C7517: chosen_110 = 1
-_C7518: chosen_111 = 1
-_C7519: chosen_112 = 1
-_C752: chosen_107 = 1
-_C7520: chosen_113 = 1
-_C7521: chosen_114 = 1
-_C7522: chosen_115 = 1
-_C7523: chosen_116 = 1
-_C7524: chosen_117 = 1
-_C7525: chosen_118 = 1
-_C7526: chosen_119 = 1
-_C7527: chosen_120 = 1
-_C7528: chosen_121 = 1
-_C7529: chosen_122 = 1
-_C753: chosen_108 = 1
-_C7530: chosen_123 = 1
-_C7531: chosen_124 = 1
-_C7532: chosen_125 = 1
-_C7533: chosen_126 = 1
-_C7534: chosen_127 = 1
-_C7535: chosen_128 = 1
-_C7536: chosen_129 = 1
-_C7537: chosen_130 = 1
-_C7538: chosen_131 = 1
-_C7539: chosen_132 = 1
-_C754: chosen_109 = 1
-_C7540: chosen_133 = 1
-_C7541: chosen_134 = 1
-_C7542: chosen_135 = 1
-_C7543: chosen_136 = 1
-_C7544: chosen_137 = 1
-_C7545: chosen_138 = 1
-_C7546: chosen_139 = 1
-_C7547: chosen_140 = 1
-_C7548: chosen_141 = 1
-_C7549: chosen_142 = 1
-_C755: chosen_110 = 1
-_C7550: chosen_143 = 1
-_C7551: chosen_144 = 1
-_C7552: chosen_145 = 1
-_C7553: chosen_146 = 1
-_C7554: chosen_147 = 1
-_C7555: chosen_148 = 1
-_C7556: chosen_149 = 1
-_C7557: chosen_150 = 1
-_C7558: chosen_151 = 1
-_C7559: chosen_152 = 1
-_C756: chosen_111 = 1
-_C7560: chosen_153 = 1
-_C7561: chosen_154 = 1
-_C7562: chosen_155 = 1
-_C7563: chosen_156 = 1
-_C7564: chosen_157 = 1
-_C7565: chosen_158 = 1
-_C7566: chosen_159 = 1
-_C7567: chosen_160 = 1
-_C7568: chosen_0 = 1
-_C7569: chosen_1 = 1
-_C757: chosen_112 = 1
-_C7570: chosen_2 = 1
-_C7571: chosen_3 = 1
-_C7572: chosen_4 = 1
-_C7573: chosen_5 = 1
-_C7574: chosen_6 = 1
-_C7575: chosen_7 = 1
-_C7576: chosen_8 = 1
-_C7577: chosen_9 = 1
-_C7578: chosen_10 = 1
-_C7579: chosen_11 = 1
-_C758: chosen_113 = 1
-_C7580: chosen_12 = 1
-_C7581: chosen_13 = 1
-_C7582: chosen_14 = 1
-_C7583: chosen_15 = 1
-_C7584: chosen_16 = 1
-_C7585: chosen_17 = 1
-_C7586: chosen_18 = 1
-_C7587: chosen_19 = 1
-_C7588: chosen_20 = 1
-_C7589: chosen_21 = 1
-_C759: chosen_114 = 1
-_C7590: chosen_22 = 1
-_C7591: chosen_23 = 1
-_C7592: chosen_24 = 1
-_C7593: chosen_25 = 1
-_C7594: chosen_26 = 1
-_C7595: chosen_27 = 1
-_C7596: chosen_28 = 1
-_C7597: chosen_29 = 1
-_C7598: chosen_30 = 1
-_C7599: chosen_31 = 1
-_C76: chosen_75 = 1
-_C760: chosen_115 = 1
-_C7600: chosen_32 = 1
-_C7601: chosen_33 = 1
-_C7602: chosen_34 = 1
-_C7603: chosen_35 = 1
-_C7604: chosen_36 = 1
-_C7605: chosen_37 = 1
-_C7606: chosen_38 = 1
-_C7607: chosen_39 = 1
-_C7608: chosen_40 = 1
-_C7609: chosen_41 = 1
-_C761: chosen_116 = 1
-_C7610: chosen_42 = 1
-_C7611: chosen_43 = 1
-_C7612: chosen_44 = 1
-_C7613: chosen_45 = 1
-_C7614: chosen_46 = 1
-_C7615: chosen_47 = 1
-_C7616: chosen_48 = 1
-_C7617: chosen_49 = 1
-_C7618: chosen_50 = 1
-_C7619: chosen_51 = 1
-_C762: chosen_117 = 1
-_C7620: chosen_52 = 1
-_C7621: chosen_53 = 1
-_C7622: chosen_54 = 1
-_C7623: chosen_55 = 1
-_C7624: chosen_56 = 1
-_C7625: chosen_57 = 1
-_C7626: chosen_58 = 1
-_C7627: chosen_59 = 1
-_C7628: chosen_60 = 1
-_C7629: chosen_61 = 1
-_C763: chosen_118 = 1
-_C7630: chosen_62 = 1
-_C7631: chosen_63 = 1
-_C7632: chosen_64 = 1
-_C7633: chosen_65 = 1
-_C7634: chosen_66 = 1
-_C7635: chosen_67 = 1
-_C7636: chosen_68 = 1
-_C7637: chosen_69 = 1
-_C7638: chosen_70 = 1
-_C7639: chosen_71 = 1
-_C764: chosen_119 = 1
-_C7640: chosen_72 = 1
-_C7641: chosen_73 = 1
-_C7642: chosen_74 = 1
-_C7643: chosen_75 = 1
-_C7644: chosen_76 = 1
-_C7645: chosen_77 = 1
-_C7646: chosen_78 = 1
-_C7647: chosen_79 = 1
-_C7648: chosen_80 = 1
-_C7649: chosen_81 = 1
-_C765: chosen_120 = 1
-_C7650: chosen_82 = 1
-_C7651: chosen_83 = 1
-_C7652: chosen_84 = 1
-_C7653: chosen_85 = 1
-_C7654: chosen_86 = 1
-_C7655: chosen_87 = 1
-_C7656: chosen_88 = 1
-_C7657: chosen_89 = 1
-_C7658: chosen_90 = 1
-_C7659: chosen_91 = 1
-_C766: chosen_121 = 1
-_C7660: chosen_92 = 1
-_C7661: chosen_93 = 1
-_C7662: chosen_94 = 1
-_C7663: chosen_95 = 1
-_C7664: chosen_96 = 1
-_C7665: chosen_97 = 1
-_C7666: chosen_98 = 1
-_C7667: chosen_99 = 1
-_C7668: chosen_100 = 1
-_C7669: chosen_101 = 1
-_C767: chosen_122 = 1
-_C7670: chosen_102 = 1
-_C7671: chosen_103 = 1
-_C7672: chosen_104 = 1
-_C7673: chosen_105 = 1
-_C7674: chosen_106 = 1
-_C7675: chosen_107 = 1
-_C7676: chosen_108 = 1
-_C7677: chosen_109 = 1
-_C7678: chosen_110 = 1
-_C7679: chosen_111 = 1
-_C768: chosen_123 = 1
-_C7680: chosen_112 = 1
-_C7681: chosen_113 = 1
-_C7682: chosen_114 = 1
-_C7683: chosen_115 = 1
-_C7684: chosen_116 = 1
-_C7685: chosen_117 = 1
-_C7686: chosen_118 = 1
-_C7687: chosen_119 = 1
-_C7688: chosen_120 = 1
-_C7689: chosen_121 = 1
-_C769: chosen_124 = 1
-_C7690: chosen_122 = 1
-_C7691: chosen_123 = 1
-_C7692: chosen_124 = 1
-_C7693: chosen_125 = 1
-_C7694: chosen_126 = 1
-_C7695: chosen_127 = 1
-_C7696: chosen_128 = 1
-_C7697: chosen_129 = 1
-_C7698: chosen_130 = 1
-_C7699: chosen_131 = 1
-_C77: chosen_76 = 1
-_C770: chosen_125 = 1
-_C7700: chosen_132 = 1
-_C7701: chosen_133 = 1
-_C7702: chosen_134 = 1
-_C7703: chosen_135 = 1
-_C7704: chosen_136 = 1
-_C7705: chosen_137 = 1
-_C7706: chosen_138 = 1
-_C7707: chosen_139 = 1
-_C7708: chosen_140 = 1
-_C7709: chosen_141 = 1
-_C771: chosen_126 = 1
-_C7710: chosen_142 = 1
-_C7711: chosen_143 = 1
-_C7712: chosen_144 = 1
-_C7713: chosen_145 = 1
-_C7714: chosen_146 = 1
-_C7715: chosen_147 = 1
-_C7716: chosen_148 = 1
-_C7717: chosen_149 = 1
-_C7718: chosen_150 = 1
-_C7719: chosen_151 = 1
-_C772: chosen_127 = 1
-_C7720: chosen_152 = 1
-_C7721: chosen_153 = 1
-_C7722: chosen_154 = 1
-_C7723: chosen_155 = 1
-_C7724: chosen_156 = 1
-_C7725: chosen_157 = 1
-_C7726: chosen_158 = 1
-_C7727: chosen_159 = 1
-_C7728: chosen_160 = 1
-_C7729: chosen_0 = 1
-_C773: chosen_128 = 1
-_C7730: chosen_1 = 1
-_C7731: chosen_2 = 1
-_C7732: chosen_3 = 1
-_C7733: chosen_4 = 1
-_C7734: chosen_5 = 1
-_C7735: chosen_6 = 1
-_C7736: chosen_7 = 1
-_C7737: chosen_8 = 1
-_C7738: chosen_9 = 1
-_C7739: chosen_10 = 1
-_C774: chosen_129 = 1
-_C7740: chosen_11 = 1
-_C7741: chosen_12 = 1
-_C7742: chosen_13 = 1
-_C7743: chosen_14 = 1
-_C7744: chosen_15 = 1
-_C7745: chosen_16 = 1
-_C7746: chosen_17 = 1
-_C7747: chosen_18 = 1
-_C7748: chosen_19 = 1
-_C7749: chosen_20 = 1
-_C775: chosen_130 = 1
-_C7750: chosen_21 = 1
-_C7751: chosen_22 = 1
-_C7752: chosen_23 = 1
-_C7753: chosen_24 = 1
-_C7754: chosen_25 = 1
-_C7755: chosen_26 = 1
-_C7756: chosen_27 = 1
-_C7757: chosen_28 = 1
-_C7758: chosen_29 = 1
-_C7759: chosen_30 = 1
-_C776: chosen_131 = 1
-_C7760: chosen_31 = 1
-_C7761: chosen_32 = 1
-_C7762: chosen_33 = 1
-_C7763: chosen_34 = 1
-_C7764: chosen_35 = 1
-_C7765: chosen_36 = 1
-_C7766: chosen_37 = 1
-_C7767: chosen_38 = 1
-_C7768: chosen_39 = 1
-_C7769: chosen_40 = 1
-_C777: chosen_132 = 1
-_C7770: chosen_41 = 1
-_C7771: chosen_42 = 1
-_C7772: chosen_43 = 1
-_C7773: chosen_44 = 1
-_C7774: chosen_45 = 1
-_C7775: chosen_46 = 1
-_C7776: chosen_47 = 1
-_C7777: chosen_48 = 1
-_C7778: chosen_49 = 1
-_C7779: chosen_50 = 1
-_C778: chosen_133 = 1
-_C7780: chosen_51 = 1
-_C7781: chosen_52 = 1
-_C7782: chosen_53 = 1
-_C7783: chosen_54 = 1
-_C7784: chosen_55 = 1
-_C7785: chosen_56 = 1
-_C7786: chosen_57 = 1
-_C7787: chosen_58 = 1
-_C7788: chosen_59 = 1
-_C7789: chosen_60 = 1
-_C779: chosen_134 = 1
-_C7790: chosen_61 = 1
-_C7791: chosen_62 = 1
-_C7792: chosen_63 = 1
-_C7793: chosen_64 = 1
-_C7794: chosen_65 = 1
-_C7795: chosen_66 = 1
-_C7796: chosen_67 = 1
-_C7797: chosen_68 = 1
-_C7798: chosen_69 = 1
-_C7799: chosen_70 = 1
-_C78: chosen_77 = 1
-_C780: chosen_135 = 1
-_C7800: chosen_71 = 1
-_C7801: chosen_72 = 1
-_C7802: chosen_73 = 1
-_C7803: chosen_74 = 1
-_C7804: chosen_75 = 1
-_C7805: chosen_76 = 1
-_C7806: chosen_77 = 1
-_C7807: chosen_78 = 1
-_C7808: chosen_79 = 1
-_C7809: chosen_80 = 1
-_C781: chosen_136 = 1
-_C7810: chosen_81 = 1
-_C7811: chosen_82 = 1
-_C7812: chosen_83 = 1
-_C7813: chosen_84 = 1
-_C7814: chosen_85 = 1
-_C7815: chosen_86 = 1
-_C7816: chosen_87 = 1
-_C7817: chosen_88 = 1
-_C7818: chosen_89 = 1
-_C7819: chosen_90 = 1
-_C782: chosen_137 = 1
-_C7820: chosen_91 = 1
-_C7821: chosen_92 = 1
-_C7822: chosen_93 = 1
-_C7823: chosen_94 = 1
-_C7824: chosen_95 = 1
-_C7825: chosen_96 = 1
-_C7826: chosen_97 = 1
-_C7827: chosen_98 = 1
-_C7828: chosen_99 = 1
-_C7829: chosen_100 = 1
-_C783: chosen_138 = 1
-_C7830: chosen_101 = 1
-_C7831: chosen_102 = 1
-_C7832: chosen_103 = 1
-_C7833: chosen_104 = 1
-_C7834: chosen_105 = 1
-_C7835: chosen_106 = 1
-_C7836: chosen_107 = 1
-_C7837: chosen_108 = 1
-_C7838: chosen_109 = 1
-_C7839: chosen_110 = 1
-_C784: chosen_139 = 1
-_C7840: chosen_111 = 1
-_C7841: chosen_112 = 1
-_C7842: chosen_113 = 1
-_C7843: chosen_114 = 1
-_C7844: chosen_115 = 1
-_C7845: chosen_116 = 1
-_C7846: chosen_117 = 1
-_C7847: chosen_118 = 1
-_C7848: chosen_119 = 1
-_C7849: chosen_120 = 1
-_C785: chosen_140 = 1
-_C7850: chosen_121 = 1
-_C7851: chosen_122 = 1
-_C7852: chosen_123 = 1
-_C7853: chosen_124 = 1
-_C7854: chosen_125 = 1
-_C7855: chosen_126 = 1
-_C7856: chosen_127 = 1
-_C7857: chosen_128 = 1
-_C7858: chosen_129 = 1
-_C7859: chosen_130 = 1
-_C786: chosen_141 = 1
-_C7860: chosen_131 = 1
-_C7861: chosen_132 = 1
-_C7862: chosen_133 = 1
-_C7863: chosen_134 = 1
-_C7864: chosen_135 = 1
-_C7865: chosen_136 = 1
-_C7866: chosen_137 = 1
-_C7867: chosen_138 = 1
-_C7868: chosen_139 = 1
-_C7869: chosen_140 = 1
-_C787: chosen_142 = 1
-_C7870: chosen_141 = 1
-_C7871: chosen_142 = 1
-_C7872: chosen_143 = 1
-_C7873: chosen_144 = 1
-_C7874: chosen_145 = 1
-_C7875: chosen_146 = 1
-_C7876: chosen_147 = 1
-_C7877: chosen_148 = 1
-_C7878: chosen_149 = 1
-_C7879: chosen_150 = 1
-_C788: chosen_143 = 1
-_C7880: chosen_151 = 1
-_C7881: chosen_152 = 1
-_C7882: chosen_153 = 1
-_C7883: chosen_154 = 1
-_C7884: chosen_155 = 1
-_C7885: chosen_156 = 1
-_C7886: chosen_157 = 1
-_C7887: chosen_158 = 1
-_C7888: chosen_159 = 1
-_C7889: chosen_160 = 1
-_C789: chosen_144 = 1
-_C7890: chosen_0 = 1
-_C7891: chosen_1 = 1
-_C7892: chosen_2 = 1
-_C7893: chosen_3 = 1
-_C7894: chosen_4 = 1
-_C7895: chosen_5 = 1
-_C7896: chosen_6 = 1
-_C7897: chosen_7 = 1
-_C7898: chosen_8 = 1
-_C7899: chosen_9 = 1
-_C79: chosen_78 = 1
-_C790: chosen_145 = 1
-_C7900: chosen_10 = 1
-_C7901: chosen_11 = 1
-_C7902: chosen_12 = 1
-_C7903: chosen_13 = 1
-_C7904: chosen_14 = 1
-_C7905: chosen_15 = 1
-_C7906: chosen_16 = 1
-_C7907: chosen_17 = 1
-_C7908: chosen_18 = 1
-_C7909: chosen_19 = 1
-_C791: chosen_146 = 1
-_C7910: chosen_20 = 1
-_C7911: chosen_21 = 1
-_C7912: chosen_22 = 1
-_C7913: chosen_23 = 1
-_C7914: chosen_24 = 1
-_C7915: chosen_25 = 1
-_C7916: chosen_26 = 1
-_C7917: chosen_27 = 1
-_C7918: chosen_28 = 1
-_C7919: chosen_29 = 1
-_C792: chosen_147 = 1
-_C7920: chosen_30 = 1
-_C7921: chosen_31 = 1
-_C7922: chosen_32 = 1
-_C7923: chosen_33 = 1
-_C7924: chosen_34 = 1
-_C7925: chosen_35 = 1
-_C7926: chosen_36 = 1
-_C7927: chosen_37 = 1
-_C7928: chosen_38 = 1
-_C7929: chosen_39 = 1
-_C793: chosen_148 = 1
-_C7930: chosen_40 = 1
-_C7931: chosen_41 = 1
-_C7932: chosen_42 = 1
-_C7933: chosen_43 = 1
-_C7934: chosen_44 = 1
-_C7935: chosen_45 = 1
-_C7936: chosen_46 = 1
-_C7937: chosen_47 = 1
-_C7938: chosen_48 = 1
-_C7939: chosen_49 = 1
-_C794: chosen_149 = 1
-_C7940: chosen_50 = 1
-_C7941: chosen_51 = 1
-_C7942: chosen_52 = 1
-_C7943: chosen_53 = 1
-_C7944: chosen_54 = 1
-_C7945: chosen_55 = 1
-_C7946: chosen_56 = 1
-_C7947: chosen_57 = 1
-_C7948: chosen_58 = 1
-_C7949: chosen_59 = 1
-_C795: chosen_150 = 1
-_C7950: chosen_60 = 1
-_C7951: chosen_61 = 1
-_C7952: chosen_62 = 1
-_C7953: chosen_63 = 1
-_C7954: chosen_64 = 1
-_C7955: chosen_65 = 1
-_C7956: chosen_66 = 1
-_C7957: chosen_67 = 1
-_C7958: chosen_68 = 1
-_C7959: chosen_69 = 1
-_C796: chosen_151 = 1
-_C7960: chosen_70 = 1
-_C7961: chosen_71 = 1
-_C7962: chosen_72 = 1
-_C7963: chosen_73 = 1
-_C7964: chosen_74 = 1
-_C7965: chosen_75 = 1
-_C7966: chosen_76 = 1
-_C7967: chosen_77 = 1
-_C7968: chosen_78 = 1
-_C7969: chosen_79 = 1
-_C797: chosen_152 = 1
-_C7970: chosen_80 = 1
-_C7971: chosen_81 = 1
-_C7972: chosen_82 = 1
-_C7973: chosen_83 = 1
-_C7974: chosen_84 = 1
-_C7975: chosen_85 = 1
-_C7976: chosen_86 = 1
-_C7977: chosen_87 = 1
-_C7978: chosen_88 = 1
-_C7979: chosen_89 = 1
-_C798: chosen_153 = 1
-_C7980: chosen_90 = 1
-_C7981: chosen_91 = 1
-_C7982: chosen_92 = 1
-_C7983: chosen_93 = 1
-_C7984: chosen_94 = 1
-_C7985: chosen_95 = 1
-_C7986: chosen_96 = 1
-_C7987: chosen_97 = 1
-_C7988: chosen_98 = 1
-_C7989: chosen_99 = 1
-_C799: chosen_154 = 1
-_C7990: chosen_100 = 1
-_C7991: chosen_101 = 1
-_C7992: chosen_102 = 1
-_C7993: chosen_103 = 1
-_C7994: chosen_104 = 1
-_C7995: chosen_105 = 1
-_C7996: chosen_106 = 1
-_C7997: chosen_107 = 1
-_C7998: chosen_108 = 1
-_C7999: chosen_109 = 1
-_C8: chosen_7 = 1
-_C80: chosen_79 = 1
-_C800: chosen_155 = 1
-_C8000: chosen_110 = 1
-_C8001: chosen_111 = 1
-_C8002: chosen_112 = 1
-_C8003: chosen_113 = 1
-_C8004: chosen_114 = 1
-_C8005: chosen_115 = 1
-_C8006: chosen_116 = 1
-_C8007: chosen_117 = 1
-_C8008: chosen_118 = 1
-_C8009: chosen_119 = 1
-_C801: chosen_156 = 1
-_C8010: chosen_120 = 1
-_C8011: chosen_121 = 1
-_C8012: chosen_122 = 1
-_C8013: chosen_123 = 1
-_C8014: chosen_124 = 1
-_C8015: chosen_125 = 1
-_C8016: chosen_126 = 1
-_C8017: chosen_127 = 1
-_C8018: chosen_128 = 1
-_C8019: chosen_129 = 1
-_C802: chosen_157 = 1
-_C8020: chosen_130 = 1
-_C8021: chosen_131 = 1
-_C8022: chosen_132 = 1
-_C8023: chosen_133 = 1
-_C8024: chosen_134 = 1
-_C8025: chosen_135 = 1
-_C8026: chosen_136 = 1
-_C8027: chosen_137 = 1
-_C8028: chosen_138 = 1
-_C8029: chosen_139 = 1
-_C803: chosen_158 = 1
-_C8030: chosen_140 = 1
-_C8031: chosen_141 = 1
-_C8032: chosen_142 = 1
-_C8033: chosen_143 = 1
-_C8034: chosen_144 = 1
-_C8035: chosen_145 = 1
-_C8036: chosen_146 = 1
-_C8037: chosen_147 = 1
-_C8038: chosen_148 = 1
-_C8039: chosen_149 = 1
-_C804: chosen_159 = 1
-_C8040: chosen_150 = 1
-_C8041: chosen_151 = 1
-_C8042: chosen_152 = 1
-_C8043: chosen_153 = 1
-_C8044: chosen_154 = 1
-_C8045: chosen_155 = 1
-_C8046: chosen_156 = 1
-_C8047: chosen_157 = 1
-_C8048: chosen_158 = 1
-_C8049: chosen_159 = 1
-_C805: chosen_160 = 1
-_C8050: chosen_160 = 1
-_C8051: chosen_0 = 1
-_C8052: chosen_1 = 1
-_C8053: chosen_2 = 1
-_C8054: chosen_3 = 1
-_C8055: chosen_4 = 1
-_C8056: chosen_5 = 1
-_C8057: chosen_6 = 1
-_C8058: chosen_7 = 1
-_C8059: chosen_8 = 1
-_C806: chosen_0 = 1
-_C8060: chosen_9 = 1
-_C8061: chosen_10 = 1
-_C8062: chosen_11 = 1
-_C8063: chosen_12 = 1
-_C8064: chosen_13 = 1
-_C8065: chosen_14 = 1
-_C8066: chosen_15 = 1
-_C8067: chosen_16 = 1
-_C8068: chosen_17 = 1
-_C8069: chosen_18 = 1
-_C807: chosen_1 = 1
-_C8070: chosen_19 = 1
-_C8071: chosen_20 = 1
-_C8072: chosen_21 = 1
-_C8073: chosen_22 = 1
-_C8074: chosen_23 = 1
-_C8075: chosen_24 = 1
-_C8076: chosen_25 = 1
-_C8077: chosen_26 = 1
-_C8078: chosen_27 = 1
-_C8079: chosen_28 = 1
-_C808: chosen_2 = 1
-_C8080: chosen_29 = 1
-_C8081: chosen_30 = 1
-_C8082: chosen_31 = 1
-_C8083: chosen_32 = 1
-_C8084: chosen_33 = 1
-_C8085: chosen_34 = 1
-_C8086: chosen_35 = 1
-_C8087: chosen_36 = 1
-_C8088: chosen_37 = 1
-_C8089: chosen_38 = 1
-_C809: chosen_3 = 1
-_C8090: chosen_39 = 1
-_C8091: chosen_40 = 1
-_C8092: chosen_41 = 1
-_C8093: chosen_42 = 1
-_C8094: chosen_43 = 1
-_C8095: chosen_44 = 1
-_C8096: chosen_45 = 1
-_C8097: chosen_46 = 1
-_C8098: chosen_47 = 1
-_C8099: chosen_48 = 1
-_C81: chosen_80 = 1
-_C810: chosen_4 = 1
-_C8100: chosen_49 = 1
-_C8101: chosen_50 = 1
-_C8102: chosen_51 = 1
-_C8103: chosen_52 = 1
-_C8104: chosen_53 = 1
-_C8105: chosen_54 = 1
-_C8106: chosen_55 = 1
-_C8107: chosen_56 = 1
-_C8108: chosen_57 = 1
-_C8109: chosen_58 = 1
-_C811: chosen_5 = 1
-_C8110: chosen_59 = 1
-_C8111: chosen_60 = 1
-_C8112: chosen_61 = 1
-_C8113: chosen_62 = 1
-_C8114: chosen_63 = 1
-_C8115: chosen_64 = 1
-_C8116: chosen_65 = 1
-_C8117: chosen_66 = 1
-_C8118: chosen_67 = 1
-_C8119: chosen_68 = 1
-_C812: chosen_6 = 1
-_C8120: chosen_69 = 1
-_C8121: chosen_70 = 1
-_C8122: chosen_71 = 1
-_C8123: chosen_72 = 1
-_C8124: chosen_73 = 1
-_C8125: chosen_74 = 1
-_C8126: chosen_75 = 1
-_C8127: chosen_76 = 1
-_C8128: chosen_77 = 1
-_C8129: chosen_78 = 1
-_C813: chosen_7 = 1
-_C8130: chosen_79 = 1
-_C8131: chosen_80 = 1
-_C8132: chosen_81 = 1
-_C8133: chosen_82 = 1
-_C8134: chosen_83 = 1
-_C8135: chosen_84 = 1
-_C8136: chosen_85 = 1
-_C8137: chosen_86 = 1
-_C8138: chosen_87 = 1
-_C8139: chosen_88 = 1
-_C814: chosen_8 = 1
-_C8140: chosen_89 = 1
-_C8141: chosen_90 = 1
-_C8142: chosen_91 = 1
-_C8143: chosen_92 = 1
-_C8144: chosen_93 = 1
-_C8145: chosen_94 = 1
-_C8146: chosen_95 = 1
-_C8147: chosen_96 = 1
-_C8148: chosen_97 = 1
-_C8149: chosen_98 = 1
-_C815: chosen_9 = 1
-_C8150: chosen_99 = 1
-_C8151: chosen_100 = 1
-_C8152: chosen_101 = 1
-_C8153: chosen_102 = 1
-_C8154: chosen_103 = 1
-_C8155: chosen_104 = 1
-_C8156: chosen_105 = 1
-_C8157: chosen_106 = 1
-_C8158: chosen_107 = 1
-_C8159: chosen_108 = 1
-_C816: chosen_10 = 1
-_C8160: chosen_109 = 1
-_C8161: chosen_110 = 1
-_C8162: chosen_111 = 1
-_C8163: chosen_112 = 1
-_C8164: chosen_113 = 1
-_C8165: chosen_114 = 1
-_C8166: chosen_115 = 1
-_C8167: chosen_116 = 1
-_C8168: chosen_117 = 1
-_C8169: chosen_118 = 1
-_C817: chosen_11 = 1
-_C8170: chosen_119 = 1
-_C8171: chosen_120 = 1
-_C8172: chosen_121 = 1
-_C8173: chosen_122 = 1
-_C8174: chosen_123 = 1
-_C8175: chosen_124 = 1
-_C8176: chosen_125 = 1
-_C8177: chosen_126 = 1
-_C8178: chosen_127 = 1
-_C8179: chosen_128 = 1
-_C818: chosen_12 = 1
-_C8180: chosen_129 = 1
-_C8181: chosen_130 = 1
-_C8182: chosen_131 = 1
-_C8183: chosen_132 = 1
-_C8184: chosen_133 = 1
-_C8185: chosen_134 = 1
-_C8186: chosen_135 = 1
-_C8187: chosen_136 = 1
-_C8188: chosen_137 = 1
-_C8189: chosen_138 = 1
-_C819: chosen_13 = 1
-_C8190: chosen_139 = 1
-_C8191: chosen_140 = 1
-_C8192: chosen_141 = 1
-_C8193: chosen_142 = 1
-_C8194: chosen_143 = 1
-_C8195: chosen_144 = 1
-_C8196: chosen_145 = 1
-_C8197: chosen_146 = 1
-_C8198: chosen_147 = 1
-_C8199: chosen_148 = 1
-_C82: chosen_81 = 1
-_C820: chosen_14 = 1
-_C8200: chosen_149 = 1
-_C8201: chosen_150 = 1
-_C8202: chosen_151 = 1
-_C8203: chosen_152 = 1
-_C8204: chosen_153 = 1
-_C8205: chosen_154 = 1
-_C8206: chosen_155 = 1
-_C8207: chosen_156 = 1
-_C8208: chosen_157 = 1
-_C8209: chosen_158 = 1
-_C821: chosen_15 = 1
-_C8210: chosen_159 = 1
-_C8211: chosen_160 = 1
-_C8212: chosen_0 = 1
-_C8213: chosen_1 = 1
-_C8214: chosen_2 = 1
-_C8215: chosen_3 = 1
-_C8216: chosen_4 = 1
-_C8217: chosen_5 = 1
-_C8218: chosen_6 = 1
-_C8219: chosen_7 = 1
-_C822: chosen_16 = 1
-_C8220: chosen_8 = 1
-_C8221: chosen_9 = 1
-_C8222: chosen_10 = 1
-_C8223: chosen_11 = 1
-_C8224: chosen_12 = 1
-_C8225: chosen_13 = 1
-_C8226: chosen_14 = 1
-_C8227: chosen_15 = 1
-_C8228: chosen_16 = 1
-_C8229: chosen_17 = 1
-_C823: chosen_17 = 1
-_C8230: chosen_18 = 1
-_C8231: chosen_19 = 1
-_C8232: chosen_20 = 1
-_C8233: chosen_21 = 1
-_C8234: chosen_22 = 1
-_C8235: chosen_23 = 1
-_C8236: chosen_24 = 1
-_C8237: chosen_25 = 1
-_C8238: chosen_26 = 1
-_C8239: chosen_27 = 1
-_C824: chosen_18 = 1
-_C8240: chosen_28 = 1
-_C8241: chosen_29 = 1
-_C8242: chosen_30 = 1
-_C8243: chosen_31 = 1
-_C8244: chosen_32 = 1
-_C8245: chosen_33 = 1
-_C8246: chosen_34 = 1
-_C8247: chosen_35 = 1
-_C8248: chosen_36 = 1
-_C8249: chosen_37 = 1
-_C825: chosen_19 = 1
-_C8250: chosen_38 = 1
-_C8251: chosen_39 = 1
-_C8252: chosen_40 = 1
-_C8253: chosen_41 = 1
-_C8254: chosen_42 = 1
-_C8255: chosen_43 = 1
-_C8256: chosen_44 = 1
-_C8257: chosen_45 = 1
-_C8258: chosen_46 = 1
-_C8259: chosen_47 = 1
-_C826: chosen_20 = 1
-_C8260: chosen_48 = 1
-_C8261: chosen_49 = 1
-_C8262: chosen_50 = 1
-_C8263: chosen_51 = 1
-_C8264: chosen_52 = 1
-_C8265: chosen_53 = 1
-_C8266: chosen_54 = 1
-_C8267: chosen_55 = 1
-_C8268: chosen_56 = 1
-_C8269: chosen_57 = 1
-_C827: chosen_21 = 1
-_C8270: chosen_58 = 1
-_C8271: chosen_59 = 1
-_C8272: chosen_60 = 1
-_C8273: chosen_61 = 1
-_C8274: chosen_62 = 1
-_C8275: chosen_63 = 1
-_C8276: chosen_64 = 1
-_C8277: chosen_65 = 1
-_C8278: chosen_66 = 1
-_C8279: chosen_67 = 1
-_C828: chosen_22 = 1
-_C8280: chosen_68 = 1
-_C8281: chosen_69 = 1
-_C8282: chosen_70 = 1
-_C8283: chosen_71 = 1
-_C8284: chosen_72 = 1
-_C8285: chosen_73 = 1
-_C8286: chosen_74 = 1
-_C8287: chosen_75 = 1
-_C8288: chosen_76 = 1
-_C8289: chosen_77 = 1
-_C829: chosen_23 = 1
-_C8290: chosen_78 = 1
-_C8291: chosen_79 = 1
-_C8292: chosen_80 = 1
-_C8293: chosen_81 = 1
-_C8294: chosen_82 = 1
-_C8295: chosen_83 = 1
-_C8296: chosen_84 = 1
-_C8297: chosen_85 = 1
-_C8298: chosen_86 = 1
-_C8299: chosen_87 = 1
-_C83: chosen_82 = 1
-_C830: chosen_24 = 1
-_C8300: chosen_88 = 1
-_C8301: chosen_89 = 1
-_C8302: chosen_90 = 1
-_C8303: chosen_91 = 1
-_C8304: chosen_92 = 1
-_C8305: chosen_93 = 1
-_C8306: chosen_94 = 1
-_C8307: chosen_95 = 1
-_C8308: chosen_96 = 1
-_C8309: chosen_97 = 1
-_C831: chosen_25 = 1
-_C8310: chosen_98 = 1
-_C8311: chosen_99 = 1
-_C8312: chosen_100 = 1
-_C8313: chosen_101 = 1
-_C8314: chosen_102 = 1
-_C8315: chosen_103 = 1
-_C8316: chosen_104 = 1
-_C8317: chosen_105 = 1
-_C8318: chosen_106 = 1
-_C8319: chosen_107 = 1
-_C832: chosen_26 = 1
-_C8320: chosen_108 = 1
-_C8321: chosen_109 = 1
-_C8322: chosen_110 = 1
-_C8323: chosen_111 = 1
-_C8324: chosen_112 = 1
-_C8325: chosen_113 = 1
-_C8326: chosen_114 = 1
-_C8327: chosen_115 = 1
-_C8328: chosen_116 = 1
-_C8329: chosen_117 = 1
-_C833: chosen_27 = 1
-_C8330: chosen_118 = 1
-_C8331: chosen_119 = 1
-_C8332: chosen_120 = 1
-_C8333: chosen_121 = 1
-_C8334: chosen_122 = 1
-_C8335: chosen_123 = 1
-_C8336: chosen_124 = 1
-_C8337: chosen_125 = 1
-_C8338: chosen_126 = 1
-_C8339: chosen_127 = 1
-_C834: chosen_28 = 1
-_C8340: chosen_128 = 1
-_C8341: chosen_129 = 1
-_C8342: chosen_130 = 1
-_C8343: chosen_131 = 1
-_C8344: chosen_132 = 1
-_C8345: chosen_133 = 1
-_C8346: chosen_134 = 1
-_C8347: chosen_135 = 1
-_C8348: chosen_136 = 1
-_C8349: chosen_137 = 1
-_C835: chosen_29 = 1
-_C8350: chosen_138 = 1
-_C8351: chosen_139 = 1
-_C8352: chosen_140 = 1
-_C8353: chosen_141 = 1
-_C8354: chosen_142 = 1
-_C8355: chosen_143 = 1
-_C8356: chosen_144 = 1
-_C8357: chosen_145 = 1
-_C8358: chosen_146 = 1
-_C8359: chosen_147 = 1
-_C836: chosen_30 = 1
-_C8360: chosen_148 = 1
-_C8361: chosen_149 = 1
-_C8362: chosen_150 = 1
-_C8363: chosen_151 = 1
-_C8364: chosen_152 = 1
-_C8365: chosen_153 = 1
-_C8366: chosen_154 = 1
-_C8367: chosen_155 = 1
-_C8368: chosen_156 = 1
-_C8369: chosen_157 = 1
-_C837: chosen_31 = 1
-_C8370: chosen_158 = 1
-_C8371: chosen_159 = 1
-_C8372: chosen_160 = 1
-_C8373: chosen_0 = 1
-_C8374: chosen_1 = 1
-_C8375: chosen_2 = 1
-_C8376: chosen_3 = 1
-_C8377: chosen_4 = 1
-_C8378: chosen_5 = 1
-_C8379: chosen_6 = 1
-_C838: chosen_32 = 1
-_C8380: chosen_7 = 1
-_C8381: chosen_8 = 1
-_C8382: chosen_9 = 1
-_C8383: chosen_10 = 1
-_C8384: chosen_11 = 1
-_C8385: chosen_12 = 1
-_C8386: chosen_13 = 1
-_C8387: chosen_14 = 1
-_C8388: chosen_15 = 1
-_C8389: chosen_16 = 1
-_C839: chosen_33 = 1
-_C8390: chosen_17 = 1
-_C8391: chosen_18 = 1
-_C8392: chosen_19 = 1
-_C8393: chosen_20 = 1
-_C8394: chosen_21 = 1
-_C8395: chosen_22 = 1
-_C8396: chosen_23 = 1
-_C8397: chosen_24 = 1
-_C8398: chosen_25 = 1
-_C8399: chosen_26 = 1
-_C84: chosen_83 = 1
-_C840: chosen_34 = 1
-_C8400: chosen_27 = 1
-_C8401: chosen_28 = 1
-_C8402: chosen_29 = 1
-_C8403: chosen_30 = 1
-_C8404: chosen_31 = 1
-_C8405: chosen_32 = 1
-_C8406: chosen_33 = 1
-_C8407: chosen_34 = 1
-_C8408: chosen_35 = 1
-_C8409: chosen_36 = 1
-_C841: chosen_35 = 1
-_C8410: chosen_37 = 1
-_C8411: chosen_38 = 1
-_C8412: chosen_39 = 1
-_C8413: chosen_40 = 1
-_C8414: chosen_41 = 1
-_C8415: chosen_42 = 1
-_C8416: chosen_43 = 1
-_C8417: chosen_44 = 1
-_C8418: chosen_45 = 1
-_C8419: chosen_46 = 1
-_C842: chosen_36 = 1
-_C8420: chosen_47 = 1
-_C8421: chosen_48 = 1
-_C8422: chosen_49 = 1
-_C8423: chosen_50 = 1
-_C8424: chosen_51 = 1
-_C8425: chosen_52 = 1
-_C8426: chosen_53 = 1
-_C8427: chosen_54 = 1
-_C8428: chosen_55 = 1
-_C8429: chosen_56 = 1
-_C843: chosen_37 = 1
-_C8430: chosen_57 = 1
-_C8431: chosen_58 = 1
-_C8432: chosen_59 = 1
-_C8433: chosen_60 = 1
-_C8434: chosen_61 = 1
-_C8435: chosen_62 = 1
-_C8436: chosen_63 = 1
-_C8437: chosen_64 = 1
-_C8438: chosen_65 = 1
-_C8439: chosen_66 = 1
-_C844: chosen_38 = 1
-_C8440: chosen_67 = 1
-_C8441: chosen_68 = 1
-_C8442: chosen_69 = 1
-_C8443: chosen_70 = 1
-_C8444: chosen_71 = 1
-_C8445: chosen_72 = 1
-_C8446: chosen_73 = 1
-_C8447: chosen_74 = 1
-_C8448: chosen_75 = 1
-_C8449: chosen_76 = 1
-_C845: chosen_39 = 1
-_C8450: chosen_77 = 1
-_C8451: chosen_78 = 1
-_C8452: chosen_79 = 1
-_C8453: chosen_80 = 1
-_C8454: chosen_81 = 1
-_C8455: chosen_82 = 1
-_C8456: chosen_83 = 1
-_C8457: chosen_84 = 1
-_C8458: chosen_85 = 1
-_C8459: chosen_86 = 1
-_C846: chosen_40 = 1
-_C8460: chosen_87 = 1
-_C8461: chosen_88 = 1
-_C8462: chosen_89 = 1
-_C8463: chosen_90 = 1
-_C8464: chosen_91 = 1
-_C8465: chosen_92 = 1
-_C8466: chosen_93 = 1
-_C8467: chosen_94 = 1
-_C8468: chosen_95 = 1
-_C8469: chosen_96 = 1
-_C847: chosen_41 = 1
-_C8470: chosen_97 = 1
-_C8471: chosen_98 = 1
-_C8472: chosen_99 = 1
-_C8473: chosen_100 = 1
-_C8474: chosen_101 = 1
-_C8475: chosen_102 = 1
-_C8476: chosen_103 = 1
-_C8477: chosen_104 = 1
-_C8478: chosen_105 = 1
-_C8479: chosen_106 = 1
-_C848: chosen_42 = 1
-_C8480: chosen_107 = 1
-_C8481: chosen_108 = 1
-_C8482: chosen_109 = 1
-_C8483: chosen_110 = 1
-_C8484: chosen_111 = 1
-_C8485: chosen_112 = 1
-_C8486: chosen_113 = 1
-_C8487: chosen_114 = 1
-_C8488: chosen_115 = 1
-_C8489: chosen_116 = 1
-_C849: chosen_43 = 1
-_C8490: chosen_117 = 1
-_C8491: chosen_118 = 1
-_C8492: chosen_119 = 1
-_C8493: chosen_120 = 1
-_C8494: chosen_121 = 1
-_C8495: chosen_122 = 1
-_C8496: chosen_123 = 1
-_C8497: chosen_124 = 1
-_C8498: chosen_125 = 1
-_C8499: chosen_126 = 1
-_C85: chosen_84 = 1
-_C850: chosen_44 = 1
-_C8500: chosen_127 = 1
-_C8501: chosen_128 = 1
-_C8502: chosen_129 = 1
-_C8503: chosen_130 = 1
-_C8504: chosen_131 = 1
-_C8505: chosen_132 = 1
-_C8506: chosen_133 = 1
-_C8507: chosen_134 = 1
-_C8508: chosen_135 = 1
-_C8509: chosen_136 = 1
-_C851: chosen_45 = 1
-_C8510: chosen_137 = 1
-_C8511: chosen_138 = 1
-_C8512: chosen_139 = 1
-_C8513: chosen_140 = 1
-_C8514: chosen_141 = 1
-_C8515: chosen_142 = 1
-_C8516: chosen_143 = 1
-_C8517: chosen_144 = 1
-_C8518: chosen_145 = 1
-_C8519: chosen_146 = 1
-_C852: chosen_46 = 1
-_C8520: chosen_147 = 1
-_C8521: chosen_148 = 1
-_C8522: chosen_149 = 1
-_C8523: chosen_150 = 1
-_C8524: chosen_151 = 1
-_C8525: chosen_152 = 1
-_C8526: chosen_153 = 1
-_C8527: chosen_154 = 1
-_C8528: chosen_155 = 1
-_C8529: chosen_156 = 1
-_C853: chosen_47 = 1
-_C8530: chosen_157 = 1
-_C8531: chosen_158 = 1
-_C8532: chosen_159 = 1
-_C8533: chosen_160 = 1
-_C8534: chosen_0 = 1
-_C8535: chosen_1 = 1
-_C8536: chosen_2 = 1
-_C8537: chosen_3 = 1
-_C8538: chosen_4 = 1
-_C8539: chosen_5 = 1
-_C854: chosen_48 = 1
-_C8540: chosen_6 = 1
-_C8541: chosen_7 = 1
-_C8542: chosen_8 = 1
-_C8543: chosen_9 = 1
-_C8544: chosen_10 = 1
-_C8545: chosen_11 = 1
-_C8546: chosen_12 = 1
-_C8547: chosen_13 = 1
-_C8548: chosen_14 = 1
-_C8549: chosen_15 = 1
-_C855: chosen_49 = 1
-_C8550: chosen_16 = 1
-_C8551: chosen_17 = 1
-_C8552: chosen_18 = 1
-_C8553: chosen_19 = 1
-_C8554: chosen_20 = 1
-_C8555: chosen_21 = 1
-_C8556: chosen_22 = 1
-_C8557: chosen_23 = 1
-_C8558: chosen_24 = 1
-_C8559: chosen_25 = 1
-_C856: chosen_50 = 1
-_C8560: chosen_26 = 1
-_C8561: chosen_27 = 1
-_C8562: chosen_28 = 1
-_C8563: chosen_29 = 1
-_C8564: chosen_30 = 1
-_C8565: chosen_31 = 1
-_C8566: chosen_32 = 1
-_C8567: chosen_33 = 1
-_C8568: chosen_34 = 1
-_C8569: chosen_35 = 1
-_C857: chosen_51 = 1
-_C8570: chosen_36 = 1
-_C8571: chosen_37 = 1
-_C8572: chosen_38 = 1
-_C8573: chosen_39 = 1
-_C8574: chosen_40 = 1
-_C8575: chosen_41 = 1
-_C8576: chosen_42 = 1
-_C8577: chosen_43 = 1
-_C8578: chosen_44 = 1
-_C8579: chosen_45 = 1
-_C858: chosen_52 = 1
-_C8580: chosen_46 = 1
-_C8581: chosen_47 = 1
-_C8582: chosen_48 = 1
-_C8583: chosen_49 = 1
-_C8584: chosen_50 = 1
-_C8585: chosen_51 = 1
-_C8586: chosen_52 = 1
-_C8587: chosen_53 = 1
-_C8588: chosen_54 = 1
-_C8589: chosen_55 = 1
-_C859: chosen_53 = 1
-_C8590: chosen_56 = 1
-_C8591: chosen_57 = 1
-_C8592: chosen_58 = 1
-_C8593: chosen_59 = 1
-_C8594: chosen_60 = 1
-_C8595: chosen_61 = 1
-_C8596: chosen_62 = 1
-_C8597: chosen_63 = 1
-_C8598: chosen_64 = 1
-_C8599: chosen_65 = 1
-_C86: chosen_85 = 1
-_C860: chosen_54 = 1
-_C8600: chosen_66 = 1
-_C8601: chosen_67 = 1
-_C8602: chosen_68 = 1
-_C8603: chosen_69 = 1
-_C8604: chosen_70 = 1
-_C8605: chosen_71 = 1
-_C8606: chosen_72 = 1
-_C8607: chosen_73 = 1
-_C8608: chosen_74 = 1
-_C8609: chosen_75 = 1
-_C861: chosen_55 = 1
-_C8610: chosen_76 = 1
-_C8611: chosen_77 = 1
-_C8612: chosen_78 = 1
-_C8613: chosen_79 = 1
-_C8614: chosen_80 = 1
-_C8615: chosen_81 = 1
-_C8616: chosen_82 = 1
-_C8617: chosen_83 = 1
-_C8618: chosen_84 = 1
-_C8619: chosen_85 = 1
-_C862: chosen_56 = 1
-_C8620: chosen_86 = 1
-_C8621: chosen_87 = 1
-_C8622: chosen_88 = 1
-_C8623: chosen_89 = 1
-_C8624: chosen_90 = 1
-_C8625: chosen_91 = 1
-_C8626: chosen_92 = 1
-_C8627: chosen_93 = 1
-_C8628: chosen_94 = 1
-_C8629: chosen_95 = 1
-_C863: chosen_57 = 1
-_C8630: chosen_96 = 1
-_C8631: chosen_97 = 1
-_C8632: chosen_98 = 1
-_C8633: chosen_99 = 1
-_C8634: chosen_100 = 1
-_C8635: chosen_101 = 1
-_C8636: chosen_102 = 1
-_C8637: chosen_103 = 1
-_C8638: chosen_104 = 1
-_C8639: chosen_105 = 1
-_C864: chosen_58 = 1
-_C8640: chosen_106 = 1
-_C8641: chosen_107 = 1
-_C8642: chosen_108 = 1
-_C8643: chosen_109 = 1
-_C8644: chosen_110 = 1
-_C8645: chosen_111 = 1
-_C8646: chosen_112 = 1
-_C8647: chosen_113 = 1
-_C8648: chosen_114 = 1
-_C8649: chosen_115 = 1
-_C865: chosen_59 = 1
-_C8650: chosen_116 = 1
-_C8651: chosen_117 = 1
-_C8652: chosen_118 = 1
-_C8653: chosen_119 = 1
-_C8654: chosen_120 = 1
-_C8655: chosen_121 = 1
-_C8656: chosen_122 = 1
-_C8657: chosen_123 = 1
-_C8658: chosen_124 = 1
-_C8659: chosen_125 = 1
-_C866: chosen_60 = 1
-_C8660: chosen_126 = 1
-_C8661: chosen_127 = 1
-_C8662: chosen_128 = 1
-_C8663: chosen_129 = 1
-_C8664: chosen_130 = 1
-_C8665: chosen_131 = 1
-_C8666: chosen_132 = 1
-_C8667: chosen_133 = 1
-_C8668: chosen_134 = 1
-_C8669: chosen_135 = 1
-_C867: chosen_61 = 1
-_C8670: chosen_136 = 1
-_C8671: chosen_137 = 1
-_C8672: chosen_138 = 1
-_C8673: chosen_139 = 1
-_C8674: chosen_140 = 1
-_C8675: chosen_141 = 1
-_C8676: chosen_142 = 1
-_C8677: chosen_143 = 1
-_C8678: chosen_144 = 1
-_C8679: chosen_145 = 1
-_C868: chosen_62 = 1
-_C8680: chosen_146 = 1
-_C8681: chosen_147 = 1
-_C8682: chosen_148 = 1
-_C8683: chosen_149 = 1
-_C8684: chosen_150 = 1
-_C8685: chosen_151 = 1
-_C8686: chosen_152 = 1
-_C8687: chosen_153 = 1
-_C8688: chosen_154 = 1
-_C8689: chosen_155 = 1
-_C869: chosen_63 = 1
-_C8690: chosen_156 = 1
-_C8691: chosen_157 = 1
-_C8692: chosen_158 = 1
-_C8693: chosen_159 = 1
-_C8694: chosen_160 = 1
-_C8695: chosen_0 = 1
-_C8696: chosen_1 = 1
-_C8697: chosen_2 = 1
-_C8698: chosen_3 = 1
-_C8699: chosen_4 = 1
-_C87: chosen_86 = 1
-_C870: chosen_64 = 1
-_C8700: chosen_5 = 1
-_C8701: chosen_6 = 1
-_C8702: chosen_7 = 1
-_C8703: chosen_8 = 1
-_C8704: chosen_9 = 1
-_C8705: chosen_10 = 1
-_C8706: chosen_11 = 1
-_C8707: chosen_12 = 1
-_C8708: chosen_13 = 1
-_C8709: chosen_14 = 1
-_C871: chosen_65 = 1
-_C8710: chosen_15 = 1
-_C8711: chosen_16 = 1
-_C8712: chosen_17 = 1
-_C8713: chosen_18 = 1
-_C8714: chosen_19 = 1
-_C8715: chosen_20 = 1
-_C8716: chosen_21 = 1
-_C8717: chosen_22 = 1
-_C8718: chosen_23 = 1
-_C8719: chosen_24 = 1
-_C872: chosen_66 = 1
-_C8720: chosen_25 = 1
-_C8721: chosen_26 = 1
-_C8722: chosen_27 = 1
-_C8723: chosen_28 = 1
-_C8724: chosen_29 = 1
-_C8725: chosen_30 = 1
-_C8726: chosen_31 = 1
-_C8727: chosen_32 = 1
-_C8728: chosen_33 = 1
-_C8729: chosen_34 = 1
-_C873: chosen_67 = 1
-_C8730: chosen_35 = 1
-_C8731: chosen_36 = 1
-_C8732: chosen_37 = 1
-_C8733: chosen_38 = 1
-_C8734: chosen_39 = 1
-_C8735: chosen_40 = 1
-_C8736: chosen_41 = 1
-_C8737: chosen_42 = 1
-_C8738: chosen_43 = 1
-_C8739: chosen_44 = 1
-_C874: chosen_68 = 1
-_C8740: chosen_45 = 1
-_C8741: chosen_46 = 1
-_C8742: chosen_47 = 1
-_C8743: chosen_48 = 1
-_C8744: chosen_49 = 1
-_C8745: chosen_50 = 1
-_C8746: chosen_51 = 1
-_C8747: chosen_52 = 1
-_C8748: chosen_53 = 1
-_C8749: chosen_54 = 1
-_C875: chosen_69 = 1
-_C8750: chosen_55 = 1
-_C8751: chosen_56 = 1
-_C8752: chosen_57 = 1
-_C8753: chosen_58 = 1
-_C8754: chosen_59 = 1
-_C8755: chosen_60 = 1
-_C8756: chosen_61 = 1
-_C8757: chosen_62 = 1
-_C8758: chosen_63 = 1
-_C8759: chosen_64 = 1
-_C876: chosen_70 = 1
-_C8760: chosen_65 = 1
-_C8761: chosen_66 = 1
-_C8762: chosen_67 = 1
-_C8763: chosen_68 = 1
-_C8764: chosen_69 = 1
-_C8765: chosen_70 = 1
-_C8766: chosen_71 = 1
-_C8767: chosen_72 = 1
-_C8768: chosen_73 = 1
-_C8769: chosen_74 = 1
-_C877: chosen_71 = 1
-_C8770: chosen_75 = 1
-_C8771: chosen_76 = 1
-_C8772: chosen_77 = 1
-_C8773: chosen_78 = 1
-_C8774: chosen_79 = 1
-_C8775: chosen_80 = 1
-_C8776: chosen_81 = 1
-_C8777: chosen_82 = 1
-_C8778: chosen_83 = 1
-_C8779: chosen_84 = 1
-_C878: chosen_72 = 1
-_C8780: chosen_85 = 1
-_C8781: chosen_86 = 1
-_C8782: chosen_87 = 1
-_C8783: chosen_88 = 1
-_C8784: chosen_89 = 1
-_C8785: chosen_90 = 1
-_C8786: chosen_91 = 1
-_C8787: chosen_92 = 1
-_C8788: chosen_93 = 1
-_C8789: chosen_94 = 1
-_C879: chosen_73 = 1
-_C8790: chosen_95 = 1
-_C8791: chosen_96 = 1
-_C8792: chosen_97 = 1
-_C8793: chosen_98 = 1
-_C8794: chosen_99 = 1
-_C8795: chosen_100 = 1
-_C8796: chosen_101 = 1
-_C8797: chosen_102 = 1
-_C8798: chosen_103 = 1
-_C8799: chosen_104 = 1
-_C88: chosen_87 = 1
-_C880: chosen_74 = 1
-_C8800: chosen_105 = 1
-_C8801: chosen_106 = 1
-_C8802: chosen_107 = 1
-_C8803: chosen_108 = 1
-_C8804: chosen_109 = 1
-_C8805: chosen_110 = 1
-_C8806: chosen_111 = 1
-_C8807: chosen_112 = 1
-_C8808: chosen_113 = 1
-_C8809: chosen_114 = 1
-_C881: chosen_75 = 1
-_C8810: chosen_115 = 1
-_C8811: chosen_116 = 1
-_C8812: chosen_117 = 1
-_C8813: chosen_118 = 1
-_C8814: chosen_119 = 1
-_C8815: chosen_120 = 1
-_C8816: chosen_121 = 1
-_C8817: chosen_122 = 1
-_C8818: chosen_123 = 1
-_C8819: chosen_124 = 1
-_C882: chosen_76 = 1
-_C8820: chosen_125 = 1
-_C8821: chosen_126 = 1
-_C8822: chosen_127 = 1
-_C8823: chosen_128 = 1
-_C8824: chosen_129 = 1
-_C8825: chosen_130 = 1
-_C8826: chosen_131 = 1
-_C8827: chosen_132 = 1
-_C8828: chosen_133 = 1
-_C8829: chosen_134 = 1
-_C883: chosen_77 = 1
-_C8830: chosen_135 = 1
-_C8831: chosen_136 = 1
-_C8832: chosen_137 = 1
-_C8833: chosen_138 = 1
-_C8834: chosen_139 = 1
-_C8835: chosen_140 = 1
-_C8836: chosen_141 = 1
-_C8837: chosen_142 = 1
-_C8838: chosen_143 = 1
-_C8839: chosen_144 = 1
-_C884: chosen_78 = 1
-_C8840: chosen_145 = 1
-_C8841: chosen_146 = 1
-_C8842: chosen_147 = 1
-_C8843: chosen_148 = 1
-_C8844: chosen_149 = 1
-_C8845: chosen_150 = 1
-_C8846: chosen_151 = 1
-_C8847: chosen_152 = 1
-_C8848: chosen_153 = 1
-_C8849: chosen_154 = 1
-_C885: chosen_79 = 1
-_C8850: chosen_155 = 1
-_C8851: chosen_156 = 1
-_C8852: chosen_157 = 1
-_C8853: chosen_158 = 1
-_C8854: chosen_159 = 1
-_C8855: chosen_160 = 1
-_C8856: chosen_0 = 1
-_C8857: chosen_1 = 1
-_C8858: chosen_2 = 1
-_C8859: chosen_3 = 1
-_C886: chosen_80 = 1
-_C8860: chosen_4 = 1
-_C8861: chosen_5 = 1
-_C8862: chosen_6 = 1
-_C8863: chosen_7 = 1
-_C8864: chosen_8 = 1
-_C8865: chosen_9 = 1
-_C8866: chosen_10 = 1
-_C8867: chosen_11 = 1
-_C8868: chosen_12 = 1
-_C8869: chosen_13 = 1
-_C887: chosen_81 = 1
-_C8870: chosen_14 = 1
-_C8871: chosen_15 = 1
-_C8872: chosen_16 = 1
-_C8873: chosen_17 = 1
-_C8874: chosen_18 = 1
-_C8875: chosen_19 = 1
-_C8876: chosen_20 = 1
-_C8877: chosen_21 = 1
-_C8878: chosen_22 = 1
-_C8879: chosen_23 = 1
-_C888: chosen_82 = 1
-_C8880: chosen_24 = 1
-_C8881: chosen_25 = 1
-_C8882: chosen_26 = 1
-_C8883: chosen_27 = 1
-_C8884: chosen_28 = 1
-_C8885: chosen_29 = 1
-_C8886: chosen_30 = 1
-_C8887: chosen_31 = 1
-_C8888: chosen_32 = 1
-_C8889: chosen_33 = 1
-_C889: chosen_83 = 1
-_C8890: chosen_34 = 1
-_C8891: chosen_35 = 1
-_C8892: chosen_36 = 1
-_C8893: chosen_37 = 1
-_C8894: chosen_38 = 1
-_C8895: chosen_39 = 1
-_C8896: chosen_40 = 1
-_C8897: chosen_41 = 1
-_C8898: chosen_42 = 1
-_C8899: chosen_43 = 1
-_C89: chosen_88 = 1
-_C890: chosen_84 = 1
-_C8900: chosen_44 = 1
-_C8901: chosen_45 = 1
-_C8902: chosen_46 = 1
-_C8903: chosen_47 = 1
-_C8904: chosen_48 = 1
-_C8905: chosen_49 = 1
-_C8906: chosen_50 = 1
-_C8907: chosen_51 = 1
-_C8908: chosen_52 = 1
-_C8909: chosen_53 = 1
-_C891: chosen_85 = 1
-_C8910: chosen_54 = 1
-_C8911: chosen_55 = 1
-_C8912: chosen_56 = 1
-_C8913: chosen_57 = 1
-_C8914: chosen_58 = 1
-_C8915: chosen_59 = 1
-_C8916: chosen_60 = 1
-_C8917: chosen_61 = 1
-_C8918: chosen_62 = 1
-_C8919: chosen_63 = 1
-_C892: chosen_86 = 1
-_C8920: chosen_64 = 1
-_C8921: chosen_65 = 1
-_C8922: chosen_66 = 1
-_C8923: chosen_67 = 1
-_C8924: chosen_68 = 1
-_C8925: chosen_69 = 1
-_C8926: chosen_70 = 1
-_C8927: chosen_71 = 1
-_C8928: chosen_72 = 1
-_C8929: chosen_73 = 1
-_C893: chosen_87 = 1
-_C8930: chosen_74 = 1
-_C8931: chosen_75 = 1
-_C8932: chosen_76 = 1
-_C8933: chosen_77 = 1
-_C8934: chosen_78 = 1
-_C8935: chosen_79 = 1
-_C8936: chosen_80 = 1
-_C8937: chosen_81 = 1
-_C8938: chosen_82 = 1
-_C8939: chosen_83 = 1
-_C894: chosen_88 = 1
-_C8940: chosen_84 = 1
-_C8941: chosen_85 = 1
-_C8942: chosen_86 = 1
-_C8943: chosen_87 = 1
-_C8944: chosen_88 = 1
-_C8945: chosen_89 = 1
-_C8946: chosen_90 = 1
-_C8947: chosen_91 = 1
-_C8948: chosen_92 = 1
-_C8949: chosen_93 = 1
-_C895: chosen_89 = 1
-_C8950: chosen_94 = 1
-_C8951: chosen_95 = 1
-_C8952: chosen_96 = 1
-_C8953: chosen_97 = 1
-_C8954: chosen_98 = 1
-_C8955: chosen_99 = 1
-_C8956: chosen_100 = 1
-_C8957: chosen_101 = 1
-_C8958: chosen_102 = 1
-_C8959: chosen_103 = 1
-_C896: chosen_90 = 1
-_C8960: chosen_104 = 1
-_C8961: chosen_105 = 1
-_C8962: chosen_106 = 1
-_C8963: chosen_107 = 1
-_C8964: chosen_108 = 1
-_C8965: chosen_109 = 1
-_C8966: chosen_110 = 1
-_C8967: chosen_111 = 1
-_C8968: chosen_112 = 1
-_C8969: chosen_113 = 1
-_C897: chosen_91 = 1
-_C8970: chosen_114 = 1
-_C8971: chosen_115 = 1
-_C8972: chosen_116 = 1
-_C8973: chosen_117 = 1
-_C8974: chosen_118 = 1
-_C8975: chosen_119 = 1
-_C8976: chosen_120 = 1
-_C8977: chosen_121 = 1
-_C8978: chosen_122 = 1
-_C8979: chosen_123 = 1
-_C898: chosen_92 = 1
-_C8980: chosen_124 = 1
-_C8981: chosen_125 = 1
-_C8982: chosen_126 = 1
-_C8983: chosen_127 = 1
-_C8984: chosen_128 = 1
-_C8985: chosen_129 = 1
-_C8986: chosen_130 = 1
-_C8987: chosen_131 = 1
-_C8988: chosen_132 = 1
-_C8989: chosen_133 = 1
-_C899: chosen_93 = 1
-_C8990: chosen_134 = 1
-_C8991: chosen_135 = 1
-_C8992: chosen_136 = 1
-_C8993: chosen_137 = 1
-_C8994: chosen_138 = 1
-_C8995: chosen_139 = 1
-_C8996: chosen_140 = 1
-_C8997: chosen_141 = 1
-_C8998: chosen_142 = 1
-_C8999: chosen_143 = 1
-_C9: chosen_8 = 1
-_C90: chosen_89 = 1
-_C900: chosen_94 = 1
-_C9000: chosen_144 = 1
-_C9001: chosen_145 = 1
-_C9002: chosen_146 = 1
-_C9003: chosen_147 = 1
-_C9004: chosen_148 = 1
-_C9005: chosen_149 = 1
-_C9006: chosen_150 = 1
-_C9007: chosen_151 = 1
-_C9008: chosen_152 = 1
-_C9009: chosen_153 = 1
-_C901: chosen_95 = 1
-_C9010: chosen_154 = 1
-_C9011: chosen_155 = 1
-_C9012: chosen_156 = 1
-_C9013: chosen_157 = 1
-_C9014: chosen_158 = 1
-_C9015: chosen_159 = 1
-_C9016: chosen_160 = 1
-_C9017: chosen_0 = 1
-_C9018: chosen_1 = 1
-_C9019: chosen_2 = 1
-_C902: chosen_96 = 1
-_C9020: chosen_3 = 1
-_C9021: chosen_4 = 1
-_C9022: chosen_5 = 1
-_C9023: chosen_6 = 1
-_C9024: chosen_7 = 1
-_C9025: chosen_8 = 1
-_C9026: chosen_9 = 1
-_C9027: chosen_10 = 1
-_C9028: chosen_11 = 1
-_C9029: chosen_12 = 1
-_C903: chosen_97 = 1
-_C9030: chosen_13 = 1
-_C9031: chosen_14 = 1
-_C9032: chosen_15 = 1
-_C9033: chosen_16 = 1
-_C9034: chosen_17 = 1
-_C9035: chosen_18 = 1
-_C9036: chosen_19 = 1
-_C9037: chosen_20 = 1
-_C9038: chosen_21 = 1
-_C9039: chosen_22 = 1
-_C904: chosen_98 = 1
-_C9040: chosen_23 = 1
-_C9041: chosen_24 = 1
-_C9042: chosen_25 = 1
-_C9043: chosen_26 = 1
-_C9044: chosen_27 = 1
-_C9045: chosen_28 = 1
-_C9046: chosen_29 = 1
-_C9047: chosen_30 = 1
-_C9048: chosen_31 = 1
-_C9049: chosen_32 = 1
-_C905: chosen_99 = 1
-_C9050: chosen_33 = 1
-_C9051: chosen_34 = 1
-_C9052: chosen_35 = 1
-_C9053: chosen_36 = 1
-_C9054: chosen_37 = 1
-_C9055: chosen_38 = 1
-_C9056: chosen_39 = 1
-_C9057: chosen_40 = 1
-_C9058: chosen_41 = 1
-_C9059: chosen_42 = 1
-_C906: chosen_100 = 1
-_C9060: chosen_43 = 1
-_C9061: chosen_44 = 1
-_C9062: chosen_45 = 1
-_C9063: chosen_46 = 1
-_C9064: chosen_47 = 1
-_C9065: chosen_48 = 1
-_C9066: chosen_49 = 1
-_C9067: chosen_50 = 1
-_C9068: chosen_51 = 1
-_C9069: chosen_52 = 1
-_C907: chosen_101 = 1
-_C9070: chosen_53 = 1
-_C9071: chosen_54 = 1
-_C9072: chosen_55 = 1
-_C9073: chosen_56 = 1
-_C9074: chosen_57 = 1
-_C9075: chosen_58 = 1
-_C9076: chosen_59 = 1
-_C9077: chosen_60 = 1
-_C9078: chosen_61 = 1
-_C9079: chosen_62 = 1
-_C908: chosen_102 = 1
-_C9080: chosen_63 = 1
-_C9081: chosen_64 = 1
-_C9082: chosen_65 = 1
-_C9083: chosen_66 = 1
-_C9084: chosen_67 = 1
-_C9085: chosen_68 = 1
-_C9086: chosen_69 = 1
-_C9087: chosen_70 = 1
-_C9088: chosen_71 = 1
-_C9089: chosen_72 = 1
-_C909: chosen_103 = 1
-_C9090: chosen_73 = 1
-_C9091: chosen_74 = 1
-_C9092: chosen_75 = 1
-_C9093: chosen_76 = 1
-_C9094: chosen_77 = 1
-_C9095: chosen_78 = 1
-_C9096: chosen_79 = 1
-_C9097: chosen_80 = 1
-_C9098: chosen_81 = 1
-_C9099: chosen_82 = 1
-_C91: chosen_90 = 1
-_C910: chosen_104 = 1
-_C9100: chosen_83 = 1
-_C9101: chosen_84 = 1
-_C9102: chosen_85 = 1
-_C9103: chosen_86 = 1
-_C9104: chosen_87 = 1
-_C9105: chosen_88 = 1
-_C9106: chosen_89 = 1
-_C9107: chosen_90 = 1
-_C9108: chosen_91 = 1
-_C9109: chosen_92 = 1
-_C911: chosen_105 = 1
-_C9110: chosen_93 = 1
-_C9111: chosen_94 = 1
-_C9112: chosen_95 = 1
-_C9113: chosen_96 = 1
-_C9114: chosen_97 = 1
-_C9115: chosen_98 = 1
-_C9116: chosen_99 = 1
-_C9117: chosen_100 = 1
-_C9118: chosen_101 = 1
-_C9119: chosen_102 = 1
-_C912: chosen_106 = 1
-_C9120: chosen_103 = 1
-_C9121: chosen_104 = 1
-_C9122: chosen_105 = 1
-_C9123: chosen_106 = 1
-_C9124: chosen_107 = 1
-_C9125: chosen_108 = 1
-_C9126: chosen_109 = 1
-_C9127: chosen_110 = 1
-_C9128: chosen_111 = 1
-_C9129: chosen_112 = 1
-_C913: chosen_107 = 1
-_C9130: chosen_113 = 1
-_C9131: chosen_114 = 1
-_C9132: chosen_115 = 1
-_C9133: chosen_116 = 1
-_C9134: chosen_117 = 1
-_C9135: chosen_118 = 1
-_C9136: chosen_119 = 1
-_C9137: chosen_120 = 1
-_C9138: chosen_121 = 1
-_C9139: chosen_122 = 1
-_C914: chosen_108 = 1
-_C9140: chosen_123 = 1
-_C9141: chosen_124 = 1
-_C9142: chosen_125 = 1
-_C9143: chosen_126 = 1
-_C9144: chosen_127 = 1
-_C9145: chosen_128 = 1
-_C9146: chosen_129 = 1
-_C9147: chosen_130 = 1
-_C9148: chosen_131 = 1
-_C9149: chosen_132 = 1
-_C915: chosen_109 = 1
-_C9150: chosen_133 = 1
-_C9151: chosen_134 = 1
-_C9152: chosen_135 = 1
-_C9153: chosen_136 = 1
-_C9154: chosen_137 = 1
-_C9155: chosen_138 = 1
-_C9156: chosen_139 = 1
-_C9157: chosen_140 = 1
-_C9158: chosen_141 = 1
-_C9159: chosen_142 = 1
-_C916: chosen_110 = 1
-_C9160: chosen_143 = 1
-_C9161: chosen_144 = 1
-_C9162: chosen_145 = 1
-_C9163: chosen_146 = 1
-_C9164: chosen_147 = 1
-_C9165: chosen_148 = 1
-_C9166: chosen_149 = 1
-_C9167: chosen_150 = 1
-_C9168: chosen_151 = 1
-_C9169: chosen_152 = 1
-_C917: chosen_111 = 1
-_C9170: chosen_153 = 1
-_C9171: chosen_154 = 1
-_C9172: chosen_155 = 1
-_C9173: chosen_156 = 1
-_C9174: chosen_157 = 1
-_C9175: chosen_158 = 1
-_C9176: chosen_159 = 1
-_C9177: chosen_160 = 1
-_C9178: chosen_0 = 1
-_C9179: chosen_1 = 1
-_C918: chosen_112 = 1
-_C9180: chosen_2 = 1
-_C9181: chosen_3 = 1
-_C9182: chosen_4 = 1
-_C9183: chosen_5 = 1
-_C9184: chosen_6 = 1
-_C9185: chosen_7 = 1
-_C9186: chosen_8 = 1
-_C9187: chosen_9 = 1
-_C9188: chosen_10 = 1
-_C9189: chosen_11 = 1
-_C919: chosen_113 = 1
-_C9190: chosen_12 = 1
-_C9191: chosen_13 = 1
-_C9192: chosen_14 = 1
-_C9193: chosen_15 = 1
-_C9194: chosen_16 = 1
-_C9195: chosen_17 = 1
-_C9196: chosen_18 = 1
-_C9197: chosen_19 = 1
-_C9198: chosen_20 = 1
-_C9199: chosen_21 = 1
-_C92: chosen_91 = 1
-_C920: chosen_114 = 1
-_C9200: chosen_22 = 1
-_C9201: chosen_23 = 1
-_C9202: chosen_24 = 1
-_C9203: chosen_25 = 1
-_C9204: chosen_26 = 1
-_C9205: chosen_27 = 1
-_C9206: chosen_28 = 1
-_C9207: chosen_29 = 1
-_C9208: chosen_30 = 1
-_C9209: chosen_31 = 1
-_C921: chosen_115 = 1
-_C9210: chosen_32 = 1
-_C9211: chosen_33 = 1
-_C9212: chosen_34 = 1
-_C9213: chosen_35 = 1
-_C9214: chosen_36 = 1
-_C9215: chosen_37 = 1
-_C9216: chosen_38 = 1
-_C9217: chosen_39 = 1
-_C9218: chosen_40 = 1
-_C9219: chosen_41 = 1
-_C922: chosen_116 = 1
-_C9220: chosen_42 = 1
-_C9221: chosen_43 = 1
-_C9222: chosen_44 = 1
-_C9223: chosen_45 = 1
-_C9224: chosen_46 = 1
-_C9225: chosen_47 = 1
-_C9226: chosen_48 = 1
-_C9227: chosen_49 = 1
-_C9228: chosen_50 = 1
-_C9229: chosen_51 = 1
-_C923: chosen_117 = 1
-_C9230: chosen_52 = 1
-_C9231: chosen_53 = 1
-_C9232: chosen_54 = 1
-_C9233: chosen_55 = 1
-_C9234: chosen_56 = 1
-_C9235: chosen_57 = 1
-_C9236: chosen_58 = 1
-_C9237: chosen_59 = 1
-_C9238: chosen_60 = 1
-_C9239: chosen_61 = 1
-_C924: chosen_118 = 1
-_C9240: chosen_62 = 1
-_C9241: chosen_63 = 1
-_C9242: chosen_64 = 1
-_C9243: chosen_65 = 1
-_C9244: chosen_66 = 1
-_C9245: chosen_67 = 1
-_C9246: chosen_68 = 1
-_C9247: chosen_69 = 1
-_C9248: chosen_70 = 1
-_C9249: chosen_71 = 1
-_C925: chosen_119 = 1
-_C9250: chosen_72 = 1
-_C9251: chosen_73 = 1
-_C9252: chosen_74 = 1
-_C9253: chosen_75 = 1
-_C9254: chosen_76 = 1
-_C9255: chosen_77 = 1
-_C9256: chosen_78 = 1
-_C9257: chosen_79 = 1
-_C9258: chosen_80 = 1
-_C9259: chosen_81 = 1
-_C926: chosen_120 = 1
-_C9260: chosen_82 = 1
-_C9261: chosen_83 = 1
-_C9262: chosen_84 = 1
-_C9263: chosen_85 = 1
-_C9264: chosen_86 = 1
-_C9265: chosen_87 = 1
-_C9266: chosen_88 = 1
-_C9267: chosen_89 = 1
-_C9268: chosen_90 = 1
-_C9269: chosen_91 = 1
-_C927: chosen_121 = 1
-_C9270: chosen_92 = 1
-_C9271: chosen_93 = 1
-_C9272: chosen_94 = 1
-_C9273: chosen_95 = 1
-_C9274: chosen_96 = 1
-_C9275: chosen_97 = 1
-_C9276: chosen_98 = 1
-_C9277: chosen_99 = 1
-_C9278: chosen_100 = 1
-_C9279: chosen_101 = 1
-_C928: chosen_122 = 1
-_C9280: chosen_102 = 1
-_C9281: chosen_103 = 1
-_C9282: chosen_104 = 1
-_C9283: chosen_105 = 1
-_C9284: chosen_106 = 1
-_C9285: chosen_107 = 1
-_C9286: chosen_108 = 1
-_C9287: chosen_109 = 1
-_C9288: chosen_110 = 1
-_C9289: chosen_111 = 1
-_C929: chosen_123 = 1
-_C9290: chosen_112 = 1
-_C9291: chosen_113 = 1
-_C9292: chosen_114 = 1
-_C9293: chosen_115 = 1
-_C9294: chosen_116 = 1
-_C9295: chosen_117 = 1
-_C9296: chosen_118 = 1
-_C9297: chosen_119 = 1
-_C9298: chosen_120 = 1
-_C9299: chosen_121 = 1
-_C93: chosen_92 = 1
-_C930: chosen_124 = 1
-_C9300: chosen_122 = 1
-_C9301: chosen_123 = 1
-_C9302: chosen_124 = 1
-_C9303: chosen_125 = 1
-_C9304: chosen_126 = 1
-_C9305: chosen_127 = 1
-_C9306: chosen_128 = 1
-_C9307: chosen_129 = 1
-_C9308: chosen_130 = 1
-_C9309: chosen_131 = 1
-_C931: chosen_125 = 1
-_C9310: chosen_132 = 1
-_C9311: chosen_133 = 1
-_C9312: chosen_134 = 1
-_C9313: chosen_135 = 1
-_C9314: chosen_136 = 1
-_C9315: chosen_137 = 1
-_C9316: chosen_138 = 1
-_C9317: chosen_139 = 1
-_C9318: chosen_140 = 1
-_C9319: chosen_141 = 1
-_C932: chosen_126 = 1
-_C9320: chosen_142 = 1
-_C9321: chosen_143 = 1
-_C9322: chosen_144 = 1
-_C9323: chosen_145 = 1
-_C9324: chosen_146 = 1
-_C9325: chosen_147 = 1
-_C9326: chosen_148 = 1
-_C9327: chosen_149 = 1
-_C9328: chosen_150 = 1
-_C9329: chosen_151 = 1
-_C933: chosen_127 = 1
-_C9330: chosen_152 = 1
-_C9331: chosen_153 = 1
-_C9332: chosen_154 = 1
-_C9333: chosen_155 = 1
-_C9334: chosen_156 = 1
-_C9335: chosen_157 = 1
-_C9336: chosen_158 = 1
-_C9337: chosen_159 = 1
-_C9338: chosen_160 = 1
-_C9339: chosen_0 = 1
-_C934: chosen_128 = 1
-_C9340: chosen_1 = 1
-_C9341: chosen_2 = 1
-_C9342: chosen_3 = 1
-_C9343: chosen_4 = 1
-_C9344: chosen_5 = 1
-_C9345: chosen_6 = 1
-_C9346: chosen_7 = 1
-_C9347: chosen_8 = 1
-_C9348: chosen_9 = 1
-_C9349: chosen_10 = 1
-_C935: chosen_129 = 1
-_C9350: chosen_11 = 1
-_C9351: chosen_12 = 1
-_C9352: chosen_13 = 1
-_C9353: chosen_14 = 1
-_C9354: chosen_15 = 1
-_C9355: chosen_16 = 1
-_C9356: chosen_17 = 1
-_C9357: chosen_18 = 1
-_C9358: chosen_19 = 1
-_C9359: chosen_20 = 1
-_C936: chosen_130 = 1
-_C9360: chosen_21 = 1
-_C9361: chosen_22 = 1
-_C9362: chosen_23 = 1
-_C9363: chosen_24 = 1
-_C9364: chosen_25 = 1
-_C9365: chosen_26 = 1
-_C9366: chosen_27 = 1
-_C9367: chosen_28 = 1
-_C9368: chosen_29 = 1
-_C9369: chosen_30 = 1
-_C937: chosen_131 = 1
-_C9370: chosen_31 = 1
-_C9371: chosen_32 = 1
-_C9372: chosen_33 = 1
-_C9373: chosen_34 = 1
-_C9374: chosen_35 = 1
-_C9375: chosen_36 = 1
-_C9376: chosen_37 = 1
-_C9377: chosen_38 = 1
-_C9378: chosen_39 = 1
-_C9379: chosen_40 = 1
-_C938: chosen_132 = 1
-_C9380: chosen_41 = 1
-_C9381: chosen_42 = 1
-_C9382: chosen_43 = 1
-_C9383: chosen_44 = 1
-_C9384: chosen_45 = 1
-_C9385: chosen_46 = 1
-_C9386: chosen_47 = 1
-_C9387: chosen_48 = 1
-_C9388: chosen_49 = 1
-_C9389: chosen_50 = 1
-_C939: chosen_133 = 1
-_C9390: chosen_51 = 1
-_C9391: chosen_52 = 1
-_C9392: chosen_53 = 1
-_C9393: chosen_54 = 1
-_C9394: chosen_55 = 1
-_C9395: chosen_56 = 1
-_C9396: chosen_57 = 1
-_C9397: chosen_58 = 1
-_C9398: chosen_59 = 1
-_C9399: chosen_60 = 1
-_C94: chosen_93 = 1
-_C940: chosen_134 = 1
-_C9400: chosen_61 = 1
-_C9401: chosen_62 = 1
-_C9402: chosen_63 = 1
-_C9403: chosen_64 = 1
-_C9404: chosen_65 = 1
-_C9405: chosen_66 = 1
-_C9406: chosen_67 = 1
-_C9407: chosen_68 = 1
-_C9408: chosen_69 = 1
-_C9409: chosen_70 = 1
-_C941: chosen_135 = 1
-_C9410: chosen_71 = 1
-_C9411: chosen_72 = 1
-_C9412: chosen_73 = 1
-_C9413: chosen_74 = 1
-_C9414: chosen_75 = 1
-_C9415: chosen_76 = 1
-_C9416: chosen_77 = 1
-_C9417: chosen_78 = 1
-_C9418: chosen_79 = 1
-_C9419: chosen_80 = 1
-_C942: chosen_136 = 1
-_C9420: chosen_81 = 1
-_C9421: chosen_82 = 1
-_C9422: chosen_83 = 1
-_C9423: chosen_84 = 1
-_C9424: chosen_85 = 1
-_C9425: chosen_86 = 1
-_C9426: chosen_87 = 1
-_C9427: chosen_88 = 1
-_C9428: chosen_89 = 1
-_C9429: chosen_90 = 1
-_C943: chosen_137 = 1
-_C9430: chosen_91 = 1
-_C9431: chosen_92 = 1
-_C9432: chosen_93 = 1
-_C9433: chosen_94 = 1
-_C9434: chosen_95 = 1
-_C9435: chosen_96 = 1
-_C9436: chosen_97 = 1
-_C9437: chosen_98 = 1
-_C9438: chosen_99 = 1
-_C9439: chosen_100 = 1
-_C944: chosen_138 = 1
-_C9440: chosen_101 = 1
-_C9441: chosen_102 = 1
-_C9442: chosen_103 = 1
-_C9443: chosen_104 = 1
-_C9444: chosen_105 = 1
-_C9445: chosen_106 = 1
-_C9446: chosen_107 = 1
-_C9447: chosen_108 = 1
-_C9448: chosen_109 = 1
-_C9449: chosen_110 = 1
-_C945: chosen_139 = 1
-_C9450: chosen_111 = 1
-_C9451: chosen_112 = 1
-_C9452: chosen_113 = 1
-_C9453: chosen_114 = 1
-_C9454: chosen_115 = 1
-_C9455: chosen_116 = 1
-_C9456: chosen_117 = 1
-_C9457: chosen_118 = 1
-_C9458: chosen_119 = 1
-_C9459: chosen_120 = 1
-_C946: chosen_140 = 1
-_C9460: chosen_121 = 1
-_C9461: chosen_122 = 1
-_C9462: chosen_123 = 1
-_C9463: chosen_124 = 1
-_C9464: chosen_125 = 1
-_C9465: chosen_126 = 1
-_C9466: chosen_127 = 1
-_C9467: chosen_128 = 1
-_C9468: chosen_129 = 1
-_C9469: chosen_130 = 1
-_C947: chosen_141 = 1
-_C9470: chosen_131 = 1
-_C9471: chosen_132 = 1
-_C9472: chosen_133 = 1
-_C9473: chosen_134 = 1
-_C9474: chosen_135 = 1
-_C9475: chosen_136 = 1
-_C9476: chosen_137 = 1
-_C9477: chosen_138 = 1
-_C9478: chosen_139 = 1
-_C9479: chosen_140 = 1
-_C948: chosen_142 = 1
-_C9480: chosen_141 = 1
-_C9481: chosen_142 = 1
-_C9482: chosen_143 = 1
-_C9483: chosen_144 = 1
-_C9484: chosen_145 = 1
-_C9485: chosen_146 = 1
-_C9486: chosen_147 = 1
-_C9487: chosen_148 = 1
-_C9488: chosen_149 = 1
-_C9489: chosen_150 = 1
-_C949: chosen_143 = 1
-_C9490: chosen_151 = 1
-_C9491: chosen_152 = 1
-_C9492: chosen_153 = 1
-_C9493: chosen_154 = 1
-_C9494: chosen_155 = 1
-_C9495: chosen_156 = 1
-_C9496: chosen_157 = 1
-_C9497: chosen_158 = 1
-_C9498: chosen_159 = 1
-_C9499: chosen_160 = 1
-_C95: chosen_94 = 1
-_C950: chosen_144 = 1
-_C9500: chosen_0 = 1
-_C9501: chosen_1 = 1
-_C9502: chosen_2 = 1
-_C9503: chosen_3 = 1
-_C9504: chosen_4 = 1
-_C9505: chosen_5 = 1
-_C9506: chosen_6 = 1
-_C9507: chosen_7 = 1
-_C9508: chosen_8 = 1
-_C9509: chosen_9 = 1
-_C951: chosen_145 = 1
-_C9510: chosen_10 = 1
-_C9511: chosen_11 = 1
-_C9512: chosen_12 = 1
-_C9513: chosen_13 = 1
-_C9514: chosen_14 = 1
-_C9515: chosen_15 = 1
-_C9516: chosen_16 = 1
-_C9517: chosen_17 = 1
-_C9518: chosen_18 = 1
-_C9519: chosen_19 = 1
-_C952: chosen_146 = 1
-_C9520: chosen_20 = 1
-_C9521: chosen_21 = 1
-_C9522: chosen_22 = 1
-_C9523: chosen_23 = 1
-_C9524: chosen_24 = 1
-_C9525: chosen_25 = 1
-_C9526: chosen_26 = 1
-_C9527: chosen_27 = 1
-_C9528: chosen_28 = 1
-_C9529: chosen_29 = 1
-_C953: chosen_147 = 1
-_C9530: chosen_30 = 1
-_C9531: chosen_31 = 1
-_C9532: chosen_32 = 1
-_C9533: chosen_33 = 1
-_C9534: chosen_34 = 1
-_C9535: chosen_35 = 1
-_C9536: chosen_36 = 1
-_C9537: chosen_37 = 1
-_C9538: chosen_38 = 1
-_C9539: chosen_39 = 1
-_C954: chosen_148 = 1
-_C9540: chosen_40 = 1
-_C9541: chosen_41 = 1
-_C9542: chosen_42 = 1
-_C9543: chosen_43 = 1
-_C9544: chosen_44 = 1
-_C9545: chosen_45 = 1
-_C9546: chosen_46 = 1
-_C9547: chosen_47 = 1
-_C9548: chosen_48 = 1
-_C9549: chosen_49 = 1
-_C955: chosen_149 = 1
-_C9550: chosen_50 = 1
-_C9551: chosen_51 = 1
-_C9552: chosen_52 = 1
-_C9553: chosen_53 = 1
-_C9554: chosen_54 = 1
-_C9555: chosen_55 = 1
-_C9556: chosen_56 = 1
-_C9557: chosen_57 = 1
-_C9558: chosen_58 = 1
-_C9559: chosen_59 = 1
-_C956: chosen_150 = 1
-_C9560: chosen_60 = 1
-_C9561: chosen_61 = 1
-_C9562: chosen_62 = 1
-_C9563: chosen_63 = 1
-_C9564: chosen_64 = 1
-_C9565: chosen_65 = 1
-_C9566: chosen_66 = 1
-_C9567: chosen_67 = 1
-_C9568: chosen_68 = 1
-_C9569: chosen_69 = 1
-_C957: chosen_151 = 1
-_C9570: chosen_70 = 1
-_C9571: chosen_71 = 1
-_C9572: chosen_72 = 1
-_C9573: chosen_73 = 1
-_C9574: chosen_74 = 1
-_C9575: chosen_75 = 1
-_C9576: chosen_76 = 1
-_C9577: chosen_77 = 1
-_C9578: chosen_78 = 1
-_C9579: chosen_79 = 1
-_C958: chosen_152 = 1
-_C9580: chosen_80 = 1
-_C9581: chosen_81 = 1
-_C9582: chosen_82 = 1
-_C9583: chosen_83 = 1
-_C9584: chosen_84 = 1
-_C9585: chosen_85 = 1
-_C9586: chosen_86 = 1
-_C9587: chosen_87 = 1
-_C9588: chosen_88 = 1
-_C9589: chosen_89 = 1
-_C959: chosen_153 = 1
-_C9590: chosen_90 = 1
-_C9591: chosen_91 = 1
-_C9592: chosen_92 = 1
-_C9593: chosen_93 = 1
-_C9594: chosen_94 = 1
-_C9595: chosen_95 = 1
-_C9596: chosen_96 = 1
-_C9597: chosen_97 = 1
-_C9598: chosen_98 = 1
-_C9599: chosen_99 = 1
-_C96: chosen_95 = 1
-_C960: chosen_154 = 1
-_C9600: chosen_100 = 1
-_C9601: chosen_101 = 1
-_C9602: chosen_102 = 1
-_C9603: chosen_103 = 1
-_C9604: chosen_104 = 1
-_C9605: chosen_105 = 1
-_C9606: chosen_106 = 1
-_C9607: chosen_107 = 1
-_C9608: chosen_108 = 1
-_C9609: chosen_109 = 1
-_C961: chosen_155 = 1
-_C9610: chosen_110 = 1
-_C9611: chosen_111 = 1
-_C9612: chosen_112 = 1
-_C9613: chosen_113 = 1
-_C9614: chosen_114 = 1
-_C9615: chosen_115 = 1
-_C9616: chosen_116 = 1
-_C9617: chosen_117 = 1
-_C9618: chosen_118 = 1
-_C9619: chosen_119 = 1
-_C962: chosen_156 = 1
-_C9620: chosen_120 = 1
-_C9621: chosen_121 = 1
-_C9622: chosen_122 = 1
-_C9623: chosen_123 = 1
-_C9624: chosen_124 = 1
-_C9625: chosen_125 = 1
-_C9626: chosen_126 = 1
-_C9627: chosen_127 = 1
-_C9628: chosen_128 = 1
-_C9629: chosen_129 = 1
-_C963: chosen_157 = 1
-_C9630: chosen_130 = 1
-_C9631: chosen_131 = 1
-_C9632: chosen_132 = 1
-_C9633: chosen_133 = 1
-_C9634: chosen_134 = 1
-_C9635: chosen_135 = 1
-_C9636: chosen_136 = 1
-_C9637: chosen_137 = 1
-_C9638: chosen_138 = 1
-_C9639: chosen_139 = 1
-_C964: chosen_158 = 1
-_C9640: chosen_140 = 1
-_C9641: chosen_141 = 1
-_C9642: chosen_142 = 1
-_C9643: chosen_143 = 1
-_C9644: chosen_144 = 1
-_C9645: chosen_145 = 1
-_C9646: chosen_146 = 1
-_C9647: chosen_147 = 1
-_C9648: chosen_148 = 1
-_C9649: chosen_149 = 1
-_C965: chosen_159 = 1
-_C9650: chosen_150 = 1
-_C9651: chosen_151 = 1
-_C9652: chosen_152 = 1
-_C9653: chosen_153 = 1
-_C9654: chosen_154 = 1
-_C9655: chosen_155 = 1
-_C9656: chosen_156 = 1
-_C9657: chosen_157 = 1
-_C9658: chosen_158 = 1
-_C9659: chosen_159 = 1
-_C966: chosen_160 = 1
-_C9660: chosen_160 = 1
-_C9661: chosen_0 = 1
-_C9662: chosen_1 = 1
-_C9663: chosen_2 = 1
-_C9664: chosen_3 = 1
-_C9665: chosen_4 = 1
-_C9666: chosen_5 = 1
-_C9667: chosen_6 = 1
-_C9668: chosen_7 = 1
-_C9669: chosen_8 = 1
-_C967: chosen_0 = 1
-_C9670: chosen_9 = 1
-_C9671: chosen_10 = 1
-_C9672: chosen_11 = 1
-_C9673: chosen_12 = 1
-_C9674: chosen_13 = 1
-_C9675: chosen_14 = 1
-_C9676: chosen_15 = 1
-_C9677: chosen_16 = 1
-_C9678: chosen_17 = 1
-_C9679: chosen_18 = 1
-_C968: chosen_1 = 1
-_C9680: chosen_19 = 1
-_C9681: chosen_20 = 1
-_C9682: chosen_21 = 1
-_C9683: chosen_22 = 1
-_C9684: chosen_23 = 1
-_C9685: chosen_24 = 1
-_C9686: chosen_25 = 1
-_C9687: chosen_26 = 1
-_C9688: chosen_27 = 1
-_C9689: chosen_28 = 1
-_C969: chosen_2 = 1
-_C9690: chosen_29 = 1
-_C9691: chosen_30 = 1
-_C9692: chosen_31 = 1
-_C9693: chosen_32 = 1
-_C9694: chosen_33 = 1
-_C9695: chosen_34 = 1
-_C9696: chosen_35 = 1
-_C9697: chosen_36 = 1
-_C9698: chosen_37 = 1
-_C9699: chosen_38 = 1
-_C97: chosen_96 = 1
-_C970: chosen_3 = 1
-_C9700: chosen_39 = 1
-_C9701: chosen_40 = 1
-_C9702: chosen_41 = 1
-_C9703: chosen_42 = 1
-_C9704: chosen_43 = 1
-_C9705: chosen_44 = 1
-_C9706: chosen_45 = 1
-_C9707: chosen_46 = 1
-_C9708: chosen_47 = 1
-_C9709: chosen_48 = 1
-_C971: chosen_4 = 1
-_C9710: chosen_49 = 1
-_C9711: chosen_50 = 1
-_C9712: chosen_51 = 1
-_C9713: chosen_52 = 1
-_C9714: chosen_53 = 1
-_C9715: chosen_54 = 1
-_C9716: chosen_55 = 1
-_C9717: chosen_56 = 1
-_C9718: chosen_57 = 1
-_C9719: chosen_58 = 1
-_C972: chosen_5 = 1
-_C9720: chosen_59 = 1
-_C9721: chosen_60 = 1
-_C9722: chosen_61 = 1
-_C9723: chosen_62 = 1
-_C9724: chosen_63 = 1
-_C9725: chosen_64 = 1
-_C9726: chosen_65 = 1
-_C9727: chosen_66 = 1
-_C9728: chosen_67 = 1
-_C9729: chosen_68 = 1
-_C973: chosen_6 = 1
-_C9730: chosen_69 = 1
-_C9731: chosen_70 = 1
-_C9732: chosen_71 = 1
-_C9733: chosen_72 = 1
-_C9734: chosen_73 = 1
-_C9735: chosen_74 = 1
-_C9736: chosen_75 = 1
-_C9737: chosen_76 = 1
-_C9738: chosen_77 = 1
-_C9739: chosen_78 = 1
-_C974: chosen_7 = 1
-_C9740: chosen_79 = 1
-_C9741: chosen_80 = 1
-_C9742: chosen_81 = 1
-_C9743: chosen_82 = 1
-_C9744: chosen_83 = 1
-_C9745: chosen_84 = 1
-_C9746: chosen_85 = 1
-_C9747: chosen_86 = 1
-_C9748: chosen_87 = 1
-_C9749: chosen_88 = 1
-_C975: chosen_8 = 1
-_C9750: chosen_89 = 1
-_C9751: chosen_90 = 1
-_C9752: chosen_91 = 1
-_C9753: chosen_92 = 1
-_C9754: chosen_93 = 1
-_C9755: chosen_94 = 1
-_C9756: chosen_95 = 1
-_C9757: chosen_96 = 1
-_C9758: chosen_97 = 1
-_C9759: chosen_98 = 1
-_C976: chosen_9 = 1
-_C9760: chosen_99 = 1
-_C9761: chosen_100 = 1
-_C9762: chosen_101 = 1
-_C9763: chosen_102 = 1
-_C9764: chosen_103 = 1
-_C9765: chosen_104 = 1
-_C9766: chosen_105 = 1
-_C9767: chosen_106 = 1
-_C9768: chosen_107 = 1
-_C9769: chosen_108 = 1
-_C977: chosen_10 = 1
-_C9770: chosen_109 = 1
-_C9771: chosen_110 = 1
-_C9772: chosen_111 = 1
-_C9773: chosen_112 = 1
-_C9774: chosen_113 = 1
-_C9775: chosen_114 = 1
-_C9776: chosen_115 = 1
-_C9777: chosen_116 = 1
-_C9778: chosen_117 = 1
-_C9779: chosen_118 = 1
-_C978: chosen_11 = 1
-_C9780: chosen_119 = 1
-_C9781: chosen_120 = 1
-_C9782: chosen_121 = 1
-_C9783: chosen_122 = 1
-_C9784: chosen_123 = 1
-_C9785: chosen_124 = 1
-_C9786: chosen_125 = 1
-_C9787: chosen_126 = 1
-_C9788: chosen_127 = 1
-_C9789: chosen_128 = 1
-_C979: chosen_12 = 1
-_C9790: chosen_129 = 1
-_C9791: chosen_130 = 1
-_C9792: chosen_131 = 1
-_C9793: chosen_132 = 1
-_C9794: chosen_133 = 1
-_C9795: chosen_134 = 1
-_C9796: chosen_135 = 1
-_C9797: chosen_136 = 1
-_C9798: chosen_137 = 1
-_C9799: chosen_138 = 1
-_C98: chosen_97 = 1
-_C980: chosen_13 = 1
-_C9800: chosen_139 = 1
-_C9801: chosen_140 = 1
-_C9802: chosen_141 = 1
-_C9803: chosen_142 = 1
-_C9804: chosen_143 = 1
-_C9805: chosen_144 = 1
-_C9806: chosen_145 = 1
-_C9807: chosen_146 = 1
-_C9808: chosen_147 = 1
-_C9809: chosen_148 = 1
-_C981: chosen_14 = 1
-_C9810: chosen_149 = 1
-_C9811: chosen_150 = 1
-_C9812: chosen_151 = 1
-_C9813: chosen_152 = 1
-_C9814: chosen_153 = 1
-_C9815: chosen_154 = 1
-_C9816: chosen_155 = 1
-_C9817: chosen_156 = 1
-_C9818: chosen_157 = 1
-_C9819: chosen_158 = 1
-_C982: chosen_15 = 1
-_C9820: chosen_159 = 1
-_C9821: chosen_160 = 1
-_C9822: chosen_0 = 1
-_C9823: chosen_1 = 1
-_C9824: chosen_2 = 1
-_C9825: chosen_3 = 1
-_C9826: chosen_4 = 1
-_C9827: chosen_5 = 1
-_C9828: chosen_6 = 1
-_C9829: chosen_7 = 1
-_C983: chosen_16 = 1
-_C9830: chosen_8 = 1
-_C9831: chosen_9 = 1
-_C9832: chosen_10 = 1
-_C9833: chosen_11 = 1
-_C9834: chosen_12 = 1
-_C9835: chosen_13 = 1
-_C9836: chosen_14 = 1
-_C9837: chosen_15 = 1
-_C9838: chosen_16 = 1
-_C9839: chosen_17 = 1
-_C984: chosen_17 = 1
-_C9840: chosen_18 = 1
-_C9841: chosen_19 = 1
-_C9842: chosen_20 = 1
-_C9843: chosen_21 = 1
-_C9844: chosen_22 = 1
-_C9845: chosen_23 = 1
-_C9846: chosen_24 = 1
-_C9847: chosen_25 = 1
-_C9848: chosen_26 = 1
-_C9849: chosen_27 = 1
-_C985: chosen_18 = 1
-_C9850: chosen_28 = 1
-_C9851: chosen_29 = 1
-_C9852: chosen_30 = 1
-_C9853: chosen_31 = 1
-_C9854: chosen_32 = 1
-_C9855: chosen_33 = 1
-_C9856: chosen_34 = 1
-_C9857: chosen_35 = 1
-_C9858: chosen_36 = 1
-_C9859: chosen_37 = 1
-_C986: chosen_19 = 1
-_C9860: chosen_38 = 1
-_C9861: chosen_39 = 1
-_C9862: chosen_40 = 1
-_C9863: chosen_41 = 1
-_C9864: chosen_42 = 1
-_C9865: chosen_43 = 1
-_C9866: chosen_44 = 1
-_C9867: chosen_45 = 1
-_C9868: chosen_46 = 1
-_C9869: chosen_47 = 1
-_C987: chosen_20 = 1
-_C9870: chosen_48 = 1
-_C9871: chosen_49 = 1
-_C9872: chosen_50 = 1
-_C9873: chosen_51 = 1
-_C9874: chosen_52 = 1
-_C9875: chosen_53 = 1
-_C9876: chosen_54 = 1
-_C9877: chosen_55 = 1
-_C9878: chosen_56 = 1
-_C9879: chosen_57 = 1
-_C988: chosen_21 = 1
-_C9880: chosen_58 = 1
-_C9881: chosen_59 = 1
-_C9882: chosen_60 = 1
-_C9883: chosen_61 = 1
-_C9884: chosen_62 = 1
-_C9885: chosen_63 = 1
-_C9886: chosen_64 = 1
-_C9887: chosen_65 = 1
-_C9888: chosen_66 = 1
-_C9889: chosen_67 = 1
-_C989: chosen_22 = 1
-_C9890: chosen_68 = 1
-_C9891: chosen_69 = 1
-_C9892: chosen_70 = 1
-_C9893: chosen_71 = 1
-_C9894: chosen_72 = 1
-_C9895: chosen_73 = 1
-_C9896: chosen_74 = 1
-_C9897: chosen_75 = 1
-_C9898: chosen_76 = 1
-_C9899: chosen_77 = 1
-_C99: chosen_98 = 1
-_C990: chosen_23 = 1
-_C9900: chosen_78 = 1
-_C9901: chosen_79 = 1
-_C9902: chosen_80 = 1
-_C9903: chosen_81 = 1
-_C9904: chosen_82 = 1
-_C9905: chosen_83 = 1
-_C9906: chosen_84 = 1
-_C9907: chosen_85 = 1
-_C9908: chosen_86 = 1
-_C9909: chosen_87 = 1
-_C991: chosen_24 = 1
-_C9910: chosen_88 = 1
-_C9911: chosen_89 = 1
-_C9912: chosen_90 = 1
-_C9913: chosen_91 = 1
-_C9914: chosen_92 = 1
-_C9915: chosen_93 = 1
-_C9916: chosen_94 = 1
-_C9917: chosen_95 = 1
-_C9918: chosen_96 = 1
-_C9919: chosen_97 = 1
-_C992: chosen_25 = 1
-_C9920: chosen_98 = 1
-_C9921: chosen_99 = 1
-_C9922: chosen_100 = 1
-_C9923: chosen_101 = 1
-_C9924: chosen_102 = 1
-_C9925: chosen_103 = 1
-_C9926: chosen_104 = 1
-_C9927: chosen_105 = 1
-_C9928: chosen_106 = 1
-_C9929: chosen_107 = 1
-_C993: chosen_26 = 1
-_C9930: chosen_108 = 1
-_C9931: chosen_109 = 1
-_C9932: chosen_110 = 1
-_C9933: chosen_111 = 1
-_C9934: chosen_112 = 1
-_C9935: chosen_113 = 1
-_C9936: chosen_114 = 1
-_C9937: chosen_115 = 1
-_C9938: chosen_116 = 1
-_C9939: chosen_117 = 1
-_C994: chosen_27 = 1
-_C9940: chosen_118 = 1
-_C9941: chosen_119 = 1
-_C9942: chosen_120 = 1
-_C9943: chosen_121 = 1
-_C9944: chosen_122 = 1
-_C9945: chosen_123 = 1
-_C9946: chosen_124 = 1
-_C9947: chosen_125 = 1
-_C9948: chosen_126 = 1
-_C9949: chosen_127 = 1
-_C995: chosen_28 = 1
-_C9950: chosen_128 = 1
-_C9951: chosen_129 = 1
-_C9952: chosen_130 = 1
-_C9953: chosen_131 = 1
-_C9954: chosen_132 = 1
-_C9955: chosen_133 = 1
-_C9956: chosen_134 = 1
-_C9957: chosen_135 = 1
-_C9958: chosen_136 = 1
-_C9959: chosen_137 = 1
-_C996: chosen_29 = 1
-_C9960: chosen_138 = 1
-_C9961: chosen_139 = 1
-_C9962: chosen_140 = 1
-_C9963: chosen_141 = 1
-_C9964: chosen_142 = 1
-_C9965: chosen_143 = 1
-_C9966: chosen_144 = 1
-_C9967: chosen_145 = 1
-_C9968: chosen_146 = 1
-_C9969: chosen_147 = 1
-_C997: chosen_30 = 1
-_C9970: chosen_148 = 1
-_C9971: chosen_149 = 1
-_C9972: chosen_150 = 1
-_C9973: chosen_151 = 1
-_C9974: chosen_152 = 1
-_C9975: chosen_153 = 1
-_C9976: chosen_154 = 1
-_C9977: chosen_155 = 1
-_C9978: chosen_156 = 1
-_C9979: chosen_157 = 1
-_C998: chosen_31 = 1
-_C9980: chosen_158 = 1
-_C9981: chosen_159 = 1
-_C9982: chosen_160 = 1
-_C9983: chosen_0 = 1
-_C9984: chosen_1 = 1
-_C9985: chosen_2 = 1
-_C9986: chosen_3 = 1
-_C9987: chosen_4 = 1
-_C9988: chosen_5 = 1
-_C9989: chosen_6 = 1
-_C999: chosen_32 = 1
-_C9990: chosen_7 = 1
-_C9991: chosen_8 = 1
-_C9992: chosen_9 = 1
-_C9993: chosen_10 = 1
-_C9994: chosen_11 = 1
-_C9995: chosen_12 = 1
-_C9996: chosen_13 = 1
-_C9997: chosen_14 = 1
-_C9998: chosen_15 = 1
-_C9999: chosen_16 = 1
+ + chosen_94 + chosen_95 + chosen_96 + chosen_97 = 1
+_C57: chosen_0 + chosen_1 + 2 chosen_103 + 2 chosen_104 + 2 chosen_105
+ + 2 chosen_106 + 2 chosen_107 + 2 chosen_108 + 2 chosen_109 + 2 chosen_110
+ + 2 chosen_111 + chosen_112 + 2 chosen_113 + 2 chosen_114 + 2 chosen_115
+ + 2 chosen_116 + chosen_117 + 2 chosen_118 + 2 chosen_119 + 2 chosen_12
+ + 2 chosen_120 + 2 chosen_121 + 2 chosen_122 + 2 chosen_123 + 2 chosen_124
+ + chosen_125 + 2 chosen_126 + 2 chosen_127 + 2 chosen_128 + 2 chosen_129
+ + 2 chosen_13 + 2 chosen_130 + 2 chosen_131 + 2 chosen_132 + 2 chosen_133
+ + 2 chosen_134 + 2 chosen_135 + 2 chosen_136 + 2 chosen_137 + 2 chosen_138
+ + chosen_139 + 2 chosen_14 + chosen_140 + chosen_141 + chosen_142
+ + chosen_143 + 3 chosen_144 + 2 chosen_145 + chosen_146 + 2 chosen_147
+ + 2 chosen_148 + 2 chosen_149 + 2 chosen_15 + 2 chosen_150 + 2 chosen_151
+ + 3 chosen_152 + 3 chosen_153 + 3 chosen_154 + 2 chosen_155 + 2 chosen_156
+ + 2 chosen_157 + 2 chosen_158 + 2 chosen_159 + 2 chosen_16 + 2 chosen_160
+ + 2 chosen_17 + 2 chosen_18 + 2 chosen_19 + chosen_2 + 2 chosen_20
+ + 2 chosen_21 + chosen_22 + chosen_23 + 3 chosen_24 + 2 chosen_25
+ + 2 chosen_26 + 2 chosen_27 + 2 chosen_28 + 2 chosen_29 + chosen_3
+ + 2 chosen_30 + 2 chosen_31 + 2 chosen_32 + chosen_33 + chosen_34 + chosen_35
+ + chosen_36 + chosen_37 + chosen_38 + chosen_39 + chosen_4 + chosen_40
+ + chosen_41 + chosen_42 + chosen_43 + 2 chosen_45 + 2 chosen_46 + 2 chosen_47
+ + 2 chosen_48 + 2 chosen_49 + chosen_5 + 2 chosen_50 + 2 chosen_51
+ + 2 chosen_52 + 2 chosen_53 + 2 chosen_54 + 2 chosen_55 + chosen_56
+ + 3 chosen_57 + 3 chosen_58 + 2 chosen_59 + chosen_6 + 3 chosen_60
+ + 2 chosen_61 + chosen_62 + chosen_63 + chosen_64 + chosen_65 + chosen_66
+ + chosen_67 + chosen_68 + chosen_69 + chosen_7 + chosen_70 + chosen_71
+ + chosen_72 + chosen_73 + chosen_74 + chosen_75 + chosen_76 + chosen_77
+ + chosen_78 + chosen_79 + chosen_8 + chosen_80 + chosen_81 + chosen_82
+ + chosen_83 + chosen_84 + chosen_85 + chosen_86 + chosen_87 + chosen_88
+ + chosen_89 + chosen_9 + chosen_90 + chosen_91 + chosen_92 + chosen_93
+ + chosen_94 + chosen_95 + chosen_96 + chosen_97 = 1
+_C58: chosen_0 + chosen_1 + 2 chosen_103 + 2 chosen_104 + 2 chosen_105
+ + 2 chosen_106 + 2 chosen_107 + 2 chosen_108 + 2 chosen_109 + 2 chosen_110
+ + 2 chosen_111 + chosen_112 + 2 chosen_113 + 2 chosen_114 + 2 chosen_115
+ + 2 chosen_116 + chosen_117 + 2 chosen_118 + 2 chosen_119 + 2 chosen_12
+ + 2 chosen_120 + 2 chosen_121 + 2 chosen_122 + 2 chosen_123 + 2 chosen_124
+ + 2 chosen_125 + 2 chosen_126 + 2 chosen_127 + 2 chosen_128 + 2 chosen_129
+ + 2 chosen_13 + 2 chosen_130 + 2 chosen_131 + 2 chosen_132 + 2 chosen_133
+ + 2 chosen_134 + 2 chosen_135 + 2 chosen_136 + 2 chosen_137 + 2 chosen_138
+ + 2 chosen_139 + 2 chosen_14 + chosen_140 + chosen_141 + chosen_142
+ + chosen_143 + 3 chosen_144 + 2 chosen_145 + chosen_146 + 2 chosen_147
+ + 2 chosen_148 + 2 chosen_149 + 2 chosen_15 + 3 chosen_150 + 2 chosen_151
+ + 3 chosen_152 + 3 chosen_153 + 3 chosen_154 + 2 chosen_155 + 3 chosen_156
+ + 2 chosen_157 + 2 chosen_158 + 2 chosen_159 + 2 chosen_16 + 2 chosen_160
+ + 2 chosen_17 + 2 chosen_18 + 2 chosen_19 + chosen_2 + 2 chosen_20
+ + 2 chosen_21 + chosen_22 + chosen_23 + 3 chosen_24 + 3 chosen_25
+ + 2 chosen_26 + 2 chosen_27 + 2 chosen_28 + 2 chosen_29 + chosen_3
+ + 2 chosen_30 + 2 chosen_31 + 2 chosen_32 + chosen_33 + chosen_34 + chosen_35
+ + chosen_36 + chosen_37 + chosen_38 + chosen_39 + chosen_4 + chosen_40
+ + chosen_41 + chosen_42 + chosen_43 + 2 chosen_45 + 2 chosen_46 + 2 chosen_47
+ + 2 chosen_48 + 2 chosen_49 + chosen_5 + 2 chosen_50 + 2 chosen_51
+ + 2 chosen_52 + 2 chosen_53 + 2 chosen_54 + 2 chosen_55 + chosen_56
+ + 3 chosen_57 + 3 chosen_58 + 2 chosen_59 + chosen_6 + 3 chosen_60
+ + 2 chosen_61 + chosen_62 + chosen_63 + chosen_64 + chosen_65 + chosen_66
+ + chosen_67 + chosen_68 + chosen_69 + chosen_7 + chosen_70 + chosen_71
+ + chosen_72 + chosen_73 + chosen_74 + chosen_75 + chosen_76 + chosen_77
+ + chosen_78 + chosen_79 + chosen_8 + chosen_80 + chosen_81 + chosen_82
+ + chosen_83 + chosen_84 + chosen_85 + chosen_86 + chosen_87 + chosen_88
+ + chosen_89 + chosen_9 + chosen_90 + chosen_91 + chosen_92 + chosen_93
+ + chosen_94 + chosen_95 + chosen_96 + chosen_97 + chosen_98 = 1
+_C59: chosen_0 + chosen_1 + 2 chosen_103 + 2 chosen_104 + 2 chosen_105
+ + 2 chosen_106 + 2 chosen_107 + 2 chosen_108 + 2 chosen_109 + 2 chosen_110
+ + 2 chosen_111 + chosen_112 + 2 chosen_113 + 2 chosen_114 + 2 chosen_115
+ + 2 chosen_116 + chosen_117 + 2 chosen_118 + 2 chosen_119 + 2 chosen_12
+ + 2 chosen_120 + 2 chosen_121 + 2 chosen_122 + 2 chosen_123 + 2 chosen_124
+ + 2 chosen_125 + 2 chosen_126 + 2 chosen_127 + 2 chosen_128 + 2 chosen_129
+ + 2 chosen_13 + 2 chosen_130 + 2 chosen_131 + 2 chosen_132 + 2 chosen_133
+ + 2 chosen_134 + 2 chosen_135 + 2 chosen_136 + 2 chosen_137 + 2 chosen_138
+ + 2 chosen_139 + 2 chosen_14 + chosen_140 + chosen_141 + chosen_142
+ + chosen_143 + 3 chosen_144 + 2 chosen_145 + chosen_146 + 2 chosen_147
+ + 2 chosen_148 + 2 chosen_149 + 2 chosen_15 + 3 chosen_150 + 2 chosen_151
+ + 3 chosen_152 + 3 chosen_153 + 3 chosen_154 + 2 chosen_155 + 3 chosen_156
+ + 2 chosen_157 + 2 chosen_158 + 2 chosen_159 + 2 chosen_16 + 2 chosen_160
+ + 2 chosen_17 + 2 chosen_18 + 2 chosen_19 + chosen_2 + 2 chosen_20
+ + 2 chosen_21 + chosen_22 + chosen_23 + 3 chosen_24 + 3 chosen_25
+ + 3 chosen_26 + 2 chosen_27 + 2 chosen_28 + 2 chosen_29 + chosen_3
+ + 2 chosen_30 + 2 chosen_31 + 2 chosen_32 + chosen_33 + chosen_34 + chosen_35
+ + chosen_36 + chosen_37 + chosen_38 + chosen_39 + chosen_4 + chosen_40
+ + chosen_41 + chosen_42 + chosen_43 + chosen_44 + 2 chosen_45 + 2 chosen_46
+ + 2 chosen_47 + 2 chosen_48 + 2 chosen_49 + chosen_5 + 2 chosen_50
+ + 2 chosen_51 + 2 chosen_52 + 2 chosen_53 + 2 chosen_54 + 2 chosen_55
+ + 2 chosen_56 + 3 chosen_57 + 3 chosen_58 + 3 chosen_59 + chosen_6
+ + 3 chosen_60 + 3 chosen_61 + chosen_62 + chosen_63 + chosen_64 + chosen_65
+ + chosen_66 + chosen_67 + chosen_68 + chosen_69 + chosen_7 + chosen_70
+ + chosen_71 + chosen_72 + chosen_73 + chosen_74 + chosen_75 + chosen_76
+ + chosen_77 + chosen_78 + chosen_79 + chosen_8 + chosen_80 + chosen_81
+ + chosen_82 + chosen_83 + chosen_84 + chosen_85 + chosen_86 + chosen_87
+ + chosen_88 + chosen_89 + chosen_9 + chosen_90 + chosen_91 + chosen_92
+ + chosen_93 + chosen_94 + chosen_95 + chosen_96 + chosen_97 + chosen_98 = 1
+_C6: chosen_0 + chosen_103 + chosen_104 + chosen_105 + chosen_116 + chosen_12
+ + chosen_123 + chosen_136 + chosen_144 + chosen_145 + chosen_148 + chosen_149
+ + chosen_152 + chosen_153 + chosen_154 + chosen_24 + chosen_33 + chosen_34
+ + chosen_45 + chosen_46 + chosen_47 + chosen_55 + chosen_57 + chosen_58
+ + chosen_60 + chosen_62 + chosen_63 + chosen_64 = 1
+_C60: chosen_0 + chosen_1 + 2 chosen_103 + 2 chosen_104 + 2 chosen_105
+ + 2 chosen_106 + 2 chosen_107 + 2 chosen_108 + 2 chosen_109 + 2 chosen_110
+ + 2 chosen_111 + chosen_112 + 2 chosen_113 + 2 chosen_114 + 2 chosen_115
+ + 2 chosen_116 + chosen_117 + 2 chosen_118 + 2 chosen_119 + 2 chosen_12
+ + 2 chosen_120 + 2 chosen_121 + 2 chosen_122 + 2 chosen_123 + 2 chosen_124
+ + 2 chosen_125 + 2 chosen_126 + 2 chosen_127 + 2 chosen_128 + 2 chosen_129
+ + 2 chosen_13 + 2 chosen_130 + 2 chosen_131 + 2 chosen_132 + 2 chosen_133
+ + 2 chosen_134 + 2 chosen_135 + 2 chosen_136 + 2 chosen_137 + 2 chosen_138
+ + 2 chosen_139 + 2 chosen_14 + 2 chosen_140 + chosen_141 + chosen_142
+ + chosen_143 + 3 chosen_144 + 2 chosen_145 + 2 chosen_146 + 2 chosen_147
+ + 2 chosen_148 + 2 chosen_149 + 2 chosen_15 + 3 chosen_150 + 2 chosen_151
+ + 3 chosen_152 + 3 chosen_153 + 3 chosen_154 + 2 chosen_155 + 3 chosen_156
+ + 3 chosen_157 + 2 chosen_158 + 2 chosen_159 + 2 chosen_16 + 2 chosen_160
+ + 2 chosen_17 + 2 chosen_18 + 2 chosen_19 + chosen_2 + 2 chosen_20
+ + 2 chosen_21 + chosen_22 + chosen_23 + 3 chosen_24 + 3 chosen_25
+ + 3 chosen_26 + 2 chosen_27 + 2 chosen_28 + 2 chosen_29 + chosen_3
+ + 2 chosen_30 + 2 chosen_31 + 2 chosen_32 + chosen_33 + chosen_34 + chosen_35
+ + chosen_36 + chosen_37 + chosen_38 + chosen_39 + chosen_4 + chosen_40
+ + chosen_41 + chosen_42 + chosen_43 + chosen_44 + 2 chosen_45 + 2 chosen_46
+ + 2 chosen_47 + 2 chosen_48 + 2 chosen_49 + chosen_5 + 2 chosen_50
+ + 2 chosen_51 + 2 chosen_52 + 2 chosen_53 + 2 chosen_54 + 2 chosen_55
+ + 2 chosen_56 + 3 chosen_57 + 3 chosen_58 + 3 chosen_59 + chosen_6
+ + 3 chosen_60 + 3 chosen_61 + chosen_62 + chosen_63 + chosen_64 + chosen_65
+ + chosen_66 + chosen_67 + chosen_68 + chosen_69 + chosen_7 + chosen_70
+ + chosen_71 + chosen_72 + chosen_73 + chosen_74 + chosen_75 + chosen_76
+ + chosen_77 + chosen_78 + chosen_79 + chosen_8 + chosen_80 + chosen_81
+ + chosen_82 + chosen_83 + chosen_84 + chosen_85 + chosen_86 + chosen_87
+ + chosen_88 + chosen_89 + chosen_9 + chosen_90 + chosen_91 + chosen_92
+ + chosen_93 + chosen_94 + chosen_95 + chosen_96 + chosen_97 + chosen_98
+ + chosen_99 = 1
+_C61: chosen_0 + chosen_1 + chosen_100 + 2 chosen_103 + 2 chosen_104
+ + 2 chosen_105 + 2 chosen_106 + 2 chosen_107 + 2 chosen_108 + 2 chosen_109
+ + 2 chosen_110 + 2 chosen_111 + chosen_112 + 2 chosen_113 + 2 chosen_114
+ + 2 chosen_115 + 2 chosen_116 + 2 chosen_117 + 2 chosen_118 + 2 chosen_119
+ + 2 chosen_12 + 2 chosen_120 + 2 chosen_121 + 2 chosen_122 + 2 chosen_123
+ + 2 chosen_124 + 2 chosen_125 + 2 chosen_126 + 2 chosen_127 + 2 chosen_128
+ + 2 chosen_129 + 2 chosen_13 + 2 chosen_130 + 2 chosen_131 + 2 chosen_132
+ + 2 chosen_133 + 2 chosen_134 + 2 chosen_135 + 2 chosen_136 + 2 chosen_137
+ + 2 chosen_138 + 2 chosen_139 + 2 chosen_14 + 2 chosen_140 + 2 chosen_141
+ + chosen_142 + chosen_143 + 3 chosen_144 + 3 chosen_145 + 2 chosen_146
+ + 2 chosen_147 + 3 chosen_148 + 3 chosen_149 + 2 chosen_15 + 3 chosen_150
+ + 2 chosen_151 + 3 chosen_152 + 3 chosen_153 + 3 chosen_154 + 2 chosen_155
+ + 3 chosen_156 + 3 chosen_157 + 3 chosen_158 + 2 chosen_159 + 2 chosen_16
+ + 2 chosen_160 + 2 chosen_17 + 2 chosen_18 + 2 chosen_19 + chosen_2
+ + 2 chosen_20 + 2 chosen_21 + chosen_22 + chosen_23 + 3 chosen_24
+ + 3 chosen_25 + 3 chosen_26 + 2 chosen_27 + 2 chosen_28 + 2 chosen_29
+ + chosen_3 + 2 chosen_30 + 2 chosen_31 + 2 chosen_32 + chosen_33 + chosen_34
+ + chosen_35 + chosen_36 + chosen_37 + chosen_38 + chosen_39 + chosen_4
+ + chosen_40 + chosen_41 + chosen_42 + chosen_43 + chosen_44 + 2 chosen_45
+ + 2 chosen_46 + 2 chosen_47 + 2 chosen_48 + 2 chosen_49 + chosen_5
+ + 2 chosen_50 + 2 chosen_51 + 2 chosen_52 + 2 chosen_53 + 2 chosen_54
+ + 2 chosen_55 + 2 chosen_56 + 3 chosen_57 + 3 chosen_58 + 3 chosen_59
+ + chosen_6 + 3 chosen_60 + 3 chosen_61 + chosen_62 + chosen_63 + chosen_64
+ + chosen_65 + chosen_66 + chosen_67 + chosen_68 + chosen_69 + chosen_7
+ + chosen_70 + chosen_71 + chosen_72 + chosen_73 + chosen_74 + chosen_75
+ + chosen_76 + chosen_77 + chosen_78 + chosen_79 + chosen_8 + chosen_80
+ + chosen_81 + chosen_82 + chosen_83 + chosen_84 + chosen_85 + chosen_86
+ + chosen_87 + chosen_88 + chosen_89 + chosen_9 + chosen_90 + chosen_91
+ + chosen_92 + chosen_93 + chosen_94 + chosen_95 + chosen_96 + chosen_97
+ + chosen_98 + chosen_99 = 1
+_C62: chosen_0 + chosen_1 + chosen_10 + chosen_100 + 2 chosen_103
+ + 2 chosen_104 + 2 chosen_105 + 2 chosen_106 + 2 chosen_107 + 2 chosen_108
+ + 2 chosen_109 + 2 chosen_110 + 2 chosen_111 + chosen_112 + 2 chosen_113
+ + 2 chosen_114 + 2 chosen_115 + 2 chosen_116 + 2 chosen_117 + 2 chosen_118
+ + 2 chosen_119 + 2 chosen_12 + 2 chosen_120 + 2 chosen_121 + 2 chosen_122
+ + 2 chosen_123 + 2 chosen_124 + 2 chosen_125 + 2 chosen_126 + 2 chosen_127
+ + 2 chosen_128 + 2 chosen_129 + 2 chosen_13 + 2 chosen_130 + 2 chosen_131
+ + 2 chosen_132 + 2 chosen_133 + 2 chosen_134 + 2 chosen_135 + 2 chosen_136
+ + 2 chosen_137 + 2 chosen_138 + 2 chosen_139 + 2 chosen_14 + 2 chosen_140
+ + 2 chosen_141 + chosen_142 + chosen_143 + 3 chosen_144 + 3 chosen_145
+ + 2 chosen_146 + 2 chosen_147 + 3 chosen_148 + 3 chosen_149 + 2 chosen_15
+ + 3 chosen_150 + 2 chosen_151 + 3 chosen_152 + 3 chosen_153 + 3 chosen_154
+ + 2 chosen_155 + 3 chosen_156 + 3 chosen_157 + 3 chosen_158 + 2 chosen_159
+ + 2 chosen_16 + 2 chosen_160 + 2 chosen_17 + 2 chosen_18 + 2 chosen_19
+ + chosen_2 + 2 chosen_20 + 2 chosen_21 + 2 chosen_22 + chosen_23
+ + 3 chosen_24 + 3 chosen_25 + 3 chosen_26 + 3 chosen_27 + 3 chosen_28
+ + 2 chosen_29 + chosen_3 + 2 chosen_30 + 3 chosen_31 + 2 chosen_32
+ + chosen_33 + chosen_34 + chosen_35 + chosen_36 + chosen_37 + chosen_38
+ + chosen_39 + chosen_4 + chosen_40 + chosen_41 + chosen_42 + chosen_43
+ + chosen_44 + 2 chosen_45 + 2 chosen_46 + 2 chosen_47 + 2 chosen_48
+ + 2 chosen_49 + chosen_5 + 2 chosen_50 + 2 chosen_51 + 2 chosen_52
+ + 2 chosen_53 + 2 chosen_54 + 2 chosen_55 + 2 chosen_56 + 3 chosen_57
+ + 3 chosen_58 + 3 chosen_59 + chosen_6 + 3 chosen_60 + 3 chosen_61
+ + chosen_62 + chosen_63 + chosen_64 + chosen_65 + chosen_66 + chosen_67
+ + chosen_68 + chosen_69 + chosen_7 + chosen_70 + chosen_71 + chosen_72
+ + chosen_73 + chosen_74 + chosen_75 + chosen_76 + chosen_77 + chosen_78
+ + chosen_79 + chosen_8 + chosen_80 + chosen_81 + chosen_82 + chosen_83
+ + chosen_84 + chosen_85 + chosen_86 + chosen_87 + chosen_88 + chosen_89
+ + chosen_9 + chosen_90 + chosen_91 + chosen_92 + chosen_93 + chosen_94
+ + chosen_95 + chosen_96 + chosen_97 + chosen_98 + chosen_99 = 1
+_C63: chosen_0 + chosen_1 + chosen_10 + chosen_100 + chosen_101 + 2 chosen_103
+ + 2 chosen_104 + 2 chosen_105 + 2 chosen_106 + 2 chosen_107 + 2 chosen_108
+ + 2 chosen_109 + 2 chosen_110 + 2 chosen_111 + 2 chosen_112 + 2 chosen_113
+ + 2 chosen_114 + 2 chosen_115 + 2 chosen_116 + 2 chosen_117 + 2 chosen_118
+ + 2 chosen_119 + 2 chosen_12 + 2 chosen_120 + 2 chosen_121 + 2 chosen_122
+ + 2 chosen_123 + 2 chosen_124 + 2 chosen_125 + 2 chosen_126 + 2 chosen_127
+ + 2 chosen_128 + 2 chosen_129 + 2 chosen_13 + 2 chosen_130 + 2 chosen_131
+ + 2 chosen_132 + 2 chosen_133 + 2 chosen_134 + 2 chosen_135 + 2 chosen_136
+ + 2 chosen_137 + 2 chosen_138 + 2 chosen_139 + 2 chosen_14 + 2 chosen_140
+ + 2 chosen_141 + 2 chosen_142 + chosen_143 + 3 chosen_144 + 3 chosen_145
+ + 3 chosen_146 + 2 chosen_147 + 3 chosen_148 + 3 chosen_149 + 2 chosen_15
+ + 3 chosen_150 + 3 chosen_151 + 3 chosen_152 + 3 chosen_153 + 3 chosen_154
+ + 2 chosen_155 + 3 chosen_156 + 3 chosen_157 + 3 chosen_158 + 3 chosen_159
+ + 2 chosen_16 + 2 chosen_160 + 2 chosen_17 + 2 chosen_18 + 2 chosen_19
+ + chosen_2 + 2 chosen_20 + 2 chosen_21 + 2 chosen_22 + chosen_23
+ + 3 chosen_24 + 3 chosen_25 + 3 chosen_26 + 3 chosen_27 + 3 chosen_28
+ + 2 chosen_29 + chosen_3 + 2 chosen_30 + 3 chosen_31 + 2 chosen_32
+ + chosen_33 + chosen_34 + chosen_35 + chosen_36 + chosen_37 + chosen_38
+ + chosen_39 + chosen_4 + chosen_40 + chosen_41 + chosen_42 + chosen_43
+ + chosen_44 + 2 chosen_45 + 2 chosen_46 + 2 chosen_47 + 2 chosen_48
+ + 2 chosen_49 + chosen_5 + 2 chosen_50 + 2 chosen_51 + 2 chosen_52
+ + 2 chosen_53 + 2 chosen_54 + 2 chosen_55 + 2 chosen_56 + 3 chosen_57
+ + 3 chosen_58 + 3 chosen_59 + chosen_6 + 3 chosen_60 + 3 chosen_61
+ + chosen_62 + chosen_63 + chosen_64 + chosen_65 + chosen_66 + chosen_67
+ + chosen_68 + chosen_69 + chosen_7 + chosen_70 + chosen_71 + chosen_72
+ + chosen_73 + chosen_74 + chosen_75 + chosen_76 + chosen_77 + chosen_78
+ + chosen_79 + chosen_8 + chosen_80 + chosen_81 + chosen_82 + chosen_83
+ + chosen_84 + chosen_85 + chosen_86 + chosen_87 + chosen_88 + chosen_89
+ + chosen_9 + chosen_90 + chosen_91 + chosen_92 + chosen_93 + chosen_94
+ + chosen_95 + chosen_96 + chosen_97 + chosen_98 + chosen_99 = 1
+_C64: chosen_0 + chosen_1 + chosen_10 + chosen_100 + chosen_101 + 2 chosen_103
+ + 2 chosen_104 + 2 chosen_105 + 2 chosen_106 + 2 chosen_107 + 2 chosen_108
+ + 2 chosen_109 + chosen_11 + 2 chosen_110 + 2 chosen_111 + 2 chosen_112
+ + 2 chosen_113 + 2 chosen_114 + 2 chosen_115 + 2 chosen_116 + 2 chosen_117
+ + 2 chosen_118 + 2 chosen_119 + 2 chosen_12 + 2 chosen_120 + 2 chosen_121
+ + 2 chosen_122 + 2 chosen_123 + 2 chosen_124 + 2 chosen_125 + 2 chosen_126
+ + 2 chosen_127 + 2 chosen_128 + 2 chosen_129 + 2 chosen_13 + 2 chosen_130
+ + 2 chosen_131 + 2 chosen_132 + 2 chosen_133 + 2 chosen_134 + 2 chosen_135
+ + 2 chosen_136 + 2 chosen_137 + 2 chosen_138 + 2 chosen_139 + 2 chosen_14
+ + 2 chosen_140 + 2 chosen_141 + 2 chosen_142 + chosen_143 + 3 chosen_144
+ + 3 chosen_145 + 3 chosen_146 + 2 chosen_147 + 3 chosen_148 + 3 chosen_149
+ + 2 chosen_15 + 3 chosen_150 + 3 chosen_151 + 3 chosen_152 + 3 chosen_153
+ + 3 chosen_154 + 2 chosen_155 + 3 chosen_156 + 3 chosen_157 + 3 chosen_158
+ + 3 chosen_159 + 2 chosen_16 + 2 chosen_160 + 2 chosen_17 + 2 chosen_18
+ + 2 chosen_19 + chosen_2 + 2 chosen_20 + 2 chosen_21 + 2 chosen_22
+ + 2 chosen_23 + 3 chosen_24 + 3 chosen_25 + 3 chosen_26 + 3 chosen_27
+ + 3 chosen_28 + 3 chosen_29 + chosen_3 + 3 chosen_30 + 3 chosen_31
+ + 3 chosen_32 + chosen_33 + chosen_34 + chosen_35 + chosen_36 + chosen_37
+ + chosen_38 + chosen_39 + chosen_4 + chosen_40 + chosen_41 + chosen_42
+ + chosen_43 + chosen_44 + 2 chosen_45 + 2 chosen_46 + 2 chosen_47
+ + 2 chosen_48 + 2 chosen_49 + chosen_5 + 2 chosen_50 + 2 chosen_51
+ + 2 chosen_52 + 2 chosen_53 + 2 chosen_54 + 2 chosen_55 + 2 chosen_56
+ + 3 chosen_57 + 3 chosen_58 + 3 chosen_59 + chosen_6 + 3 chosen_60
+ + 3 chosen_61 + chosen_62 + chosen_63 + chosen_64 + chosen_65 + chosen_66
+ + chosen_67 + chosen_68 + chosen_69 + chosen_7 + chosen_70 + chosen_71
+ + chosen_72 + chosen_73 + chosen_74 + chosen_75 + chosen_76 + chosen_77
+ + chosen_78 + chosen_79 + chosen_8 + chosen_80 + chosen_81 + chosen_82
+ + chosen_83 + chosen_84 + chosen_85 + chosen_86 + chosen_87 + chosen_88
+ + chosen_89 + chosen_9 + chosen_90 + chosen_91 + chosen_92 + chosen_93
+ + chosen_94 + chosen_95 + chosen_96 + chosen_97 + chosen_98 + chosen_99 = 1
+_C65: chosen_0 + chosen_1 + chosen_10 + chosen_100 + chosen_101 + chosen_102
+ + 2 chosen_103 + 2 chosen_104 + 2 chosen_105 + 2 chosen_106 + 2 chosen_107
+ + 2 chosen_108 + 2 chosen_109 + chosen_11 + 2 chosen_110 + 2 chosen_111
+ + 2 chosen_112 + 2 chosen_113 + 2 chosen_114 + 2 chosen_115 + 2 chosen_116
+ + 2 chosen_117 + 2 chosen_118 + 2 chosen_119 + 2 chosen_12 + 2 chosen_120
+ + 2 chosen_121 + 2 chosen_122 + 2 chosen_123 + 2 chosen_124 + 2 chosen_125
+ + 2 chosen_126 + 2 chosen_127 + 2 chosen_128 + 2 chosen_129 + 2 chosen_13
+ + 2 chosen_130 + 2 chosen_131 + 2 chosen_132 + 2 chosen_133 + 2 chosen_134
+ + 2 chosen_135 + 2 chosen_136 + 2 chosen_137 + 2 chosen_138 + 2 chosen_139
+ + 2 chosen_14 + 2 chosen_140 + 2 chosen_141 + 2 chosen_142 + 2 chosen_143
+ + 3 chosen_144 + 3 chosen_145 + 3 chosen_146 + 3 chosen_147 + 3 chosen_148
+ + 3 chosen_149 + 2 chosen_15 + 3 chosen_150 + 3 chosen_151 + 3 chosen_152
+ + 3 chosen_153 + 3 chosen_154 + 3 chosen_155 + 3 chosen_156 + 3 chosen_157
+ + 3 chosen_158 + 3 chosen_159 + 2 chosen_16 + 3 chosen_160 + 2 chosen_17
+ + 2 chosen_18 + 2 chosen_19 + chosen_2 + 2 chosen_20 + 2 chosen_21
+ + 2 chosen_22 + 2 chosen_23 + 3 chosen_24 + 3 chosen_25 + 3 chosen_26
+ + 3 chosen_27 + 3 chosen_28 + 3 chosen_29 + chosen_3 + 3 chosen_30
+ + 3 chosen_31 + 3 chosen_32 + chosen_33 + chosen_34 + chosen_35 + chosen_36
+ + chosen_37 + chosen_38 + chosen_39 + chosen_4 + chosen_40 + chosen_41
+ + chosen_42 + chosen_43 + chosen_44 + 2 chosen_45 + 2 chosen_46 + 2 chosen_47
+ + 2 chosen_48 + 2 chosen_49 + chosen_5 + 2 chosen_50 + 2 chosen_51
+ + 2 chosen_52 + 2 chosen_53 + 2 chosen_54 + 2 chosen_55 + 2 chosen_56
+ + 3 chosen_57 + 3 chosen_58 + 3 chosen_59 + chosen_6 + 3 chosen_60
+ + 3 chosen_61 + chosen_62 + chosen_63 + chosen_64 + chosen_65 + chosen_66
+ + chosen_67 + chosen_68 + chosen_69 + chosen_7 + chosen_70 + chosen_71
+ + chosen_72 + chosen_73 + chosen_74 + chosen_75 + chosen_76 + chosen_77
+ + chosen_78 + chosen_79 + chosen_8 + chosen_80 + chosen_81 + chosen_82
+ + chosen_83 + chosen_84 + chosen_85 + chosen_86 + chosen_87 + chosen_88
+ + chosen_89 + chosen_9 + chosen_90 + chosen_91 + chosen_92 + chosen_93
+ + chosen_94 + chosen_95 + chosen_96 + chosen_97 + chosen_98 + chosen_99 = 1
+_C66: chosen_0 + chosen_1 + chosen_10 + chosen_100 + chosen_101 + chosen_102
+ + chosen_103 + chosen_104 + chosen_105 + chosen_106 + chosen_107 + chosen_108
+ + chosen_109 + chosen_11 + chosen_110 + chosen_111 + chosen_112 + chosen_113
+ + chosen_114 + chosen_115 + chosen_116 + chosen_117 + chosen_118 + chosen_119
+ + chosen_12 + chosen_120 + chosen_121 + chosen_122 + chosen_123 + chosen_124
+ + chosen_125 + chosen_126 + chosen_127 + chosen_128 + chosen_129 + chosen_13
+ + chosen_130 + chosen_131 + chosen_132 + chosen_133 + chosen_134 + chosen_135
+ + chosen_136 + chosen_137 + chosen_138 + chosen_139 + chosen_14 + chosen_140
+ + chosen_141 + chosen_142 + chosen_143 + chosen_144 + chosen_145 + chosen_146
+ + chosen_147 + chosen_148 + chosen_149 + chosen_15 + chosen_150 + chosen_151
+ + chosen_152 + chosen_153 + chosen_154 + chosen_155 + chosen_156 + chosen_157
+ + chosen_158 + chosen_159 + chosen_16 + chosen_160 + chosen_17 + chosen_18
+ + chosen_19 + chosen_2 + chosen_20 + chosen_21 + chosen_22 + chosen_23
+ + chosen_24 + chosen_25 + chosen_26 + chosen_27 + chosen_28 + chosen_29
+ + chosen_3 + chosen_30 + chosen_31 + chosen_32 + chosen_33 + chosen_34
+ + chosen_35 + chosen_36 + chosen_37 + chosen_38 + chosen_39 + chosen_4
+ + chosen_40 + chosen_41 + chosen_42 + chosen_43 + chosen_44 + chosen_45
+ + chosen_46 + chosen_47 + chosen_48 + chosen_49 + chosen_5 + chosen_50
+ + chosen_51 + chosen_52 + chosen_53 + chosen_54 + chosen_55 + chosen_56
+ + chosen_57 + chosen_58 + chosen_59 + chosen_6 + chosen_60 + chosen_61
+ + chosen_62 + chosen_63 + chosen_64 + chosen_65 + chosen_66 + chosen_67
+ + chosen_68 + chosen_69 + chosen_7 + chosen_70 + chosen_71 + chosen_72
+ + chosen_73 + chosen_74 + chosen_75 + chosen_76 + chosen_77 + chosen_78
+ + chosen_79 + chosen_8 + chosen_80 + chosen_81 + chosen_82 + chosen_83
+ + chosen_84 + chosen_85 + chosen_86 + chosen_87 + chosen_88 + chosen_89
+ + chosen_9 + chosen_90 + chosen_91 + chosen_92 + chosen_93 + chosen_94
+ + chosen_95 + chosen_96 + chosen_97 + chosen_98 + chosen_99 <= 60
+_C7: chosen_0 + chosen_103 + chosen_104 + chosen_105 + chosen_106 + chosen_116
+ + chosen_12 + chosen_123 + chosen_136 + chosen_144 + chosen_145 + chosen_148
+ + chosen_149 + chosen_152 + chosen_153 + chosen_154 + chosen_24 + chosen_33
+ + chosen_34 + chosen_45 + chosen_46 + chosen_47 + chosen_55 + chosen_57
+ + chosen_58 + chosen_60 + chosen_62 + chosen_63 + chosen_64 + chosen_65 = 1
+_C8: chosen_0 + chosen_103 + chosen_104 + chosen_105 + chosen_106 + chosen_107
+ + chosen_116 + chosen_12 + chosen_123 + chosen_136 + chosen_144 + chosen_145
+ + chosen_148 + chosen_149 + chosen_152 + chosen_153 + chosen_154 + chosen_24
+ + chosen_33 + chosen_34 + chosen_45 + chosen_46 + chosen_47 + chosen_55
+ + chosen_57 + chosen_58 + chosen_60 + chosen_62 + chosen_63 + chosen_64
+ + chosen_65 + chosen_66 = 1
+_C9: chosen_0 + chosen_103 + chosen_104 + chosen_105 + chosen_106 + chosen_107
+ + chosen_108 + chosen_116 + chosen_12 + chosen_123 + chosen_136 + chosen_144
+ + chosen_145 + chosen_148 + chosen_149 + chosen_152 + chosen_153 + chosen_154
+ + chosen_24 + chosen_33 + chosen_34 + chosen_45 + chosen_46 + chosen_47
+ + chosen_55 + chosen_57 + chosen_58 + chosen_60 + chosen_62 + chosen_63
+ + chosen_64 + chosen_65 + chosen_66 + chosen_67 = 1
 Binaries
 chosen_0
 chosen_1
