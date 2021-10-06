@@ -42,10 +42,10 @@ def group_coordinates(coordinates):
         southLocations : List
             List of stores with latitude less than distribution centre
         eastLocations : List
-            List of stores with longitude less than distribution centre
+            List of stores with longitude greater than distribution centre
             and latitude greater than distribution centre
         westLocations : List
-            List of stores with longitude greater than distribution centre
+            List of stores with longitude less than distribution centre
             and latitude greater than distribution centre
     '''
 
@@ -319,7 +319,7 @@ def combinatorics_route_generation(durations, locations):
             for i in range(0,rows):
                 if(location == durations.iloc[i,0]):
                     for j in range(1, cols):
-                        if (durations.iloc[j-1,0] in locations):
+                        if (durations.iloc[j-1,0] in locations) and (durations.iloc[j-1,0] != location):
                             distanceBetween = durations.iloc[i,j] 
                             distanceTo = durations.iloc[distributionVal,i + 1]
                             distanceFrom = durations.iloc[j - 1,distributionVal + 1]
