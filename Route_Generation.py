@@ -288,6 +288,49 @@ def four_stop_route_generation(durations, locations, finalStop):
     return routes
 
 
+def combinatorics_route_generation(durations, locations):
+    ''' Calculates the duration of every possible route between each and every given location
+        
+        Parameters:
+        -----------
+        durations : Panda dataframe
+            Dataframe of travel times between each location
+        locations : list
+            List of locations to visit
+
+        Returns:
+        --------
+        routes : Panda dataframe
+            Dataframe containing the route length, and stop visited
+    '''   
+    
+    # Defines shape of array
+    rows, cols = durations.shape
+
+    # Hardcoded location of distribution center in table
+    distributionVal = 55
+
+    # Creates empty panda dataframe
+    routes = pd.DataFrame(data = None, index = None, columns = ['Duration','First Stop', 'Second Stop'])
+
+
+    # Iterates through each location and finds every possible route between the specified locations
+    for location in locations:
+            for i in range(0,rows):
+                if(location == durations.iloc[i,0]):
+                    for j in range(1, cols):
+                        if (durations.iloc[j-1,0] in locations):
+                            distanceBetween = durations.iloc[i,j] 
+                            distanceTo = durations.iloc[distributionVal,i + 1]
+                            distanceFrom = durations.iloc[j - 1,distributionVal + 1]
+                            nextStop = durations.iloc[j - 1,0]
+                            # Adds new route into the overall panda dataframe for output
+                            newRoute = pd.DataFrame({'Duration': (distanceBetween + distanceTo + distanceFrom), 'First Stop' : location, 'Second Stop' : nextStop}, index = ['1'])
+                            routes = pd.concat([routes, newRoute], ignore_index = True)
+
+    return routes
+
+
 def demand_calculator(input, demand, weekend):
     ''' Calculates the demand for inputted routes, taking into account whether
         the route is for a weekday or the weekend
@@ -352,21 +395,21 @@ if __name__ == "__main__":
 
     # Generate routes in the South sector
     southRoutesOne = one_stop_route_generation(durations, south)
-    southRoutesTwo = two_stop_route_generation(durations,south, True)
+    southRoutesTwo = combinatorics_route_generation(durations, south)
     southRoutesThree = three_stop_route_generation(durations, south, True)
-    southRoutesFour = four_stop_route_generation(durations, south, True)
+    southRoutesFour = four_stop_route_generation(durations, south, True)    
     southComplete = pd.concat([southRoutesOne, southRoutesTwo, southRoutesThree, southRoutesFour], ignore_index = True)
 
     # Generate routes in the East sector
     eastRoutesOne = one_stop_route_generation(durations, east)
-    eastRoutesTwo = two_stop_route_generation(durations, east, True)    
+    eastRoutesTwo = combinatorics_route_generation(durations, east)
     eastRoutesThree = three_stop_route_generation(durations, east, True)
     eastRoutesFour = four_stop_route_generation(durations, east, True)
     eastComplete = pd.concat([eastRoutesOne, eastRoutesTwo, eastRoutesThree, eastRoutesFour], ignore_index = True)    
     
     # Generate routes in the west sector
     westRoutesOne = one_stop_route_generation(durations, west)    
-    westRoutesTwo = two_stop_route_generation(durations, west, True)
+    westRoutesTwo = combinatorics_route_generation(durations, west)
     westRoutesThree = three_stop_route_generation(durations, west, True)
     westRoutesFour = four_stop_route_generation(durations, west, True)
     westComplete = pd.concat([westRoutesOne, westRoutesTwo, westRoutesThree, westRoutesFour], ignore_index = True)
