@@ -6,8 +6,7 @@ import pandas as pd
 from pulp import *
 
 np.set_printoptions(threshold=sys.maxsize)
-
-
+pd.set_option('display.max_rows', None)
 
 # Stores are rows, routes are columns.  Change value to 1 if route visits store
 
@@ -67,13 +66,23 @@ def solve_lp(routeData, storeLocations):
     
     durations = routeData['Duration']
     costs = durations.multiply(0.0625)
+
+    for i in range(len(durations)):
+        if (durations[i] > 14400):
+            costs[i] += 2000
+    
+    demands = routeData['Demand']
+    for i in range(len(demands)):
+        if demands[i] > 26:
+            costs[i] += 2000
+
     costs = costs.to_dict()
 
     #create prob variable object for problem data
     prob = LpProblem("Routes", LpMinimize)
 
     #Dictionary containing route variables
-    route_chosen = LpVariable.dicts("chosen", routes, 0, None, cat = 'Binary')
+    route_chosen = LpVariable.dicts("route", routes, 0, None, cat = 'Binary')
 
     #input the obj function into prob using the profits for each tie type
     prob +=lpSum([costs[i]*route_chosen[i] for i in routes]), "Objective cost function"
@@ -98,19 +107,27 @@ def solve_lp(routeData, storeLocations):
     prob.solve()
 
     # The status of the solution is printed to the screen
-    print("Status:", LpStatus[prob.status])
+    #print("Status:", LpStatus[prob.status])
 
     '''for v in prob.variables():
         print(v.name, "=", v.varValue)
     '''
 
-    print("Optimised cost ", value(prob.objective))
+    #print("Optimised cost ", value(prob.objective))
 
-    # Each of the variables is printed with its resolved optimum value
+    #optimalRoutes = np.array(list(dict(zip( range(len(prob._variables)), prob._variables)).items()))[:,0]
+    
 
-    print(prob)
+    for i in range(len(prob._variables)):
+        prob._variables[i] = int(str(prob._variables[i]).replace("route_", ""))
 
-    return 
+    optimalRoutes = prob._variables
+
+    optimalRouteData = pd.DataFrame(columns=routeData.columns)
+    optimalRouteData = routeData.loc[np.r_[optimalRoutes]]
+
+    
+    return LpStatus[prob.status], value(prob.objective), optimalRouteData
 
 
 
@@ -118,22 +135,11 @@ def solve_lp(routeData, storeLocations):
 if __name__ == "__main__":
     Weekday_Routes, Weekend_Routes, storeLocations = load_data()
 
-    # View all items: TieData
-    #print(easternRoutes)
+    status, minimisedCost, routes = solve_lp(Weekday_Routes, storeLocations)
+    #status, minimisedCost, routes = solve_lp(Weekend_Routes, storeLocations)
 
-    #Get all labels (items): TieData.index
-    #print(easternRoutes.index)
-
-    #Get an entire column: TieData['Silk']
-    #print(easternRoutes['First Stop'])
-
-    #Get an entire row: TieData.loc['AllPoly']
-    #print(easternRoutes.loc[3])
-
-    #Get information about a particular item: TieData['Silk']['SilkCotton']
-    #print(easternRoutes[3]['First Stop'])
-
-    solve_lp(Weekday_Routes, storeLocations)
-    #solve_lp(Weekend_Routes, storeLocations)
+    print("Status: ", status)
+    print("Minimal Cost: ", minimisedCost)
+    print("Routes: \n", routes)
 
 
