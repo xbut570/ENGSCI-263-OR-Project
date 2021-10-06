@@ -108,7 +108,7 @@ def solve_lp(routeData, storeLocations):
 
     # Each of the variables is printed with its resolved optimum value
 
-    #print(prob)
+    print(prob)
 
     return 
 
@@ -134,6 +134,6 @@ if __name__ == "__main__":
     #print(easternRoutes[3]['First Stop'])
 
     solve_lp(Weekday_Routes, storeLocations)
-    solve_lp(Weekend_Routes, storeLocations)
+    #solve_lp(Weekend_Routes, storeLocations)
 
 
