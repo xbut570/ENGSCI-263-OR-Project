@@ -42,10 +42,10 @@ def group_coordinates(coordinates):
         southLocations : List
             List of stores with latitude less than distribution centre
         eastLocations : List
-            List of stores with longitude less than distribution centre
+            List of stores with longitude greater than distribution centre
             and latitude greater than distribution centre
         westLocations : List
-            List of stores with longitude greater than distribution centre
+            List of stores with longitude less than distribution centre
             and latitude greater than distribution centre
     '''
 
