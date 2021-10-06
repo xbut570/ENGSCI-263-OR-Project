@@ -108,7 +108,7 @@ def solve_lp(routeData, storeLocations):
 
     # Each of the variables is printed with its resolved optimum value
 
-    print(prob)
+    #print(prob)
 
     return 
 
