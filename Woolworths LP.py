@@ -97,9 +97,9 @@ def solve_lp(routeData, storeLocations):
 
 
         
-    # for r in easternRoutes.index:
-    # prob += easternRoutes.index[r]>= route_chosen[f]*0.1
-    # prob += easternRoutes.index[r]<= route_chosen[f]*1e5
+    # for r in routes:
+    #     prob += routes[r]>= route_chosen[r]*0.1
+    #     prob += routes[r]<= route_chosen[r]*1e5
 
 
     ##SOLVING ROUTINES
@@ -108,20 +108,21 @@ def solve_lp(routeData, storeLocations):
 
     # The status of the solution is printed to the screen
     #print("Status:", LpStatus[prob.status])
-
-    '''for v in prob.variables():
-        print(v.name, "=", v.varValue)
-    '''
+    optimalRoutes = []
+    for v in prob.variables():
+        if v.varValue == 1:
+            optimalRoutes.append(int(str(v.name).replace("route_", "")))
+    
 
     #print("Optimised cost ", value(prob.objective))
 
     #optimalRoutes = np.array(list(dict(zip( range(len(prob._variables)), prob._variables)).items()))[:,0]
     
 
-    for i in range(len(prob._variables)):
-        prob._variables[i] = int(str(prob._variables[i]).replace("route_", ""))
+    # for i in range(len(prob._variables)):
+    #     prob._variables[i] = int(str(v.name).replace("route_", ""))
 
-    optimalRoutes = prob._variables
+    # optimalRoutes = prob._variables
 
     optimalRouteData = pd.DataFrame(columns=routeData.columns)
     optimalRouteData = routeData.loc[np.r_[optimalRoutes]]
@@ -135,8 +136,8 @@ def solve_lp(routeData, storeLocations):
 if __name__ == "__main__":
     Weekday_Routes, Weekend_Routes, storeLocations = load_data()
 
-    status, minimisedCost, routes = solve_lp(Weekday_Routes, storeLocations)
-    #status, minimisedCost, routes = solve_lp(Weekend_Routes, storeLocations)
+    #status, minimisedCost, routes = solve_lp(Weekday_Routes, storeLocations)
+    status, minimisedCost, routes = solve_lp(Weekend_Routes, storeLocations)
 
     print("Status: ", status)
     print("Minimal Cost: ", minimisedCost)
