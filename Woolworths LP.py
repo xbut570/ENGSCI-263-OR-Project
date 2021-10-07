@@ -6,12 +6,26 @@ import pandas as pd
 from pulp import *
 
 np.set_printoptions(threshold=sys.maxsize)
-
-
-
-# Stores are rows, routes are columns.  Change value to 1 if route visits store
+pd.set_option('display.max_rows', None)
 
 def load_data():
+    ''' Returns route info from route generation in pandas dataframes.
+
+        Parameters:
+        -----------
+        none
+
+        Returns:
+        --------
+        Weekday_Routes : Panda dataframe
+            Has info about duration, total demand, first, second, third and fourth stops of each route
+        Weekend_Routes : Panda dataframe
+            Has info about duration, total demand, first, second, third and fourth stops of each route
+        storeLocations : Pandas dataframe
+            Has info about store names and coordinates
+
+
+    '''
     # Read file and convert into panda dataframe
     Weekday_Routes = pd.read_csv("Weekday_Routes.csv")
     Weekend_Routes = pd.read_csv("Weekend_Routes.csv")
@@ -19,16 +33,24 @@ def load_data():
     return Weekday_Routes, Weekend_Routes, storeLocations
 
 def column_generation(routeData, storeLocations):
+    ''' Returns a matrix for constructing route location constraints in the LP.
 
+        Parameters:
+        -----------
+        none
+
+        Returns:
+        --------
+        routeVisits : 2d Array
+            matrix where the rows are store locations and the columns are the routes. The matrix value is 1 if the route passes through
+            the location and 0 if not.
+    '''
     firstStops = routeData.to_dict()['First Stop']
     secondStops = routeData.to_dict()['Second Stop']
     thirdStops = routeData.to_dict()['Third Stop']
     fourthStops = routeData.to_dict()['Fourth Stop']
     storeLocationDict = storeLocations.to_dict()['Store']
     routeVisits = np.zeros( (len(storeLocations), len(firstStops)) )
-
-    #pulls the location number from a route number 
-    locationNumber = list(storeLocationDict.keys())[list(storeLocationDict.values()).index(firstStops[160])]
 
     for i in range(len(firstStops)):
         #pulls the location number from a route number
@@ -57,83 +79,96 @@ def column_generation(routeData, storeLocations):
     return routeVisits
 
 def solve_lp(routeData, storeLocations): 
+    ''' Solves the mixed integer programme given routeData and .
 
+        Parameters:
+        -----------
+        routeData : Pandas Dataframe
+            Df of route info from route generation
+        storeLocations : Pandas Dataframe
+            Df of every store name and coordinates
+
+        Returns:
+        --------
+        LpStatus[prob.status] : Variable
+            status of the problem, should be optimal
+        value(prob.objective) : Int
+            value of the minimised cost
+        optimalRouteData : Pandas DataFrame
+            Data frame with all the route info of the chosen routes in the optimal routing plan
+    '''
+
+    #create the matrix of which routes visit which locations
     routeVisits = column_generation(routeData, storeLocations)
     rows = np.shape(routeVisits)[0]
-    columns = np.shape(routeVisits)[1]
     
-    #Get index for the df
+    #Get index of all route numbers for the df
     routes = routeData.index
     
+    #Get durations and work out initial costs
     durations = routeData['Duration']
     costs = durations.multiply(0.0625)
+
+
+    #update costs to include cost of going over 4 hrs and cost of going over demand per route
+    for i in range(len(durations)):
+        if (durations[i] > 14400):
+            costs[i] += 2000
+    demands = routeData['Demand']
+    for i in range(len(demands)):
+        if demands[i] > 26:
+            costs[i] += 2000
+    #convert costs to dictionary
     costs = costs.to_dict()
 
     #create prob variable object for problem data
     prob = LpProblem("Routes", LpMinimize)
 
     #Dictionary containing route variables
-    route_chosen = LpVariable.dicts("chosen", routes, 0, None, cat = 'Binary')
+    route_chosen = LpVariable.dicts("route", routes, 0, None, cat = 'Binary')
 
-    #input the obj function into prob using the profits for each tie type
+    #input the obj function into prob using the costs for each route
     prob +=lpSum([costs[i]*route_chosen[i] for i in routes]), "Objective cost function"
     
-
     #constraint: each route only visits node once
     for i in range(rows):    
         prob += lpSum([route_chosen[b] * routeVisits[i][b] for b in routes]) == 1
-
+    
     #constraint: Trucks
     prob += lpSum(route_chosen[i] for i in routes) <= 60
 
 
-        
-    # for r in easternRoutes.index:
-    # prob += easternRoutes.index[r]>= route_chosen[f]*0.1
-    # prob += easternRoutes.index[r]<= route_chosen[f]*1e5
-
-
-    ##SOLVING ROUTINES
+    ##SOLVING ROUTINES##
     prob.writeLP('Routes.lp')
     prob.solve()
 
-    # The status of the solution is printed to the screen
-    print("Status:", LpStatus[prob.status])
+    #get and store the route numbers that were chosen by the solver
+    optimalRoutes = []
+    for v in prob.variables():
+        if v.varValue == 1:
+            optimalRoutes.append(int(str(v.name).replace("route_", "")))
 
-    '''for v in prob.variables():
-        print(v.name, "=", v.varValue)
-    '''
+    #Use the route numbers to pull the correponding route data and append it to an empty df to display.
+    optimalRouteData = pd.DataFrame(columns=routeData.columns)
+    optimalRouteData = routeData.loc[np.r_[optimalRoutes]]
 
-    print("Optimised cost ", value(prob.objective))
-
-    # Each of the variables is printed with its resolved optimum value
-
-    print(prob)
-
-    return 
+    return LpStatus[prob.status], value(prob.objective), optimalRouteData
 
 
 
 
-if __name__ == "__main__":
+if __name__ == "__main__": 
+
+
+
     Weekday_Routes, Weekend_Routes, storeLocations = load_data()
 
-    # View all items: TieData
-    #print(easternRoutes)
+    #UNCOMMENT THE ONE YOU WANT TO SOLVE
+    #status, minimisedCost, routes = solve_lp(Weekday_Routes, storeLocations)
+    #status, minimisedCost, routes = solve_lp(Weekend_Routes, storeLocations)
 
-    #Get all labels (items): TieData.index
-    #print(easternRoutes.index)
-
-    #Get an entire column: TieData['Silk']
-    #print(easternRoutes['First Stop'])
-
-    #Get an entire row: TieData.loc['AllPoly']
-    #print(easternRoutes.loc[3])
-
-    #Get information about a particular item: TieData['Silk']['SilkCotton']
-    #print(easternRoutes[3]['First Stop'])
-
-    solve_lp(Weekday_Routes, storeLocations)
-    #solve_lp(Weekend_Routes, storeLocations)
+    print("Status: ", status)
+    print("Minimal Cost: ", minimisedCost)
+    print("Routes: \n", routes)
 
 
