@@ -144,27 +144,27 @@ Duration,Demand,First Stop,Second Stop,Third Stop,Fourth Stop
 6339.48,5,SuperValue Papakura,Countdown Takanini,,
 4705.0,0,SuperValue Papakura,SuperValue Flatbush,,
 8101.91,13,Countdown Airport,Countdown Mangere Mall,Countdown Mangere East,
-5253.09,8,Countdown Mangere East,Countdown Mangere Mall,FreshChoice Mangere Bridge,
-5221.13,8,Countdown Mangere Mall,Countdown Mangere East,FreshChoice Otahuhu,
-7594.61,10,Countdown Manukau,Countdown Manukau Mall,SuperValue Flatbush,
-7486.33,10,Countdown Manukau Mall,Countdown Manukau,SuperValue Flatbush,
+7950.91,13,Countdown Mangere East,Countdown Mangere Mall,Countdown Airport,
+7155.110000000001,11,Countdown Mangere Mall,Countdown Mangere East,Countdown Papatoetoe,
+8520.15,13,Countdown Manukau,Countdown Manukau Mall,Countdown Papatoetoe,
+8338.15,13,Countdown Manukau Mall,Countdown Manukau,Countdown Papatoetoe,
 9465.61,14,Countdown Manurewa,Countdown Manukau Mall,Countdown Manukau,
-8703.75,10,Countdown Papakura,Countdown Roselands,SuperValue Papakura,
+10736.26,15,Countdown Papakura,Countdown Roselands,Countdown Takanini,
 8413.29,13,Countdown Papatoetoe,Countdown Manukau,Countdown Manukau Mall,
-8595.19,10,Countdown Roselands,Countdown Papakura,SuperValue Papakura,
+10731.970000000001,15,Countdown Roselands,Countdown Papakura,Countdown Takanini,
 10713.28,15,Countdown Takanini,Countdown Roselands,Countdown Papakura,
 7461.549999999999,10,SuperValue Flatbush,Countdown Manukau,Countdown Manukau Mall,
 8719.79,10,SuperValue Papakura,Countdown Papakura,Countdown Roselands,
-8517.71,13,Countdown Airport,Countdown Mangere Mall,Countdown Mangere East,FreshChoice Otahuhu
-7687.360000000001,12,Countdown Mangere East,Countdown Mangere Mall,FreshChoice Mangere Bridge,Countdown Onehunga
-8085.89,12,Countdown Mangere Mall,Countdown Mangere East,FreshChoice Otahuhu,Countdown Sylvia Park
-8927.43,13,Countdown Manukau,Countdown Manukau Mall,SuperValue Flatbush,Countdown Papatoetoe
-8819.150000000001,13,Countdown Manukau Mall,Countdown Manukau,SuperValue Flatbush,Countdown Papatoetoe
-10017.77,14,Countdown Manurewa,Countdown Manukau Mall,Countdown Manukau,SuperValue Flatbush
-11166.380000000001,15,Countdown Papakura,Countdown Roselands,SuperValue Papakura,Countdown Takanini
-9089.16,13,Countdown Papatoetoe,Countdown Manukau,Countdown Manukau Mall,SuperValue Flatbush
-11057.82,15,Countdown Roselands,Countdown Papakura,SuperValue Papakura,Countdown Takanini
-10955.75,15,Countdown Takanini,Countdown Roselands,Countdown Papakura,SuperValue Papakura
+10451.69,16,Countdown Airport,Countdown Mangere Mall,Countdown Mangere East,Countdown Papatoetoe
+10468.45,17,Countdown Mangere East,Countdown Mangere Mall,Countdown Airport,Countdown Onehunga
+10670.8,17,Countdown Mangere Mall,Countdown Mangere East,Countdown Papatoetoe,Countdown Manukau
+10502.4,17,Countdown Manukau,Countdown Manukau Mall,Countdown Papatoetoe,Countdown Mangere East
+10320.4,17,Countdown Manukau Mall,Countdown Manukau,Countdown Papatoetoe,Countdown Mangere East
+10869.59,17,Countdown Manurewa,Countdown Manukau Mall,Countdown Manukau,Countdown Papatoetoe
+12834.76,19,Countdown Papakura,Countdown Roselands,Countdown Takanini,Countdown Manukau Mall
+10862.86,17,Countdown Papatoetoe,Countdown Manukau,Countdown Manukau Mall,Countdown Manurewa
+12830.470000000001,19,Countdown Roselands,Countdown Papakura,Countdown Takanini,Countdown Manukau Mall
+12811.77,19,Countdown Takanini,Countdown Roselands,Countdown Papakura,Countdown Manukau Mall
 9062.96,13,SuperValue Flatbush,Countdown Manukau,Countdown Manukau Mall,Countdown Papatoetoe
 10975.91,15,SuperValue Papakura,Countdown Papakura,Countdown Roselands,Countdown Takanini
 5288.8,4,Countdown Aviemore Drive,,,
@@ -311,30 +311,30 @@ Duration,Demand,First Stop,Second Stop,Third Stop,Fourth Stop
 5026.86,4,FreshChoice Otahuhu,Countdown St Johns,,
 3741.74,4,FreshChoice Otahuhu,Countdown Sylvia Park,,
 3704.42,0,FreshChoice Otahuhu,FreshChoice Half Moon Bay,,
-7155.33,7,Countdown Aviemore Drive,Countdown Highland Park,FreshChoice Half Moon Bay,
+8596.97,10,Countdown Aviemore Drive,Countdown Highland Park,Countdown Meadowlands,
 9173.25,11,Countdown Botany Downs,Countdown Meadowlands,Countdown Howick,
-7134.18,7,Countdown Highland Park,Countdown Aviemore Drive,FreshChoice Half Moon Bay,
+9252.45,11,Countdown Highland Park,Countdown Aviemore Drive,Countdown Howick,
 9145.01,11,Countdown Howick,Countdown Meadowlands,Countdown Botany Downs,
 9543.22,13,Countdown Meadowbank,Countdown St Johns,Countdown Mt Wellington,
 9227.21,11,Countdown Meadowlands,Countdown Howick,Countdown Aviemore Drive,
-5809.24,8,Countdown Mt Wellington,Countdown Sylvia Park,FreshChoice Otahuhu,
+8543.880000000001,12,Countdown Mt Wellington,Countdown Sylvia Park,Countdown Greenlane,
 8426.77,12,Countdown Pakuranga,Countdown Mt Wellington,Countdown Sylvia Park,
 9488.119999999999,13,Countdown St Johns,Countdown Meadowbank,Countdown Mt Wellington,
 8398.16,12,Countdown Sylvia Park,Countdown Mt Wellington,Countdown Pakuranga,
 7136.63,7,FreshChoice Half Moon Bay,Countdown Aviemore Drive,Countdown Highland Park,
 5219.84,8,FreshChoice Otahuhu,Countdown Mangere East,Countdown Mangere Mall,
-9807.32,11,Countdown Aviemore Drive,Countdown Highland Park,FreshChoice Half Moon Bay,Countdown Howick
+10937.779999999999,14,Countdown Aviemore Drive,Countdown Highland Park,Countdown Meadowlands,Countdown Howick
 11095.81,15,Countdown Botany Downs,Countdown Meadowlands,Countdown Howick,Countdown Aviemore Drive
-9786.17,11,Countdown Highland Park,Countdown Aviemore Drive,FreshChoice Half Moon Bay,Countdown Howick
+10647.27,14,Countdown Highland Park,Countdown Aviemore Drive,Countdown Howick,Countdown Meadowlands
 11622.560000000001,15,Countdown Howick,Countdown Meadowlands,Countdown Botany Downs,Countdown Aviemore Drive
 11444.33,17,Countdown Meadowbank,Countdown St Johns,Countdown Mt Wellington,Countdown Sylvia Park
 10697.67,14,Countdown Meadowlands,Countdown Howick,Countdown Aviemore Drive,Countdown Highland Park
-8019.11,12,Countdown Mt Wellington,Countdown Sylvia Park,FreshChoice Otahuhu,Countdown Mangere East
-8434.73,12,Countdown Pakuranga,Countdown Mt Wellington,Countdown Sylvia Park,FreshChoice Otahuhu
+11005.1,16,Countdown Mt Wellington,Countdown Sylvia Park,Countdown Greenlane,Countdown Newmarket
+11169.37,16,Countdown Pakuranga,Countdown Mt Wellington,Countdown Sylvia Park,Countdown Greenlane
 11389.23,17,Countdown St Johns,Countdown Meadowbank,Countdown Mt Wellington,Countdown Sylvia Park
 11143.64,16,Countdown Sylvia Park,Countdown Mt Wellington,Countdown Pakuranga,Countdown Botany Downs
 8974.34,10,FreshChoice Half Moon Bay,Countdown Aviemore Drive,Countdown Highland Park,Countdown Meadowlands
-5678.16,8,FreshChoice Otahuhu,Countdown Mangere East,Countdown Mangere Mall,FreshChoice Mangere Bridge
+8375.98,13,FreshChoice Otahuhu,Countdown Mangere East,Countdown Mangere Mall,Countdown Airport
 5446.91,4,Countdown Auckland City,,,
 6673.219999999999,5,Countdown Birkenhead,,,
 3952.3,3,Countdown Blockhouse Bay,,,
@@ -2018,18 +2018,18 @@ Duration,Demand,First Stop,Second Stop,Third Stop,Fourth Stop
 5181.37,0,SuperValue Titirangi,SuperValue Palomino,,
 7494.7,8,Countdown Auckland City,Countdown Metro Albert Street,Countdown Victoria Street West,
 11000.32,13,Countdown Birkenhead,Countdown Northcote,Countdown Takapuna,
-6532.98,7,Countdown Blockhouse Bay,Countdown Lynfield,SuperValue Avondale,
+8666.27,12,Countdown Blockhouse Bay,Countdown Lynfield,Countdown Mt Roskill,
 12277.029999999999,13,Countdown Browns Bay,Countdown Mairangi Bay,Countdown Sunnynook,
 11944.78,13,Countdown Glenfield,Countdown Sunnynook,Countdown Mairangi Bay,
 9097.6,13,Countdown Greenlane,Countdown Newmarket,Countdown Mt Eden,
 9417.54,13,Countdown Grey Lynn,Countdown Grey Lynn Central,Countdown Ponsonby,
 9339.45,13,Countdown Grey Lynn Central,Countdown Ponsonby,Countdown Grey Lynn,
 10990.49,12,Countdown Hauraki Corner,Countdown Takapuna,Countdown Milford,
-7332.92,5,Countdown Henderson,SuperValue Palomino,FreshChoice Ranui,
+9276.84,10,Countdown Henderson,SuperValue Palomino,Countdown Lincoln Road,
 12248.46,16,Countdown Hobsonville,Countdown Northwest,Countdown Westgate,
-5843.139999999999,4,Countdown Kelston,FreshChoice Glen Eden,SuperValue Titirangi,
+8614.69,9,Countdown Kelston,FreshChoice Glen Eden,Countdown Henderson,
 10918.23,14,Countdown Lincoln Road,Countdown Te Atatu South,Countdown Henderson,
-6194.99,7,Countdown Lynfield,Countdown Blockhouse Bay,SuperValue Avondale,
+8308.48,11,Countdown Lynfield,Countdown Blockhouse Bay,Countdown Lynmall,
 6516.29,7,Countdown Lynmall,SuperValue Avondale,Countdown Blockhouse Bay,
 11951.01,13,Countdown Mairangi Bay,Countdown Sunnynook,Countdown Glenfield,
 10960.74,12,Countdown Milford,Countdown Takapuna,Countdown Hauraki Corner,
@@ -2045,32 +2045,32 @@ Duration,Demand,First Stop,Second Stop,Third Stop,Fourth Stop
 11227.17,12,Countdown Sunnynook,Countdown Mairangi Bay,Countdown Milford,
 10868.96,12,Countdown Takapuna,Countdown Hauraki Corner,Countdown Milford,
 10688.17,13,Countdown Te Atatu,Countdown Te Atatu South,Countdown Henderson,
-8746.24,9,Countdown Te Atatu South,Countdown Henderson,SuperValue Palomino,
+10634.849999999999,14,Countdown Te Atatu South,Countdown Henderson,Countdown Lincoln Road,
 8485.75,12,Countdown Three Kings,Countdown Mt Roskill,Countdown St Lukes,
 7593.47,8,Countdown Victoria Street West,Countdown Metro Albert Street,Countdown Auckland City,
 12023.12,16,Countdown Westgate,Countdown Northwest,Countdown Hobsonville,
 7546.07,8,Countdown Metro Albert Street,Countdown Auckland City,Countdown Victoria Street West,
 5862.3,4,Countdown Metro Halsey Street,Countdown Metro Albert Street,Countdown Auckland City,
-5975.09,4,FreshChoice Glen Eden,Countdown Kelston,SuperValue Titirangi,
+7517.01,8,FreshChoice Glen Eden,Countdown Kelston,Countdown Lynmall,
 5291.82,8,FreshChoice Mangere Bridge,Countdown Mangere Mall,Countdown Mangere East,
 8666.79,9,FreshChoice Ranui,Countdown Lincoln Road,Countdown Te Atatu South,
 7289.77,8,SuperValue Avondale,Countdown Lynmall,Countdown Kelston,
 8772.720000000001,9,SuperValue Palomino,Countdown Henderson,Countdown Te Atatu South,
 5848.32,4,SuperValue Titirangi,FreshChoice Glen Eden,Countdown Kelston,
-7876.43,8,Countdown Auckland City,Countdown Metro Albert Street,Countdown Victoria Street West,Countdown Metro Halsey Street
+9546.02,12,Countdown Auckland City,Countdown Metro Albert Street,Countdown Victoria Street West,Countdown Ponsonby
 13680.36,18,Countdown Birkenhead,Countdown Northcote,Countdown Takapuna,Countdown Hauraki Corner
-8808.0,11,Countdown Blockhouse Bay,Countdown Lynfield,SuperValue Avondale,Countdown Lynmall
+10630.16,15,Countdown Blockhouse Bay,Countdown Lynfield,Countdown Mt Roskill,Countdown St Lukes
 15059.82,18,Countdown Browns Bay,Countdown Mairangi Bay,Countdown Sunnynook,Countdown Glenfield
 13987.54,17,Countdown Glenfield,Countdown Sunnynook,Countdown Mairangi Bay,Countdown Milford
 10774.04,16,Countdown Greenlane,Countdown Newmarket,Countdown Mt Eden,Countdown St Lukes
 11786.67,17,Countdown Grey Lynn,Countdown Grey Lynn Central,Countdown Ponsonby,Countdown Victoria Street West
-9971.8,13,Countdown Grey Lynn Central,Countdown Ponsonby,Countdown Grey Lynn,Countdown Metro Halsey Street
+11922.81,18,Countdown Grey Lynn Central,Countdown Ponsonby,Countdown Grey Lynn,Countdown Pt Chevalier
 13571.71,16,Countdown Hauraki Corner,Countdown Takapuna,Countdown Milford,Countdown Mairangi Bay
-9663.59,10,Countdown Henderson,SuperValue Palomino,FreshChoice Ranui,Countdown Lincoln Road
+11243.06,14,Countdown Henderson,SuperValue Palomino,Countdown Lincoln Road,Countdown Te Atatu South
 14940.2,21,Countdown Hobsonville,Countdown Northwest,Countdown Westgate,Countdown Lincoln Road
-7323.21,7,Countdown Kelston,FreshChoice Glen Eden,SuperValue Titirangi,Countdown Blockhouse Bay
-11507.46,14,Countdown Lincoln Road,Countdown Te Atatu South,Countdown Henderson,SuperValue Palomino
-8470.01,11,Countdown Lynfield,Countdown Blockhouse Bay,SuperValue Avondale,Countdown Lynmall
+10414.76,13,Countdown Kelston,FreshChoice Glen Eden,Countdown Henderson,Countdown Te Atatu South
+13058.029999999999,18,Countdown Lincoln Road,Countdown Te Atatu South,Countdown Henderson,Countdown Kelston
+10859.04,15,Countdown Lynfield,Countdown Blockhouse Bay,Countdown Lynmall,Countdown Kelston
 8463.16,11,Countdown Lynmall,SuperValue Avondale,Countdown Blockhouse Bay,Countdown Lynfield
 14470.09,18,Countdown Mairangi Bay,Countdown Sunnynook,Countdown Glenfield,Countdown Birkenhead
 13682.49,17,Countdown Milford,Countdown Takapuna,Countdown Hauraki Corner,Countdown Northcote
@@ -2080,21 +2080,21 @@ Duration,Demand,First Stop,Second Stop,Third Stop,Fourth Stop
 14514.84,19,Countdown Northcote,Countdown Birkenhead,Countdown Glenfield,Countdown Sunnynook
 13322.439999999999,19,Countdown Northwest,Countdown Westgate,Countdown Lincoln Road,Countdown Te Atatu South
 7855.1,12,Countdown Onehunga,FreshChoice Mangere Bridge,Countdown Mangere Mall,Countdown Mangere East
-10077.189999999999,13,Countdown Ponsonby,Countdown Grey Lynn Central,Countdown Grey Lynn,Countdown Metro Halsey Street
+12028.2,18,Countdown Ponsonby,Countdown Grey Lynn Central,Countdown Grey Lynn,Countdown Pt Chevalier
 12068.05,18,Countdown Pt Chevalier,Countdown Grey Lynn Central,Countdown Ponsonby,Countdown Grey Lynn
 11933.59,18,Countdown St Lukes,Countdown Mt Eden,Countdown Grey Lynn Central,Countdown Ponsonby
 12646.87,15,Countdown Sunnynook,Countdown Mairangi Bay,Countdown Milford,Countdown Takapuna
 13450.18,16,Countdown Takapuna,Countdown Hauraki Corner,Countdown Milford,Countdown Mairangi Bay
-11277.4,13,Countdown Te Atatu,Countdown Te Atatu South,Countdown Henderson,SuperValue Palomino
-9132.99,9,Countdown Te Atatu South,Countdown Henderson,SuperValue Palomino,FreshChoice Ranui
+13166.01,18,Countdown Te Atatu,Countdown Te Atatu South,Countdown Henderson,Countdown Lincoln Road
+13419.47,18,Countdown Te Atatu South,Countdown Henderson,Countdown Lincoln Road,Countdown Northwest
 11136.79,17,Countdown Three Kings,Countdown Mt Roskill,Countdown St Lukes,Countdown Mt Eden
-7945.4400000000005,8,Countdown Victoria Street West,Countdown Metro Albert Street,Countdown Auckland City,Countdown Metro Halsey Street
+9731.0,12,Countdown Victoria Street West,Countdown Metro Albert Street,Countdown Auckland City,Countdown Ponsonby
 14714.87,21,Countdown Westgate,Countdown Northwest,Countdown Hobsonville,Countdown Lincoln Road
-7927.8,8,Countdown Metro Albert Street,Countdown Auckland City,Countdown Victoria Street West,Countdown Metro Halsey Street
+9597.39,12,Countdown Metro Albert Street,Countdown Auckland City,Countdown Victoria Street West,Countdown Ponsonby
 7806.15,8,Countdown Metro Halsey Street,Countdown Metro Albert Street,Countdown Auckland City,Countdown Victoria Street West
-7455.16,7,FreshChoice Glen Eden,Countdown Kelston,SuperValue Titirangi,Countdown Blockhouse Bay
-5707.62,8,FreshChoice Mangere Bridge,Countdown Mangere Mall,Countdown Mangere East,FreshChoice Otahuhu
+9226.21,11,FreshChoice Glen Eden,Countdown Kelston,Countdown Lynmall,Countdown Blockhouse Bay
+7641.6,11,FreshChoice Mangere Bridge,Countdown Mangere Mall,Countdown Mangere East,Countdown Papatoetoe
 11728.3,14,FreshChoice Ranui,Countdown Lincoln Road,Countdown Te Atatu South,Countdown Henderson
-7543.46,8,SuperValue Avondale,Countdown Lynmall,Countdown Kelston,FreshChoice Glen Eden
+10479.06,13,SuperValue Avondale,Countdown Lynmall,Countdown Kelston,Countdown Henderson
 11631.16,14,SuperValue Palomino,Countdown Henderson,Countdown Te Atatu South,Countdown Lincoln Road
 7793.63,8,SuperValue Titirangi,FreshChoice Glen Eden,Countdown Kelston,Countdown Lynmall

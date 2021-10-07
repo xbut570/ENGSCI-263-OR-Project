@@ -178,7 +178,7 @@ def two_stop_route_generation(durations, locations, finalStop):
     return routes
 
 
-def three_stop_route_generation(durations, locations, finalStop):
+def three_stop_route_generation(durations, locations, finalStop, isSaturday=False):
     """Generates three stop routes between a given location and the closet location,
     this is then routed to the next closest location
     (As well as too and from the distribution center)
@@ -198,6 +198,7 @@ def three_stop_route_generation(durations, locations, finalStop):
     routes : Panda dataframe
         Dataframe containing the route length, and stops visited
     """
+    isSaturday = int(isSaturday)
     # Calls the two_stop_route_generation function to create the first stops of the route
     two_stop_routes = two_stop_route_generation(durations, locations, False)
 
@@ -230,6 +231,7 @@ def three_stop_route_generation(durations, locations, finalStop):
                         and (durations.iloc[j, k] > 0)
                         and (durations.iloc[k - 1, 0] != first_stops[i])
                         and (durations.iloc[k - 1, 0] != "Distribution Centre Auckland")
+                        and (demand.iloc[k - 1, isSaturday] != 0)
                     ):
                         minDistance = durations.iloc[j, k]
                         distanceFrom = durations.iloc[k - 1, distributionVal + 1]
@@ -256,7 +258,7 @@ def three_stop_route_generation(durations, locations, finalStop):
     return routes
 
 
-def four_stop_route_generation(durations, locations, finalStop):
+def four_stop_route_generation(durations, locations, finalStop, isSaturday=False):
     """Generates four stop routes between a given location and the next 3 closest locations
     (As well as too and from the distribution center)
 
@@ -275,8 +277,12 @@ def four_stop_route_generation(durations, locations, finalStop):
     routes : Panda dataframe
         Dataframe containing the route length, and stops visited
     """
+    isSaturday = int(isSaturday)
+
     # Calls the three_stop_route_generation function to create the first stops of the route
-    three_stop_routes = three_stop_route_generation(durations, locations, False)
+    three_stop_routes = three_stop_route_generation(
+        durations, locations, False, isSaturday
+    )
 
     # Parses data outputted from the three_stop_route_generation dataframe into arrays
     first_stops = three_stop_routes["First Stop"].values
@@ -309,6 +315,7 @@ def four_stop_route_generation(durations, locations, finalStop):
                         and (durations.iloc[k - 1, 0] != first_stops[i])
                         and (durations.iloc[k - 1, 0] != second_stops[i])
                         and (durations.iloc[k - 1, 0] != "Distribution Centre Auckland")
+                        and (demand.iloc[k - 1, isSaturday] != 0)
                     ):
                         minDistance = durations.iloc[j, k]
                         distanceFrom = durations.iloc[k - 1, distributionVal + 1]
@@ -427,13 +434,16 @@ def demand_calculator(input, demand, weekend):
 
     # Loops through each of the routes adding their demand, and the time taken to unload packages
     # (which is based off of demand)
+    # Stops searching once the correct demand is found and does not check nans
     for i in range(0, rows):
         for j in range(2, cols + 1):
             currentStore = routes.iloc[i, j]
-            for k in range(0, demandRows):
-                if currentStore == demand.iloc[k, 2]:
-                    routes.iloc[i, 1] += demand.iloc[k, demandCol]
-                    routes.iloc[i, 0] += demand.iloc[k, demandCol] * 7.5 * 60
+            if not pd.isna(currentStore):
+                for k in range(0, demandRows):
+                    if currentStore == demand.iloc[k, 2]:
+                        routes.iloc[i, 1] += demand.iloc[k, demandCol]
+                        routes.iloc[i, 0] += demand.iloc[k, demandCol] * 7.5 * 60
+                        break
 
     return routes
 
@@ -483,12 +493,37 @@ if __name__ == "__main__":
     )
 
     # Collect routes and factor in demand for both weekday grouping and weekend
-    allRoutes = pd.concat(
+    weekdayRoutes = pd.concat(
         [southComplete, eastComplete, westComplete], ignore_index=True
     )
 
-    weekdayRoutes = demand_calculator(allRoutes, demand, False)
-    weekendRoutes = demand_calculator(allRoutes, demand, True)
+    satsouthRoutesThree = three_stop_route_generation(durations, south, True, True)
+    satsouthRoutesFour = four_stop_route_generation(durations, south, True, True)
+    satsouthComplete = pd.concat(
+        [southRoutesOne, southRoutesTwo, satsouthRoutesThree, satsouthRoutesFour],
+        ignore_index=True,
+    )
+
+    sateastRoutesThree = three_stop_route_generation(durations, east, True, True)
+    sateastRoutesFour = four_stop_route_generation(durations, east, True, True)
+    sateastComplete = pd.concat(
+        [eastRoutesOne, eastRoutesTwo, sateastRoutesThree, sateastRoutesFour],
+        ignore_index=True,
+    )
+
+    satwestRoutesThree = three_stop_route_generation(durations, west, True, True)
+    satwestRoutesFour = four_stop_route_generation(durations, west, True, True)
+    satwestComplete = pd.concat(
+        [westRoutesOne, westRoutesTwo, satwestRoutesThree, satwestRoutesFour],
+        ignore_index=True,
+    )
+
+    weekendRoutes = pd.concat(
+        [satsouthComplete, sateastComplete, satwestComplete], ignore_index=True
+    )
+
+    weekdayRoutes = demand_calculator(weekdayRoutes, demand, False)
+    weekendRoutes = demand_calculator(weekendRoutes, demand, True)
 
     # Remove routes with demands over 26
     weekdayRoutes = filter_routes(weekdayRoutes)
