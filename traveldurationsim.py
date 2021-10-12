@@ -32,15 +32,17 @@ weekCost = [0] * 1000
 satCost = [0] * 1000
 simulations = [0] * 1000
 
+mu = 0.03 
+sigma = 0.07
+np.random.seed(10)
+random = np.random.lognormal(mu, sigma, 1000)
+
 for j in range(len(simulations)):
 
     # multiply by the random factor generated from the random lognormal distribution
-    mu = 0.03 
-    sigma = 0.07
 
-    random = np.random.lognormal(mu, sigma)
-    weekRandom = weekDuration * random
-    satRandom = satDuration * random
+    weekRandom = weekDuration * random[j]
+    satRandom = satDuration * random[j]
 
     # add back the loading times
     weekRandom = weekRandom + (7.5*60*weekDemand)
