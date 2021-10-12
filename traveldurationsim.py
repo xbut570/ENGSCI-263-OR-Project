@@ -51,7 +51,7 @@ def travelsimulation(routesWeek, routesSat):
     # our estimated random distribution: lognormal
     mu = 0.03 
     sigma = 0.07
-    np.random.seed(10)      # seed for random distribution
+    np.random.seed(100)      # seed for random distribution
     random = np.random.lognormal(mu, sigma, 1000)
 
     for j in range(len(simulations)):
