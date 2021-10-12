@@ -14,13 +14,19 @@ routesSat = solve_lp(Weekend_Routes, storeLocations, True)[2]
 weekDuration = routesWeek.loc[:,'Duration']
 satDuration = routesSat.loc[:,'Duration']
 
- # convert to an array to calculate
+# convert to an array to calculate
 weekDuration = weekDuration.values
 satDuration = satDuration.values
 
+weekDemand = routesWeek.loc[:,'Demand']
+satDemand = routesSat.loc[:,'Demand']
+
+weekDemand = weekDemand.values
+satDemand = satDemand.values
+
 # subtract the loading time as it is irrelevant to the travel durations
-weekDuration = weekDuration-(7.5*60)
-satDuration = satDuration-(7.5*60)
+weekDuration = weekDuration-(7.5*60*weekDemand)
+satDuration = satDuration-(7.5*60*satDemand)
 
 weekCost = [0] * 1000
 satCost = [0] * 1000
@@ -37,8 +43,8 @@ for j in range(len(simulations)):
     satRandom = satDuration * random
 
     # add back the loading times
-    weekRandom = weekRandom + (7.5*60)
-    satRandom = satRandom + (7.5*60)
+    weekRandom = weekRandom + (7.5*60*weekDemand)
+    satRandom = satRandom + (7.5*60*satDemand)
 
     # convert to hours
     weekRandom = weekRandom/(60*60)
@@ -66,5 +72,5 @@ for j in range(len(simulations)):
 weekRange = [(min(weekCost),stats.mean(weekCost),max(weekCost))]
 satRange = [(min(satCost),stats.mean(satCost),max(satCost))]
 
-print(weekRange)
-print(satRange)
+print("Costs for travel durations weekdays (min,mean,max):", weekRange)
+print("Costs for travel durations saturdays (min,mean,max):", satRange)
