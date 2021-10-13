@@ -7,7 +7,7 @@ import statistics as stats
 np.set_printoptions(threshold=sys.maxsize)
 pd.set_option("display.max_rows", None)
 
-simulations = 1000
+simulations = 10
 
 
 def load_data():
