@@ -1,14 +1,13 @@
 import numpy as np
 import pandas as pd
-import random
 from Woolworths_LP import *
 import statistics as stats
 
 np.set_printoptions(threshold=sys.maxsize)
 pd.set_option("display.max_rows", None)
 
-simulations = 10
-
+simulations = 100
+np.random.seed(100)
 
 def load_data():
     """Returns travel durations and coordinates for stores.
@@ -55,7 +54,7 @@ def demand_simulator(routes, demand, isSaturday):
         Note, the duration values are still based off of the orginal demand and have
         not been recalculated
     """
-
+    
     # Defines shape of arrays
     rows, cols = routes.shape
     demandRows, demandCols = demand.shape
@@ -68,7 +67,7 @@ def demand_simulator(routes, demand, isSaturday):
         demandColMin = 1
         demandColMax = 21
     # Sets each value in the "demand" column to the routes dataframe to 0
-    weekdaySolved["Demand"] = 0
+    routes["Demand"] = 0
 
     # Loops through each of the routes adding their demand, and the time taken to unload packages
     # (which is based off of demand)
@@ -79,7 +78,7 @@ def demand_simulator(routes, demand, isSaturday):
             if not pd.isna(currentStore):
                 for k in range(0, demandRows):
                     if currentStore == demand.iloc[k, 0]:
-                        demandCol = random.randint(demandColMin, demandColMax)
+                        demandCol = np.random.randint(demandColMin, demandColMax)
                         routes.iloc[i, 1] += demand.iloc[k, demandCol]
                         
     return routes
@@ -88,7 +87,6 @@ def demand_simulator(routes, demand, isSaturday):
 def demand_evaluator(routes, minCost):
     # Defines shape of arrays
     rows, cols = routes.shape
-
     for i in range(0,rows):
         if routes.iloc[i,1] > 26:
             minCost += 2000
@@ -102,17 +100,17 @@ if __name__ == "__main__":
     status, weekdayMinCost, weekdaySolved = solve_lp(Weekday_Routes, storeLocations)
     status, satMinCost, satSolved = solve_lp(Weekend_Routes, storeLocations, True)
 
-    weekdayCost = [weekdayMinCost] * simulations
-    satCost = [satMinCost] * simulations
+    weekdayCost = [0] * simulations
+    satCost = [0] * simulations
 
     for i in range(0,simulations):
         simulationWeekday = demand_simulator(weekdaySolved, demand, False)
-        weekdayCost[i] = demand_evaluator(simulationWeekday, weekdayMinCost)
+        weekdayCost[i] = demand_evaluator(simulationWeekday, 0)
         simulationSat = demand_simulator(satSolved, demand, True)
-        satCost[i] = demand_evaluator(simulationSat, satMinCost)
+        satCost[i] = demand_evaluator(simulationSat, 0)
 
 weekRange = [(min(weekdayCost),stats.mean(weekdayCost),max(weekdayCost))]
 satRange = [(min(satCost),stats.mean(satCost),max(satCost))]
 
-print("Costs for travel durations weekdays (min,mean,max):", weekRange)
-print("Costs for travel durations saturdays (min,mean,max):", satRange)
+print("Additional costs for travel durations weekdays (min,mean,max):", weekRange)
+print("Additional costs for travel durations saturdays (min,mean,max):", satRange)
