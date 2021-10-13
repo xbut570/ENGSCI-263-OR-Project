@@ -1,6 +1,7 @@
 import numpy as np
 import pandas as pd
 
+
 travelDurationFile = "WoolworthsTravelDurations.csv"
 locationFile = "WoolworthsLocations.csv"
 demandFile = "Demand by weekday.csv"
@@ -16,10 +17,13 @@ def load_data():
     Returns:
     --------
     travelDurations : Panda dataframe
-        Vector of times (years) at which measurements were taken.
+        Dataframe of the travel times between each of the stores 
+        and the distribution center
     coordinates : Panda dataframe
-        Vector of copper measurements
-
+        Dataframe containing coordinates of each store's locations
+    demand : Panda dataframe
+        Dataframe of max-mean demand for each store on weekdays 
+        and saturdays
     """
 
     # Read files and convert into panda dataframes
