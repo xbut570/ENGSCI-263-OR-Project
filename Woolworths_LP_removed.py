@@ -111,7 +111,7 @@ def solve_lp(routeData, storeLocations, isSaturday=False):
     """
     # this reads demand by weekday, removes the distribution centre and sorts it to be the same order as storeLocations
     demand = (
-        pd.read_csv("Demand by weekday.csv")
+        pd.read_csv("Demand by weekday_removed.csv")
         .drop(55, axis=0)
         .sort_values("Store")
         .reset_index(drop=True)
@@ -181,8 +181,8 @@ if __name__ == "__main__":
     Weekday_Routes, Weekend_Routes, storeLocations = load_data()
 
     # UNCOMMENT THE ONE YOU WANT TO SOLVE
-    status, minimisedCost, routes = solve_lp(Weekday_Routes, storeLocations)
-    #status, minimisedCost, routes = solve_lp(Weekend_Routes, storeLocations, True)
+    # status, minimisedCost, routes = solve_lp(Weekday_Routes, storeLocations)
+    status, minimisedCost, routes = solve_lp(Weekend_Routes, storeLocations, True)
 
     print("Status: ", status)
     print("Minimal Cost: ", minimisedCost)
