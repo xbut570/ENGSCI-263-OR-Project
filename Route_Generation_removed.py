@@ -534,5 +534,5 @@ if __name__ == "__main__":
     weekendRoutes = filter_routes(weekendRoutes)
 
     # Save the routes as csv files (if any values are blank they will show as NaN)
-    weekdayRoutes.to_csv("Weekday_Routes.csv", index=False)
-    weekendRoutes.to_csv("Weekend_Routes.csv", index=False)
+    weekdayRoutes.to_csv("Weekday_Routes_removed.csv", index=False)
+    weekendRoutes.to_csv("Weekend_Routes_removed.csv", index=False)
