@@ -1,6 +1,6 @@
 Weekday Demand,Saturday Demand,Store
 9,5,Countdown Airport
-13,4,Countdown Auckland City
+10,4,Countdown Auckland City
 15,6,Countdown Aviemore Drive
 10,5,Countdown Birkenhead
 9,3,Countdown Blockhouse Bay
@@ -9,35 +9,40 @@ Weekday Demand,Saturday Demand,Store
 9,5,Countdown Glenfield
 10,4,Countdown Greenlane
 11,3,Countdown Grey Lynn
+9,6,Countdown Grey Lynn Central
 8,5,Countdown Hauraki Corner
 10,5,Countdown Henderson
 10,6,Countdown Hobsonville
-15,6,Countdown Howick
-14,4,Countdown Kelston
+10,4,Countdown Howick
+11,4,Countdown Kelston
 10,5,Countdown Lincoln Road
 9,4,Countdown Lynfield
-11,4,Countdown Lynmall
+8,4,Countdown Lynmall
 12,4,Countdown Mairangi Bay
 9,4,Countdown Mangere East
 8,4,Countdown Mangere Mall
-15,8,Countdown Manukau
+10,6,Countdown Manukau
+10,4,Countdown Manukau Mall
 10,4,Countdown Manurewa
 10,5,Countdown Meadowbank
+10,3,Countdown Meadowlands
 11,4,Countdown Milford
 10,5,Countdown Mt Eden
 9,5,Countdown Mt Roskill
-16,6,Countdown Mt Wellington
+11,4,Countdown Mt Wellington
 9,4,Countdown Newmarket
 10,5,Countdown Northcote
 10,4,Countdown Onehunga
 9,4,Countdown Pakuranga
+8,5,Countdown Papakura
 12,3,Countdown Papatoetoe
-16,7,Countdown Ponsonby
+11,4,Countdown Ponsonby
 10,5,Countdown Pt Chevalier
-14,8,Countdown Roselands
+10,5,Countdown Roselands
 9,4,Countdown St Johns
 8,3,Countdown St Lukes
 10,4,Countdown Sunnynook
+10,4,Countdown Sylvia Park
 10,5,Countdown Takanini
 10,3,Countdown Takapuna
 9,4,Countdown Te Atatu
@@ -45,12 +50,15 @@ Weekday Demand,Saturday Demand,Store
 11,4,Countdown Three Kings
 11,4,Countdown Victoria Street West
 15,8,Countdown Westgate
+5,0,Countdown Metro Albert Street
 5,0,Countdown Metro Halsey Street
 NA,NA,Distribution Centre Auckland
+5,0,FreshChoice Glen Eden
 6,0,FreshChoice Half Moon Bay
 6,0,FreshChoice Mangere Bridge
 5,0,FreshChoice Otahuhu
 7,0,FreshChoice Ranui
+5,0,SuperValue Avondale
 6,0,SuperValue Flatbush
 6,0,SuperValue Palomino
 5,0,SuperValue Papakura
