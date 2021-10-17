@@ -131,7 +131,7 @@ def solve_lp(routeData, storeLocations, isSaturday=False):
     # update costs to include cost of going over 4 hrs and cost of going over demand per route
     for i in range(len(durations)):
         if durations[i] > 14400:
-            costs[i] += 2000
+            costs[i] += (durations[i] - 14400) * 50/3600
     demands = routeData["Demand"]
     for i in range(len(demands)):
         if demands[i] > 26:
@@ -181,8 +181,8 @@ if __name__ == "__main__":
     Weekday_Routes, Weekend_Routes, storeLocations = load_data()
 
     # UNCOMMENT THE ONE YOU WANT TO SOLVE
-    # status, minimisedCost, routes = solve_lp(Weekday_Routes, storeLocations)
-    status, minimisedCost, routes = solve_lp(Weekend_Routes, storeLocations, True)
+    status, minimisedCost, routes = solve_lp(Weekday_Routes, storeLocations)
+    # status, minimisedCost, routes = solve_lp(Weekend_Routes, storeLocations, True)
 
     print("Status: ", status)
     print("Minimal Cost: ", minimisedCost)
