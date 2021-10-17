@@ -91,7 +91,7 @@ def one_stop_route_generation(durations, locations):
     rows, cols = durations.shape
 
     # Hardcoded location of distribution center in table
-    distributionVal = 47
+    distributionVal = 53
 
     # Creates empty panda dataframe
     routes = pd.DataFrame(data=None, index=None, columns=["Duration", "First Stop"])
@@ -137,7 +137,7 @@ def two_stop_route_generation(durations, locations, finalStop):
     rows, cols = durations.shape
 
     # Hardcoded location of distribution center in table
-    distributionVal = 47
+    distributionVal = 53
 
     # Creates empty panda dataframe
     routes = pd.DataFrame(
@@ -215,7 +215,7 @@ def three_stop_route_generation(durations, locations, finalStop, isSaturday=Fals
     rows, cols = durations.shape
 
     # Hardcoded location of distribution center in table
-    distributionVal = 47
+    distributionVal = 53
 
     # Creates empty panda dataframe
     routes = pd.DataFrame(
@@ -298,7 +298,7 @@ def four_stop_route_generation(durations, locations, finalStop, isSaturday=False
     rows, cols = durations.shape
 
     # Hardcoded location of distribution center in table
-    distributionVal = 55
+    distributionVal = 53
 
     # Creates empty panda dataframe
     routes = pd.DataFrame(
@@ -367,7 +367,7 @@ def combinatorics_route_generation(durations, locations):
     rows, cols = durations.shape
 
     # Hardcoded location of distribution center in table
-    distributionVal = 47
+    distributionVal = 53
 
     # Creates empty panda dataframe
     routes = pd.DataFrame(

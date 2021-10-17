@@ -2,9 +2,9 @@ import numpy as np
 import pandas as pd
 
 
-travelDurationFile = "WoolworthsTravelDurations_removed.csv"
-locationFile = "WoolworthsLocations_removed.csv"
-demandFile = "Demand by weekday_removed.csv"
+travelDurationFile = "WoolworthsTravelDurations.csv"
+locationFile = "WoolworthsLocations.csv"
+demandFile = "Demand by weekday.csv"
 
 
 def load_data():
@@ -91,7 +91,7 @@ def one_stop_route_generation(durations, locations):
     rows, cols = durations.shape
 
     # Hardcoded location of distribution center in table
-    distributionVal = 47
+    distributionVal = 55
 
     # Creates empty panda dataframe
     routes = pd.DataFrame(data=None, index=None, columns=["Duration", "First Stop"])
@@ -114,7 +114,7 @@ def one_stop_route_generation(durations, locations):
     return routes
 
 
-def two_stop_route_generation(durations, locations, finalStop):
+def two_stop_route_generation(durations, locations, finalStop = False):
     """Generates two stop routes between a given location and the closet location
     (As well as too and from the distribution center)
 
@@ -137,7 +137,7 @@ def two_stop_route_generation(durations, locations, finalStop):
     rows, cols = durations.shape
 
     # Hardcoded location of distribution center in table
-    distributionVal = 47
+    distributionVal = 55
 
     # Creates empty panda dataframe
     routes = pd.DataFrame(
@@ -215,7 +215,7 @@ def three_stop_route_generation(durations, locations, finalStop, isSaturday=Fals
     rows, cols = durations.shape
 
     # Hardcoded location of distribution center in table
-    distributionVal = 47
+    distributionVal = 55
 
     # Creates empty panda dataframe
     routes = pd.DataFrame(
@@ -367,7 +367,7 @@ def combinatorics_route_generation(durations, locations):
     rows, cols = durations.shape
 
     # Hardcoded location of distribution center in table
-    distributionVal = 47
+    distributionVal = 55
 
     # Creates empty panda dataframe
     routes = pd.DataFrame(
@@ -466,6 +466,10 @@ if __name__ == "__main__":
     durations, coordinates, demand = load_data()
     south, east, west = group_coordinates(coordinates)
 
+    test = two_stop_route_generation(durations,south)
+    test2 = two_stop_route_generation(durations,east) 
+    test3 = two_stop_route_generation(durations,west)
+    """
     # Generate routes in the South sector
     southRoutesOne = one_stop_route_generation(durations, south)
     southRoutesTwo = combinatorics_route_generation(durations, south)
@@ -536,3 +540,4 @@ if __name__ == "__main__":
     # Save the routes as csv files (if any values are blank they will show as NaN)
     weekdayRoutes.to_csv("Weekday_Routes.csv", index=False)
     weekendRoutes.to_csv("Weekend_Routes.csv", index=False)
+    """
