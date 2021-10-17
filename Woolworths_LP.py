@@ -181,8 +181,8 @@ if __name__ == "__main__":
     Weekday_Routes, Weekend_Routes, storeLocations = load_data()
 
     # UNCOMMENT THE ONE YOU WANT TO SOLVE
-    status, minimisedCost, routes = solve_lp(Weekday_Routes, storeLocations)
-    # status, minimisedCost, routes = solve_lp(Weekend_Routes, storeLocations, True)
+    # status, minimisedCost, routes = solve_lp(Weekday_Routes, storeLocations)
+    status, minimisedCost, routes = solve_lp(Weekend_Routes, storeLocations, True)
 
     print("Status: ", status)
     print("Minimal Cost: ", minimisedCost)
