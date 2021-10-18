@@ -2,7 +2,8 @@ import numpy as np
 from pulp import *
 from Woolworths_LP import *
 import statistics as stats
-
+import matplotlib.pyplot as plt
+import scipy.stats as st
 def travelsimulation(routesWeek, routesSat):
     """
     
@@ -91,7 +92,21 @@ def travelsimulation(routesWeek, routesSat):
     # obtain the minimum, mean and the maximum costs after 1000 simulations
     weekRange = [(min(weekCost),stats.mean(weekCost),max(weekCost))]
     satRange = [(min(satCost),stats.mean(satCost),max(satCost))]
+    
 
+    # Displays histograms of the logistic plan costs
+    plt.hist(weekCost, 20, density=True, align='mid')
+    plt.show()
+    plt.hist(satCost, 20, density=True, align='mid')
+    plt.show()
+
+
+    # Confidence interval calculator 
+    weekdayInterval = st.t.interval(alpha = 0.95, df = len(weekCost) - 1, loc = np.mean(weekCost), scale = st.sem(weekCost))
+    saturdayInterval = st.t.interval(alpha = 0.95, df = len(satCost) - 1, loc = np.mean(satCost), scale = st.sem(satCost))
+    print("95% Confidence Interval for weekdays", weekdayInterval)
+    print("95% Confidence Interval for saturdays", saturdayInterval)
+    
     return weekRange, satRange
 
 
@@ -106,7 +121,9 @@ if __name__ == "__main__":
     # enter routes to travel simulator
     weekRange, satRange = travelsimulation(routesWeek, routesSat)
 
-    # print
+    # print minimum, mean, and maximum
     print("Costs for travel durations weekdays (min,mean,max):", weekRange)
     print("Costs for travel durations saturdays (min,mean,max):", satRange)
+
+
 
