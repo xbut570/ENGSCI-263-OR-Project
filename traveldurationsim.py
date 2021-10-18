@@ -96,14 +96,14 @@ def travelsimulation(routesWeek, routesSat):
 
     # Displays histograms of the logistic plan costs
     plt.hist(weekCost, 20, density=True, align='mid')
-    #plt.show()
+    plt.show()
     plt.hist(satCost, 20, density=True, align='mid')
-    #plt.show()
+    plt.show()
 
 
     # Confidence interval calculator 
-    weekdayInterval = st.lognorm.interval(alpha = 0.95, loc = np.mean(weekCost), scale = st.sem(weekCost))
-    saturdayInterval = st.lognorm.interval(alpha = 0.95, loc = np.mean(satCost), scale = st.sem(satCost))
+    weekdayInterval = st.norm.interval(alpha = 0.95, loc = np.mean(weekCost), scale = st.sem(weekCost))
+    saturdayInterval = st.norm.interval(alpha = 0.95, loc = np.mean(satCost), scale = st.sem(satCost))
     print("95% Confidence Interval for weekdays", weekdayInterval)
     print("95% Confidence Interval for saturdays", saturdayInterval)
     
